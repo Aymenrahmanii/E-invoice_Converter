@@ -94,6 +94,33 @@ def cmd_testset_real(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_extract(args: argparse.Namespace) -> int:
+    from einvoice.extract.llm import extract_invoice
+    from einvoice.extract.text import read_pdf_text
+
+    text = read_pdf_text(args.file)
+    if not text.has_text:
+        print(f"{args.file.name}: no text layer (scanned); OCR is not built yet")
+        return 2
+    invoice = extract_invoice(args.file, text, model=args.model, cache=not args.no_cache)
+    print(invoice.model_dump_json(indent=2))
+    return 0
+
+
+def cmd_evaluate(args: argparse.Namespace) -> int:
+    from einvoice.evaluate import run_evaluation
+
+    score, skipped = run_evaluation(args.dir, args.split, args.limit, args.model, oracle=args.oracle)
+    print(score.report())
+    if skipped:
+        print(f"skipped {len(skipped)} scanned documents (no text layer; OCR not built yet)")
+    if score.failures:
+        print(f"\n{len(score.failures)} documents with problems:")
+        for f in score.failures[: args.show]:
+            print(f"  {f['id']}: {f['reason']}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="einvoice")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -126,6 +153,23 @@ def main(argv: list[str] | None = None) -> int:
     p = ts.add_parser("real", help="download public ZUGFeRD samples, labels from their embedded XML")
     p.add_argument("--out", type=Path, default=REAL)
     p.set_defaults(func=cmd_testset_real)
+
+    p = sub.add_parser("extract", help="extract one digital invoice PDF to JSON with the LLM")
+    p.add_argument("file", type=Path)
+    p.add_argument("--model", default=None, help="LiteLLM model string (default: EINVOICE_MODEL)")
+    p.add_argument("--no-cache", action="store_true")
+    p.set_defaults(func=cmd_extract)
+
+    p = sub.add_parser("evaluate", help="field accuracy of the extraction against the labels")
+    p.add_argument("--dir", type=Path, default=GENERATED)
+    p.add_argument("--split", default="dev", choices=["dev", "test"])
+    p.add_argument("--limit", type=int, default=0)
+    p.add_argument("--model", default=None)
+    p.add_argument(
+        "--oracle", action="store_true", help="score the labels against themselves (must be 100 %)"
+    )
+    p.add_argument("--show", type=int, default=10, help="how many failures to list")
+    p.set_defaults(func=cmd_evaluate)
 
     args = parser.parse_args(argv)
     return int(args.func(args))

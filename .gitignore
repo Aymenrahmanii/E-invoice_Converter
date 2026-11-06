@@ -16,3 +16,4 @@ data/generated/xml/
 data/generated/html/
 data/generated/reports/
 data/real/pdf/
+.cache/

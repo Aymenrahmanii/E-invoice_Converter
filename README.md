@@ -4,7 +4,7 @@ Turns a German PDF invoice into a valid **XRechnung 3.0 (CII XML)** or **ZUGFeRD
 
 From 2027 German companies above €800,000 turnover must issue EN 16931 e-invoices, and from 2028 every business must. A PDF sent by email no longer counts.
 
-> **Status: week 2 of 6.** The validators run in CI, and the labelled test set exists. PDF extraction is not built yet. See the [project plan](#plan).
+> **Status: week 3 of 6.** Extraction runs end to end, and the first baseline is measured on the dev split. Accuracy is still well below target; see [Week 3 baseline](#week-3-baseline). OCR for scans is not built yet.
 
 ## Week 1 result
 
@@ -56,6 +56,31 @@ WeasyPrint needs the Pango libraries. On Windows, render under WSL with a separa
 ```bash
 wsl -- bash -lc 'cd "/mnt/c/path/to/E-Invoice Converter" && UV_PROJECT_ENVIRONMENT=.venv-linux uv run einvoice testset generate --n 300'
 ```
+
+## Week 3 baseline
+
+Digital PDFs, development split (50 documents), model `groq/openai/gpt-oss-120b`, prompt v1. The full output is in [results/week3-baseline-dev.txt](results/week3-baseline-dev.txt).
+
+| Field | Correct |
+|---|---|
+| number | 43 of 50 (86 %) |
+| issue_date | 44 of 50 (88 %) |
+| delivery_date | 24 of 50 (48 %) |
+| seller.name | 28 of 50 (56 %) |
+| seller.vat_id | 34 of 50 (68 %) |
+| iban | 44 of 50 (88 %) |
+| gross_total | 44 of 50 (88 %) |
+| line items fully correct | 167 of 467 (36 %) |
+
+Target: 97 % for totals, VAT, IBAN and number. Not met yet.
+
+Main causes, from reading the failures:
+- **Service date copied into the item text:** `Für Schulung vor Ort (erbracht am 10.04.2026)` instead of `Schulung vor Ort`, which fails the line match.
+- **Contact person in the seller name:** `Frederic Klemm B.Sc. — Sölzer Bau GmbH` instead of the company name.
+- **Missed fields:** the prompt doesn't say that `Leistungsdatum` is the delivery date, or where the VAT ID sits (often the footer).
+- **Invalid JSON from the model:** 3 documents failed twice (`BadRequestError`).
+
+One run takes about 20 minutes on the free tier because of the rate limit. The next step is to change the prompt against these failures, using the dev split only, and keep the held-out split untouched.
 
 ## Quick start
 

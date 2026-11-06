@@ -1,0 +1,73 @@
+Week 3 baseline: dev split, digital PDFs only (50 documents)
+model: groq/openai/gpt-oss-120b   prompt: v1   date: 2026-11-06
+command: uv run einvoice evaluate --split dev --show 50
+
+documents: 50
+field accuracy (exact after normalising):
+  number               43 of 50     86.0 %
+  issue_date           44 of 50     88.0 %
+  due_date             43 of 50     86.0 %
+  delivery_date        24 of 50     48.0 %
+  buyer_reference      37 of 50     74.0 %
+  seller.name          28 of 50     56.0 %
+  seller.vat_id        34 of 50     68.0 %
+  buyer.name           41 of 50     82.0 %
+  buyer.vat_id         41 of 50     82.0 %
+  iban                 44 of 50     88.0 %
+  bic                  44 of 50     88.0 %
+  net_total            44 of 50     88.0 %
+  tax_total            44 of 50     88.0 %
+  gross_total          44 of 50     88.0 %
+line items fully correct: 167 of 467 (35.8 %)
+47 documents with problems:
+  gen-0013: ["delivery_date: label='2026-04-10' got=None", "seller.name: label='Sölzer Bau GmbH & Co. KG' got='Frederic Klemm B.Sc. — Sölzer Bau GmbH & Co. KG'", "line 1 'Schulung vor Ort' not found"]
+  gen-0015: ["due_date: label='2026-09-15' got=None", "buyer_reference: label='06-21224-87' got=None"]
+  gen-0023: ["delivery_date: label='2026-08-16' got=None", "buyer_reference: label='14439-81446-03' got=None", "seller.name: label='Mies Handel GmbH & Co. KG' got='Enver Sölzer — Mies Handel GmbH & Co. KG'", "line 1 'Übersetzung Deutsch-Englisch' not found"]
+  gen-0024: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0024: no extraction
+  gen-0027: ["seller.name: label='Kallert Service UG (haftungsbeschränkt)' got='Kallert Service UG'", "seller.vat_id: label='DE469977005' got=None", "buyer.vat_id: label='DE766123453' got=None"]
+  gen-0028: ["buyer_reference: label='11723514-39555-98' got=None", "seller.name: label='Jacob Technik OHG' got='JACOB TECHNIK OHG'", "line 1 'Zement CEM II 25 kg' not found", "line 2 'Steckdose Unterputz weiß' not found", "line 3 'Schraube Senkkopf 4 x 40 mm, 500 Stk.' not found", "line 4 'Kanthölzer KVH 60 x 80 mm' not found", "line 5 'Hydrauliköl HLP 46' not found", "line 6 'Gipskartonplatte
+  gen-0034: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0034: no extraction
+  gen-0036: ["delivery_date: label='2026-05-18' got=None"]
+  gen-0055: ["seller.name: label='Jähn Handel UG (haftungsbeschränkt)' got='Rogge Digital OHG'", "buyer.name: label='Rogge Digital OHG' got='Jähn Handel UG (haftungsbeschränkt)'"]
+  gen-0056: ["delivery_date: label='2026-08-04' got=None"]
+  gen-0077: ["seller.name: label='Etzler UG (haftungsbeschränkt)' got='Etzler UG'", "seller.vat_id: label='DE382363573' got=None", "buyer.vat_id: label='DE917535288' got=None"]
+  gen-0083: ["delivery_date: label='2026-06-29' got=None", "seller.name: label='Kitzmann Service e.K.' got='Cornelia Hölzenbecher MBA. — Kitzmann Service e.K.'", "line 1 'Schulung vor Ort' not found"]
+  gen-0086: ["delivery_date: label='2026-03-17' got=None"]
+  gen-0087: ["delivery_date: label='2026-04-05' got=None", "buyer_reference: label='13262578-25643-68' got=None", "line 1 'Wandfarbe weiß, 10 l Eimer' not found"]
+  gen-0094: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0094: no extraction
+  gen-0103: ["delivery_date: label='2026-09-11' got=None", "buyer_reference: label='05750-13028-90' got=None", "seller.name: label='Pergande Technik KG' got='Ignaz Eckbauer B.Eng. — Pergande Technik KG'"]
+  gen-0117: ["delivery_date: label='2026-09-03' got=None", "seller.name: label='Nohlmans Technik OHG' got='Nohlmans Technik OHG Atzler KG'", "seller.vat_id: label='DE459576503' got=None", "buyer.name: label='Atzler KG' got=None", "line 1 'Wandfarbe weiß, 10 l Eimer' not found"]
+  gen-0137: ["delivery_date: label='2026-03-01' got=None", "seller.name: label='Söding & Drub GmbH & Co. KG' got='Söding & Drub GmbH & Vollbrecht Digital KG Co. KG'", "seller.vat_id: label='DE116628426' got=None", "buyer.name: label='Vollbrecht Digital KG' got=None", "line 1 'Gerüststellung pro Tag' not found"]
+  gen-0151: ["seller.vat_id: label='DE980052066' got=None"]
+  gen-0157: ["seller.vat_id: label='DE281054119' got=None", "line 1 'Arbeitszeit Auszubildender' not found", "line 3 'Wandfarbe weiß, 10 l Eimer' not found", "line 4 'Fliesenkleber flexibel, 25 kg' not found"]
+  gen-0160: ["delivery_date: label='2026-01-09' got=None"]
+  gen-0177: ["delivery_date: label='2025-12-27' got=None", "buyer_reference: label='07-72618-59' got='R26-03382'"]
+  gen-0193: ["seller.name: label='Thies Digital e.K.' got='Frau Zenta Spieß B.Sc. — Thies Digital e.K.'"]
+  gen-0201: ["number: label='697266' got=None", "seller.vat_id: label='DE738297473' got=None"]
+  gen-0205: ["buyer_reference: label='13500552-73512-35' got='Leitweg-ID 13500552-73512-35'", "seller.vat_id: label='DE766023136' got=None"]
+  gen-0210: ["delivery_date: label='2026-04-17' got=None"]
+  gen-0220: ["delivery_date: label='2026-08-02' got=None"]
+  gen-0223: ["delivery_date: label='2026-01-21' got=None", "seller.name: label='Bolander Technik GmbH' got='Karlfried Hornig — Bolander Technik GmbH'", "line 1 'Beratungsleistung' not found"]
+  gen-0229: ["delivery_date: label='2026-01-02' got=None"]
+  gen-0233: ["seller.name: label='Riehl Handel AG' got='Giuseppina Trüb — Riehl Handel AG'", "line 1 'Lektorat' not found"]
+  gen-0242: ["seller.name: label='Herrmann & Gröttner UG (haftungsbeschränkt)' got='Herrmann & Gröttner UG'"]
+  gen-0244: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0244: no extraction
+  gen-0248: ["seller.name: label='Löffler & Gotthard AG' got='LÖFFLER & GOTTHARD AG'", "line 1 'Arbeitshandschuhe Gr. 10' not found", "line 2 'Akku-Bohrschrauber 18 V' not found", "line 3 'Isolierband schwarz 19 mm' not found", "line 4 'Fugenspachtel 5 kg' not found"]
+  gen-0254: error: no valid invoice from groq/openai/gpt-oss-120b for gen-0254.pdf: 1 validation error for Invoice
+iban
+  Field required [type=missing, input_value={'number': 'INV-22606', '..., 'vat_category': 'S'}]}, i
+  gen-0254: no extraction
+  gen-0257: ["delivery_date: label='2026-04-21' got=None", "seller.vat_id: label='DE921382344' got=None", "buyer.vat_id: label='DE245889564' got=None", "line 1 'Fliesenkleber flexibel, 25 kg' not found", "line 2 'Raufaser Tapete Körnung mittel' not found"]
+  gen-0260: ["delivery_date: label='2026-07-20' got=None"]
+  gen-0264: error: no valid invoice from groq/openai/gpt-oss-120b for gen-0264.pdf: 1 validation error for Invoice
+iban
+  Field required [type=missing, input_value={'number': 'RE-2026-3017'..., 'vat_category': 'S'}]}, i
+  gen-0264: no extraction
+  gen-0279: ["delivery_date: label='2026-10-07' got=None"]
+  gen-0286: ["delivery_date: label='2026-01-12' got=None"]
+  gen-0288: ["seller.name: label='Bärer Technik AG' got='BÄRER TECHNIK AG'", "line 1 'Baustahlmatte Q188' not found", "line 2 'Hydrauliköl HLP 46' not found", "line 3 'Kabel NYM-J 3x1,5 mm²' not found", "line 4 'Wasserwaage Alu 80 cm' not found", "line 5 'Quarzsand gewaschen' not found", "line 6 'Fugenspachtel 5 kg' not found", "line 7 'Schraube Senkkopf 4 x 40 mm, 500 Stk.' not found", "line 
+  gen-0291: ["seller.vat_id: label='DE489838030' got=None"]

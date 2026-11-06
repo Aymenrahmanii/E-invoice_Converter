@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+out/
+tools/
+.env
+# real invoices never go in the repo
+data/private/

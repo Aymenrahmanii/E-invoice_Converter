@@ -1,0 +1,51 @@
+[project]
+name = "einvoice"
+version = "0.1.0"
+description = "Convert German PDF invoices into valid XRechnung and ZUGFeRD e-invoices"
+readme = "README.md"
+authors = [
+    { name = "Aymenrahmanii", email = "aymenrahmeni4@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "drafthorse>=2025.2.0",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.3",
+    "python-stdnum>=2.2",
+    "reportlab>=5.1.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "lxml-stubs>=0.5.1",
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[project.scripts]
+einvoice = "einvoice.cli:main"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["drafthorse.*", "reportlab.*", "stdnum.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["validator: runs the official Java validators (KoSIT, Mustang)"]

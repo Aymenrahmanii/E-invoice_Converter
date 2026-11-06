@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./out:/app/out
+    depends_on:
+      - validator
+  validator:
+    build:
+      context: .
+      dockerfile: docker/validator.Dockerfile
+    ports:
+      - "8081:8080"

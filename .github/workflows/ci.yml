@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.13.6"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Cache validators
+        uses: actions/cache@v4
+        with:
+          path: tools
+          key: validators-${{ hashFiles('scripts/fetch_validators.sh') }}
+      - run: uv sync --frozen
+      - run: make lint
+      - run: make typecheck
+      - run: make validators
+      - run: make test
+      - run: make validate
+      - name: Keep validator reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validator-reports
+          path: out/

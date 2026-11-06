@@ -1,0 +1,145 @@
+{
+  "number": "RE-2026-3790",
+  "issue_date": "2026-09-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-27",
+  "delivery_date": "2026-09-13",
+  "buyer_reference": "4588822808",
+  "seller": {
+    "name": "Peukert & Drewes UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Mijo-Haering-Gasse 763",
+      "postcode": "55288",
+      "city": "Stollberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE325341550",
+    "electronic_address": "invoice@peukert.example",
+    "contact": {
+      "name": "Faruk Heintze",
+      "phone": "(03136) 176567",
+      "email": "jost@peukert.example"
+    }
+  },
+  "buyer": {
+    "name": "Hamann KG",
+    "address": {
+      "street": "Gertzweg 2-8",
+      "postcode": "09571",
+      "city": "Rothenburg ob der Tauber",
+      "country_code": "DE"
+    },
+    "vat_id": "DE525691255",
+    "electronic_address": "info@hamann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART429819",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "12.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "74.04"
+    },
+    {
+      "line_id": "2",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-362436",
+      "quantity": "170",
+      "unit_code": "LTR",
+      "unit_price": "3.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "654.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-280037",
+      "quantity": "55",
+      "unit_code": "C62",
+      "unit_price": "0.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "52.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "ART517760",
+      "quantity": "90",
+      "unit_code": "MTK",
+      "unit_price": "4.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "369.00"
+    },
+    {
+      "line_id": "5",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-635291",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "58.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "233.40"
+    },
+    {
+      "line_id": "6",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-792038",
+      "quantity": "81.5",
+      "unit_code": "KGM",
+      "unit_price": "0.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "24.45"
+    },
+    {
+      "line_id": "7",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-124447",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "32.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1116.90"
+    },
+    {
+      "line_id": "8",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "A924247",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "7.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "70.56"
+    }
+  ],
+  "iban": "DE79648650616023865922",
+  "bic": "TLXLDEJV",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2595.65",
+    "tax_total": "493.17",
+    "gross_total": "3088.82",
+    "due_amount": "3088.82",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2595.65",
+        "tax": "493.17"
+      }
+    ]
+  }
+}

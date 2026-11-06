@@ -1,0 +1,90 @@
+{
+  "number": "2026/7858",
+  "issue_date": "2026-04-27",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-27",
+  "delivery_date": "2026-04-20",
+  "buyer_reference": "06215-86218-96",
+  "seller": {
+    "name": "Heidrich & Rudolph GmbH & Co. KG",
+    "address": {
+      "street": "Andres-Bähr-Gasse 990",
+      "postcode": "42773",
+      "city": "Bad Brückenau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE874359834",
+    "electronic_address": "info@heidrich.example",
+    "contact": {
+      "name": "Dipl.-Ing. Cathrin Heinrich B.Eng.",
+      "phone": "+49(0) 717236329",
+      "email": "sieghard@heidrich.example"
+    }
+  },
+  "buyer": {
+    "name": "Eimer & Nerger e.K.",
+    "address": {
+      "street": "Swen-Kade-Platz 126",
+      "postcode": "33727",
+      "city": "Coburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE979261356",
+    "electronic_address": "rechnung@eimer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "4711",
+      "unit_code": "C62",
+      "unit_price": "0.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "612.43"
+    },
+    {
+      "line_id": "2",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1793.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1793.58"
+    },
+    {
+      "line_id": "3",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "20.5",
+      "unit_code": "HUR",
+      "unit_price": "72.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1491.58"
+    }
+  ],
+  "iban": "DE88682310721428872545",
+  "bic": "ENVBDEKR",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3897.59",
+    "tax_total": "740.54",
+    "gross_total": "4638.13",
+    "due_amount": "4638.13",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3897.59",
+        "tax": "740.54"
+      }
+    ]
+  }
+}

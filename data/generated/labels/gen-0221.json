@@ -1,0 +1,123 @@
+{
+  "number": "178860",
+  "issue_date": "2026-01-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-08",
+  "delivery_date": "2026-01-22",
+  "buyer_reference": "02-24190-29",
+  "seller": {
+    "name": "Stroh Technik GmbH",
+    "address": {
+      "street": "Adlerstraße 1",
+      "postcode": "41814",
+      "city": "Tirschenreuth",
+      "country_code": "DE"
+    },
+    "vat_id": "DE676093626",
+    "electronic_address": "info@stroh.example",
+    "contact": {
+      "name": "Emmy Schenk",
+      "phone": "(04547) 22083",
+      "email": "nurettin@stroh.example"
+    }
+  },
+  "buyer": {
+    "name": "Schmiedt & Ladeck AG",
+    "address": {
+      "street": "Bruderweg 8-7",
+      "postcode": "00321",
+      "city": "Königs Wusterhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE773465122",
+    "electronic_address": "buchhaltung@schmiedt.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1339.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1339.15"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "41",
+      "unit_code": "HUR",
+      "unit_price": "100.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4121.73"
+    },
+    {
+      "line_id": "3",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1017.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2034.58"
+    },
+    {
+      "line_id": "4",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "HUR",
+      "unit_price": "92.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "927.10"
+    },
+    {
+      "line_id": "5",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "67",
+      "unit_code": "HUR",
+      "unit_price": "117.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7885.23"
+    },
+    {
+      "line_id": "6",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "684.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "684.51"
+    }
+  ],
+  "iban": "DE60624889914997722546",
+  "bic": "OJPSDEKMXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "16992.30",
+    "tax_total": "3228.54",
+    "gross_total": "20220.84",
+    "due_amount": "20220.84",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "16992.30",
+        "tax": "3228.54"
+      }
+    ]
+  }
+}

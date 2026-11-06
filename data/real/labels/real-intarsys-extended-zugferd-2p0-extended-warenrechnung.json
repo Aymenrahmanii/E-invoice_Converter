@@ -1,0 +1,129 @@
+{
+  "number": "R87654321012345",
+  "issue_date": "2018-08-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2018-08-05",
+  "buyer_reference": null,
+  "seller": {
+    "name": "MUSTERLIEFERANT GMBH",
+    "address": {
+      "street": "BAHNHOFSTRASSE 99",
+      "postcode": "99199",
+      "city": "MUSTERHAUSEN",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": {
+      "name": null,
+      "phone": "+49 932 431 500",
+      "email": "max.mustermann@musterlieferant.de"
+    }
+  },
+  "buyer": {
+    "name": "MUSTER-KUNDE GMBH",
+    "address": {
+      "street": "KUNDENWEG 88",
+      "postcode": "40235",
+      "city": "DUESSELDORF",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Zitronensäure 100ml",
+      "seller_item_id": "ZS997",
+      "quantity": "100.0000",
+      "unit_code": "C62",
+      "unit_price": "1.0000",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "100.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Gelierzucker Extra 250g",
+      "seller_item_id": "GZ250",
+      "quantity": "50.0000",
+      "unit_code": "C62",
+      "unit_price": "1.4500",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "72.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Gelierzucker Extra 250g",
+      "seller_item_id": "GZ250",
+      "quantity": "10.0000",
+      "unit_code": "C62",
+      "unit_price": "0.0000",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "0.00"
+    },
+    {
+      "line_id": "4",
+      "description": "Bierbrau Pils 20/0500",
+      "seller_item_id": "2031",
+      "quantity": "15.0000",
+      "unit_code": "C62",
+      "unit_price": "12.0000",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "180.00"
+    },
+    {
+      "line_id": "5",
+      "description": "Leergutpfand 20 x 0,5l",
+      "seller_item_id": "1805",
+      "quantity": "15.0000",
+      "unit_code": "C62",
+      "unit_price": "3.1000",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "46.50"
+    },
+    {
+      "line_id": "6",
+      "description": "Mischpalette Joghurt Karton 3 x 20",
+      "seller_item_id": "MP107",
+      "quantity": "2.0000",
+      "unit_code": "C62",
+      "unit_price": "29.1000",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "58.20"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": "Bei Zahlung innerhalb 14 Tagen gewähren wir 2,0% Skonto.",
+  "note": "Es bestehen Rabatt- oder Bonusvereinbarungen.",
+  "totals": {
+    "net_total": "457.20",
+    "tax_total": "70.00",
+    "gross_total": "518.99",
+    "due_amount": "518.99",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "321.40",
+        "tax": "61.07"
+      },
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "127.59",
+        "tax": "8.93"
+      }
+    ]
+  }
+}

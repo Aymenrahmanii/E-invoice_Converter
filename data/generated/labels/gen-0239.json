@@ -1,0 +1,68 @@
+{
+  "number": "179533",
+  "issue_date": "2026-09-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-23",
+  "delivery_date": "2026-08-30",
+  "buyer_reference": "09384-92020-60",
+  "seller": {
+    "name": "Noack Technik KG",
+    "address": {
+      "street": "Arnim-Ullmann-Gasse 4/2",
+      "postcode": "99367",
+      "city": "Einbeck",
+      "country_code": "DE"
+    },
+    "vat_id": "DE244913510",
+    "electronic_address": "info@noack.example",
+    "contact": {
+      "name": "Nurettin Schinke",
+      "phone": "07145 456162",
+      "email": "gundolf@noack.example"
+    }
+  },
+  "buyer": {
+    "name": "Hethur & Mude GmbH & Co. KG",
+    "address": {
+      "street": "Ante-Köhler-Gasse 821",
+      "postcode": "96711",
+      "city": "Brandenburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE162966391",
+    "electronic_address": "rechnung@hethur.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": "ART979230",
+      "quantity": "6654",
+      "unit_code": "C62",
+      "unit_price": "0.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1064.64"
+    }
+  ],
+  "iban": "DE25141101509112736713",
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1064.64",
+    "tax_total": "202.28",
+    "gross_total": "1266.92",
+    "due_amount": "1266.92",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1064.64",
+        "tax": "202.28"
+      }
+    ]
+  }
+}

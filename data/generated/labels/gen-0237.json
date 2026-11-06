@@ -1,0 +1,112 @@
+{
+  "number": "INV-71854",
+  "issue_date": "2026-03-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-28",
+  "delivery_date": "2026-03-26",
+  "buyer_reference": "4581383812",
+  "seller": {
+    "name": "Scheibe Digital OHG",
+    "address": {
+      "street": "Evelyn-Säuberlich-Allee 1",
+      "postcode": "34645",
+      "city": "Pasewalk",
+      "country_code": "DE"
+    },
+    "vat_id": "DE988965025",
+    "electronic_address": "rechnung@scheibe.example",
+    "contact": {
+      "name": "Nicole Klapp",
+      "phone": "0066278515",
+      "email": "gerhart@scheibe.example"
+    }
+  },
+  "buyer": {
+    "name": "Höfig Handel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Jelena-Steuer-Ring 3-5",
+      "postcode": "77620",
+      "city": "Strasburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE736831966",
+    "electronic_address": "rechnung@hofig.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": "SKU-692147",
+      "quantity": "9",
+      "unit_code": "MTR",
+      "unit_price": "12.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "110.34"
+    },
+    {
+      "line_id": "2",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": "99185",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "20.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "60.45"
+    },
+    {
+      "line_id": "3",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "ART983248",
+      "quantity": "3",
+      "unit_code": "LS",
+      "unit_price": "53.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "160.26"
+    },
+    {
+      "line_id": "4",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": "A772122",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "68.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "274.48"
+    },
+    {
+      "line_id": "5",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "606150",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "7.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "100.52"
+    }
+  ],
+  "iban": "DE08207266587522424860",
+  "bic": "XVUHDEWBXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "706.05",
+    "tax_total": "134.15",
+    "gross_total": "840.20",
+    "due_amount": "840.20",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "706.05",
+        "tax": "134.15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "number": "202605-2106",
+  "issue_date": "2026-05-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-05",
+  "delivery_date": "2026-05-20",
+  "buyer_reference": "4538811300",
+  "seller": {
+    "name": "Schottin Technik e.K.",
+    "address": {
+      "street": "Roskothring 583",
+      "postcode": "94298",
+      "city": "Schrobenhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE732314798",
+    "electronic_address": "rechnung@schottin.example",
+    "contact": {
+      "name": "Corinne Schinke",
+      "phone": "04296113952",
+      "email": "leonard@schottin.example"
+    }
+  },
+  "buyer": {
+    "name": "Ullmann Digital GmbH & Co. KG",
+    "address": {
+      "street": "Werneckeweg 35",
+      "postcode": "59202",
+      "city": "Zossen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE596101091",
+    "electronic_address": "invoice@ullmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "37",
+      "unit_code": "C62",
+      "unit_price": "5.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "205.72"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "20.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "220.22"
+    },
+    {
+      "line_id": "3",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "16.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "163.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "29.83",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "178.98"
+    },
+    {
+      "line_id": "5",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "20",
+      "unit_code": "LTR",
+      "unit_price": "1.56",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "31.20"
+    },
+    {
+      "line_id": "6",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "33.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "301.68"
+    },
+    {
+      "line_id": "7",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "39.20",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "117.60"
+    },
+    {
+      "line_id": "8",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "22.33",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "66.99"
+    }
+  ],
+  "iban": "DE62145591771489826625",
+  "bic": "XOJLDENWXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1285.49",
+    "tax_total": "196.87",
+    "gross_total": "1482.36",
+    "due_amount": "1482.36",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "394.77",
+        "tax": "27.63"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "890.72",
+        "tax": "169.24"
+      }
+    ]
+  }
+}

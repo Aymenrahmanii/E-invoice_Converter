@@ -1,0 +1,27 @@
+{% from "_macros.j2" import ref_label, vat_lines %}
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+body { font-size: 9pt; }
+.band { background: #1d2b53; color: #fff; padding: 8mm 8mm 6mm; margin: -18mm -18mm 8mm -20mm; }
+.band h1 { margin: 0; font-size: 22pt; letter-spacing: 1pt; }
+.band .who { float: right; text-align: right; font-size: 8pt; line-height: 1.4; }
+.grid { display: flex; gap: 10mm; margin-bottom: 8mm; }
+.grid > div { flex: 1; }
+.label { text-transform: uppercase; font-size: 7pt; color: #7a86a8; letter-spacing: 0.6pt; }
+.items th { background: #eef1f8; color: #1d2b53; text-align: left; font-size: 8pt; text-transform: uppercase; }
+.items td { border-bottom: 0.5pt solid #e0e4ee; }
+.pay { margin-top: 10mm; background: #f6f7fb; padding: 4mm; }
+</style></head><body>
+<div class="band"><div class="who">{{ inv.seller.name }}<br>{{ inv.seller.address.street }}<br>{{ inv.seller.address.postcode }} {{ inv.seller.address.city }}<br>{{ inv.seller.electronic_address }}</div><h1>RECHNUNG</h1><div>{{ inv.number }}</div></div>
+<div class="grid">
+<div><div class="label">Rechnung an</div>{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}{% if inv.buyer.vat_id %}<br>USt-ID: {{ inv.buyer.vat_id }}{% endif %}</div>
+<div><div class="label">Datum</div>{{ fmt.date(inv.issue_date) }}<br>{% if inv.due_date %}<div class="label">Fällig</div>{{ fmt.date(inv.due_date) }}{% endif %}</div>
+<div><div class="label">{{ ref_label(leitweg) }}</div>{{ inv.buyer_reference }}{% if inv.delivery_date %}<div class="label">Leistungsdatum</div>{{ fmt.date(inv.delivery_date) }}{% endif %}</div>
+</div>
+<table class="items"><thead><tr><th>#</th><th>Beschreibung</th><th class="r">Menge</th><th class="r">Preis</th><th class="r">Betrag</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ l.line_id }}</td><td>{{ l.description }}</td><td class="r nowrap">{{ fmt.number(l.quantity) }} {{ fmt.unit(l.unit_code) }}</td><td class="r nowrap">{{ fmt.money(l.unit_price) }}</td><td class="r nowrap">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<table class="totals"><tr><td>Zwischensumme</td><td class="r">{{ fmt.money(inv.net_total) }}</td></tr>
+{{ vat_lines(vat, fmt) }}
+<tr class="grand"><td>Gesamt</td><td class="r">{{ fmt.money(inv.gross_total) }}</td></tr></table>
+<div class="pay"><div class="label">Zahlung</div>{{ inv.payment_terms }}<br>IBAN: {{ inv.iban }}{% if inv.bic %} · BIC: {{ inv.bic }}{% endif %}<br>USt-IdNr.: {{ inv.seller.vat_id }} · Ansprechpartner: {{ inv.seller.contact.name }}, {{ inv.seller.contact.phone }}</div>
+</body></html>

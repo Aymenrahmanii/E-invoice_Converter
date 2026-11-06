@@ -1,0 +1,189 @@
+{
+  "number": "INV-34173",
+  "issue_date": "2026-05-16",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-30",
+  "delivery_date": "2026-05-10",
+  "buyer_reference": "4500708918",
+  "seller": {
+    "name": "Hettner Handel GmbH & Co. KG",
+    "address": {
+      "street": "Heringgasse 21/48",
+      "postcode": "12944",
+      "city": "Seelow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE205598506",
+    "electronic_address": "invoice@hettner.example",
+    "contact": {
+      "name": "Anne-Kathrin Jungfer",
+      "phone": "0498989570",
+      "email": "sigmund@hettner.example"
+    }
+  },
+  "buyer": {
+    "name": "Ackermann Handel AG",
+    "address": {
+      "street": "Gerlachallee 4",
+      "postcode": "61387",
+      "city": "Jessen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE562494257",
+    "electronic_address": "info@ackermann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-995203",
+      "quantity": "1",
+      "unit_code": "MTK",
+      "unit_price": "2.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2.64"
+    },
+    {
+      "line_id": "2",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "437255",
+      "quantity": "23",
+      "unit_code": "C62",
+      "unit_price": "8.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.90"
+    },
+    {
+      "line_id": "3",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "A714784",
+      "quantity": "88",
+      "unit_code": "C62",
+      "unit_price": "3.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "305.36"
+    },
+    {
+      "line_id": "4",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "ART445901",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "10.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "73.01"
+    },
+    {
+      "line_id": "5",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "SKU-174396",
+      "quantity": "46",
+      "unit_code": "PR",
+      "unit_price": "2.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "135.24"
+    },
+    {
+      "line_id": "6",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "SKU-890334",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "10.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "150.78"
+    },
+    {
+      "line_id": "7",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "948385",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "110.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "221.52"
+    },
+    {
+      "line_id": "8",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "308954",
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "1.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "17.04"
+    },
+    {
+      "line_id": "9",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "267684",
+      "quantity": "42",
+      "unit_code": "C62",
+      "unit_price": "39.82",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1672.44"
+    },
+    {
+      "line_id": "10",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "SKU-970562",
+      "quantity": "112",
+      "unit_code": "MTR",
+      "unit_price": "6.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "743.68"
+    },
+    {
+      "line_id": "11",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "36884",
+      "quantity": "7",
+      "unit_code": "SET",
+      "unit_price": "114.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "804.79"
+    },
+    {
+      "line_id": "12",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART326900",
+      "quantity": "71",
+      "unit_code": "LTR",
+      "unit_price": "2.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "206.61"
+    }
+  ],
+  "iban": "DE90783667250313081011",
+  "bic": "DHFSDEG9",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "4524.01",
+    "tax_total": "859.56",
+    "gross_total": "5383.57",
+    "due_amount": "5383.57",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4524.01",
+        "tax": "859.56"
+      }
+    ]
+  }
+}

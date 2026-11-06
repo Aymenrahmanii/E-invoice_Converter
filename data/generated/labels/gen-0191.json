@@ -1,0 +1,112 @@
+{
+  "number": "R26-08517",
+  "issue_date": "2026-10-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-10-28",
+  "buyer_reference": "4522978462",
+  "seller": {
+    "name": "Schacht GmbH & Co. KG",
+    "address": {
+      "street": "Walterstr. 3-6",
+      "postcode": "01177",
+      "city": "Bad Kissingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE987771119",
+    "electronic_address": "rechnung@schacht.example",
+    "contact": {
+      "name": "Brunhilde Heydrich",
+      "phone": "0723338475",
+      "email": "michaele@schacht.example"
+    }
+  },
+  "buyer": {
+    "name": "Meyer & Zänker GmbH & Co. KG",
+    "address": {
+      "street": "Senta-Speer-Platz 3",
+      "postcode": "22162",
+      "city": "Uelzen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@meyer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "179.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1972.96"
+    },
+    {
+      "line_id": "2",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "9.5",
+      "unit_code": "HUR",
+      "unit_price": "129.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1234.24"
+    },
+    {
+      "line_id": "3",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "1027.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2055.54"
+    },
+    {
+      "line_id": "4",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "31",
+      "unit_code": "HUR",
+      "unit_price": "92.44",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2865.64"
+    },
+    {
+      "line_id": "5",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1444.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2889.56"
+    }
+  ],
+  "iban": "DE78274813889892448055",
+  "bic": "IUNPDEJL",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "11017.94",
+    "tax_total": "2093.41",
+    "gross_total": "13111.35",
+    "due_amount": "13111.35",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "11017.94",
+        "tax": "2093.41"
+      }
+    ]
+  }
+}

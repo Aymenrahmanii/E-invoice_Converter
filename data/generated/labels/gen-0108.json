@@ -1,0 +1,134 @@
+{
+  "number": "INV-51642",
+  "issue_date": "2026-05-26",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4526456163",
+  "seller": {
+    "name": "Hölzenbecher & Klapp UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Scheelallee 19-61",
+      "postcode": "59100",
+      "city": "Burglengenfeld",
+      "country_code": "DE"
+    },
+    "vat_id": "DE683609867",
+    "electronic_address": "rechnung@holzenbecher.example",
+    "contact": {
+      "name": "Hanno Pieper B.Sc.",
+      "phone": "+49(0)9120 89615",
+      "email": "enno@holzenbecher.example"
+    }
+  },
+  "buyer": {
+    "name": "Hein Handel e.K.",
+    "address": {
+      "street": "Sergio-Häring-Weg 18",
+      "postcode": "64548",
+      "city": "Altentreptow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE889224692",
+    "electronic_address": "buchhaltung@hein.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART12865",
+      "quantity": "36",
+      "unit_code": "C62",
+      "unit_price": "14.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "531.36"
+    },
+    {
+      "line_id": "2",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "SKU-74963",
+      "quantity": "44",
+      "unit_code": "C62",
+      "unit_price": "5.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "239.80"
+    },
+    {
+      "line_id": "3",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A16739",
+      "quantity": "25",
+      "unit_code": "PR",
+      "unit_price": "3.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "81.25"
+    },
+    {
+      "line_id": "4",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "A690902",
+      "quantity": "33",
+      "unit_code": "C62",
+      "unit_price": "24.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "806.85"
+    },
+    {
+      "line_id": "5",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A410655",
+      "quantity": "1981",
+      "unit_code": "KGM",
+      "unit_price": "0.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "435.82"
+    },
+    {
+      "line_id": "6",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "982045",
+      "quantity": "196",
+      "unit_code": "LTR",
+      "unit_price": "2.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "548.80"
+    },
+    {
+      "line_id": "7",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "ART5529",
+      "quantity": "476",
+      "unit_code": "MTR",
+      "unit_price": "0.68",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "323.68"
+    }
+  ],
+  "iban": "DE54652839057305555503",
+  "bic": "TVLTDEZSXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2967.56",
+    "tax_total": "563.84",
+    "gross_total": "3531.40",
+    "due_amount": "3531.40",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2967.56",
+        "tax": "563.84"
+      }
+    ]
+  }
+}

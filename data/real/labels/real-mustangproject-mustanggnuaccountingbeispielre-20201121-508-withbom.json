@@ -1,0 +1,92 @@
+{
+  "number": "RE-20201121/508",
+  "issue_date": "2020-11-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2020-12-12",
+  "delivery_date": "2020-11-10",
+  "buyer_reference": "AB321",
+  "seller": {
+    "name": "Bei Spiel GmbH",
+    "address": {
+      "street": "Ecke 12",
+      "postcode": "12345",
+      "city": "Stadthausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE136695976",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Theodor Est",
+    "address": {
+      "street": "Bahnstr. 42",
+      "postcode": "88802",
+      "city": "Spielkreis",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Design (hours)",
+      "seller_item_id": null,
+      "quantity": "1.0000",
+      "unit_code": "HUR",
+      "unit_price": "160",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "160.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Ballons",
+      "seller_item_id": null,
+      "quantity": "400.0000",
+      "unit_code": "H87",
+      "unit_price": "0.79",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "316.00"
+    },
+    {
+      "line_id": "3",
+      "description": "Hot air „heiße Luft“ (litres)",
+      "seller_item_id": null,
+      "quantity": "800.0000",
+      "unit_code": "LTR",
+      "unit_price": "0.025",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "20.00"
+    }
+  ],
+  "iban": "DE88200800000970375700",
+  "bic": "COBADEFFXXX",
+  "payment_terms": "Zahlbar ohne Abzug bis 12.12.2020",
+  "note": null,
+  "totals": {
+    "net_total": "496.00",
+    "tax_total": "75.04",
+    "gross_total": "571.04",
+    "due_amount": "571.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "160.00",
+        "tax": "11.20"
+      },
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "336.00",
+        "tax": "63.84"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "number": "471102",
+  "issue_date": "2018-06-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2018-06-03",
+  "buyer_reference": null,
+  "seller": {
+    "name": "Lieferant GmbH",
+    "address": {
+      "street": "Lieferantenstraße 20",
+      "postcode": "80333",
+      "city": "München",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Kunden AG Mitte",
+    "address": {
+      "street": "Kundenstraße 15",
+      "postcode": "69876",
+      "city": "Frankfurt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kunstrasen grün 3m breit",
+      "seller_item_id": "KR3M",
+      "quantity": "3.0000",
+      "unit_code": "MTK",
+      "unit_price": "3.3333",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "10.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Schweinesteak",
+      "seller_item_id": "SFK5",
+      "quantity": "1.0000",
+      "unit_code": "KGM",
+      "unit_price": "5.5000",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "5.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Mineralwasser Medium 12 x 1,0l PET",
+      "seller_item_id": "GTRWA5",
+      "quantity": "20.0000",
+      "unit_code": "C62",
+      "unit_price": "5.4900",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "109.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Pfand",
+      "seller_item_id": "PFA5",
+      "quantity": "20.0000",
+      "unit_code": "C62",
+      "unit_price": "2.7700",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "55.46"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb 30 Tagen netto bis 04.07.2018, 3% Skonto innerhalb 10 Tagen bis 15.06.2018",
+  "note": "Rechnung gemäß Bestellung Nr. 2018-471331 vom 01.03.2018.",
+  "totals": {
+    "net_total": "180.76",
+    "tax_total": "20.16",
+    "gross_total": "197.65",
+    "due_amount": "147.65",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "113.03",
+        "tax": "7.91"
+      },
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "64.46",
+        "tax": "12.25"
+      }
+    ]
+  }
+}

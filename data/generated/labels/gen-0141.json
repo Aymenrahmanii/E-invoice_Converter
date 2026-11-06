@@ -1,0 +1,101 @@
+{
+  "number": "2026/0550",
+  "issue_date": "2026-01-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-04",
+  "delivery_date": "2025-12-28",
+  "buyer_reference": "4595837482",
+  "seller": {
+    "name": "Anders Bau KG",
+    "address": {
+      "street": "Mendeweg 9",
+      "postcode": "85364",
+      "city": "Fürstenfeldbruck",
+      "country_code": "DE"
+    },
+    "vat_id": "DE786232523",
+    "electronic_address": "invoice@anders.example",
+    "contact": {
+      "name": "Daniela Eimer B.Sc.",
+      "phone": "+49(0)2769001940",
+      "email": "tadeusz@anders.example"
+    }
+  },
+  "buyer": {
+    "name": "Stolze & Hartung UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Nicolai-Peukert-Ring 3/9",
+      "postcode": "39636",
+      "city": "Schwandorf",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@stolze.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "466.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "466.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "55.5",
+      "unit_code": "HUR",
+      "unit_price": "109.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6078.92"
+    },
+    {
+      "line_id": "3",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "445.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "445.75"
+    },
+    {
+      "line_id": "4",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "168.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1685.20"
+    }
+  ],
+  "iban": "DE90353455611613779190",
+  "bic": "JTAYDEVYXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "8676.67",
+    "tax_total": "1648.57",
+    "gross_total": "10325.24",
+    "due_amount": "10325.24",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8676.67",
+        "tax": "1648.57"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "number": "RE-2026-1427",
+  "issue_date": "2026-06-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-11",
+  "delivery_date": "2026-05-28",
+  "buyer_reference": "4560257100",
+  "seller": {
+    "name": "Jacobi Jäckel Handel KG",
+    "address": {
+      "street": "Nikolai-Gierschner-Allee 13-41",
+      "postcode": "21872",
+      "city": "Hünfeld",
+      "country_code": "DE"
+    },
+    "vat_id": "DE821791596",
+    "electronic_address": "rechnung@jacobi.example",
+    "contact": {
+      "name": "Hans-Detlef Misicher-Kobelt",
+      "phone": "(02809) 60584",
+      "email": "kathe@jacobi.example"
+    }
+  },
+  "buyer": {
+    "name": "Wesack & Junk GmbH",
+    "address": {
+      "street": "Junkgasse 2106",
+      "postcode": "75813",
+      "city": "Calw",
+      "country_code": "DE"
+    },
+    "vat_id": "DE930591788",
+    "electronic_address": "invoice@wesack.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": "SKU-167667",
+      "quantity": "11",
+      "unit_code": "HUR",
+      "unit_price": "67.44",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "741.84"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "ART383628",
+      "quantity": "2",
+      "unit_code": "LS",
+      "unit_price": "39.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "79.32"
+    },
+    {
+      "line_id": "3",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": "ART572234",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "7.05",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7.05"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": "A378507",
+      "quantity": "36",
+      "unit_code": "HUR",
+      "unit_price": "52.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1878.84"
+    },
+    {
+      "line_id": "5",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": "940119",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "49.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "496.00"
+    }
+  ],
+  "iban": "DE44569946072801511551",
+  "bic": "EJVJDEUK",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "3203.05",
+    "tax_total": "608.58",
+    "gross_total": "3811.63",
+    "due_amount": "3811.63",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3203.05",
+        "tax": "608.58"
+      }
+    ]
+  }
+}

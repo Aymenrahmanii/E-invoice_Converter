@@ -1,0 +1,68 @@
+{
+  "number": "R26-04372",
+  "issue_date": "2026-07-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-13",
+  "delivery_date": "2026-07-30",
+  "buyer_reference": "07-44949-34",
+  "seller": {
+    "name": "Langern e.K.",
+    "address": {
+      "street": "Ottostraße 3-3",
+      "postcode": "36300",
+      "city": "Säckingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE985343477",
+    "electronic_address": "buchhaltung@langern.example",
+    "contact": {
+      "name": "Ehrentraud Ring",
+      "phone": "+49 (0) 0293 325072",
+      "email": "curt@langern.example"
+    }
+  },
+  "buyer": {
+    "name": "Förster GmbH & Co. KG",
+    "address": {
+      "street": "Lili-Dehmel-Platz 149",
+      "postcode": "74204",
+      "city": "Görlitz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE274193860",
+    "electronic_address": "buchhaltung@forster.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": "ART789004",
+      "quantity": "6952",
+      "unit_code": "C62",
+      "unit_price": "0.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "973.28"
+    }
+  ],
+  "iban": "DE11226637749506054326",
+  "bic": "SBIZDEOT",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "973.28",
+    "tax_total": "184.92",
+    "gross_total": "1158.20",
+    "due_amount": "1158.20",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "973.28",
+        "tax": "184.92"
+      }
+    ]
+  }
+}

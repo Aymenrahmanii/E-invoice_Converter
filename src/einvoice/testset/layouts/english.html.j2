@@ -1,0 +1,24 @@
+{% from "_macros.j2" import ref_label, vat_lines %}
+<html lang="en"><head><meta charset="utf-8"><style>{{ css | safe }}
+h1 { font-size: 26pt; font-weight: 300; margin: 0 0 8mm; color: #0c7c8c; }
+.cols { display: flex; justify-content: space-between; gap: 6mm; margin-bottom: 8mm; }
+.k { color: #0c7c8c; font-size: 7.5pt; text-transform: uppercase; }
+.items th { border-bottom: 1.5pt solid #0c7c8c; text-align: left; color: #0c7c8c; }
+.items td { border-bottom: 0.4pt solid #ddd; }
+</style></head><body>
+<h1>Invoice</h1>
+<div class="cols">
+<div><div class="k">From</div>{{ inv.seller.name }}<br>{{ inv.seller.address.street }}<br>{{ inv.seller.address.postcode }} {{ inv.seller.address.city }}, Germany<br>VAT ID: {{ inv.seller.vat_id }}</div>
+<div><div class="k">Bill to</div>{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}, Germany{% if inv.buyer.vat_id %}<br>VAT ID: {{ inv.buyer.vat_id }}{% endif %}</div>
+<div><div class="k">Invoice no.</div>{{ inv.number }}<div class="k">Date</div>{{ fmt.date(inv.issue_date) }}{% if inv.due_date %}<div class="k">Due date</div>{{ fmt.date(inv.due_date) }}{% endif %}<div class="k">{{ ref_label(leitweg, "en") }}</div>{{ inv.buyer_reference }}</div>
+</div>
+<table class="items"><thead><tr><th>Description</th><th class="r">Qty</th><th>Unit</th><th class="r">Unit price</th><th class="r">VAT</th><th class="r">Amount</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ l.description }}</td><td class="r">{{ fmt.number(l.quantity) }}</td><td>{{ fmt.unit(l.unit_code) }}</td><td class="r nowrap">{{ fmt.money(l.unit_price) }}</td><td class="r">{{ fmt.number(l.vat_rate) }}%</td><td class="r nowrap">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<table class="totals"><tr><td>Subtotal</td><td class="r">{{ fmt.money(inv.net_total) }}</td></tr>
+{{ vat_lines(vat, fmt, "en") }}
+<tr class="grand"><td>Total due</td><td class="r">{{ fmt.money(inv.gross_total) }}</td></tr></table>
+{% if inv.delivery_date %}<p>Service date: {{ fmt.date(inv.delivery_date) }}</p>{% endif %}
+<p>{{ inv.payment_terms }}<br>Bank transfer to IBAN {{ inv.iban }}{% if inv.bic %} (BIC {{ inv.bic }}){% endif %}</p>
+<p class="small muted">Questions? {{ inv.seller.contact.name }} · {{ inv.seller.contact.email }} · {{ inv.seller.contact.phone }}</p>
+</body></html>

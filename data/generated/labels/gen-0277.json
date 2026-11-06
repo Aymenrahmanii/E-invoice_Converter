@@ -1,0 +1,101 @@
+{
+  "number": "2026/7112",
+  "issue_date": "2026-06-27",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-07",
+  "delivery_date": "2026-06-18",
+  "buyer_reference": "4542414534",
+  "seller": {
+    "name": "Stadelmann Bau e.K.",
+    "address": {
+      "street": "Pedro-Winkler-Allee 987",
+      "postcode": "36038",
+      "city": "Haldensleben",
+      "country_code": "DE"
+    },
+    "vat_id": "DE862208578",
+    "electronic_address": "buchhaltung@stadelmann.example",
+    "contact": {
+      "name": "Jerzy Dowerg",
+      "phone": "(01145) 148131",
+      "email": "isa@stadelmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Kitzmann Handel e.K.",
+    "address": {
+      "street": "Christof-Trüb-Weg 38/67",
+      "postcode": "33332",
+      "city": "Niesky",
+      "country_code": "DE"
+    },
+    "vat_id": "DE404813174",
+    "electronic_address": "buchhaltung@kitzmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "18.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "18.94"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": null,
+      "quantity": "23",
+      "unit_code": "HUR",
+      "unit_price": "49.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1132.75"
+    },
+    {
+      "line_id": "3",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "DAY",
+      "unit_price": "114.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1032.39"
+    },
+    {
+      "line_id": "4",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "41.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "166.28"
+    }
+  ],
+  "iban": "DE09331117777454894090",
+  "bic": "NJGJDETYXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2350.36",
+    "tax_total": "446.57",
+    "gross_total": "2796.93",
+    "due_amount": "2796.93",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2350.36",
+        "tax": "446.57"
+      }
+    ]
+  }
+}

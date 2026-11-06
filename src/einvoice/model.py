@@ -44,6 +44,7 @@ class Party(BaseModel):
 class LineItem(BaseModel):
     line_id: str  # BT-126
     description: str  # BT-153
+    seller_item_id: str | None = None  # BT-155, article number
     quantity: Decimal  # BT-129
     unit_code: str = "C62"  # BT-130, UN/ECE Rec 20 (C62 = piece, HUR = hour)
     unit_price: Decimal  # BT-146, net price

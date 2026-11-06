@@ -9,10 +9,15 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "drafthorse>=2025.2.0",
+    "faker>=40.44.0",
+    "jinja2>=3.1.6",
+    "numpy>=2.5.4",
     "pillow>=13.0.0",
     "pydantic>=2.14.3",
+    "pypdfium2>=5.14.0",
     "python-stdnum>=2.2",
     "reportlab>=5.1.0",
+    "weasyprint>=70.0",
 ]
 
 [build-system]
@@ -43,7 +48,7 @@ python_version = "3.12"
 plugins = ["pydantic.mypy"]
 
 [[tool.mypy.overrides]]
-module = ["drafthorse.*", "reportlab.*", "stdnum.*"]
+module = ["drafthorse.*", "reportlab.*", "stdnum.*", "weasyprint.*", "pypdfium2.*", "faker.*"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

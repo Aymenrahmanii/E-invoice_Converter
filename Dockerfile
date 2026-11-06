@@ -2,6 +2,7 @@
 FROM python:3.12-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
       openjdk-21-jre-headless curl unzip make \
+      libpango-1.0-0 libpangoft2-1.0-0 fonts-dejavu-core \
  && rm -rf /var/lib/apt/lists/*
 COPY --from=ghcr.io/astral-sh/uv:0.13.6 /uv /usr/local/bin/uv
 WORKDIR /app

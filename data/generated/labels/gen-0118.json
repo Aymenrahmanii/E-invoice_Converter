@@ -1,0 +1,101 @@
+{
+  "number": "INV-57058",
+  "issue_date": "2026-10-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-08",
+  "delivery_date": "2026-10-05",
+  "buyer_reference": "02022522-97223-68",
+  "seller": {
+    "name": "Stahr Handel GmbH",
+    "address": {
+      "street": "Edelbert-Drubin-Platz 9/1",
+      "postcode": "04801",
+      "city": "Paderborn",
+      "country_code": "DE"
+    },
+    "vat_id": "DE805568771",
+    "electronic_address": "rechnung@stahr.example",
+    "contact": {
+      "name": "Malte Hoffmann",
+      "phone": "01246480171",
+      "email": "emmy@stahr.example"
+    }
+  },
+  "buyer": {
+    "name": "Mosemann Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Hahnstr. 56/24",
+      "postcode": "09418",
+      "city": "Riesa",
+      "country_code": "DE"
+    },
+    "vat_id": "DE692246274",
+    "electronic_address": "info@mosemann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "788991",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "7.86",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "78.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "ART265655",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "17.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "241.36"
+    },
+    {
+      "line_id": "3",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A102592",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "96.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "772.88"
+    },
+    {
+      "line_id": "4",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-3878",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "35.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "70.94"
+    }
+  ],
+  "iban": "DE53737114675305991018",
+  "bic": "MFJIDET6",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1163.78",
+    "tax_total": "221.12",
+    "gross_total": "1384.90",
+    "due_amount": "1384.90",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1163.78",
+        "tax": "221.12"
+      }
+    ]
+  }
+}

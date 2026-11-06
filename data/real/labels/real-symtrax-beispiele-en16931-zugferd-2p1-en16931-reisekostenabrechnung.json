@@ -1,0 +1,103 @@
+{
+  "number": "280081",
+  "issue_date": "2018-07-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": null,
+  "seller": {
+    "name": "Lieferant GmbH",
+    "address": {
+      "street": "Lieferantenstraße 20",
+      "postcode": "80333",
+      "city": "München",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Kunden AG Mitte",
+    "address": {
+      "street": "Kundenstraße 15",
+      "postcode": "69876",
+      "city": "Frankfurt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übernachtung. 2 Nächte Hotel",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "158.88",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "158.88"
+    },
+    {
+      "line_id": "2",
+      "description": "Verpflegung Frühstück",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "11.76",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "11.76"
+    },
+    {
+      "line_id": "3",
+      "description": "Fahrtkosten, Taxi Berlin",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "23.36",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "23.36"
+    },
+    {
+      "line_id": "4",
+      "description": "Fahrtkosten, Taxi Nürnberg",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "20.09",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "20.09"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb 30 Tagen netto bis 12.08.2018, 3% Skonto innerhalb 10 Tagen bis 15.03.2018",
+  "note": "Listelotte Müllermann, Kumpelstr. 54, 12345 Berlin Handelsregisternummer: H A 713",
+  "totals": {
+    "net_total": "214.09",
+    "tax_total": "16.39",
+    "gross_total": "230.48",
+    "due_amount": "230.48",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "202.33",
+        "tax": "14.16"
+      },
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "11.76",
+        "tax": "2.23"
+      }
+    ]
+  }
+}

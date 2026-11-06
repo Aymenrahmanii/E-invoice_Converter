@@ -1,0 +1,27 @@
+{% from "_macros.j2" import ref_label, vat_lines %}
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+.wrap { display: flex; gap: 8mm; }
+.side { width: 48mm; background: #f1efe8; padding: 4mm; font-size: 8pt; line-height: 1.45; }
+.side h3 { font-size: 8pt; margin: 4mm 0 1mm; color: #5b5235; text-transform: uppercase; }
+.main { flex: 1; }
+.main h1 { font-size: 20pt; margin: 0 0 6mm; color: #5b5235; }
+.items th { border-bottom: 0.8pt solid #5b5235; text-align: left; }
+.items td { border-bottom: 0.3pt solid #ddd; }
+</style></head><body><div class="wrap">
+<div class="side"><b>{{ inv.seller.name }}</b><br>{{ inv.seller.address.street }}<br>{{ inv.seller.address.postcode }} {{ inv.seller.address.city }}
+<h3>Kontakt</h3>{{ inv.seller.contact.name }}<br>{{ inv.seller.contact.phone }}<br>{{ inv.seller.contact.email }}
+<h3>Bank</h3>IBAN<br>{{ inv.iban }}{% if inv.bic %}<br>BIC {{ inv.bic }}{% endif %}
+<h3>Steuer</h3>USt-IdNr.<br>{{ inv.seller.vat_id }}</div>
+<div class="main"><p>{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}</p>
+<h1>Rechnung</h1>
+<table class="small" style="width:auto; margin-bottom:5mm"><tr><td>Nr.</td><td>{{ inv.number }}</td><td style="padding-left:8mm">Datum</td><td>{{ fmt.date(inv.issue_date) }}</td></tr>
+<tr><td>{{ ref_label(leitweg) }}</td><td>{{ inv.buyer_reference }}</td><td style="padding-left:8mm">{% if inv.delivery_date %}Ausführung{% endif %}</td><td>{{ fmt.date(inv.delivery_date) }}</td></tr></table>
+<table class="items"><thead><tr><th>Pos.</th><th>Beschreibung</th><th class="r">Menge</th><th class="r">Preis</th><th class="r">Summe</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ l.line_id }}</td><td>{{ l.description }}</td><td class="r nowrap">{{ fmt.number(l.quantity) }} {{ fmt.unit(l.unit_code) }}</td><td class="r nowrap">{{ fmt.money(l.unit_price) }}</td><td class="r nowrap">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<table class="totals" style="width:70%"><tr><td>Netto</td><td class="r">{{ fmt.money(inv.net_total) }}</td></tr>
+{{ vat_lines(vat, fmt) }}
+<tr class="grand"><td>Brutto</td><td class="r">{{ fmt.money(inv.gross_total) }}</td></tr></table>
+<p>{{ inv.payment_terms }}{% if inv.due_date %}<br>Fälligkeitsdatum: {{ fmt.date(inv.due_date) }}{% endif %}</p>
+{% if inv.buyer.vat_id %}<p class="small muted">USt-IdNr. des Leistungsempfängers: {{ inv.buyer.vat_id }}</p>{% endif %}
+</div></div></body></html>

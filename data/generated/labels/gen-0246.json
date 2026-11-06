@@ -1,0 +1,134 @@
+{
+  "number": "702925",
+  "issue_date": "2026-08-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4538097010",
+  "seller": {
+    "name": "Losekann Digital GmbH & Co. KG",
+    "address": {
+      "street": "Fechnerallee 36-96",
+      "postcode": "46225",
+      "city": "Eckernförde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE927849030",
+    "electronic_address": "rechnung@losekann.example",
+    "contact": {
+      "name": "Antonius Zobel",
+      "phone": "+49(0)2835 238301",
+      "email": "malte@losekann.example"
+    }
+  },
+  "buyer": {
+    "name": "Holsten & Scheuermann UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Luka-Stolze-Allee 9-5",
+      "postcode": "30920",
+      "city": "Ebern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE179422291",
+    "electronic_address": "invoice@holsten.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "SEO-Analyse",
+      "seller_item_id": "A197341",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "691.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "691.22"
+    },
+    {
+      "line_id": "2",
+      "description": "Projektmanagement",
+      "seller_item_id": "ART684160",
+      "quantity": "17.5",
+      "unit_code": "HUR",
+      "unit_price": "99.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1734.08"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": "A965218",
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1121.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1121.59"
+    },
+    {
+      "line_id": "4",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "148038",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2013.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2013.24"
+    },
+    {
+      "line_id": "5",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "289427",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "60.68",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "242.72"
+    },
+    {
+      "line_id": "6",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "ART23563",
+      "quantity": "21",
+      "unit_code": "HUR",
+      "unit_price": "92.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1951.32"
+    },
+    {
+      "line_id": "7",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "SKU-690681",
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "606.89",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1213.78"
+    }
+  ],
+  "iban": "DE40473256030258294059",
+  "bic": "YBWDDEZ9XXX",
+  "payment_terms": "Please transfer the amount within 10 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "8967.95",
+    "tax_total": "1703.91",
+    "gross_total": "10671.86",
+    "due_amount": "10671.86",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8967.95",
+        "tax": "1703.91"
+      }
+    ]
+  }
+}

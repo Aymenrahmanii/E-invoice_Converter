@@ -1,0 +1,79 @@
+{
+  "number": "R26-02464",
+  "issue_date": "2026-01-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-14",
+  "delivery_date": "2026-01-09",
+  "buyer_reference": "4509507710",
+  "seller": {
+    "name": "Seifert Service KG",
+    "address": {
+      "street": "Gusti-Riehl-Allee 13",
+      "postcode": "83795",
+      "city": "Rathenow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE395120588",
+    "electronic_address": "invoice@seifert.example",
+    "contact": {
+      "name": "Harriet Aumann",
+      "phone": "+49(0)0264536516",
+      "email": "galina@seifert.example"
+    }
+  },
+  "buyer": {
+    "name": "Weitzel Service GmbH",
+    "address": {
+      "street": "Linkegasse 1-6",
+      "postcode": "88867",
+      "city": "Neubrandenburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@weitzel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "31.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "186.72"
+    },
+    {
+      "line_id": "2",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "3.5",
+      "unit_code": "MTK",
+      "unit_price": "27.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "94.64"
+    }
+  ],
+  "iban": "DE47531539442458435857",
+  "bic": "URQNDEPHXXX",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "281.36",
+    "tax_total": "53.46",
+    "gross_total": "334.82",
+    "due_amount": "334.82",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "281.36",
+        "tax": "53.46"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-8068",
+  "issue_date": "2026-03-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-12",
+  "delivery_date": null,
+  "buyer_reference": "4554039933",
+  "seller": {
+    "name": "Ebert Technik OHG",
+    "address": {
+      "street": "Hans-Herbert-Drewes-Gasse 4",
+      "postcode": "37650",
+      "city": "Lüdinghausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE799490140",
+    "electronic_address": "info@ebert.example",
+    "contact": {
+      "name": "Dipl.-Ing. Sören Pölitz",
+      "phone": "07709 967492",
+      "email": "kristin@ebert.example"
+    }
+  },
+  "buyer": {
+    "name": "Weinhold Service e.K.",
+    "address": {
+      "street": "Kunigunda-Ullmann-Weg 8-8",
+      "postcode": "75154",
+      "city": "Illertissen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@weinhold.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "8.5",
+      "unit_code": "HUR",
+      "unit_price": "66.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "567.29"
+    }
+  ],
+  "iban": "DE63768158209749018577",
+  "bic": null,
+  "payment_terms": "Zahlungsziel: 7 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "567.29",
+    "tax_total": "107.79",
+    "gross_total": "675.08",
+    "due_amount": "675.08",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "567.29",
+        "tax": "107.79"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "202610-7346",
+  "issue_date": "2026-10-14",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-28",
+  "delivery_date": "2026-10-05",
+  "buyer_reference": "4568947328",
+  "seller": {
+    "name": "Römer GmbH & Co. KG",
+    "address": {
+      "street": "Matthäiweg 7/9",
+      "postcode": "38071",
+      "city": "Herzberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE207088054",
+    "electronic_address": "rechnung@romer.example",
+    "contact": {
+      "name": "Margit Rosemann",
+      "phone": "01813 103014",
+      "email": "anica@romer.example"
+    }
+  },
+  "buyer": {
+    "name": "Fliegner & Heidrich OHG",
+    "address": {
+      "street": "Laszlo-Lehmann-Platz 4/3",
+      "postcode": "57053",
+      "city": "Senftenberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE213107662",
+    "electronic_address": "invoice@fliegner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "59",
+      "unit_code": "HUR",
+      "unit_price": "142.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "8417.53"
+    }
+  ],
+  "iban": "DE55788201903689157043",
+  "bic": "TOXDDEJ2",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "8417.53",
+    "tax_total": "1599.33",
+    "gross_total": "10016.86",
+    "due_amount": "10016.86",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8417.53",
+        "tax": "1599.33"
+      }
+    ]
+  }
+}

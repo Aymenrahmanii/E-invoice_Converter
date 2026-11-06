@@ -1,0 +1,167 @@
+{
+  "number": "R26-08257",
+  "issue_date": "2026-01-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-25",
+  "delivery_date": "2026-01-07",
+  "buyer_reference": "4526558670",
+  "seller": {
+    "name": "Segebahn Handel AG",
+    "address": {
+      "street": "Hans-Eberhard-Thanel-Platz 1619",
+      "postcode": "89216",
+      "city": "Gießen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE821402977",
+    "electronic_address": "buchhaltung@segebahn.example",
+    "contact": {
+      "name": "Eleonora Metz",
+      "phone": "0267781836",
+      "email": "darko@segebahn.example"
+    }
+  },
+  "buyer": {
+    "name": "Schweitzer Service GmbH",
+    "address": {
+      "street": "Reinhard-Rosemann-Ring 61-37",
+      "postcode": "96066",
+      "city": "Hildesheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE769857861",
+    "electronic_address": "rechnung@schweitzer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART662792",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "9.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "249.08"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "278702",
+      "quantity": "22",
+      "unit_code": "PR",
+      "unit_price": "3.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "69.74"
+    },
+    {
+      "line_id": "3",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "741307",
+      "quantity": "121",
+      "unit_code": "LTR",
+      "unit_price": "2.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "290.40"
+    },
+    {
+      "line_id": "4",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-350751",
+      "quantity": "67.5",
+      "unit_code": "MTK",
+      "unit_price": "2.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "171.45"
+    },
+    {
+      "line_id": "5",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-40985",
+      "quantity": "104",
+      "unit_code": "C62",
+      "unit_price": "1.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "148.72"
+    },
+    {
+      "line_id": "6",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "A342390",
+      "quantity": "92",
+      "unit_code": "C62",
+      "unit_price": "5.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "460.00"
+    },
+    {
+      "line_id": "7",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-59068",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "27.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "558.60"
+    },
+    {
+      "line_id": "8",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "ART157590",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "48.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "390.16"
+    },
+    {
+      "line_id": "9",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A571416",
+      "quantity": "5",
+      "unit_code": "SET",
+      "unit_price": "77.82",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "389.10"
+    },
+    {
+      "line_id": "10",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "ART110496",
+      "quantity": "62",
+      "unit_code": "MTR",
+      "unit_price": "1.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "63.86"
+    }
+  ],
+  "iban": "DE36853998601039745671",
+  "bic": "PVGZDEFVXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2791.11",
+    "tax_total": "530.31",
+    "gross_total": "3321.42",
+    "due_amount": "3321.42",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2791.11",
+        "tax": "530.31"
+      }
+    ]
+  }
+}

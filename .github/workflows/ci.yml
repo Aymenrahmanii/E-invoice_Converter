@@ -22,12 +22,18 @@ jobs:
         with:
           path: tools
           key: validators-${{ hashFiles('scripts/fetch_validators.sh') }}
+      - name: Pango for WeasyPrint
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libpango-1.0-0 libpangoft2-1.0-0 fonts-dejavu-core
       - run: uv sync --frozen
       - run: make lint
       - run: make typecheck
       - run: make validators
       - run: make test
       - run: make validate
+      - name: All 300 generated invoices pass KoSIT
+        run: make testset-validate
+      - name: Render a sample of the test set (one per layout, with scans)
+        run: uv run einvoice testset generate --n 300 --limit 10 --out out/testset-sample
       - name: Keep validator reports
         if: always()
         uses: actions/upload-artifact@v4

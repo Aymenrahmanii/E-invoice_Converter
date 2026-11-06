@@ -1,0 +1,101 @@
+{
+  "number": "R26-02832",
+  "issue_date": "2026-02-28",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-14",
+  "delivery_date": "2026-02-28",
+  "buyer_reference": "4549903039",
+  "seller": {
+    "name": "Drewes e.K.",
+    "address": {
+      "street": "Oscar-Stahr-Ring 4-1",
+      "postcode": "34063",
+      "city": "Steinfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE291492849",
+    "electronic_address": "invoice@drewes.example",
+    "contact": {
+      "name": "Siegbert Jungfer",
+      "phone": "02140522241",
+      "email": "danilo@drewes.example"
+    }
+  },
+  "buyer": {
+    "name": "Kühnert Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Dörschnerstraße 956",
+      "postcode": "10112",
+      "city": "Chemnitz",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@kuhnert.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "63.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "382.74"
+    },
+    {
+      "line_id": "2",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "15",
+      "unit_code": "C62",
+      "unit_price": "4.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "73.05"
+    },
+    {
+      "line_id": "3",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "MTR",
+      "unit_price": "14.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "100.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "32.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "32.23"
+    }
+  ],
+  "iban": "DE21201781722769534163",
+  "bic": "ENDPDEOG",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "588.12",
+    "tax_total": "111.74",
+    "gross_total": "699.86",
+    "due_amount": "699.86",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "588.12",
+        "tax": "111.74"
+      }
+    ]
+  }
+}

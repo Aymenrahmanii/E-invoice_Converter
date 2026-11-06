@@ -1,0 +1,68 @@
+{
+  "number": "202601-1757",
+  "issue_date": "2026-01-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-24",
+  "delivery_date": null,
+  "buyer_reference": "4568410673",
+  "seller": {
+    "name": "Biggen Handel GmbH & Co. KG",
+    "address": {
+      "street": "Rörrichtgasse 4320",
+      "postcode": "88391",
+      "city": "Oranienburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE996138418",
+    "electronic_address": "rechnung@biggen.example",
+    "contact": {
+      "name": "Frau Luzia Krein",
+      "phone": "04212 62968",
+      "email": "gretchen@biggen.example"
+    }
+  },
+  "buyer": {
+    "name": "Finke & Rädel e.K.",
+    "address": {
+      "street": "Abbas-Rosenow-Gasse 3/2",
+      "postcode": "52942",
+      "city": "Bogen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE879201087",
+    "electronic_address": "info@finke.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "64.5",
+      "unit_code": "HUR",
+      "unit_price": "103.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6674.46"
+    }
+  ],
+  "iban": "DE49803586642876801233",
+  "bic": "HSXHDEACXXX",
+  "payment_terms": "Payment due within 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "6674.46",
+    "tax_total": "1268.15",
+    "gross_total": "7942.61",
+    "due_amount": "7942.61",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6674.46",
+        "tax": "1268.15"
+      }
+    ]
+  }
+}

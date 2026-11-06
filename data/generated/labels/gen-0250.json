@@ -1,0 +1,101 @@
+{
+  "number": "INV-68603",
+  "issue_date": "2026-09-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-25",
+  "delivery_date": "2026-09-10",
+  "buyer_reference": "4588669969",
+  "seller": {
+    "name": "Wulf Technik KG",
+    "address": {
+      "street": "Steuerstr. 534",
+      "postcode": "90129",
+      "city": "Angermünde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE870694770",
+    "electronic_address": "buchhaltung@wulf.example",
+    "contact": {
+      "name": "Stephan Täsche",
+      "phone": "(04605) 70435",
+      "email": "joachim@wulf.example"
+    }
+  },
+  "buyer": {
+    "name": "Geisel Digital e.K.",
+    "address": {
+      "street": "Lorchstraße 20-94",
+      "postcode": "64152",
+      "city": "Erkelenz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE250099482",
+    "electronic_address": "invoice@geisel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "6.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "81.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "21.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "21.66"
+    },
+    {
+      "line_id": "3",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "27",
+      "unit_code": "MTK",
+      "unit_price": "27.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "750.60"
+    },
+    {
+      "line_id": "4",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "22.5",
+      "unit_code": "MTR",
+      "unit_price": "10.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "243.00"
+    }
+  ],
+  "iban": "DE79347251511380929335",
+  "bic": "MFRYDERVXXX",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1096.26",
+    "tax_total": "208.29",
+    "gross_total": "1304.55",
+    "due_amount": "1304.55",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1096.26",
+        "tax": "208.29"
+      }
+    ]
+  }
+}

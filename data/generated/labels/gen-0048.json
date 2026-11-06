@@ -1,0 +1,134 @@
+{
+  "number": "R26-02140",
+  "issue_date": "2026-02-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-05",
+  "delivery_date": "2026-02-19",
+  "buyer_reference": "4560499321",
+  "seller": {
+    "name": "Dietz Service KG",
+    "address": {
+      "street": "Zobelstr. 43/53",
+      "postcode": "75352",
+      "city": "Hoyerswerda",
+      "country_code": "DE"
+    },
+    "vat_id": "DE329024000",
+    "electronic_address": "info@dietz.example",
+    "contact": {
+      "name": "Lissy Finke",
+      "phone": "0448883844",
+      "email": "henrike@dietz.example"
+    }
+  },
+  "buyer": {
+    "name": "Schönland Handel e.K.",
+    "address": {
+      "street": "Zorbachstraße 17",
+      "postcode": "74503",
+      "city": "Kassel",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@schonland.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "291547",
+      "quantity": "356",
+      "unit_code": "MTR",
+      "unit_price": "1.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "388.04"
+    },
+    {
+      "line_id": "2",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "ART516653",
+      "quantity": "29",
+      "unit_code": "C62",
+      "unit_price": "13.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "394.69"
+    },
+    {
+      "line_id": "3",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-781377",
+      "quantity": "198",
+      "unit_code": "LTR",
+      "unit_price": "2.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "437.58"
+    },
+    {
+      "line_id": "4",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-286316",
+      "quantity": "167.5",
+      "unit_code": "MTK",
+      "unit_price": "4.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "793.95"
+    },
+    {
+      "line_id": "5",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A726849",
+      "quantity": "31",
+      "unit_code": "C62",
+      "unit_price": "8.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "253.58"
+    },
+    {
+      "line_id": "6",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "ART383285",
+      "quantity": "200",
+      "unit_code": "MTR",
+      "unit_price": "4.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "948.00"
+    },
+    {
+      "line_id": "7",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART288712",
+      "quantity": "6",
+      "unit_code": "SET",
+      "unit_price": "77.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "462.84"
+    }
+  ],
+  "iban": "DE87385425655265563425",
+  "bic": "ATCWDEKC",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "3678.68",
+    "tax_total": "698.95",
+    "gross_total": "4377.63",
+    "due_amount": "4377.63",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3678.68",
+        "tax": "698.95"
+      }
+    ]
+  }
+}

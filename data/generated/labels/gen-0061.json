@@ -1,0 +1,90 @@
+{
+  "number": "202601-9512",
+  "issue_date": "2026-01-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-02",
+  "delivery_date": "2025-12-26",
+  "buyer_reference": "4557562546",
+  "seller": {
+    "name": "Ullrich Bau KG",
+    "address": {
+      "street": "Henckstr. 4-3",
+      "postcode": "82590",
+      "city": "Hildesheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE148212034",
+    "electronic_address": "rechnung@ullrich.example",
+    "contact": {
+      "name": "Ing. Hilma Löchel",
+      "phone": "05900944186",
+      "email": "margarita@ullrich.example"
+    }
+  },
+  "buyer": {
+    "name": "Weiß Bau OHG",
+    "address": {
+      "street": "Angelique-Eberth-Weg 40/89",
+      "postcode": "66753",
+      "city": "Tuttlingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE579624306",
+    "electronic_address": "rechnung@wei.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "33.5",
+      "unit_code": "HUR",
+      "unit_price": "94.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3171.45"
+    },
+    {
+      "line_id": "2",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1438.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1438.71"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "3.5",
+      "unit_code": "DAY",
+      "unit_price": "1151.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4030.53"
+    }
+  ],
+  "iban": "DE32421064296308231438",
+  "bic": "PKHPDEW1XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "8640.69",
+    "tax_total": "1641.73",
+    "gross_total": "10282.42",
+    "due_amount": "10282.42",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8640.69",
+        "tax": "1641.73"
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "number": "R26-04209",
+  "issue_date": "2026-01-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-18",
+  "delivery_date": "2026-01-10",
+  "buyer_reference": "03188865-8282-63",
+  "seller": {
+    "name": "Beier Digital UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Riehlallee 724",
+      "postcode": "41270",
+      "city": "Wolfenbüttel",
+      "country_code": "DE"
+    },
+    "vat_id": "DE398615280",
+    "electronic_address": "rechnung@beier.example",
+    "contact": {
+      "name": "Aloys Sauer MBA.",
+      "phone": "+49 (0) 0078 984708",
+      "email": "anto@beier.example"
+    }
+  },
+  "buyer": {
+    "name": "Mülichen Handel e.K.",
+    "address": {
+      "street": "Raphael-Herrmann-Platz 7/9",
+      "postcode": "73488",
+      "city": "Strasburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE169630428",
+    "electronic_address": "info@mulichen.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "ART404431",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "26.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "234.36"
+    },
+    {
+      "line_id": "2",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART289435",
+      "quantity": "7",
+      "unit_code": "SET",
+      "unit_price": "89.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "629.51"
+    },
+    {
+      "line_id": "3",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-658084",
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "31.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "497.28"
+    },
+    {
+      "line_id": "4",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A700772",
+      "quantity": "1441.5",
+      "unit_code": "KGM",
+      "unit_price": "0.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "533.36"
+    },
+    {
+      "line_id": "5",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "101878",
+      "quantity": "442",
+      "unit_code": "MTR",
+      "unit_price": "0.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "313.82"
+    },
+    {
+      "line_id": "6",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A511941",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "146.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "439.53"
+    },
+    {
+      "line_id": "7",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "A26800",
+      "quantity": "172",
+      "unit_code": "LTR",
+      "unit_price": "4.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "710.36"
+    },
+    {
+      "line_id": "8",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A863281",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "4.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "92.72"
+    },
+    {
+      "line_id": "9",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "466401",
+      "quantity": "40",
+      "unit_code": "C62",
+      "unit_price": "10.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "420.80"
+    },
+    {
+      "line_id": "10",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "A98353",
+      "quantity": "39",
+      "unit_code": "C62",
+      "unit_price": "5.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "204.75"
+    },
+    {
+      "line_id": "11",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-795006",
+      "quantity": "200",
+      "unit_code": "C62",
+      "unit_price": "1.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "318.00"
+    },
+    {
+      "line_id": "12",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "SKU-833530",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "10.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "193.99"
+    }
+  ],
+  "iban": "DE78176735929772437487",
+  "bic": "ISEMDEMV",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "4588.48",
+    "tax_total": "871.81",
+    "gross_total": "5460.29",
+    "due_amount": "5460.29",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4588.48",
+        "tax": "871.81"
+      }
+    ]
+  }
+}

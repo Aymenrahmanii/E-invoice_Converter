@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-4424",
+  "issue_date": "2026-04-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-04",
+  "delivery_date": "2026-04-01",
+  "buyer_reference": "4516581651",
+  "seller": {
+    "name": "Trubin Handel GmbH",
+    "address": {
+      "street": "Kranzallee 91",
+      "postcode": "35254",
+      "city": "Mühlhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE855733827",
+    "electronic_address": "info@trubin.example",
+    "contact": {
+      "name": "Jost Lindau",
+      "phone": "+49 (0) 9314 096649",
+      "email": "gerta@trubin.example"
+    }
+  },
+  "buyer": {
+    "name": "Karz Service AG",
+    "address": {
+      "street": "Ferenc-Etzold-Platz 980",
+      "postcode": "84347",
+      "city": "Neuss",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@karz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2193.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2193.88"
+    }
+  ],
+  "iban": "DE68515641790845651512",
+  "bic": "GTERDEBJXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2193.88",
+    "tax_total": "416.84",
+    "gross_total": "2610.72",
+    "due_amount": "2610.72",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2193.88",
+        "tax": "416.84"
+      }
+    ]
+  }
+}

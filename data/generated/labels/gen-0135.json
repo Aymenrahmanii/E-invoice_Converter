@@ -1,0 +1,184 @@
+{
+  "number": "INV-28445",
+  "issue_date": "2026-07-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-08",
+  "delivery_date": "2026-07-18",
+  "buyer_reference": "4571894760",
+  "seller": {
+    "name": "Kühnert GmbH & Co. KG",
+    "address": {
+      "street": "Betti-Tröst-Ring 10-17",
+      "postcode": "16109",
+      "city": "Großenhain",
+      "country_code": "DE"
+    },
+    "vat_id": "DE215626098",
+    "electronic_address": "rechnung@kuhnert.example",
+    "contact": {
+      "name": "Emmerich Putz",
+      "phone": "+49(0)6102 508929",
+      "email": "torben@kuhnert.example"
+    }
+  },
+  "buyer": {
+    "name": "Dowerg OHG",
+    "address": {
+      "street": "Arif-Warmer-Allee 44-36",
+      "postcode": "24585",
+      "city": "Zerbst",
+      "country_code": "DE"
+    },
+    "vat_id": "DE751757162",
+    "electronic_address": "buchhaltung@dowerg.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "0.69",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "3.45"
+    },
+    {
+      "line_id": "2",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "14.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "14.33"
+    },
+    {
+      "line_id": "3",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "LTR",
+      "unit_price": "1.33",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "14.63"
+    },
+    {
+      "line_id": "4",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "19.79",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "79.16"
+    },
+    {
+      "line_id": "5",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "25.70",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "25.70"
+    },
+    {
+      "line_id": "6",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "31",
+      "unit_code": "C62",
+      "unit_price": "7.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "231.26"
+    },
+    {
+      "line_id": "7",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "35.72",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "250.04"
+    },
+    {
+      "line_id": "8",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "56.67",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "113.34"
+    },
+    {
+      "line_id": "9",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "27.24",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "272.40"
+    },
+    {
+      "line_id": "10",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "8.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "51.48"
+    },
+    {
+      "line_id": "11",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "48",
+      "unit_code": "C62",
+      "unit_price": "27.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1315.20"
+    }
+  ],
+  "iban": "DE93157576451553918752",
+  "bic": "LNILDEX1XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2370.99",
+    "tax_total": "389.45",
+    "gross_total": "2760.44",
+    "due_amount": "2760.44",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "508.68",
+        "tax": "35.61"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1862.31",
+        "tax": "353.84"
+      }
+    ]
+  }
+}

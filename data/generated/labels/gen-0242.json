@@ -1,0 +1,189 @@
+{
+  "number": "853359",
+  "issue_date": "2026-05-10",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-20",
+  "delivery_date": "2026-05-08",
+  "buyer_reference": "4570968105",
+  "seller": {
+    "name": "Herrmann & Gröttner UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Biggenstr. 84/79",
+      "postcode": "21042",
+      "city": "Rottweil",
+      "country_code": "DE"
+    },
+    "vat_id": "DE381578830",
+    "electronic_address": "rechnung@herrmann.example",
+    "contact": {
+      "name": "Ottomar Girschner",
+      "phone": "(05601) 141121",
+      "email": "adrian@herrmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Hölzenbecher Technik OHG",
+    "address": {
+      "street": "Eugen-Holsten-Allee 82/22",
+      "postcode": "24986",
+      "city": "Lippstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE319450177",
+    "electronic_address": "rechnung@holzenbecher.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "A878049",
+      "quantity": "430",
+      "unit_code": "MTR",
+      "unit_price": "1.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "537.50"
+    },
+    {
+      "line_id": "2",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "A7521",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "12.07",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "229.33"
+    },
+    {
+      "line_id": "3",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART219270",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "5.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "40.96"
+    },
+    {
+      "line_id": "4",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "172772",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "48.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "292.68"
+    },
+    {
+      "line_id": "5",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "A241783",
+      "quantity": "34",
+      "unit_code": "LTR",
+      "unit_price": "4.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "151.64"
+    },
+    {
+      "line_id": "6",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-372138",
+      "quantity": "817",
+      "unit_code": "KGM",
+      "unit_price": "0.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "163.40"
+    },
+    {
+      "line_id": "7",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "ART833732",
+      "quantity": "15",
+      "unit_code": "C62",
+      "unit_price": "21.49",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "322.35"
+    },
+    {
+      "line_id": "8",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "A304118",
+      "quantity": "164",
+      "unit_code": "MTR",
+      "unit_price": "4.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "813.44"
+    },
+    {
+      "line_id": "9",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "82732",
+      "quantity": "90",
+      "unit_code": "C62",
+      "unit_price": "5.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "512.10"
+    },
+    {
+      "line_id": "10",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "A164797",
+      "quantity": "305.5",
+      "unit_code": "MTK",
+      "unit_price": "3.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "947.05"
+    },
+    {
+      "line_id": "11",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "ART650896",
+      "quantity": "100",
+      "unit_code": "C62",
+      "unit_price": "7.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "785.00"
+    },
+    {
+      "line_id": "12",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A98884",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "9.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "313.48"
+    }
+  ],
+  "iban": "DE69516919758623312212",
+  "bic": "LWLIDEWXXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "5108.93",
+    "tax_total": "970.70",
+    "gross_total": "6079.63",
+    "due_amount": "6079.63",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5108.93",
+        "tax": "970.70"
+      }
+    ]
+  }
+}

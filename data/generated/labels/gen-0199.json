@@ -1,0 +1,101 @@
+{
+  "number": "873023",
+  "issue_date": "2026-01-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-16",
+  "delivery_date": "2026-01-03",
+  "buyer_reference": "4546870047",
+  "seller": {
+    "name": "Atzler GmbH",
+    "address": {
+      "street": "Henkstraße 8",
+      "postcode": "47365",
+      "city": "Hofgeismar",
+      "country_code": "DE"
+    },
+    "vat_id": "DE328734222",
+    "electronic_address": "buchhaltung@atzler.example",
+    "contact": {
+      "name": "Rigo Franke",
+      "phone": "(08582) 96633",
+      "email": "victor@atzler.example"
+    }
+  },
+  "buyer": {
+    "name": "Keudel Digital KG",
+    "address": {
+      "street": "Fernando-Schomber-Allee 9/3",
+      "postcode": "27496",
+      "city": "Ebersberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE305478812",
+    "electronic_address": "invoice@keudel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1017.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1017.98"
+    },
+    {
+      "line_id": "2",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "10977",
+      "unit_code": "C62",
+      "unit_price": "0.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1427.01"
+    },
+    {
+      "line_id": "3",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1491.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2237.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "49.5",
+      "unit_code": "HUR",
+      "unit_price": "95.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4728.74"
+    }
+  ],
+  "iban": "DE23283304707603015497",
+  "bic": "SNDFDEYP",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "9410.83",
+    "tax_total": "1788.06",
+    "gross_total": "11198.89",
+    "due_amount": "11198.89",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "9410.83",
+        "tax": "1788.06"
+      }
+    ]
+  }
+}

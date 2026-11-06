@@ -1,0 +1,30 @@
+{% from "_macros.j2" import ref_label, vat_lines %}
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+@page { margin-bottom: 38mm; }
+.logo { font-size: 15pt; font-weight: bold; letter-spacing: 2pt; color: #6a1b6f; text-align: right; margin-bottom: 14mm; }
+.items th { background: #6a1b6f; color: #fff; text-align: left; }
+.items td { border-bottom: 0.4pt solid #ddd; }
+.foot { position: fixed; bottom: -30mm; left: 0; right: 0; display: flex; gap: 4mm; font-size: 7pt; color: #444; border-top: 0.6pt solid #6a1b6f; padding-top: 2mm; }
+.foot div { flex: 1; }
+</style></head><body>
+<div class="foot">
+<div><b>{{ inv.seller.name }}</b><br>{{ inv.seller.address.street }}<br>{{ inv.seller.address.postcode }} {{ inv.seller.address.city }}</div>
+<div>Telefon {{ inv.seller.contact.phone }}<br>{{ inv.seller.contact.email }}<br>{{ inv.seller.electronic_address }}</div>
+<div>Bankverbindung<br>IBAN {{ inv.iban }}{% if inv.bic %}<br>BIC {{ inv.bic }}{% endif %}</div>
+<div>Inhaber/GF: {{ inv.seller.contact.name }}<br>USt-IdNr. {{ inv.seller.vat_id }}</div>
+</div>
+<div class="logo">{{ inv.seller.name.split(" ")[0] | upper }}</div>
+<p class="small muted">{{ inv.seller.name }} · {{ inv.seller.address.street }} · {{ inv.seller.address.postcode }} {{ inv.seller.address.city }}</p>
+<p>{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}</p>
+<table style="width:auto; margin: 8mm 0 4mm auto" class="small"><tr><td>Rechnungs-Nr.</td><td class="r">{{ inv.number }}</td></tr><tr><td>Datum</td><td class="r">{{ fmt.date(inv.issue_date) }}</td></tr>
+{% if inv.delivery_date %}<tr><td>Leistung erbracht am</td><td class="r">{{ fmt.date(inv.delivery_date) }}</td></tr>{% endif %}<tr><td>{{ ref_label(leitweg) }}</td><td class="r">{{ inv.buyer_reference }}</td></tr>
+{% if inv.buyer.vat_id %}<tr><td>Ihre USt-IdNr.</td><td class="r">{{ inv.buyer.vat_id }}</td></tr>{% endif %}</table>
+<h2>Rechnung</h2>
+<table class="items"><thead><tr><th>Pos.</th><th>Leistung</th><th class="r">Menge</th><th class="r">Einzelpreis</th><th class="r">Gesamt netto</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ l.line_id }}</td><td>{{ l.description }}</td><td class="r nowrap">{{ fmt.number(l.quantity) }} {{ fmt.unit(l.unit_code) }}</td><td class="r nowrap">{{ fmt.money(l.unit_price) }}</td><td class="r nowrap">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<table class="totals"><tr><td>Nettobetrag</td><td class="r">{{ fmt.money(inv.net_total) }}</td></tr>
+{{ vat_lines(vat, fmt) }}
+<tr class="grand"><td>Zahlbetrag</td><td class="r">{{ fmt.money(inv.gross_total) }}</td></tr></table>
+<p>{{ inv.payment_terms }}{% if inv.due_date %} Fällig zum {{ fmt.date(inv.due_date) }}.{% endif %}</p>
+</body></html>

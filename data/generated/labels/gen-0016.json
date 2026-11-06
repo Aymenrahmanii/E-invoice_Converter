@@ -1,0 +1,90 @@
+{
+  "number": "2026/7682",
+  "issue_date": "2026-09-27",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-07",
+  "delivery_date": "2026-09-22",
+  "buyer_reference": "12546267-57544-42",
+  "seller": {
+    "name": "Putz GmbH & Co. KG",
+    "address": {
+      "street": "Zobelstr. 25",
+      "postcode": "22552",
+      "city": "Sangerhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE362359756",
+    "electronic_address": "buchhaltung@putz.example",
+    "contact": {
+      "name": "Heide Killer",
+      "phone": "09136171521",
+      "email": "herrmann@putz.example"
+    }
+  },
+  "buyer": {
+    "name": "Stiebitz & Häring AG",
+    "address": {
+      "street": "Sibylla-Killer-Weg 1-4",
+      "postcode": "92249",
+      "city": "Kleve",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@stiebitz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "50.5",
+      "unit_code": "HUR",
+      "unit_price": "95.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4837.90"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "39",
+      "unit_code": "HUR",
+      "unit_price": "130.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5071.17"
+    },
+    {
+      "line_id": "3",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "MON",
+      "unit_price": "110.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "441.40"
+    }
+  ],
+  "iban": "DE39601608695947257634",
+  "bic": null,
+  "payment_terms": "Payment due within 10 days.",
+  "note": null,
+  "totals": {
+    "net_total": "10350.47",
+    "tax_total": "1966.59",
+    "gross_total": "12317.06",
+    "due_amount": "12317.06",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "10350.47",
+        "tax": "1966.59"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "number": "RE-20190610/507",
+  "issue_date": "2019-06-10",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2019-07-01",
+  "delivery_date": "2019-06-10",
+  "buyer_reference": "AB321",
+  "seller": {
+    "name": "Bei Spiel GmbH",
+    "address": {
+      "street": "Ecke 12",
+      "postcode": "12345",
+      "city": "Stadthausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE136695976",
+    "electronic_address": null,
+    "contact": {
+      "name": "Ingmar N. Fo",
+      "phone": "++49(0)237823",
+      "email": "info@localhost.local"
+    }
+  },
+  "buyer": {
+    "name": "Theodor Est",
+    "address": {
+      "street": "Bahnstr. 42",
+      "postcode": "88802",
+      "city": "Spielkreis",
+      "country_code": "DE"
+    },
+    "vat_id": "DE999999999",
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Design (hours): Of a sample invoice",
+      "seller_item_id": null,
+      "quantity": "1.0000",
+      "unit_code": "HUR",
+      "unit_price": "160",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "160.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Ballons: various colors, ~2000ml",
+      "seller_item_id": null,
+      "quantity": "400.0000",
+      "unit_code": "C62",
+      "unit_price": "0.79",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "316.00"
+    },
+    {
+      "line_id": "3",
+      "description": "Hot air „heiße Luft“ (litres)",
+      "seller_item_id": null,
+      "quantity": "800.0000",
+      "unit_code": "LTR",
+      "unit_price": "0.025",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "20.00"
+    }
+  ],
+  "iban": "DE88 2008 0000 0970 3757 00",
+  "bic": "COBADEFFXXX",
+  "payment_terms": "Zahlbar ohne Abzug bis 01.07.2019",
+  "note": null,
+  "totals": {
+    "net_total": "496.00",
+    "tax_total": "75.04",
+    "gross_total": "571.04",
+    "due_amount": "571.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "160.00",
+        "tax": "11.20"
+      },
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "336.00",
+        "tax": "63.84"
+      }
+    ]
+  }
+}

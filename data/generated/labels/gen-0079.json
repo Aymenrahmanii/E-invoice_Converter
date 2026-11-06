@@ -1,0 +1,90 @@
+{
+  "number": "INV-62754",
+  "issue_date": "2026-10-31",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-14",
+  "delivery_date": "2026-10-30",
+  "buyer_reference": "4573901848",
+  "seller": {
+    "name": "Scheel & Johann KG",
+    "address": {
+      "street": "Ercan-Textor-Weg 614",
+      "postcode": "89436",
+      "city": "Melle",
+      "country_code": "DE"
+    },
+    "vat_id": "DE656943738",
+    "electronic_address": "rechnung@scheel.example",
+    "contact": {
+      "name": "Ilka Keudel-Killer",
+      "phone": "+49(0)8260 654632",
+      "email": "ayse@scheel.example"
+    }
+  },
+  "buyer": {
+    "name": "Lange Service OHG",
+    "address": {
+      "street": "Karolina-Oestrovsky-Straße 38",
+      "postcode": "05546",
+      "city": "Roth",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@lange.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "22",
+      "unit_code": "HUR",
+      "unit_price": "74.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1637.46"
+    },
+    {
+      "line_id": "2",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "151",
+      "unit_code": "HUR",
+      "unit_price": "97.95",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "14790.45"
+    },
+    {
+      "line_id": "3",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "7689",
+      "unit_code": "C62",
+      "unit_price": "0.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1460.91"
+    }
+  ],
+  "iban": "DE19509842947340497845",
+  "bic": "RNLMDEWBXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "17888.82",
+    "tax_total": "3398.88",
+    "gross_total": "21287.70",
+    "due_amount": "21287.70",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "17888.82",
+        "tax": "3398.88"
+      }
+    ]
+  }
+}

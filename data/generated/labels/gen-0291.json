@@ -1,0 +1,79 @@
+{
+  "number": "R26-06254",
+  "issue_date": "2026-05-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-04",
+  "delivery_date": "2026-05-13",
+  "buyer_reference": "4568510971",
+  "seller": {
+    "name": "Weinhold Technik AG",
+    "address": {
+      "street": "Heinz-Günther-Geisel-Ring 8/6",
+      "postcode": "11678",
+      "city": "Goslar",
+      "country_code": "DE"
+    },
+    "vat_id": "DE489838030",
+    "electronic_address": "info@weinhold.example",
+    "contact": {
+      "name": "Marian Geisel",
+      "phone": "+49 (0) 0640 494679",
+      "email": "lars@weinhold.example"
+    }
+  },
+  "buyer": {
+    "name": "Pergande Technik AG",
+    "address": {
+      "street": "Stolzestr. 6-6",
+      "postcode": "86353",
+      "city": "Wanzleben",
+      "country_code": "DE"
+    },
+    "vat_id": "DE826864965",
+    "electronic_address": "info@pergande.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1248.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1248.62"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "53",
+      "unit_code": "HUR",
+      "unit_price": "94.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4997.37"
+    }
+  ],
+  "iban": "DE50409450381552159614",
+  "bic": "WZNTDEA7XXX",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "6245.99",
+    "tax_total": "1186.74",
+    "gross_total": "7432.73",
+    "due_amount": "7432.73",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6245.99",
+        "tax": "1186.74"
+      }
+    ]
+  }
+}

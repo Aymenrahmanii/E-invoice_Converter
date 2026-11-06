@@ -1,0 +1,101 @@
+{
+  "number": "INV-41448",
+  "issue_date": "2026-08-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4550414261",
+  "seller": {
+    "name": "Löffler & Gotthard AG",
+    "address": {
+      "street": "Kadeallee 9/2",
+      "postcode": "76537",
+      "city": "Büsingen am Hochrhein",
+      "country_code": "DE"
+    },
+    "vat_id": "DE271636600",
+    "electronic_address": "buchhaltung@loffler.example",
+    "contact": {
+      "name": "Prof. Jochen Seifert",
+      "phone": "0106560707",
+      "email": "jeannine@loffler.example"
+    }
+  },
+  "buyer": {
+    "name": "Loos & Tschentscher AG",
+    "address": {
+      "street": "Norbert-Walter-Straße 488",
+      "postcode": "00336",
+      "city": "Klötze",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@loos.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A482319",
+      "quantity": "6",
+      "unit_code": "PR",
+      "unit_price": "3.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "20.16"
+    },
+    {
+      "line_id": "2",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-754741",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "112.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "336.66"
+    },
+    {
+      "line_id": "3",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-138815",
+      "quantity": "138",
+      "unit_code": "C62",
+      "unit_price": "1.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "215.28"
+    },
+    {
+      "line_id": "4",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART668643",
+      "quantity": "18",
+      "unit_code": "C62",
+      "unit_price": "14.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "268.74"
+    }
+  ],
+  "iban": "DE98314776357008929693",
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "840.84",
+    "tax_total": "159.76",
+    "gross_total": "1000.60",
+    "due_amount": "1000.60",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "840.84",
+        "tax": "159.76"
+      }
+    ]
+  }
+}

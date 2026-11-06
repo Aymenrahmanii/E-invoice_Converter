@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-0055",
+  "issue_date": "2026-10-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-15",
+  "delivery_date": null,
+  "buyer_reference": "4574553951",
+  "seller": {
+    "name": "Riehl Handel AG",
+    "address": {
+      "street": "Friedhold-Schlosser-Gasse 57-71",
+      "postcode": "40505",
+      "city": "Rathenow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE135859615",
+    "electronic_address": "info@riehl.example",
+    "contact": {
+      "name": "Giuseppina Trüb",
+      "phone": "+49(0)7479111581",
+      "email": "monique@riehl.example"
+    }
+  },
+  "buyer": {
+    "name": "Gude Handel e.K.",
+    "address": {
+      "street": "Isabell-Schulz-Gasse 1",
+      "postcode": "84039",
+      "city": "Melle",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@gude.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": "733385",
+      "quantity": "13",
+      "unit_code": "HUR",
+      "unit_price": "65.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "847.86"
+    }
+  ],
+  "iban": "DE47255901229962039497",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "847.86",
+    "tax_total": "161.09",
+    "gross_total": "1008.95",
+    "due_amount": "1008.95",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "847.86",
+        "tax": "161.09"
+      }
+    ]
+  }
+}

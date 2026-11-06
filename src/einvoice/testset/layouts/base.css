@@ -1,0 +1,15 @@
+@page { size: A4; margin: 18mm 18mm 22mm 20mm; }
+* { box-sizing: border-box; }
+body { font-family: "DejaVu Sans", "Liberation Sans", Arial, sans-serif; font-size: 9.5pt; color: #222; margin: 0; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 3pt 4pt; vertical-align: top; }
+.r { text-align: right; }
+.c { text-align: center; }
+.muted { color: #666; }
+.small { font-size: 8pt; }
+.nowrap { white-space: nowrap; }
+.totals { width: 45%; margin-left: auto; margin-top: 6mm; }
+.totals td { padding: 2pt 4pt; }
+.totals .grand td { font-weight: bold; border-top: 1.2pt solid #222; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; }

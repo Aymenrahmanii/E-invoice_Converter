@@ -1,0 +1,79 @@
+{
+  "number": "2026/2874",
+  "issue_date": "2026-09-10",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-20",
+  "delivery_date": "2026-09-03",
+  "buyer_reference": "4542744623",
+  "seller": {
+    "name": "Nohlmans Technik OHG",
+    "address": {
+      "street": "Witold-Pölitz-Weg 361",
+      "postcode": "92731",
+      "city": "Mainburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE459576503",
+    "electronic_address": "rechnung@nohlmans.example",
+    "contact": {
+      "name": "Erdogan Schmiedecke",
+      "phone": "+49 (0) 1275 411090",
+      "email": "arif@nohlmans.example"
+    }
+  },
+  "buyer": {
+    "name": "Atzler KG",
+    "address": {
+      "street": "Janna-Butte-Weg 76-43",
+      "postcode": "98010",
+      "city": "Ansbach",
+      "country_code": "DE"
+    },
+    "vat_id": "DE105297971",
+    "electronic_address": "rechnung@atzler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "64.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "128.44"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": null,
+      "quantity": "27.5",
+      "unit_code": "HUR",
+      "unit_price": "59.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1628.83"
+    }
+  ],
+  "iban": "DE77115256489060941965",
+  "bic": "CRQPDENQXXX",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1757.27",
+    "tax_total": "333.88",
+    "gross_total": "2091.15",
+    "due_amount": "2091.15",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1757.27",
+        "tax": "333.88"
+      }
+    ]
+  }
+}

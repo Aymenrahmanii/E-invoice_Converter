@@ -1,0 +1,134 @@
+{
+  "number": "R26-01922",
+  "issue_date": "2026-05-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-10",
+  "delivery_date": "2026-04-30",
+  "buyer_reference": "06-92090-16",
+  "seller": {
+    "name": "Siering Service OHG",
+    "address": {
+      "street": "Sieringstraße 48",
+      "postcode": "63067",
+      "city": "Ebern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE860786852",
+    "electronic_address": "invoice@siering.example",
+    "contact": {
+      "name": "Henrike Cichorius",
+      "phone": "+49(0)6832241435",
+      "email": "resi@siering.example"
+    }
+  },
+  "buyer": {
+    "name": "Bohnbach UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Samira-Bruder-Ring 3/9",
+      "postcode": "52169",
+      "city": "Berlin",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@bohnbach.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "109.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "547.90"
+    },
+    {
+      "line_id": "2",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "924.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "924.16"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1020.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2040.66"
+    },
+    {
+      "line_id": "4",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1267.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2535.48"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "57",
+      "unit_code": "HUR",
+      "unit_price": "98.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5594.55"
+    },
+    {
+      "line_id": "6",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "MON",
+      "unit_price": "1188.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3566.43"
+    },
+    {
+      "line_id": "7",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "47",
+      "unit_code": "HUR",
+      "unit_price": "119.95",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5637.65"
+    }
+  ],
+  "iban": "DE27888363393388013274",
+  "bic": "SWCUDEP5",
+  "payment_terms": "Please transfer the amount within 30 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "20846.83",
+    "tax_total": "3960.90",
+    "gross_total": "24807.73",
+    "due_amount": "24807.73",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "20846.83",
+        "tax": "3960.90"
+      }
+    ]
+  }
+}

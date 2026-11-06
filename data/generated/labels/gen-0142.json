@@ -1,0 +1,189 @@
+{
+  "number": "202605-4541",
+  "issue_date": "2026-05-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-28",
+  "delivery_date": "2026-05-13",
+  "buyer_reference": "4559951756",
+  "seller": {
+    "name": "Heuser Bau e.K.",
+    "address": {
+      "street": "Susan-Klemm-Platz 79/84",
+      "postcode": "57990",
+      "city": "Erfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE784949334",
+    "electronic_address": "buchhaltung@heuser.example",
+    "contact": {
+      "name": "Franz-Xaver Textor",
+      "phone": "00104 04290",
+      "email": "mehdi@heuser.example"
+    }
+  },
+  "buyer": {
+    "name": "Ullrich Bau KG",
+    "address": {
+      "street": "Ziegertgasse 4/2",
+      "postcode": "70580",
+      "city": "Meißen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE493993336",
+    "electronic_address": "info@ullrich.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "35436",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "10.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.38"
+    },
+    {
+      "line_id": "2",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A349135",
+      "quantity": "47",
+      "unit_code": "C62",
+      "unit_price": "4.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.82"
+    },
+    {
+      "line_id": "3",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A280716",
+      "quantity": "1605",
+      "unit_code": "KGM",
+      "unit_price": "0.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "272.85"
+    },
+    {
+      "line_id": "4",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART738116",
+      "quantity": "29",
+      "unit_code": "LTR",
+      "unit_price": "3.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "105.27"
+    },
+    {
+      "line_id": "5",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "505798",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "1.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "18.76"
+    },
+    {
+      "line_id": "6",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "A637065",
+      "quantity": "74",
+      "unit_code": "C62",
+      "unit_price": "4.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "335.96"
+    },
+    {
+      "line_id": "7",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "464112",
+      "quantity": "64",
+      "unit_code": "MTR",
+      "unit_price": "5.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "357.12"
+    },
+    {
+      "line_id": "8",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "260293",
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "8.38",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "92.18"
+    },
+    {
+      "line_id": "9",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "ART739017",
+      "quantity": "57",
+      "unit_code": "C62",
+      "unit_price": "7.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "446.88"
+    },
+    {
+      "line_id": "10",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "SKU-123487",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "9.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "176.13"
+    },
+    {
+      "line_id": "11",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "SKU-359710",
+      "quantity": "2",
+      "unit_code": "SET",
+      "unit_price": "99.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "198.58"
+    },
+    {
+      "line_id": "12",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "304793",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "96.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "289.08"
+    }
+  ],
+  "iban": "DE61553213650229358943",
+  "bic": "DNMVDEV0",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2674.01",
+    "tax_total": "508.06",
+    "gross_total": "3182.07",
+    "due_amount": "3182.07",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2674.01",
+        "tax": "508.06"
+      }
+    ]
+  }
+}

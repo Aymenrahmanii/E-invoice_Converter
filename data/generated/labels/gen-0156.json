@@ -1,0 +1,112 @@
+{
+  "number": "INV-65591",
+  "issue_date": "2026-02-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4524894002",
+  "seller": {
+    "name": "Ditschlerin e.K.",
+    "address": {
+      "street": "Gertraude-Loos-Ring 90/42",
+      "postcode": "04220",
+      "city": "Dresden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE977789298",
+    "electronic_address": "buchhaltung@ditschlerin.example",
+    "contact": {
+      "name": "Heidelinde Köster",
+      "phone": "0058431886",
+      "email": "irmgard@ditschlerin.example"
+    }
+  },
+  "buyer": {
+    "name": "Lorch Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Scheuermannplatz 36",
+      "postcode": "60456",
+      "city": "Bremen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE679495749",
+    "electronic_address": "rechnung@lorch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "103.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.85"
+    },
+    {
+      "line_id": "2",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "716.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "716.59"
+    },
+    {
+      "line_id": "3",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "13",
+      "unit_code": "HUR",
+      "unit_price": "76.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "997.62"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2.5",
+      "unit_code": "DAY",
+      "unit_price": "1587.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3968.80"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "13",
+      "unit_code": "HUR",
+      "unit_price": "90.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1178.19"
+    }
+  ],
+  "iban": "DE22518260945835228009",
+  "bic": "MFGDDEQF",
+  "payment_terms": "Please transfer the amount within 10 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "6965.05",
+    "tax_total": "1323.36",
+    "gross_total": "8288.41",
+    "due_amount": "8288.41",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6965.05",
+        "tax": "1323.36"
+      }
+    ]
+  }
+}

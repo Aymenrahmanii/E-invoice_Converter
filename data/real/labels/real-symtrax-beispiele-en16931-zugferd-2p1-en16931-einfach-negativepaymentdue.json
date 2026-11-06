@@ -1,0 +1,81 @@
+{
+  "number": "471102",
+  "issue_date": "2018-03-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2018-03-05",
+  "buyer_reference": null,
+  "seller": {
+    "name": "Lieferant GmbH",
+    "address": {
+      "street": "Lieferantenstraße 20",
+      "postcode": "80333",
+      "city": "München",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Kunden AG Mitte",
+    "address": {
+      "street": "Kundenstraße 15",
+      "postcode": "69876",
+      "city": "Frankfurt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Trennblätter A4",
+      "seller_item_id": "TB100A4",
+      "quantity": "20.0000",
+      "unit_code": "C62",
+      "unit_price": "9.9000",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "198.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Joghurt Banane",
+      "seller_item_id": "ARNR2",
+      "quantity": "50.0000",
+      "unit_code": "C62",
+      "unit_price": "5.5000",
+      "vat_rate": "7.00",
+      "vat_category": "S",
+      "net_amount": "275.00"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": null,
+  "note": "Rechnung gemäß Bestellung vom 01.03.2018.",
+  "totals": {
+    "net_total": "473.00",
+    "tax_total": "56.87",
+    "gross_total": "529.87",
+    "due_amount": "-529.87",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7.00",
+        "basis": "275.00",
+        "tax": "19.25"
+      },
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "198.00",
+        "tax": "37.62"
+      }
+    ]
+  }
+}

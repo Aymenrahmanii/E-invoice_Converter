@@ -1,0 +1,112 @@
+{
+  "number": "R26-01780",
+  "issue_date": "2026-03-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-29",
+  "delivery_date": "2026-03-17",
+  "buyer_reference": "4568468423",
+  "seller": {
+    "name": "Gerlach Handel GmbH",
+    "address": {
+      "street": "Loosring 689",
+      "postcode": "70475",
+      "city": "Ebersberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE500282428",
+    "electronic_address": "buchhaltung@gerlach.example",
+    "contact": {
+      "name": "Gunda Gertz",
+      "phone": "+49(0)1105 91835",
+      "email": "klaus-gunter@gerlach.example"
+    }
+  },
+  "buyer": {
+    "name": "Stiebitz Technik KG",
+    "address": {
+      "street": "Korbinian-Zobel-Platz 1/7",
+      "postcode": "58394",
+      "city": "Kaiserslautern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE621678040",
+    "electronic_address": "rechnung@stiebitz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "19",
+      "unit_code": "HUR",
+      "unit_price": "85.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1622.79"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "727.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1454.68"
+    },
+    {
+      "line_id": "3",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "38.5",
+      "unit_code": "HUR",
+      "unit_price": "112.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4337.03"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1509.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1509.90"
+    },
+    {
+      "line_id": "5",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2081.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2081.73"
+    }
+  ],
+  "iban": "DE86541777362207585465",
+  "bic": "VJALDEDZXXX",
+  "payment_terms": "Please transfer the amount within 30 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "11006.13",
+    "tax_total": "2091.16",
+    "gross_total": "13097.29",
+    "due_amount": "13097.29",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "11006.13",
+        "tax": "2091.16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "number": "INV-82197",
+  "issue_date": "2026-10-26",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-10-18",
+  "buyer_reference": "4522398564",
+  "seller": {
+    "name": "Tintzmann Bau AG",
+    "address": {
+      "street": "Tony-Grein Groth-Straße 200",
+      "postcode": "11726",
+      "city": "Melsungen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE627694442",
+    "electronic_address": "rechnung@tintzmann.example",
+    "contact": {
+      "name": "Nikolaus Rohleder",
+      "phone": "0188285618",
+      "email": "klaus-gunter@tintzmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Seidel Bau AG",
+    "address": {
+      "street": "Mary-Junken-Ring 67/26",
+      "postcode": "55197",
+      "city": "Meppen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@seidel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "169.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "338.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "748.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "748.40"
+    }
+  ],
+  "iban": "DE07811936653009739555",
+  "bic": "KJLODEW3XXX",
+  "payment_terms": "Net 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "1087.20",
+    "tax_total": "206.57",
+    "gross_total": "1293.77",
+    "due_amount": "1293.77",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1087.20",
+        "tax": "206.57"
+      }
+    ]
+  }
+}

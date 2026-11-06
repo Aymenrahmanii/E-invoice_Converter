@@ -1,0 +1,184 @@
+{
+  "number": "2026/1219",
+  "issue_date": "2026-10-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-05",
+  "delivery_date": null,
+  "buyer_reference": "4556339632",
+  "seller": {
+    "name": "Ring OHG",
+    "address": {
+      "street": "Wirthallee 56-14",
+      "postcode": "17141",
+      "city": "Hammelburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE271448382",
+    "electronic_address": "buchhaltung@ring.example",
+    "contact": {
+      "name": "Alfred Eberth",
+      "phone": "08830958217",
+      "email": "hugo@ring.example"
+    }
+  },
+  "buyer": {
+    "name": "Plath Handel KG",
+    "address": {
+      "street": "Olivia-Gude-Weg 5192",
+      "postcode": "55856",
+      "city": "Höxter",
+      "country_code": "DE"
+    },
+    "vat_id": "DE981934315",
+    "electronic_address": "rechnung@plath.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "16.23",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "308.37"
+    },
+    {
+      "line_id": "2",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "39.31",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "353.79"
+    },
+    {
+      "line_id": "3",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "25.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "410.56"
+    },
+    {
+      "line_id": "4",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "8.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "143.82"
+    },
+    {
+      "line_id": "5",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "7.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "89.76"
+    },
+    {
+      "line_id": "6",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "46.92",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "234.60"
+    },
+    {
+      "line_id": "7",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "14",
+      "unit_code": "LTR",
+      "unit_price": "0.97",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "13.58"
+    },
+    {
+      "line_id": "8",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "175",
+      "unit_code": "C62",
+      "unit_price": "1.20",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "210.00"
+    },
+    {
+      "line_id": "9",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "22.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "111.35"
+    },
+    {
+      "line_id": "10",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "43.18",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "129.54"
+    },
+    {
+      "line_id": "11",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "12.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "109.26"
+    }
+  ],
+  "iban": "DE56590051206975155946",
+  "bic": "CRANDEK0",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2114.63",
+    "tax_total": "251.79",
+    "gross_total": "2366.42",
+    "due_amount": "2366.42",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1249.88",
+        "tax": "87.49"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "864.75",
+        "tax": "164.30"
+      }
+    ]
+  }
+}

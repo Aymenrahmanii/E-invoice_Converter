@@ -1,0 +1,64 @@
+{
+  "number": "47110815",
+  "issue_date": "2018-10-31",
+  "type_code": "380",
+  "currency": "GBP",
+  "due_date": "2018-11-20",
+  "delivery_date": null,
+  "buyer_reference": null,
+  "seller": {
+    "name": "Rohstoff AG Salzgitter",
+    "address": {
+      "street": "Marktstr. 153",
+      "postcode": "38226",
+      "city": "Salzgitter",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Metallbau Leipzig GmbH & Co. KG",
+    "address": {
+      "street": "Pappelallee 15",
+      "postcode": "12345",
+      "city": "Leipzig",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "04 0 11 000 - 12345 12345 - 35",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Stahlcoil",
+      "seller_item_id": "CO-123/V2A",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "100",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "850"
+    }
+  ],
+  "iban": "DE12 1234 4321 9876 00",
+  "bic": null,
+  "payment_terms": "Zahlbar ohne Abschlag bis",
+  "note": "Mitglieder der Geschäftsleitung H. Meier Geschäftsführer T. Müller Prokurist HRB Braunschweig 12345",
+  "totals": {
+    "net_total": "850",
+    "tax_total": "163.16",
+    "gross_total": "1021.91",
+    "due_amount": "521.91",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "858.75",
+        "tax": "163.16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "number": "R26-01147",
+  "issue_date": "2026-05-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-19",
+  "delivery_date": null,
+  "buyer_reference": "4579516497",
+  "seller": {
+    "name": "Hermann Technik KG",
+    "address": {
+      "street": "Arnold-Bohlander-Straße 581",
+      "postcode": "21884",
+      "city": "Gardelegen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE902301975",
+    "electronic_address": "buchhaltung@hermann.example",
+    "contact": {
+      "name": "Jacob Kaul",
+      "phone": "+49(0) 934415150",
+      "email": "gusti@hermann.example"
+    }
+  },
+  "buyer": {
+    "name": "Karge Handel AG",
+    "address": {
+      "street": "Ludwig-Warmer-Ring 414",
+      "postcode": "50308",
+      "city": "Dachau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE177287993",
+    "electronic_address": "rechnung@karge.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "A523869",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2118.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2118.54"
+    },
+    {
+      "line_id": "2",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "ART644464",
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "83.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "920.81"
+    },
+    {
+      "line_id": "3",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "130606",
+      "quantity": "6",
+      "unit_code": "MON",
+      "unit_price": "67.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "404.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "44329",
+      "quantity": "43.5",
+      "unit_code": "HUR",
+      "unit_price": "102.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4438.31"
+    }
+  ],
+  "iban": "DE49271774265194035891",
+  "bic": "XGKSDEHJ",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "7881.76",
+    "tax_total": "1497.53",
+    "gross_total": "9379.29",
+    "due_amount": "9379.29",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "7881.76",
+        "tax": "1497.53"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "number": "INV-83868",
+  "issue_date": "2026-07-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-01",
+  "delivery_date": "2026-06-19",
+  "buyer_reference": "4569292330",
+  "seller": {
+    "name": "Klemm Bau AG",
+    "address": {
+      "street": "Schmiedeckeweg 94-85",
+      "postcode": "32494",
+      "city": "Ebern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE701490534",
+    "electronic_address": "buchhaltung@klemm.example",
+    "contact": {
+      "name": "Karl-Peter Stahr",
+      "phone": "02478 857924",
+      "email": "felicia@klemm.example"
+    }
+  },
+  "buyer": {
+    "name": "Heser Handel KG",
+    "address": {
+      "street": "Wielochstr. 8-6",
+      "postcode": "04551",
+      "city": "Bremervörde",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@heser.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "8.5",
+      "unit_code": "HUR",
+      "unit_price": "90.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "765.17"
+    },
+    {
+      "line_id": "2",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1955.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1955.67"
+    }
+  ],
+  "iban": "DE29489009166603677038",
+  "bic": null,
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "2720.84",
+    "tax_total": "516.96",
+    "gross_total": "3237.80",
+    "due_amount": "3237.80",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2720.84",
+        "tax": "516.96"
+      }
+    ]
+  }
+}

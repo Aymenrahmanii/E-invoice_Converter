@@ -1,0 +1,90 @@
+{
+  "number": "2026/9836",
+  "issue_date": "2026-09-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-25",
+  "delivery_date": null,
+  "buyer_reference": "4508065921",
+  "seller": {
+    "name": "Preiß Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Editha-Gotthard-Allee 1",
+      "postcode": "53329",
+      "city": "Scheinfeld",
+      "country_code": "DE"
+    },
+    "vat_id": "DE702769666",
+    "electronic_address": "info@prei.example",
+    "contact": {
+      "name": "Annett Knappe-Roht",
+      "phone": "03010 38546",
+      "email": "dorle@prei.example"
+    }
+  },
+  "buyer": {
+    "name": "Röhrdanz & Beckmann e.K.",
+    "address": {
+      "street": "Jockelallee 15/87",
+      "postcode": "26869",
+      "city": "Seelow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE875205762",
+    "electronic_address": "rechnung@rohrdanz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "31",
+      "unit_code": "MTK",
+      "unit_price": "14.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "435.24"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "63.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "63.10"
+    },
+    {
+      "line_id": "3",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "8.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "51.06"
+    }
+  ],
+  "iban": "DE50461789284834233687",
+  "bic": "MTVRDECGXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "549.40",
+    "tax_total": "104.39",
+    "gross_total": "653.79",
+    "due_amount": "653.79",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "549.40",
+        "tax": "104.39"
+      }
+    ]
+  }
+}

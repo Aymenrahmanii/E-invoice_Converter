@@ -1,0 +1,79 @@
+{
+  "number": "INV-89998",
+  "issue_date": "2026-02-14",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-02-11",
+  "buyer_reference": "4521331720",
+  "seller": {
+    "name": "Christoph OHG",
+    "address": {
+      "street": "Theresia-Köhler-Straße 8-2",
+      "postcode": "37062",
+      "city": "Herford",
+      "country_code": "DE"
+    },
+    "vat_id": "DE529801058",
+    "electronic_address": "buchhaltung@christoph.example",
+    "contact": {
+      "name": "Jan Schmidt",
+      "phone": "06540 362053",
+      "email": "birgitta@christoph.example"
+    }
+  },
+  "buyer": {
+    "name": "Blümel Bau OHG",
+    "address": {
+      "street": "Carlos-Werner-Straße 29/95",
+      "postcode": "73605",
+      "city": "Merseburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE830466204",
+    "electronic_address": "rechnung@blumel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "12.5",
+      "unit_code": "HUR",
+      "unit_price": "64.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "809.88"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "13",
+      "unit_code": "HUR",
+      "unit_price": "30.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "396.76"
+    }
+  ],
+  "iban": "DE63138433147556218588",
+  "bic": "LCRQDEI6",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1206.64",
+    "tax_total": "229.26",
+    "gross_total": "1435.90",
+    "due_amount": "1435.90",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1206.64",
+        "tax": "229.26"
+      }
+    ]
+  }
+}

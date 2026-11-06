@@ -1,0 +1,101 @@
+{
+  "number": "2026/7134",
+  "issue_date": "2026-08-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-08",
+  "delivery_date": "2026-08-06",
+  "buyer_reference": "05855-26819-13",
+  "seller": {
+    "name": "Losekann & Ruppert OHG",
+    "address": {
+      "street": "Brit-Fritsch-Platz 577",
+      "postcode": "76830",
+      "city": "Bad Freienwalde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE671572831",
+    "electronic_address": "buchhaltung@losekann.example",
+    "contact": {
+      "name": "Univ.Prof. Hedy Grein Groth B.Sc.",
+      "phone": "+49(0)2692 256153",
+      "email": "dennis@losekann.example"
+    }
+  },
+  "buyer": {
+    "name": "Stiebitz Digital GmbH",
+    "address": {
+      "street": "Friedo-Loos-Platz 53",
+      "postcode": "78078",
+      "city": "Burglengenfeld",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@stiebitz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "MON",
+      "unit_price": "184.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "737.84"
+    },
+    {
+      "line_id": "2",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1070.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1070.32"
+    },
+    {
+      "line_id": "3",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1283.07",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2566.14"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "985.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1970.46"
+    }
+  ],
+  "iban": "DE41181621784546597929",
+  "bic": "RNDVDEBE",
+  "payment_terms": "Payment due within 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "6344.76",
+    "tax_total": "1205.50",
+    "gross_total": "7550.26",
+    "due_amount": "7550.26",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6344.76",
+        "tax": "1205.50"
+      }
+    ]
+  }
+}

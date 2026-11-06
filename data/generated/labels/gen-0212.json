@@ -1,0 +1,156 @@
+{
+  "number": "203159",
+  "issue_date": "2026-09-12",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-09-05",
+  "buyer_reference": "4550612463",
+  "seller": {
+    "name": "Oestrovsky Technik OHG",
+    "address": {
+      "street": "Jobst-Metz-Platz 23-22",
+      "postcode": "61441",
+      "city": "Gifhorn",
+      "country_code": "DE"
+    },
+    "vat_id": "DE143950625",
+    "electronic_address": "info@oestrovsky.example",
+    "contact": {
+      "name": "Univ.Prof. Hans-Detlef Wirth",
+      "phone": "0901707801",
+      "email": "lisa@oestrovsky.example"
+    }
+  },
+  "buyer": {
+    "name": "Lübs Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Jolanda-Steuer-Straße 12",
+      "postcode": "34894",
+      "city": "Bad Kreuznach",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@lubs.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A524432",
+      "quantity": "1",
+      "unit_code": "SET",
+      "unit_price": "84.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "84.66"
+    },
+    {
+      "line_id": "2",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A81047",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "57.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1500.98"
+    },
+    {
+      "line_id": "3",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "463617",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "13.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "26.90"
+    },
+    {
+      "line_id": "4",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-95023",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "180.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "540.75"
+    },
+    {
+      "line_id": "5",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "251722",
+      "quantity": "43",
+      "unit_code": "C62",
+      "unit_price": "30.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1303.33"
+    },
+    {
+      "line_id": "6",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "132151",
+      "quantity": "101",
+      "unit_code": "C62",
+      "unit_price": "5.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "521.16"
+    },
+    {
+      "line_id": "7",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "SKU-103603",
+      "quantity": "19",
+      "unit_code": "PR",
+      "unit_price": "2.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "56.81"
+    },
+    {
+      "line_id": "8",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "853350",
+      "quantity": "15",
+      "unit_code": "C62",
+      "unit_price": "7.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "112.65"
+    },
+    {
+      "line_id": "9",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "A43718",
+      "quantity": "46",
+      "unit_code": "MTR",
+      "unit_price": "3.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "169.74"
+    }
+  ],
+  "iban": "DE53170727594057771263",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "4316.98",
+    "tax_total": "820.23",
+    "gross_total": "5137.21",
+    "due_amount": "5137.21",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4316.98",
+        "tax": "820.23"
+      }
+    ]
+  }
+}

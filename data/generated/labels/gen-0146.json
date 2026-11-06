@@ -1,0 +1,123 @@
+{
+  "number": "R26-07853",
+  "issue_date": "2026-09-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-17",
+  "delivery_date": "2026-09-09",
+  "buyer_reference": "4505703879",
+  "seller": {
+    "name": "Trubin & Schwital GmbH & Co. KG",
+    "address": {
+      "street": "German-Krein-Weg 98/89",
+      "postcode": "25465",
+      "city": "Malchin",
+      "country_code": "DE"
+    },
+    "vat_id": "DE628088315",
+    "electronic_address": "info@trubin.example",
+    "contact": {
+      "name": "Hans-Herbert Süßebier-Röhrdanz",
+      "phone": "+49(0)8820 58747",
+      "email": "sven@trubin.example"
+    }
+  },
+  "buyer": {
+    "name": "Kabus Digital OHG",
+    "address": {
+      "street": "Sorgatzweg 1-4",
+      "postcode": "67732",
+      "city": "Böblingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE407631772",
+    "electronic_address": "buchhaltung@kabus.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "703.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "703.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "MON",
+      "unit_price": "650.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1951.41"
+    },
+    {
+      "line_id": "3",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "73.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "657.54"
+    },
+    {
+      "line_id": "4",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "HUR",
+      "unit_price": "103.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.03"
+    },
+    {
+      "line_id": "5",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2153.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2153.85"
+    },
+    {
+      "line_id": "6",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2.5",
+      "unit_code": "DAY",
+      "unit_price": "1219.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3047.60"
+    }
+  ],
+  "iban": "DE64426977344053249507",
+  "bic": "FBWCDEYV",
+  "payment_terms": "Net 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "8617.03",
+    "tax_total": "1637.24",
+    "gross_total": "10254.27",
+    "due_amount": "10254.27",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8617.03",
+        "tax": "1637.24"
+      }
+    ]
+  }
+}

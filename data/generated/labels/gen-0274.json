@@ -1,0 +1,464 @@
+{
+  "number": "2026/4802",
+  "issue_date": "2026-09-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-09-27",
+  "buyer_reference": "4593220507",
+  "seller": {
+    "name": "Radisch Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Astrid-Weller-Allee 66",
+      "postcode": "74739",
+      "city": "Düren",
+      "country_code": "DE"
+    },
+    "vat_id": "DE927359493",
+    "electronic_address": "invoice@radisch.example",
+    "contact": {
+      "name": "Paul-Gerhard Nette",
+      "phone": "02352 403269",
+      "email": "marek@radisch.example"
+    }
+  },
+  "buyer": {
+    "name": "Heinz Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Otmar-Steuer-Platz 9",
+      "postcode": "35296",
+      "city": "Ingolstadt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@heinz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-714758",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "185.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "928.05"
+    },
+    {
+      "line_id": "2",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A340526",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "117.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "588.25"
+    },
+    {
+      "line_id": "3",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "833871",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "146.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1025.71"
+    },
+    {
+      "line_id": "4",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-903588",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "19.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "19.29"
+    },
+    {
+      "line_id": "5",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "406086",
+      "quantity": "95",
+      "unit_code": "C62",
+      "unit_price": "4.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "428.45"
+    },
+    {
+      "line_id": "6",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-802476",
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "36.11",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "613.87"
+    },
+    {
+      "line_id": "7",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A573985",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "11.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "67.08"
+    },
+    {
+      "line_id": "8",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "272184",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "49.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "197.44"
+    },
+    {
+      "line_id": "9",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-253982",
+      "quantity": "46",
+      "unit_code": "C62",
+      "unit_price": "47.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2187.76"
+    },
+    {
+      "line_id": "10",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-44149",
+      "quantity": "1074",
+      "unit_code": "KGM",
+      "unit_price": "0.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "332.94"
+    },
+    {
+      "line_id": "11",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "909340",
+      "quantity": "38",
+      "unit_code": "PR",
+      "unit_price": "4.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "167.58"
+    },
+    {
+      "line_id": "12",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "SKU-221205",
+      "quantity": "40",
+      "unit_code": "C62",
+      "unit_price": "14.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "570.00"
+    },
+    {
+      "line_id": "13",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "SKU-634413",
+      "quantity": "28",
+      "unit_code": "C62",
+      "unit_price": "4.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "137.20"
+    },
+    {
+      "line_id": "14",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "SKU-985858",
+      "quantity": "43",
+      "unit_code": "C62",
+      "unit_price": "5.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "238.65"
+    },
+    {
+      "line_id": "15",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-603498",
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "52.82",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "686.66"
+    },
+    {
+      "line_id": "16",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-939697",
+      "quantity": "31",
+      "unit_code": "C62",
+      "unit_price": "24.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "748.65"
+    },
+    {
+      "line_id": "17",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "373454",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "159.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "478.56"
+    },
+    {
+      "line_id": "18",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A986703",
+      "quantity": "2",
+      "unit_code": "SET",
+      "unit_price": "64.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "128.52"
+    },
+    {
+      "line_id": "19",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-379173",
+      "quantity": "1885",
+      "unit_code": "KGM",
+      "unit_price": "0.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "584.35"
+    },
+    {
+      "line_id": "20",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A255011",
+      "quantity": "24",
+      "unit_code": "C62",
+      "unit_price": "7.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "171.84"
+    },
+    {
+      "line_id": "21",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "A825437",
+      "quantity": "52",
+      "unit_code": "MTR",
+      "unit_price": "3.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "186.68"
+    },
+    {
+      "line_id": "22",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A903570",
+      "quantity": "46",
+      "unit_code": "C62",
+      "unit_price": "4.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "191.36"
+    },
+    {
+      "line_id": "23",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-231515",
+      "quantity": "4",
+      "unit_code": "KGM",
+      "unit_price": "0.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "0.80"
+    },
+    {
+      "line_id": "24",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "138741",
+      "quantity": "21",
+      "unit_code": "C62",
+      "unit_price": "13.07",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "274.47"
+    },
+    {
+      "line_id": "25",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "SKU-176261",
+      "quantity": "53",
+      "unit_code": "PR",
+      "unit_price": "4.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "236.38"
+    },
+    {
+      "line_id": "26",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "SKU-925874",
+      "quantity": "46",
+      "unit_code": "PR",
+      "unit_price": "2.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "129.26"
+    },
+    {
+      "line_id": "27",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "SKU-118259",
+      "quantity": "71",
+      "unit_code": "C62",
+      "unit_price": "5.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "382.69"
+    },
+    {
+      "line_id": "28",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-359729",
+      "quantity": "308",
+      "unit_code": "MTK",
+      "unit_price": "3.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1013.32"
+    },
+    {
+      "line_id": "29",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "ART693211",
+      "quantity": "205",
+      "unit_code": "MTR",
+      "unit_price": "1.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "256.25"
+    },
+    {
+      "line_id": "30",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-213679",
+      "quantity": "102",
+      "unit_code": "C62",
+      "unit_price": "2.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "214.20"
+    },
+    {
+      "line_id": "31",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART483211",
+      "quantity": "160",
+      "unit_code": "LTR",
+      "unit_price": "3.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "612.80"
+    },
+    {
+      "line_id": "32",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "415543",
+      "quantity": "106",
+      "unit_code": "MTR",
+      "unit_price": "6.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "672.04"
+    },
+    {
+      "line_id": "33",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "ART938951",
+      "quantity": "582.5",
+      "unit_code": "KGM",
+      "unit_price": "0.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "203.88"
+    },
+    {
+      "line_id": "34",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "ART312388",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "40.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "162.68"
+    },
+    {
+      "line_id": "35",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART307004",
+      "quantity": "9",
+      "unit_code": "SET",
+      "unit_price": "105.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "946.08"
+    },
+    {
+      "line_id": "36",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A316247",
+      "quantity": "38",
+      "unit_code": "C62",
+      "unit_price": "14.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "554.80"
+    },
+    {
+      "line_id": "37",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A706020",
+      "quantity": "97",
+      "unit_code": "C62",
+      "unit_price": "6.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "616.92"
+    }
+  ],
+  "iban": "DE61294498933318412611",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "16955.46",
+    "tax_total": "3221.54",
+    "gross_total": "20177.00",
+    "due_amount": "20177.00",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "16955.46",
+        "tax": "3221.54"
+      }
+    ]
+  }
+}

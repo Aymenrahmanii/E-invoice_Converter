@@ -1,0 +1,145 @@
+{
+  "number": "608807",
+  "issue_date": "2026-03-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-03-05",
+  "buyer_reference": "4592454837",
+  "seller": {
+    "name": "Etzold Service KG",
+    "address": {
+      "street": "Nelli-Pieper-Weg 5661",
+      "postcode": "45955",
+      "city": "Angermünde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE821538029",
+    "electronic_address": "info@etzold.example",
+    "contact": {
+      "name": "Ing. Gundolf Conradi",
+      "phone": "05459 578581",
+      "email": "hans-peter@etzold.example"
+    }
+  },
+  "buyer": {
+    "name": "Lindau Technik AG",
+    "address": {
+      "street": "Zahnring 6/9",
+      "postcode": "00857",
+      "city": "Schwäbisch Gmünd",
+      "country_code": "DE"
+    },
+    "vat_id": "DE510369451",
+    "electronic_address": "rechnung@lindau.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "833910",
+      "quantity": "247",
+      "unit_code": "MTR",
+      "unit_price": "1.01",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "249.47"
+    },
+    {
+      "line_id": "2",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "552370",
+      "quantity": "18",
+      "unit_code": "MTR",
+      "unit_price": "4.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "75.42"
+    },
+    {
+      "line_id": "3",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "ART256068",
+      "quantity": "51",
+      "unit_code": "C62",
+      "unit_price": "5.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "266.73"
+    },
+    {
+      "line_id": "4",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "747254",
+      "quantity": "86",
+      "unit_code": "LTR",
+      "unit_price": "3.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "343.14"
+    },
+    {
+      "line_id": "5",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART947827",
+      "quantity": "41",
+      "unit_code": "C62",
+      "unit_price": "7.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "299.30"
+    },
+    {
+      "line_id": "6",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "A536179",
+      "quantity": "191",
+      "unit_code": "C62",
+      "unit_price": "1.38",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "263.58"
+    },
+    {
+      "line_id": "7",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "655371",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "9.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "187.40"
+    },
+    {
+      "line_id": "8",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-462332",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "133.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "934.29"
+    }
+  ],
+  "iban": "DE06815887104309836120",
+  "bic": "BCTDDEQWXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2619.33",
+    "tax_total": "497.67",
+    "gross_total": "3117.00",
+    "due_amount": "3117.00",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2619.33",
+        "tax": "497.67"
+      }
+    ]
+  }
+}

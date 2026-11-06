@@ -1,0 +1,46 @@
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+body { font-family: "DejaVu Sans Mono", "Courier New", monospace; font-size: 8.5pt; }
+pre { font-family: inherit; margin: 0; }
+.items td, .items th { padding: 1pt 3pt; }
+.items th { border-top: 1pt dashed #000; border-bottom: 1pt dashed #000; text-align: left; font-weight: normal; }
+hr { border: 0; border-top: 1pt dashed #000; }
+</style></head><body>
+<pre>{{ inv.seller.name | upper }}
+{{ inv.seller.address.street }}
+{{ inv.seller.address.postcode }} {{ inv.seller.address.city }}
+TEL {{ inv.seller.contact.phone }}   UST-ID {{ inv.seller.vat_id }}
+
+
+{{ inv.buyer.name }}
+{{ inv.buyer.address.street }}
+{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}
+
+
+R E C H N U N G
+
+RECHNUNGS-NR. : {{ inv.number }}
+DATUM         : {{ fmt.date(inv.issue_date) }}
+{% if inv.delivery_date %}
+LIEFERDATUM   : {{ fmt.date(inv.delivery_date) }}
+{% endif %}
+{{ "LEITWEG-ID    : " if leitweg else "BESTELL-NR.   : " }}{{ inv.buyer_reference }}
+{% if inv.buyer.vat_id %}
+KD-UST-ID     : {{ inv.buyer.vat_id }}
+{% endif %}
+</pre>
+<table class="items" style="margin-top:4mm"><thead><tr><th>POS</th><th>ARTIKEL</th><th>BEZEICHNUNG</th><th class="r">MENGE</th><th>ME</th><th class="r">PREIS</th><th class="r">MWST</th><th class="r">BETRAG</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ "%03d" | format(l.line_id | int) }}</td><td>{{ l.seller_item_id or "-" }}</td><td>{{ l.description | upper }}</td><td class="r">{{ fmt.number(l.quantity) }}</td><td>{{ fmt.unit(l.unit_code) }}</td><td class="r">{{ fmt.money(l.unit_price) }}</td><td class="r">{{ fmt.number(l.vat_rate) }}</td><td class="r">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<hr>
+<table style="width:60%; margin-left:auto"><tr><td>NETTO</td><td class="r">{{ fmt.money(inv.net_total) }}</td></tr>
+{% for v in vat %}<tr><td>MWST {{ fmt.number(v.rate) }}% VON {{ fmt.money(v.basis) }}</td><td class="r">{{ fmt.money(v.tax) }}</td></tr>{% endfor %}
+<tr><td>========</td><td class="r">========</td></tr><tr><td>GESAMTBETRAG</td><td class="r">{{ fmt.money(inv.gross_total) }}</td></tr></table>
+<pre>
+
+{{ inv.payment_terms | upper }}
+{% if inv.due_date %}
+FAELLIG AM {{ fmt.date(inv.due_date) }}
+{% endif %}
+BANK: IBAN {{ inv.iban }}{% if inv.bic %} BIC {{ inv.bic }}{% endif %}
+
+</pre></body></html>

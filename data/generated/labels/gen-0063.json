@@ -1,0 +1,68 @@
+{
+  "number": "R26-06810",
+  "issue_date": "2026-01-12",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-22",
+  "delivery_date": "2026-01-05",
+  "buyer_reference": "16091967-2822-41",
+  "seller": {
+    "name": "Barkholz Bau KG",
+    "address": {
+      "street": "Kambsallee 2490",
+      "postcode": "89766",
+      "city": "Luckau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE429198042",
+    "electronic_address": "invoice@barkholz.example",
+    "contact": {
+      "name": "Carmela Henk",
+      "phone": "+49 (0) 7727 180835",
+      "email": "pietro@barkholz.example"
+    }
+  },
+  "buyer": {
+    "name": "Reuter Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Kochplatz 3856",
+      "postcode": "32957",
+      "city": "Ueckermünde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE647128448",
+    "electronic_address": "invoice@reuter.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": "565067",
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "1311.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6557.75"
+    }
+  ],
+  "iban": "DE81377599619456214864",
+  "bic": "FUEGDEZJXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "6557.75",
+    "tax_total": "1245.97",
+    "gross_total": "7803.72",
+    "due_amount": "7803.72",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6557.75",
+        "tax": "1245.97"
+      }
+    ]
+  }
+}

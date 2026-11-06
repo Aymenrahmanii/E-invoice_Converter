@@ -1,0 +1,101 @@
+{
+  "number": "202605-2751",
+  "issue_date": "2026-05-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-01",
+  "delivery_date": "2026-05-18",
+  "buyer_reference": "4592870120",
+  "seller": {
+    "name": "Hofmann Service GmbH & Co. KG",
+    "address": {
+      "street": "Klaus-Jürgen-Mangold-Ring 299",
+      "postcode": "48362",
+      "city": "Kassel",
+      "country_code": "DE"
+    },
+    "vat_id": "DE622406152",
+    "electronic_address": "invoice@hofmann.example",
+    "contact": {
+      "name": "Mariola Hornich",
+      "phone": "(02060) 07716",
+      "email": "ernst-august@hofmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Martin Technik e.K.",
+    "address": {
+      "street": "Annelies-Schäfer-Straße 4",
+      "postcode": "36946",
+      "city": "Hainichen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE618627600",
+    "electronic_address": "invoice@martin.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "824274",
+      "quantity": "24",
+      "unit_code": "HUR",
+      "unit_price": "118.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2855.28"
+    },
+    {
+      "line_id": "2",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": "ART958653",
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1306.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1306.47"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": "A985595",
+      "quantity": "0.5",
+      "unit_code": "DAY",
+      "unit_price": "1478.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "739.01"
+    },
+    {
+      "line_id": "4",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "SKU-111926",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "74.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "520.38"
+    }
+  ],
+  "iban": "DE27233981997654908153",
+  "bic": "VCNDDEK8",
+  "payment_terms": "Payment due within 10 days.",
+  "note": null,
+  "totals": {
+    "net_total": "5421.14",
+    "tax_total": "1030.02",
+    "gross_total": "6451.16",
+    "due_amount": "6451.16",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5421.14",
+        "tax": "1030.02"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "number": "2026/5734",
+  "issue_date": "2026-10-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4546512471",
+  "seller": {
+    "name": "Röhrdanz AG",
+    "address": {
+      "street": "Heringweg 564",
+      "postcode": "58227",
+      "city": "Nürtingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE295525174",
+    "electronic_address": "info@rohrdanz.example",
+    "contact": {
+      "name": "Ewald Mosemann",
+      "phone": "+49(0)5670 696564",
+      "email": "sandro@rohrdanz.example"
+    }
+  },
+  "buyer": {
+    "name": "Junitz e.K.",
+    "address": {
+      "street": "Niels-Kohl-Weg 5317",
+      "postcode": "14270",
+      "city": "Nabburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE652223427",
+    "electronic_address": "info@junitz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "21.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "168.96"
+    },
+    {
+      "line_id": "2",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "25",
+      "unit_code": "C62",
+      "unit_price": "5.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "147.75"
+    },
+    {
+      "line_id": "3",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "0.83",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "1.66"
+    },
+    {
+      "line_id": "4",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "25",
+      "unit_code": "LTR",
+      "unit_price": "1.13",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "28.25"
+    },
+    {
+      "line_id": "5",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "13.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "65.65"
+    },
+    {
+      "line_id": "6",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "38.09",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "190.45"
+    }
+  ],
+  "iban": "DE95362196140766981329",
+  "bic": "EPIDDEPHXXX",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "602.72",
+    "tax_total": "88.08",
+    "gross_total": "690.80",
+    "due_amount": "690.80",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "220.36",
+        "tax": "15.43"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "382.36",
+        "tax": "72.65"
+      }
+    ]
+  }
+}

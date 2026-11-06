@@ -1,0 +1,178 @@
+{
+  "number": "690233",
+  "issue_date": "2026-03-16",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-23",
+  "delivery_date": "2026-03-15",
+  "buyer_reference": "4524077797",
+  "seller": {
+    "name": "Fiebig Handel GmbH",
+    "address": {
+      "street": "Heinz-Dieter-Karz-Ring 1570",
+      "postcode": "44718",
+      "city": "Nabburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE545090968",
+    "electronic_address": "rechnung@fiebig.example",
+    "contact": {
+      "name": "Dr. Gerard Sontag",
+      "phone": "(08982) 93829",
+      "email": "elsbeth@fiebig.example"
+    }
+  },
+  "buyer": {
+    "name": "Stroh & Tintzmann AG",
+    "address": {
+      "street": "Felix-Boucsein-Weg 21",
+      "postcode": "82194",
+      "city": "Hannoversch Münden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE481766054",
+    "electronic_address": "rechnung@stroh.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "A133139",
+      "quantity": "19",
+      "unit_code": "LTR",
+      "unit_price": "3.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "68.59"
+    },
+    {
+      "line_id": "2",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "A125195",
+      "quantity": "68",
+      "unit_code": "MTK",
+      "unit_price": "3.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "249.56"
+    },
+    {
+      "line_id": "3",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "A591729",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "24.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "241.70"
+    },
+    {
+      "line_id": "4",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART318382",
+      "quantity": "22",
+      "unit_code": "C62",
+      "unit_price": "4.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "94.60"
+    },
+    {
+      "line_id": "5",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "ART368040",
+      "quantity": "325",
+      "unit_code": "MTR",
+      "unit_price": "0.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "286.00"
+    },
+    {
+      "line_id": "6",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "511307",
+      "quantity": "25",
+      "unit_code": "C62",
+      "unit_price": "26.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "671.00"
+    },
+    {
+      "line_id": "7",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "ART413721",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "137.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "689.00"
+    },
+    {
+      "line_id": "8",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "950410",
+      "quantity": "36",
+      "unit_code": "C62",
+      "unit_price": "12.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "446.40"
+    },
+    {
+      "line_id": "9",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "A866541",
+      "quantity": "99",
+      "unit_code": "C62",
+      "unit_price": "1.38",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "136.62"
+    },
+    {
+      "line_id": "10",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "SKU-373231",
+      "quantity": "171",
+      "unit_code": "MTR",
+      "unit_price": "5.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "996.93"
+    },
+    {
+      "line_id": "11",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "SKU-778081",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "4.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4.94"
+    }
+  ],
+  "iban": "DE63663364994250233749",
+  "bic": "ZTPCDEPN",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "3885.34",
+    "tax_total": "738.21",
+    "gross_total": "4623.55",
+    "due_amount": "4623.55",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3885.34",
+        "tax": "738.21"
+      }
+    ]
+  }
+}

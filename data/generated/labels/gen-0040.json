@@ -1,0 +1,145 @@
+{
+  "number": "202609-2863",
+  "issue_date": "2026-09-29",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4525521084",
+  "seller": {
+    "name": "Radisch Handel GmbH & Co. KG",
+    "address": {
+      "street": "Sigismund-Otto-Gasse 68/62",
+      "postcode": "55388",
+      "city": "Fürstenfeldbruck",
+      "country_code": "DE"
+    },
+    "vat_id": "DE179373197",
+    "electronic_address": "rechnung@radisch.example",
+    "contact": {
+      "name": "Prof. Frederike Zirme",
+      "phone": "(07707) 43623",
+      "email": "erdal@radisch.example"
+    }
+  },
+  "buyer": {
+    "name": "Bloch Service AG",
+    "address": {
+      "street": "Weimergasse 57-41",
+      "postcode": "24877",
+      "city": "Erkelenz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE116841267",
+    "electronic_address": "info@bloch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "LS",
+      "unit_price": "46.11",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "92.22"
+    },
+    {
+      "line_id": "2",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "38",
+      "unit_code": "MTK",
+      "unit_price": "16.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "635.74"
+    },
+    {
+      "line_id": "3",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "HUR",
+      "unit_price": "29.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "178.38"
+    },
+    {
+      "line_id": "4",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "60.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "60.99"
+    },
+    {
+      "line_id": "5",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "37.5",
+      "unit_code": "MTR",
+      "unit_price": "11.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "441.00"
+    },
+    {
+      "line_id": "6",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": null,
+      "quantity": "7.5",
+      "unit_code": "HUR",
+      "unit_price": "56.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "420.60"
+    },
+    {
+      "line_id": "7",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "6.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "50.72"
+    },
+    {
+      "line_id": "8",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "11.44",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "57.20"
+    }
+  ],
+  "iban": "DE42612660459120276690",
+  "bic": "EWNSDES0XXX",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1936.85",
+    "tax_total": "368.00",
+    "gross_total": "2304.85",
+    "due_amount": "2304.85",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1936.85",
+        "tax": "368.00"
+      }
+    ]
+  }
+}

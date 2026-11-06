@@ -1,0 +1,118 @@
+{
+  "number": "INV-66519",
+  "issue_date": "2026-03-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-19",
+  "delivery_date": "2026-03-13",
+  "buyer_reference": "10726-75439-94",
+  "seller": {
+    "name": "Fliegner Bau OHG",
+    "address": {
+      "street": "Mesut-Anders-Ring 26/47",
+      "postcode": "85279",
+      "city": "Holzminden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE587219951",
+    "electronic_address": "invoice@fliegner.example",
+    "contact": {
+      "name": "Frau Sibylle Renner B.Sc.",
+      "phone": "(05224) 68606",
+      "email": "kathe@fliegner.example"
+    }
+  },
+  "buyer": {
+    "name": "Kreusel Bau e.K.",
+    "address": {
+      "street": "Agnes-Butte-Platz 5/9",
+      "postcode": "49650",
+      "city": "Neustrelitz",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@kreusel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "35.65",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "35.65"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "64",
+      "unit_code": "C62",
+      "unit_price": "19.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1232.64"
+    },
+    {
+      "line_id": "3",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "51.52",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "463.68"
+    },
+    {
+      "line_id": "4",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "22",
+      "unit_code": "C62",
+      "unit_price": "4.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.62"
+    },
+    {
+      "line_id": "5",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "26.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "132.55"
+    }
+  ],
+  "iban": "DE61699475096406458284",
+  "bic": "NSISDES0XXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1968.14",
+    "tax_total": "314.02",
+    "gross_total": "2282.16",
+    "due_amount": "2282.16",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "499.33",
+        "tax": "34.95"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1468.81",
+        "tax": "279.07"
+      }
+    ]
+  }
+}

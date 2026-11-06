@@ -1,0 +1,90 @@
+{
+  "number": "202605-8058",
+  "issue_date": "2026-05-16",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-23",
+  "delivery_date": "2026-05-10",
+  "buyer_reference": "16-26196-28",
+  "seller": {
+    "name": "Hettner Handel GmbH & Co. KG",
+    "address": {
+      "street": "Franz-Xaver-Seifert-Straße 14-85",
+      "postcode": "41064",
+      "city": "Aue",
+      "country_code": "DE"
+    },
+    "vat_id": "DE417195621",
+    "electronic_address": "buchhaltung@hettner.example",
+    "contact": {
+      "name": "Reinhart Trapp",
+      "phone": "0292781925",
+      "email": "olivia@hettner.example"
+    }
+  },
+  "buyer": {
+    "name": "Löchel Bau OHG",
+    "address": {
+      "street": "Lorchgasse 4423",
+      "postcode": "94055",
+      "city": "Hannoversch Münden",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@lochel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1391.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1391.92"
+    },
+    {
+      "line_id": "2",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "61.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "61.55"
+    },
+    {
+      "line_id": "3",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "13.5",
+      "unit_code": "HUR",
+      "unit_price": "79.72",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1076.22"
+    }
+  ],
+  "iban": "DE92439083524487686366",
+  "bic": "KJVWDECMXXX",
+  "payment_terms": "Zahlungsziel: 7 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "2529.69",
+    "tax_total": "480.64",
+    "gross_total": "3010.33",
+    "due_amount": "3010.33",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2529.69",
+        "tax": "480.64"
+      }
+    ]
+  }
+}

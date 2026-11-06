@@ -1,0 +1,68 @@
+{
+  "number": "202606-8342",
+  "issue_date": "2026-06-28",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-05",
+  "delivery_date": null,
+  "buyer_reference": "4585832247",
+  "seller": {
+    "name": "Wende & Thies OHG",
+    "address": {
+      "street": "Friedhilde-Weinhold-Platz 269",
+      "postcode": "26754",
+      "city": "Olpe",
+      "country_code": "DE"
+    },
+    "vat_id": "DE213931979",
+    "electronic_address": "rechnung@wende.example",
+    "contact": {
+      "name": "Necati Scheuermann-Kaul",
+      "phone": "08311 58008",
+      "email": "augusta@wende.example"
+    }
+  },
+  "buyer": {
+    "name": "Otto Digital KG",
+    "address": {
+      "street": "Lisette-Misicher-Weg 20",
+      "postcode": "93117",
+      "city": "Mainburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE162424093",
+    "electronic_address": "rechnung@otto.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2020.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2020.35"
+    }
+  ],
+  "iban": "DE22817644330576502132",
+  "bic": "TCBCDEU2",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2020.35",
+    "tax_total": "383.87",
+    "gross_total": "2404.22",
+    "due_amount": "2404.22",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2020.35",
+        "tax": "383.87"
+      }
+    ]
+  }
+}

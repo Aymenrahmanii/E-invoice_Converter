@@ -1,0 +1,112 @@
+{
+  "number": "2026/1535",
+  "issue_date": "2026-09-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-11",
+  "delivery_date": "2026-08-31",
+  "buyer_reference": "4563298603",
+  "seller": {
+    "name": "Staude Technik KG",
+    "address": {
+      "street": "Chantal-Scholtz-Platz 9/7",
+      "postcode": "25541",
+      "city": "Guben",
+      "country_code": "DE"
+    },
+    "vat_id": "DE318392440",
+    "electronic_address": "info@staude.example",
+    "contact": {
+      "name": "Anka Ernst",
+      "phone": "(01582) 56821",
+      "email": "ellen@staude.example"
+    }
+  },
+  "buyer": {
+    "name": "Davids AG",
+    "address": {
+      "street": "Zänkerweg 8/3",
+      "postcode": "04380",
+      "city": "Freudenstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE110740745",
+    "electronic_address": "rechnung@davids.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "837.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1674.42"
+    },
+    {
+      "line_id": "2",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1980.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1980.84"
+    },
+    {
+      "line_id": "3",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "23",
+      "unit_code": "HUR",
+      "unit_price": "113.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2616.94"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1143.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1714.94"
+    },
+    {
+      "line_id": "5",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "121.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "851.55"
+    }
+  ],
+  "iban": "DE91383416814857403308",
+  "bic": "AEBRDECBXXX",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "8838.69",
+    "tax_total": "1679.35",
+    "gross_total": "10518.04",
+    "due_amount": "10518.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8838.69",
+        "tax": "1679.35"
+      }
+    ]
+  }
+}

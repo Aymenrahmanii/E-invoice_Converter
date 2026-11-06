@@ -1,0 +1,255 @@
+{
+  "number": "R26-01991",
+  "issue_date": "2026-09-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-29",
+  "delivery_date": "2026-09-02",
+  "buyer_reference": "08167-78374-18",
+  "seller": {
+    "name": "Paffrath Digital GmbH & Co. KG",
+    "address": {
+      "street": "Kühnertgasse 33-91",
+      "postcode": "17072",
+      "city": "Säckingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE818839924",
+    "electronic_address": "invoice@paffrath.example",
+    "contact": {
+      "name": "Herr Sergei Anders B.Sc.",
+      "phone": "+49 (0) 1237 947392",
+      "email": "klemens@paffrath.example"
+    }
+  },
+  "buyer": {
+    "name": "Wohlgemut Technik KG",
+    "address": {
+      "street": "Claus-Riehl-Ring 6-6",
+      "postcode": "58095",
+      "city": "Merseburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE685007063",
+    "electronic_address": "info@wohlgemut.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "ART310428",
+      "quantity": "199",
+      "unit_code": "MTR",
+      "unit_price": "6.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1355.19"
+    },
+    {
+      "line_id": "2",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "ART910957",
+      "quantity": "32",
+      "unit_code": "C62",
+      "unit_price": "0.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "31.68"
+    },
+    {
+      "line_id": "3",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "422422",
+      "quantity": "48",
+      "unit_code": "C62",
+      "unit_price": "4.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "232.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "849982",
+      "quantity": "23",
+      "unit_code": "C62",
+      "unit_price": "6.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "160.31"
+    },
+    {
+      "line_id": "5",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A641762",
+      "quantity": "47",
+      "unit_code": "C62",
+      "unit_price": "8.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "383.05"
+    },
+    {
+      "line_id": "6",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "ART822639",
+      "quantity": "232",
+      "unit_code": "MTK",
+      "unit_price": "4.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1113.60"
+    },
+    {
+      "line_id": "7",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-416338",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "23.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "231.20"
+    },
+    {
+      "line_id": "8",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "A839240",
+      "quantity": "479",
+      "unit_code": "MTR",
+      "unit_price": "0.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "368.83"
+    },
+    {
+      "line_id": "9",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A288697",
+      "quantity": "30",
+      "unit_code": "C62",
+      "unit_price": "48.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1463.70"
+    },
+    {
+      "line_id": "10",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "1609",
+      "quantity": "29",
+      "unit_code": "C62",
+      "unit_price": "26.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "765.60"
+    },
+    {
+      "line_id": "11",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A191900",
+      "quantity": "1168.5",
+      "unit_code": "KGM",
+      "unit_price": "0.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "233.70"
+    },
+    {
+      "line_id": "12",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "503008",
+      "quantity": "1",
+      "unit_code": "PR",
+      "unit_price": "2.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2.23"
+    },
+    {
+      "line_id": "13",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART440158",
+      "quantity": "4",
+      "unit_code": "SET",
+      "unit_price": "77.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "308.84"
+    },
+    {
+      "line_id": "14",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "A725694",
+      "quantity": "36",
+      "unit_code": "C62",
+      "unit_price": "15.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "560.88"
+    },
+    {
+      "line_id": "15",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A31744",
+      "quantity": "38",
+      "unit_code": "C62",
+      "unit_price": "11.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "453.72"
+    },
+    {
+      "line_id": "16",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART666372",
+      "quantity": "24",
+      "unit_code": "LTR",
+      "unit_price": "4.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "101.52"
+    },
+    {
+      "line_id": "17",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART902223",
+      "quantity": "22",
+      "unit_code": "C62",
+      "unit_price": "5.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "120.56"
+    },
+    {
+      "line_id": "18",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A585723",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "138.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "966.21"
+    }
+  ],
+  "iban": "DE55654434274392315949",
+  "bic": "UMJYDER2",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "8853.62",
+    "tax_total": "1682.19",
+    "gross_total": "10535.81",
+    "due_amount": "10535.81",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8853.62",
+        "tax": "1682.19"
+      }
+    ]
+  }
+}

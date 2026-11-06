@@ -1,0 +1,79 @@
+{
+  "number": "INV-94189",
+  "issue_date": "2026-02-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-23",
+  "delivery_date": null,
+  "buyer_reference": "4546385973",
+  "seller": {
+    "name": "Buchholz & Mangold GmbH & Co. KG",
+    "address": {
+      "street": "Mülichenplatz 1/1",
+      "postcode": "84965",
+      "city": "Sondershausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE687896498",
+    "electronic_address": "info@buchholz.example",
+    "contact": {
+      "name": "Prof. Ilonka Etzler",
+      "phone": "(05227) 738960",
+      "email": "emanuel@buchholz.example"
+    }
+  },
+  "buyer": {
+    "name": "Döhn & Mohaupt UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Waltraut-Pohl-Allee 2-6",
+      "postcode": "09079",
+      "city": "Haldensleben",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@dohn.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1343.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2687.94"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "37",
+      "unit_code": "HUR",
+      "unit_price": "105.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3905.72"
+    }
+  ],
+  "iban": "DE74172257210469848801",
+  "bic": "TGQXDEZ0",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "6593.66",
+    "tax_total": "1252.80",
+    "gross_total": "7846.46",
+    "due_amount": "7846.46",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6593.66",
+        "tax": "1252.80"
+      }
+    ]
+  }
+}

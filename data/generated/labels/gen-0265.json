@@ -1,0 +1,129 @@
+{
+  "number": "R26-05374",
+  "issue_date": "2026-01-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-01",
+  "delivery_date": "2025-12-27",
+  "buyer_reference": "4588006162",
+  "seller": {
+    "name": "Adler & Spieß UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Hanife-Gude-Gasse 246",
+      "postcode": "14894",
+      "city": "Torgau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE643551655",
+    "electronic_address": "info@adler.example",
+    "contact": {
+      "name": "Herr Frithjof Jacobi Jäckel B.Eng.",
+      "phone": "06886 54427",
+      "email": "matthias@adler.example"
+    }
+  },
+  "buyer": {
+    "name": "Wesack Handel GmbH",
+    "address": {
+      "street": "Vesna-Hoffmann-Platz 8",
+      "postcode": "39664",
+      "city": "Wiedenbrück",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@wesack.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "15.48",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "61.92"
+    },
+    {
+      "line_id": "2",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "36",
+      "unit_code": "C62",
+      "unit_price": "5.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "195.48"
+    },
+    {
+      "line_id": "3",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "29.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "209.72"
+    },
+    {
+      "line_id": "4",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "53",
+      "unit_code": "C62",
+      "unit_price": "34.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1832.21"
+    },
+    {
+      "line_id": "5",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "41.88",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "125.64"
+    },
+    {
+      "line_id": "6",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "18",
+      "unit_code": "LTR",
+      "unit_price": "1.53",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "27.54"
+    }
+  ],
+  "iban": "DE58485765735920684711",
+  "bic": "SQKMDEXK",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2452.51",
+    "tax_total": "440.17",
+    "gross_total": "2892.68",
+    "due_amount": "2892.68",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "215.10",
+        "tax": "15.06"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2237.41",
+        "tax": "425.11"
+      }
+    ]
+  }
+}

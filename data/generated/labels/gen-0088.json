@@ -1,0 +1,112 @@
+{
+  "number": "401768",
+  "issue_date": "2026-04-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-12",
+  "delivery_date": "2026-03-25",
+  "buyer_reference": "4518318984",
+  "seller": {
+    "name": "Gieß Digital KG",
+    "address": {
+      "street": "Mara-Holsten-Ring 5-1",
+      "postcode": "92457",
+      "city": "Wittmund",
+      "country_code": "DE"
+    },
+    "vat_id": "DE487650189",
+    "electronic_address": "invoice@gie.example",
+    "contact": {
+      "name": "Prof. Niels Karz MBA.",
+      "phone": "+49(0)4330 97898",
+      "email": "aenne@gie.example"
+    }
+  },
+  "buyer": {
+    "name": "Gröttner Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Sieglinde-Börner-Weg 1",
+      "postcode": "19454",
+      "city": "Ravensburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE942379074",
+    "electronic_address": "rechnung@grottner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "ART226659",
+      "quantity": "92",
+      "unit_code": "KGM",
+      "unit_price": "0.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "35.88"
+    },
+    {
+      "line_id": "2",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-532118",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "20.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "395.77"
+    },
+    {
+      "line_id": "3",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "ART903378",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "56.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1476.54"
+    },
+    {
+      "line_id": "4",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "ART956228",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "6.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "32.35"
+    },
+    {
+      "line_id": "5",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "A977530",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "39.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "238.68"
+    }
+  ],
+  "iban": "DE45594984714605031998",
+  "bic": "BWQRDEZA",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2179.22",
+    "tax_total": "414.05",
+    "gross_total": "2593.27",
+    "due_amount": "2593.27",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2179.22",
+        "tax": "414.05"
+      }
+    ]
+  }
+}

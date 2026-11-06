@@ -1,0 +1,79 @@
+{
+  "number": "2026/8843",
+  "issue_date": "2026-05-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-04",
+  "delivery_date": "2026-05-13",
+  "buyer_reference": "04-9445-76",
+  "seller": {
+    "name": "Scholl AG",
+    "address": {
+      "street": "Grafstraße 0",
+      "postcode": "20369",
+      "city": "Lübz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE776377437",
+    "electronic_address": "rechnung@scholl.example",
+    "contact": {
+      "name": "Dipl.-Ing. Annerose Niemeier",
+      "phone": "+49 (0) 4843 221588",
+      "email": "klaus-peter@scholl.example"
+    }
+  },
+  "buyer": {
+    "name": "Trub Handel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Carlo-Budig-Ring 35",
+      "postcode": "16156",
+      "city": "Burgdorf",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@trub.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "49.5",
+      "unit_code": "HUR",
+      "unit_price": "83.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4143.15"
+    },
+    {
+      "line_id": "2",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "16",
+      "unit_code": "HUR",
+      "unit_price": "80.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1282.72"
+    }
+  ],
+  "iban": "DE71196046211865608203",
+  "bic": "CDQADEBD",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "5425.87",
+    "tax_total": "1030.92",
+    "gross_total": "6456.79",
+    "due_amount": "6456.79",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5425.87",
+        "tax": "1030.92"
+      }
+    ]
+  }
+}

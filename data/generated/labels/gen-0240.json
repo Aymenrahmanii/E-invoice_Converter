@@ -1,0 +1,90 @@
+{
+  "number": "2026/3758",
+  "issue_date": "2026-10-16",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-26",
+  "delivery_date": "2026-10-05",
+  "buyer_reference": "4512999751",
+  "seller": {
+    "name": "Stey GmbH & Co. KG",
+    "address": {
+      "street": "Marie-Theres-Gunpf-Platz 1/5",
+      "postcode": "64841",
+      "city": "Lippstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE777383972",
+    "electronic_address": "invoice@stey.example",
+    "contact": {
+      "name": "Gitte Weitzel",
+      "phone": "+49(0)7588 50363",
+      "email": "hans-walter@stey.example"
+    }
+  },
+  "buyer": {
+    "name": "Schenk GmbH & Co. KG",
+    "address": {
+      "street": "Thekla-Fischer-Weg 1/3",
+      "postcode": "99825",
+      "city": "Berlin",
+      "country_code": "DE"
+    },
+    "vat_id": "DE867677718",
+    "electronic_address": "buchhaltung@schenk.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "8.5",
+      "unit_code": "HUR",
+      "unit_price": "74.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "636.99"
+    },
+    {
+      "line_id": "2",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "31.11",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "248.88"
+    },
+    {
+      "line_id": "3",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "5.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "94.52"
+    }
+  ],
+  "iban": "DE72566550448137136098",
+  "bic": "NENIDELTXXX",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "980.39",
+    "tax_total": "186.27",
+    "gross_total": "1166.66",
+    "due_amount": "1166.66",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "980.39",
+        "tax": "186.27"
+      }
+    ]
+  }
+}

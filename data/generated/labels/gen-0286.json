@@ -1,0 +1,134 @@
+{
+  "number": "202601-2962",
+  "issue_date": "2026-01-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-23",
+  "delivery_date": "2026-01-12",
+  "buyer_reference": "4527181955",
+  "seller": {
+    "name": "Scholtz & Bien GmbH",
+    "address": {
+      "street": "Tlustekstr. 161",
+      "postcode": "12805",
+      "city": "Brandenburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE100965696",
+    "electronic_address": "info@scholtz.example",
+    "contact": {
+      "name": "Malte Schaaf-Gunpf",
+      "phone": "+49 (0) 2380 998914",
+      "email": "hans-jorg@scholtz.example"
+    }
+  },
+  "buyer": {
+    "name": "Weiß Technik OHG",
+    "address": {
+      "street": "Traude-Schlosser-Weg 59",
+      "postcode": "72861",
+      "city": "Burg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE572657344",
+    "electronic_address": "info@wei.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "ART665455",
+      "quantity": "3",
+      "unit_code": "MON",
+      "unit_price": "596.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1790.73"
+    },
+    {
+      "line_id": "2",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "ART225174",
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "185.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1672.29"
+    },
+    {
+      "line_id": "3",
+      "description": "SEO-Analyse",
+      "seller_item_id": "A269774",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1036.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1036.14"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": "SKU-609133",
+      "quantity": "0.5",
+      "unit_code": "DAY",
+      "unit_price": "1561.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "780.81"
+    },
+    {
+      "line_id": "5",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "A724808",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1141.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1141.25"
+    },
+    {
+      "line_id": "6",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "ART567498",
+      "quantity": "25.5",
+      "unit_code": "HUR",
+      "unit_price": "121.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3089.84"
+    },
+    {
+      "line_id": "7",
+      "description": "UX-Design Startseite",
+      "seller_item_id": "A490291",
+      "quantity": "6.5",
+      "unit_code": "HUR",
+      "unit_price": "104.11",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "676.72"
+    }
+  ],
+  "iban": "DE52486077437468675259",
+  "bic": "EMREDESV",
+  "payment_terms": "Please transfer the amount within 30 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "10187.78",
+    "tax_total": "1935.68",
+    "gross_total": "12123.46",
+    "due_amount": "12123.46",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "10187.78",
+        "tax": "1935.68"
+      }
+    ]
+  }
+}

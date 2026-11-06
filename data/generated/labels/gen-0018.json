@@ -1,0 +1,167 @@
+{
+  "number": "831073",
+  "issue_date": "2026-10-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-21",
+  "delivery_date": "2026-10-16",
+  "buyer_reference": "4504591292",
+  "seller": {
+    "name": "Wende & Ruppert OHG",
+    "address": {
+      "street": "Hakan-Römer-Gasse 7-3",
+      "postcode": "11641",
+      "city": "Günzburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE448449533",
+    "electronic_address": "rechnung@wende.example",
+    "contact": {
+      "name": "Irmtraud Speer",
+      "phone": "00040793379",
+      "email": "ercan@wende.example"
+    }
+  },
+  "buyer": {
+    "name": "Wagner Digital e.K.",
+    "address": {
+      "street": "Lachmannstr. 79/16",
+      "postcode": "44205",
+      "city": "Norden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE555629981",
+    "electronic_address": "buchhaltung@wagner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "SKU-863272",
+      "quantity": "97",
+      "unit_code": "C62",
+      "unit_price": "4.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "434.56"
+    },
+    {
+      "line_id": "2",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "ART206421",
+      "quantity": "186",
+      "unit_code": "MTR",
+      "unit_price": "5.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "961.62"
+    },
+    {
+      "line_id": "3",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "A770771",
+      "quantity": "41",
+      "unit_code": "C62",
+      "unit_price": "32.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1313.64"
+    },
+    {
+      "line_id": "4",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "SKU-425019",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "11.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "381.48"
+    },
+    {
+      "line_id": "5",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-413563",
+      "quantity": "1482.5",
+      "unit_code": "KGM",
+      "unit_price": "0.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "237.20"
+    },
+    {
+      "line_id": "6",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "325074",
+      "quantity": "39",
+      "unit_code": "PR",
+      "unit_price": "2.38",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "92.82"
+    },
+    {
+      "line_id": "7",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "707835",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "5.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "155.48"
+    },
+    {
+      "line_id": "8",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "ART281927",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "25.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "25.58"
+    },
+    {
+      "line_id": "9",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-665191",
+      "quantity": "257.5",
+      "unit_code": "MTK",
+      "unit_price": "4.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1096.95"
+    },
+    {
+      "line_id": "10",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "767562",
+      "quantity": "3",
+      "unit_code": "SET",
+      "unit_price": "64.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "192.45"
+    }
+  ],
+  "iban": "DE52495363495726625329",
+  "bic": "RNJUDEGBXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "4891.78",
+    "tax_total": "929.44",
+    "gross_total": "5821.22",
+    "due_amount": "5821.22",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4891.78",
+        "tax": "929.44"
+      }
+    ]
+  }
+}

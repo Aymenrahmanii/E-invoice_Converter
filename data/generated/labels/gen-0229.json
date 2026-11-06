@@ -1,0 +1,101 @@
+{
+  "number": "202601-5636",
+  "issue_date": "2026-01-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-20",
+  "delivery_date": "2026-01-02",
+  "buyer_reference": "4568797114",
+  "seller": {
+    "name": "Barth Technik AG",
+    "address": {
+      "street": "Drubinstraße 6/7",
+      "postcode": "72493",
+      "city": "Rastatt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE203153211",
+    "electronic_address": "buchhaltung@barth.example",
+    "contact": {
+      "name": "Reni Rädel-Kramer",
+      "phone": "05797 584130",
+      "email": "juergen@barth.example"
+    }
+  },
+  "buyer": {
+    "name": "Holsten AG",
+    "address": {
+      "street": "Mareile-Hering-Allee 71/10",
+      "postcode": "36784",
+      "city": "Calau",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@holsten.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "4865",
+      "unit_code": "C62",
+      "unit_price": "0.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "827.05"
+    },
+    {
+      "line_id": "2",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "405.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "405.15"
+    },
+    {
+      "line_id": "3",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "4.5",
+      "unit_code": "DAY",
+      "unit_price": "1452.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6536.88"
+    },
+    {
+      "line_id": "4",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "135.5",
+      "unit_code": "HUR",
+      "unit_price": "99.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "13505.29"
+    }
+  ],
+  "iban": "DE79319793519663035968",
+  "bic": "WCAMDEAV",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "21274.37",
+    "tax_total": "4042.13",
+    "gross_total": "25316.50",
+    "due_amount": "25316.50",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "21274.37",
+        "tax": "4042.13"
+      }
+    ]
+  }
+}

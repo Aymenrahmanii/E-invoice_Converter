@@ -1,0 +1,123 @@
+{
+  "number": "INV-60824",
+  "issue_date": "2026-05-16",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-26",
+  "delivery_date": "2026-05-06",
+  "buyer_reference": "03434699-59453-86",
+  "seller": {
+    "name": "Hettner Digital GmbH & Co. KG",
+    "address": {
+      "street": "Naserstr. 4-7",
+      "postcode": "34401",
+      "city": "Staffelstein",
+      "country_code": "DE"
+    },
+    "vat_id": "DE241988142",
+    "electronic_address": "buchhaltung@hettner.example",
+    "contact": {
+      "name": "Cilli Steuer",
+      "phone": "0424178617",
+      "email": "hildegard@hettner.example"
+    }
+  },
+  "buyer": {
+    "name": "Jäntsch Technik GmbH",
+    "address": {
+      "street": "Corina-Peukert-Platz 431",
+      "postcode": "96763",
+      "city": "Goslar",
+      "country_code": "DE"
+    },
+    "vat_id": "DE477216674",
+    "electronic_address": "invoice@jantsch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "SKU-931281",
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "574.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1149.76"
+    },
+    {
+      "line_id": "2",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": "A826939",
+      "quantity": "61.5",
+      "unit_code": "HUR",
+      "unit_price": "102.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6304.98"
+    },
+    {
+      "line_id": "3",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "SKU-753149",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "119.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "239.46"
+    },
+    {
+      "line_id": "4",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "811292",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1178.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1178.94"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "ART170249",
+      "quantity": "13.5",
+      "unit_code": "HUR",
+      "unit_price": "90.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1224.59"
+    },
+    {
+      "line_id": "6",
+      "description": "Projektmanagement",
+      "seller_item_id": "ART14919",
+      "quantity": "18.5",
+      "unit_code": "HUR",
+      "unit_price": "100.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1853.52"
+    }
+  ],
+  "iban": "DE08620733920744510139",
+  "bic": null,
+  "payment_terms": "Net 10 days.",
+  "note": null,
+  "totals": {
+    "net_total": "11951.25",
+    "tax_total": "2270.74",
+    "gross_total": "14221.99",
+    "due_amount": "14221.99",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "11951.25",
+        "tax": "2270.74"
+      }
+    ]
+  }
+}

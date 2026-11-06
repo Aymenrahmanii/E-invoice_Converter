@@ -1,0 +1,112 @@
+{
+  "number": "R26-09734",
+  "issue_date": "2026-10-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-24",
+  "delivery_date": "2026-10-13",
+  "buyer_reference": "4561949448",
+  "seller": {
+    "name": "Scheibe Bau e.K.",
+    "address": {
+      "street": "Gisela-Schomber-Allee 833",
+      "postcode": "50768",
+      "city": "Mittweida",
+      "country_code": "DE"
+    },
+    "vat_id": "DE465206082",
+    "electronic_address": "info@scheibe.example",
+    "contact": {
+      "name": "Sara Pruschke-Margraf",
+      "phone": "+49 (0) 9652 901408",
+      "email": "edit@scheibe.example"
+    }
+  },
+  "buyer": {
+    "name": "Weller OHG",
+    "address": {
+      "street": "Heydrichstraße 0",
+      "postcode": "84235",
+      "city": "Kyritz",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@weller.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "60",
+      "unit_code": "HUR",
+      "unit_price": "112.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6724.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "0.5",
+      "unit_code": "HUR",
+      "unit_price": "58.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "29.40"
+    },
+    {
+      "line_id": "3",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "134.5",
+      "unit_code": "HUR",
+      "unit_price": "126.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "17080.16"
+    },
+    {
+      "line_id": "4",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "592.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "592.15"
+    },
+    {
+      "line_id": "5",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "1282.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6413.70"
+    }
+  ],
+  "iban": "DE83430096776456318294",
+  "bic": "XHVLDEC0",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "30840.21",
+    "tax_total": "5859.64",
+    "gross_total": "36699.85",
+    "due_amount": "36699.85",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "30840.21",
+        "tax": "5859.64"
+      }
+    ]
+  }
+}

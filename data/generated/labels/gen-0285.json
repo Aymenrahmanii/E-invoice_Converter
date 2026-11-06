@@ -1,0 +1,195 @@
+{
+  "number": "R26-01369",
+  "issue_date": "2026-01-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-23",
+  "delivery_date": "2026-01-11",
+  "buyer_reference": "13-59549-10",
+  "seller": {
+    "name": "Seifert Digital OHG",
+    "address": {
+      "street": "Schmiedeckestr. 1191",
+      "postcode": "62450",
+      "city": "Hoyerswerda",
+      "country_code": "DE"
+    },
+    "vat_id": "DE113952986",
+    "electronic_address": "invoice@seifert.example",
+    "contact": {
+      "name": "Klaus-Jürgen Karz",
+      "phone": "+49(0)4772254674",
+      "email": "irmengard@seifert.example"
+    }
+  },
+  "buyer": {
+    "name": "Radisch Digital KG",
+    "address": {
+      "street": "Waltrud-Hendriks-Weg 1",
+      "postcode": "49504",
+      "city": "Greifswald",
+      "country_code": "DE"
+    },
+    "vat_id": "DE102170612",
+    "electronic_address": "rechnung@radisch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": "467630",
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "23.78",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "380.48"
+    },
+    {
+      "line_id": "2",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": "ART788217",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "34.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "208.38"
+    },
+    {
+      "line_id": "3",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": "411827",
+      "quantity": "8",
+      "unit_code": "MON",
+      "unit_price": "42.92",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "343.36"
+    },
+    {
+      "line_id": "4",
+      "description": "Butterbrezeln",
+      "seller_item_id": "A546542",
+      "quantity": "133",
+      "unit_code": "C62",
+      "unit_price": "1.15",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "152.95"
+    },
+    {
+      "line_id": "5",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": "ART687212",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "18.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "56.01"
+    },
+    {
+      "line_id": "6",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": "A126042",
+      "quantity": "5",
+      "unit_code": "LTR",
+      "unit_price": "1.09",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "5.45"
+    },
+    {
+      "line_id": "7",
+      "description": "Kuchenplatte",
+      "seller_item_id": "39524",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "33.50",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "100.50"
+    },
+    {
+      "line_id": "8",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "SKU-102709",
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "11.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.72"
+    },
+    {
+      "line_id": "9",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": "302534",
+      "quantity": "54",
+      "unit_code": "C62",
+      "unit_price": "29.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1570.32"
+    },
+    {
+      "line_id": "10",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": "ART606194",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "24.54",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "171.78"
+    },
+    {
+      "line_id": "11",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "705212",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "6.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "37.14"
+    },
+    {
+      "line_id": "12",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": "794026",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "29.74",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "59.48"
+    }
+  ],
+  "iban": "DE67882050297303117259",
+  "bic": "SFYLDEE3",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3276.57",
+    "tax_total": "476.87",
+    "gross_total": "3753.44",
+    "due_amount": "3753.44",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1214.00",
+        "tax": "84.98"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2062.57",
+        "tax": "391.89"
+      }
+    ]
+  }
+}

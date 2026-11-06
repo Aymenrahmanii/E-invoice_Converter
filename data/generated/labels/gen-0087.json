@@ -1,0 +1,79 @@
+{
+  "number": "RE-2026-8823",
+  "issue_date": "2026-04-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-04-05",
+  "buyer_reference": "13262578-25643-68",
+  "seller": {
+    "name": "Wagner e.K.",
+    "address": {
+      "street": "Gottlieb-Salz-Platz 439",
+      "postcode": "02138",
+      "city": "Teterow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE975282369",
+    "electronic_address": "buchhaltung@wagner.example",
+    "contact": {
+      "name": "Dorina Reuter",
+      "phone": "(01893) 820808",
+      "email": "huseyin@wagner.example"
+    }
+  },
+  "buyer": {
+    "name": "Schwital Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Walterplatz 46",
+      "postcode": "80367",
+      "city": "Mellrichstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE686776715",
+    "electronic_address": "info@schwital.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "56.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "507.33"
+    },
+    {
+      "line_id": "2",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "MTR",
+      "unit_price": "12.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "101.04"
+    }
+  ],
+  "iban": "DE87606818618495363978",
+  "bic": "IYZRDESGXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "608.37",
+    "tax_total": "115.59",
+    "gross_total": "723.96",
+    "due_amount": "723.96",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "608.37",
+        "tax": "115.59"
+      }
+    ]
+  }
+}

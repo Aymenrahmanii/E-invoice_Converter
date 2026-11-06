@@ -1,0 +1,123 @@
+{
+  "number": "560514",
+  "issue_date": "2026-09-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-27",
+  "delivery_date": "2026-09-11",
+  "buyer_reference": "4555995009",
+  "seller": {
+    "name": "Weimer Digital UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Trubinplatz 80-16",
+      "postcode": "29896",
+      "city": "Hildesheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE989383486",
+    "electronic_address": "rechnung@weimer.example",
+    "contact": {
+      "name": "Dina Staude B.Eng.",
+      "phone": "01745 563643",
+      "email": "friedo@weimer.example"
+    }
+  },
+  "buyer": {
+    "name": "Holsten GmbH & Co. KG",
+    "address": {
+      "street": "Lutz-Scholl-Allee 352",
+      "postcode": "64785",
+      "city": "Mühlhausen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@holsten.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "356948",
+      "quantity": "83",
+      "unit_code": "MTR",
+      "unit_price": "4.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "412.51"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "ART396247",
+      "quantity": "38",
+      "unit_code": "PR",
+      "unit_price": "2.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "97.66"
+    },
+    {
+      "line_id": "3",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "311843",
+      "quantity": "15",
+      "unit_code": "C62",
+      "unit_price": "12.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "187.65"
+    },
+    {
+      "line_id": "4",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "ART330544",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "54.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1085.00"
+    },
+    {
+      "line_id": "5",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "187585",
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "2.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "44.88"
+    },
+    {
+      "line_id": "6",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "776504",
+      "quantity": "31",
+      "unit_code": "C62",
+      "unit_price": "6.01",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "186.31"
+    }
+  ],
+  "iban": "DE80419853207447324250",
+  "bic": "SVMZDETAXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2014.01",
+    "tax_total": "382.66",
+    "gross_total": "2396.67",
+    "due_amount": "2396.67",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2014.01",
+        "tax": "382.66"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "number": "RE-2026-4296",
+  "issue_date": "2026-04-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-14",
+  "delivery_date": "2026-04-20",
+  "buyer_reference": "4583798620",
+  "seller": {
+    "name": "Heintze Service KG",
+    "address": {
+      "street": "Notburga-Bohlander-Platz 0",
+      "postcode": "72424",
+      "city": "Wolgast",
+      "country_code": "DE"
+    },
+    "vat_id": "DE192952552",
+    "electronic_address": "info@heintze.example",
+    "contact": {
+      "name": "Ing. Anne-Kathrin Mende",
+      "phone": "0634858322",
+      "email": "katarzyna@heintze.example"
+    }
+  },
+  "buyer": {
+    "name": "Thies Technik GmbH & Co. KG",
+    "address": {
+      "street": "Chantal-Gieß-Ring 8/1",
+      "postcode": "46180",
+      "city": "Schwäbisch Gmünd",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@thies.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-218463",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "54.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "546.40"
+    },
+    {
+      "line_id": "2",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "554678",
+      "quantity": "55",
+      "unit_code": "LTR",
+      "unit_price": "4.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "236.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "ART161715",
+      "quantity": "58",
+      "unit_code": "PR",
+      "unit_price": "4.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "273.18"
+    },
+    {
+      "line_id": "4",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART287814",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "6.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "129.01"
+    },
+    {
+      "line_id": "5",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "SKU-906823",
+      "quantity": "10",
+      "unit_code": "SET",
+      "unit_price": "128.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1285.60"
+    }
+  ],
+  "iban": "DE14401088275372994517",
+  "bic": "SAEQDEE6XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2470.69",
+    "tax_total": "469.43",
+    "gross_total": "2940.12",
+    "due_amount": "2940.12",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2470.69",
+        "tax": "469.43"
+      }
+    ]
+  }
+}

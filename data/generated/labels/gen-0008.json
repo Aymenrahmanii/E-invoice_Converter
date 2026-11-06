@@ -1,0 +1,112 @@
+{
+  "number": "RE-2026-5764",
+  "issue_date": "2026-04-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-09",
+  "delivery_date": "2026-04-02",
+  "buyer_reference": "4593987115",
+  "seller": {
+    "name": "Gieß & Bähr KG",
+    "address": {
+      "street": "Schweitzergasse 31-28",
+      "postcode": "60819",
+      "city": "Aurich",
+      "country_code": "DE"
+    },
+    "vat_id": "DE268171450",
+    "electronic_address": "rechnung@gie.example",
+    "contact": {
+      "name": "Svetlana Ortmann",
+      "phone": "+49(0)4864076542",
+      "email": "magdalena@gie.example"
+    }
+  },
+  "buyer": {
+    "name": "Gehringer Service AG",
+    "address": {
+      "street": "Weitzelallee 5-7",
+      "postcode": "80876",
+      "city": "Potsdam",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@gehringer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "SKU-889679",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "5.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "138.58"
+    },
+    {
+      "line_id": "2",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "141749",
+      "quantity": "22",
+      "unit_code": "C62",
+      "unit_price": "5.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "124.30"
+    },
+    {
+      "line_id": "3",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "A375725",
+      "quantity": "124",
+      "unit_code": "MTR",
+      "unit_price": "6.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "760.12"
+    },
+    {
+      "line_id": "4",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-283856",
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "47.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1234.48"
+    },
+    {
+      "line_id": "5",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A543890",
+      "quantity": "900.5",
+      "unit_code": "KGM",
+      "unit_price": "0.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "288.16"
+    }
+  ],
+  "iban": "DE70618071559954921103",
+  "bic": "NKCSDEYF",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2545.64",
+    "tax_total": "483.67",
+    "gross_total": "3029.31",
+    "due_amount": "3029.31",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2545.64",
+        "tax": "483.67"
+      }
+    ]
+  }
+}

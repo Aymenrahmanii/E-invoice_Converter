@@ -1,0 +1,134 @@
+{
+  "number": "INV-97122",
+  "issue_date": "2026-10-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-10-02",
+  "buyer_reference": "14028-85159-21",
+  "seller": {
+    "name": "Rörricht GmbH & Co. KG",
+    "address": {
+      "street": "Wiekallee 1/2",
+      "postcode": "02751",
+      "city": "Geldern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE289894180",
+    "electronic_address": "buchhaltung@rorricht.example",
+    "contact": {
+      "name": "Knud Knappe",
+      "phone": "+49(0)7036 801006",
+      "email": "janos@rorricht.example"
+    }
+  },
+  "buyer": {
+    "name": "Schottin Technik e.K.",
+    "address": {
+      "street": "Heßstr. 9815",
+      "postcode": "08648",
+      "city": "Pinneberg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@schottin.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A54264",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "7.01",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "28.04"
+    },
+    {
+      "line_id": "2",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "659560",
+      "quantity": "188.5",
+      "unit_code": "MTK",
+      "unit_price": "3.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "605.09"
+    },
+    {
+      "line_id": "3",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "537280",
+      "quantity": "55",
+      "unit_code": "MTR",
+      "unit_price": "6.82",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "375.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A393891",
+      "quantity": "9",
+      "unit_code": "SET",
+      "unit_price": "69.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "622.08"
+    },
+    {
+      "line_id": "5",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A548941",
+      "quantity": "106",
+      "unit_code": "C62",
+      "unit_price": "6.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "697.48"
+    },
+    {
+      "line_id": "6",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "A562251",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "4.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "137.02"
+    },
+    {
+      "line_id": "7",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "944754",
+      "quantity": "152",
+      "unit_code": "C62",
+      "unit_price": "2.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "310.08"
+    }
+  ],
+  "iban": "DE74755937789588393381",
+  "bic": "RBWPDEKUXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "2774.89",
+    "tax_total": "527.23",
+    "gross_total": "3302.12",
+    "due_amount": "3302.12",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2774.89",
+        "tax": "527.23"
+      }
+    ]
+  }
+}

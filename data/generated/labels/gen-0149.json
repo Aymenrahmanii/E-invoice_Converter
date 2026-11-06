@@ -1,0 +1,68 @@
+{
+  "number": "867064",
+  "issue_date": "2026-06-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-06-09",
+  "buyer_reference": "4547629285",
+  "seller": {
+    "name": "Käster Technik GmbH",
+    "address": {
+      "street": "Paulina-Plath-Allee 7/4",
+      "postcode": "15629",
+      "city": "Wiedenbrück",
+      "country_code": "DE"
+    },
+    "vat_id": "DE484588210",
+    "electronic_address": "info@kaster.example",
+    "contact": {
+      "name": "Jutta Metz",
+      "phone": "(05147) 93451",
+      "email": "patrick@kaster.example"
+    }
+  },
+  "buyer": {
+    "name": "Gude Digital UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Ahmad-Haase-Allee 29-12",
+      "postcode": "09800",
+      "city": "Wesel",
+      "country_code": "DE"
+    },
+    "vat_id": "DE962061225",
+    "electronic_address": "invoice@gude.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "2.5",
+      "unit_code": "HUR",
+      "unit_price": "54.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "136.25"
+    }
+  ],
+  "iban": "DE02210765187905908415",
+  "bic": "GXSODESM",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "136.25",
+    "tax_total": "25.89",
+    "gross_total": "162.14",
+    "due_amount": "162.14",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "136.25",
+        "tax": "25.89"
+      }
+    ]
+  }
+}

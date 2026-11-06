@@ -1,0 +1,145 @@
+{
+  "number": "R26-01227",
+  "issue_date": "2026-06-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-17",
+  "delivery_date": "2026-06-11",
+  "buyer_reference": "05955-64762-28",
+  "seller": {
+    "name": "Junken AG",
+    "address": {
+      "street": "Tintzmannallee 7",
+      "postcode": "88846",
+      "city": "Bad Langensalza",
+      "country_code": "DE"
+    },
+    "vat_id": "DE328384253",
+    "electronic_address": "info@junken.example",
+    "contact": {
+      "name": "Hans-Günter Renner",
+      "phone": "+49(0)1322 171647",
+      "email": "abdul@junken.example"
+    }
+  },
+  "buyer": {
+    "name": "Caspar Technik OHG",
+    "address": {
+      "street": "Salvatore-Rosenow-Platz 57/71",
+      "postcode": "06814",
+      "city": "Miesbach",
+      "country_code": "DE"
+    },
+    "vat_id": "DE659784095",
+    "electronic_address": "rechnung@caspar.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": "ART166964",
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "106.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "213.98"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "SKU-941419",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "60.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "60.32"
+    },
+    {
+      "line_id": "3",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": "SKU-278724",
+      "quantity": "30",
+      "unit_code": "MTR",
+      "unit_price": "9.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "270.00"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": "ART890712",
+      "quantity": "0.5",
+      "unit_code": "HUR",
+      "unit_price": "68.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "34.29"
+    },
+    {
+      "line_id": "5",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": "ART349518",
+      "quantity": "32",
+      "unit_code": "HUR",
+      "unit_price": "49.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1569.92"
+    },
+    {
+      "line_id": "6",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": "SKU-209039",
+      "quantity": "1",
+      "unit_code": "HUR",
+      "unit_price": "31.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "31.46"
+    },
+    {
+      "line_id": "7",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": "A912900",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "66.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "333.45"
+    },
+    {
+      "line_id": "8",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "A478662",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "4.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "18.44"
+    }
+  ],
+  "iban": "DE94651972338126752880",
+  "bic": "TTKWDEJ6XXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "2531.86",
+    "tax_total": "481.05",
+    "gross_total": "3012.91",
+    "due_amount": "3012.91",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2531.86",
+        "tax": "481.05"
+      }
+    ]
+  }
+}

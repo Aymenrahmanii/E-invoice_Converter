@@ -1,0 +1,156 @@
+{
+  "number": "INV-81045",
+  "issue_date": "2026-08-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-17",
+  "delivery_date": "2026-07-21",
+  "buyer_reference": "4525316437",
+  "seller": {
+    "name": "Lindner Digital OHG",
+    "address": {
+      "street": "Damaris-Gröttner-Platz 67",
+      "postcode": "26371",
+      "city": "Uelzen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE627130484",
+    "electronic_address": "rechnung@lindner.example",
+    "contact": {
+      "name": "Inken Kramer-Birnbaum",
+      "phone": "+49(0)7163 69764",
+      "email": "elsbeth@lindner.example"
+    }
+  },
+  "buyer": {
+    "name": "Carsten Technik e.K.",
+    "address": {
+      "street": "Friedhilde-Kühnert-Platz 7-7",
+      "postcode": "45535",
+      "city": "Anklam",
+      "country_code": "DE"
+    },
+    "vat_id": "DE943103075",
+    "electronic_address": "rechnung@carsten.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "SKU-735782",
+      "quantity": "39",
+      "unit_code": "C62",
+      "unit_price": "14.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "549.51"
+    },
+    {
+      "line_id": "2",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-327516",
+      "quantity": "40",
+      "unit_code": "C62",
+      "unit_price": "48.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1946.40"
+    },
+    {
+      "line_id": "3",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "A615575",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "15.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "125.52"
+    },
+    {
+      "line_id": "4",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "SKU-250215",
+      "quantity": "56",
+      "unit_code": "C62",
+      "unit_price": "3.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "220.64"
+    },
+    {
+      "line_id": "5",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "SKU-55057",
+      "quantity": "79",
+      "unit_code": "MTR",
+      "unit_price": "4.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "365.77"
+    },
+    {
+      "line_id": "6",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART739592",
+      "quantity": "6",
+      "unit_code": "SET",
+      "unit_price": "50.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "300.90"
+    },
+    {
+      "line_id": "7",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-765777",
+      "quantity": "25",
+      "unit_code": "LTR",
+      "unit_price": "2.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "61.75"
+    },
+    {
+      "line_id": "8",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "A974469",
+      "quantity": "143",
+      "unit_code": "C62",
+      "unit_price": "1.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "250.25"
+    },
+    {
+      "line_id": "9",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A671190",
+      "quantity": "18",
+      "unit_code": "C62",
+      "unit_price": "7.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "130.32"
+    }
+  ],
+  "iban": "DE48878100377209703889",
+  "bic": "TQXWDEBD",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3951.06",
+    "tax_total": "750.70",
+    "gross_total": "4701.76",
+    "due_amount": "4701.76",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3951.06",
+        "tax": "750.70"
+      }
+    ]
+  }
+}

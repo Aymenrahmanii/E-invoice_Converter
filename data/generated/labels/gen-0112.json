@@ -1,0 +1,200 @@
+{
+  "number": "202602-9671",
+  "issue_date": "2026-02-12",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-14",
+  "delivery_date": "2026-02-02",
+  "buyer_reference": "4571370453",
+  "seller": {
+    "name": "Carsten & Rose UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Blochring 3-1",
+      "postcode": "01576",
+      "city": "Nürtingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE528988380",
+    "electronic_address": "invoice@carsten.example",
+    "contact": {
+      "name": "Univ.Prof. Ottokar Dowerg MBA.",
+      "phone": "00433 259183",
+      "email": "anto@carsten.example"
+    }
+  },
+  "buyer": {
+    "name": "Döring Digital AG",
+    "address": {
+      "street": "Gülsen-Jacob-Straße 7",
+      "postcode": "98596",
+      "city": "Main-Höchst",
+      "country_code": "DE"
+    },
+    "vat_id": "DE678845798",
+    "electronic_address": "info@doring.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART33835",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "12.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "85.05"
+    },
+    {
+      "line_id": "2",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "ART879588",
+      "quantity": "385",
+      "unit_code": "MTK",
+      "unit_price": "3.72",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1432.20"
+    },
+    {
+      "line_id": "3",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A710849",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "7.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "152.20"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "SKU-13650",
+      "quantity": "64",
+      "unit_code": "PR",
+      "unit_price": "2.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "143.36"
+    },
+    {
+      "line_id": "5",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "630259",
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "23.72",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "308.36"
+    },
+    {
+      "line_id": "6",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A449187",
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "49.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "647.27"
+    },
+    {
+      "line_id": "7",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A493205",
+      "quantity": "414",
+      "unit_code": "KGM",
+      "unit_price": "0.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.50"
+    },
+    {
+      "line_id": "8",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "552461",
+      "quantity": "67",
+      "unit_code": "LTR",
+      "unit_price": "4.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "290.78"
+    },
+    {
+      "line_id": "9",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "767027",
+      "quantity": "8",
+      "unit_code": "SET",
+      "unit_price": "78.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "624.96"
+    },
+    {
+      "line_id": "10",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "ART580191",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "3.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "22.05"
+    },
+    {
+      "line_id": "11",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "699403",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "98.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "197.40"
+    },
+    {
+      "line_id": "12",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-207381",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "39.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "198.00"
+    },
+    {
+      "line_id": "13",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A618823",
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "9.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "109.92"
+    }
+  ],
+  "iban": "DE27636259875551610231",
+  "bic": "VWTFDEORXXX",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "4315.05",
+    "tax_total": "819.86",
+    "gross_total": "5134.91",
+    "due_amount": "5134.91",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4315.05",
+        "tax": "819.86"
+      }
+    ]
+  }
+}

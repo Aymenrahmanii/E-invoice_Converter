@@ -1,0 +1,101 @@
+{
+  "number": "805396",
+  "issue_date": "2026-03-27",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-26",
+  "delivery_date": "2026-03-20",
+  "buyer_reference": "07292-62982-77",
+  "seller": {
+    "name": "Geisel & Schmidt e.K.",
+    "address": {
+      "street": "Janett-Eigenwillig-Weg 5830",
+      "postcode": "80522",
+      "city": "Regen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE542203198",
+    "electronic_address": "buchhaltung@geisel.example",
+    "contact": {
+      "name": "Mohamed Kade",
+      "phone": "+49(0)5763 78461",
+      "email": "ramon@geisel.example"
+    }
+  },
+  "buyer": {
+    "name": "Ritter GmbH",
+    "address": {
+      "street": "Mühleplatz 83/84",
+      "postcode": "65311",
+      "city": "Großenhain",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@ritter.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "7.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "36.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "HUR",
+      "unit_price": "69.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "839.64"
+    },
+    {
+      "line_id": "3",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "5.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "41.68"
+    },
+    {
+      "line_id": "4",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "22.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "110.30"
+    }
+  ],
+  "iban": "DE96460362816139088091",
+  "bic": "ZOIYDEI5",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1028.22",
+    "tax_total": "195.36",
+    "gross_total": "1223.58",
+    "due_amount": "1223.58",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1028.22",
+        "tax": "195.36"
+      }
+    ]
+  }
+}

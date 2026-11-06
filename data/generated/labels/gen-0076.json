@@ -1,0 +1,79 @@
+{
+  "number": "275517",
+  "issue_date": "2026-08-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-12",
+  "delivery_date": "2026-07-30",
+  "buyer_reference": "4544563074",
+  "seller": {
+    "name": "Mangold Bau AG",
+    "address": {
+      "street": "Löfflerallee 11-54",
+      "postcode": "46798",
+      "city": "Staßfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE674978978",
+    "electronic_address": "buchhaltung@mangold.example",
+    "contact": {
+      "name": "Univ.Prof. Karl-Werner Etzold",
+      "phone": "05846 291355",
+      "email": "henri@mangold.example"
+    }
+  },
+  "buyer": {
+    "name": "Keudel Bau GmbH",
+    "address": {
+      "street": "Henrik-Eberhardt-Gasse 11",
+      "postcode": "54502",
+      "city": "Hofgeismar",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@keudel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "30.5",
+      "unit_code": "HUR",
+      "unit_price": "111.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3395.57"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "44.5",
+      "unit_code": "HUR",
+      "unit_price": "118.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5271.03"
+    }
+  ],
+  "iban": "DE68522490207275103035",
+  "bic": "UCHHDEDA",
+  "payment_terms": "Please transfer the amount within 30 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "8666.60",
+    "tax_total": "1646.65",
+    "gross_total": "10313.25",
+    "due_amount": "10313.25",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8666.60",
+        "tax": "1646.65"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "number": "697266",
+  "issue_date": "2026-05-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-18",
+  "delivery_date": "2026-04-24",
+  "buyer_reference": "4506123260",
+  "seller": {
+    "name": "Hendriks Bau GmbH",
+    "address": {
+      "street": "Frieda-Seifert-Straße 69/51",
+      "postcode": "03440",
+      "city": "Grevesmühlen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE738297473",
+    "electronic_address": "buchhaltung@hendriks.example",
+    "contact": {
+      "name": "Lidia Geißler-Zirme",
+      "phone": "05998 786080",
+      "email": "willibald@hendriks.example"
+    }
+  },
+  "buyer": {
+    "name": "Etzold OHG",
+    "address": {
+      "street": "Langerngasse 163",
+      "postcode": "20335",
+      "city": "Gunzenhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE448375479",
+    "electronic_address": "info@etzold.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2292.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2292.08"
+    },
+    {
+      "line_id": "2",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1194.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1194.83"
+    },
+    {
+      "line_id": "3",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "HUR",
+      "unit_price": "120.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1325.61"
+    }
+  ],
+  "iban": "DE94135295394947446379",
+  "bic": "RYMUDEFD",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "4812.52",
+    "tax_total": "914.38",
+    "gross_total": "5726.90",
+    "due_amount": "5726.90",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4812.52",
+        "tax": "914.38"
+      }
+    ]
+  }
+}

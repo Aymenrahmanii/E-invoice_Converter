@@ -1,0 +1,68 @@
+{
+  "number": "202610-7242",
+  "issue_date": "2026-10-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-16",
+  "delivery_date": "2026-10-02",
+  "buyer_reference": "4544199581",
+  "seller": {
+    "name": "Seifert Handel KG",
+    "address": {
+      "street": "Ingried-Wohlgemut-Straße 7/2",
+      "postcode": "78472",
+      "city": "Dieburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE713808641",
+    "electronic_address": "buchhaltung@seifert.example",
+    "contact": {
+      "name": "Lilly Jüttner",
+      "phone": "+49(0)7293 59296",
+      "email": "miroslav@seifert.example"
+    }
+  },
+  "buyer": {
+    "name": "Hartmann Bau GmbH & Co. KG",
+    "address": {
+      "street": "Gehringergasse 66-99",
+      "postcode": "18396",
+      "city": "Niesky",
+      "country_code": "DE"
+    },
+    "vat_id": "DE345439653",
+    "electronic_address": "info@hartmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "DAY",
+      "unit_price": "1776.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7106.44"
+    }
+  ],
+  "iban": "DE76559110574191773981",
+  "bic": "IIFBDEO2XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "7106.44",
+    "tax_total": "1350.22",
+    "gross_total": "8456.66",
+    "due_amount": "8456.66",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "7106.44",
+        "tax": "1350.22"
+      }
+    ]
+  }
+}

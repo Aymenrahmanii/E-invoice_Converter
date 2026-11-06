@@ -1,0 +1,79 @@
+{
+  "number": "RE-2026-7176",
+  "issue_date": "2026-07-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-20",
+  "delivery_date": "2026-07-18",
+  "buyer_reference": "4538447387",
+  "seller": {
+    "name": "Kreusel Digital OHG",
+    "address": {
+      "street": "Wiekplatz 3/2",
+      "postcode": "94067",
+      "city": "Bremen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE761413818",
+    "electronic_address": "invoice@kreusel.example",
+    "contact": {
+      "name": "Prof. Raimund Wieloch B.A.",
+      "phone": "(03465) 737092",
+      "email": "lilly@kreusel.example"
+    }
+  },
+  "buyer": {
+    "name": "Mentzel & Henk OHG",
+    "address": {
+      "street": "Ringstr. 3/1",
+      "postcode": "10594",
+      "city": "Passau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE193899198",
+    "electronic_address": "rechnung@mentzel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "6.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "42.28"
+    },
+    {
+      "line_id": "2",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "9.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "46.85"
+    }
+  ],
+  "iban": "DE46543372206751849258",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "89.13",
+    "tax_total": "16.93",
+    "gross_total": "106.06",
+    "due_amount": "106.06",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "89.13",
+        "tax": "16.93"
+      }
+    ]
+  }
+}

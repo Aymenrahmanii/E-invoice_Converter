@@ -1,0 +1,79 @@
+{
+  "number": "R18-31",
+  "issue_date": "2018-10-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2018-11-21",
+  "delivery_date": null,
+  "buyer_reference": null,
+  "seller": {
+    "name": "Physiotherapeutin",
+    "address": {
+      "street": "Musterstraße 12",
+      "postcode": "12345",
+      "city": "Beispielstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE136695976",
+    "electronic_address": null,
+    "contact": {
+      "name": "Tanja Tinder",
+      "phone": "015119630027",
+      "email": "tanja.tinder@beispiel-provider.de"
+    }
+  },
+  "buyer": {
+    "name": "Liselotte Müller",
+    "address": {
+      "street": "Rechnungsstraße 12",
+      "postcode": "12345",
+      "city": "Beispielstadt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "0",
+      "description": "Physiotherapie",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "26.00",
+      "vat_rate": "0",
+      "vat_category": "E",
+      "net_amount": "260.00"
+    },
+    {
+      "line_id": "1",
+      "description": "Hausbesuch",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "12.00",
+      "vat_rate": "0",
+      "vat_category": "E",
+      "net_amount": "120.00"
+    }
+  ],
+  "iban": "DE02120300000000202051",
+  "bic": null,
+  "payment_terms": "Den Rechnungsbetrag überweisen Sie bitte bis zum 21.11.2018 auf das unten angegebene Konto.",
+  "note": null,
+  "totals": {
+    "net_total": "380.00",
+    "tax_total": "0",
+    "gross_total": "380.00",
+    "due_amount": "380.00",
+    "vat_breakdown": [
+      {
+        "category": "E",
+        "rate": "0",
+        "basis": "380.00",
+        "tax": "0"
+      }
+    ]
+  }
+}

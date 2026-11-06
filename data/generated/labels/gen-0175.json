@@ -1,0 +1,195 @@
+{
+  "number": "662244",
+  "issue_date": "2026-09-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-17",
+  "delivery_date": "2026-09-02",
+  "buyer_reference": "4561296287",
+  "seller": {
+    "name": "Neuschäfer GmbH",
+    "address": {
+      "street": "Schäferweg 46/55",
+      "postcode": "54201",
+      "city": "Rottweil",
+      "country_code": "DE"
+    },
+    "vat_id": "DE875953841",
+    "electronic_address": "buchhaltung@neuschafer.example",
+    "contact": {
+      "name": "Pamela Kaul",
+      "phone": "04965306447",
+      "email": "tamara@neuschafer.example"
+    }
+  },
+  "buyer": {
+    "name": "Löffler Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Haufferweg 8",
+      "postcode": "21968",
+      "city": "Warendorf",
+      "country_code": "DE"
+    },
+    "vat_id": "DE881358554",
+    "electronic_address": "info@loffler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "7.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "49.21"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "33",
+      "unit_code": "C62",
+      "unit_price": "22.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "736.56"
+    },
+    {
+      "line_id": "3",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "30",
+      "unit_code": "C62",
+      "unit_price": "7.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "232.50"
+    },
+    {
+      "line_id": "4",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "20.81",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "166.48"
+    },
+    {
+      "line_id": "5",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "34.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "34.28"
+    },
+    {
+      "line_id": "6",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "MON",
+      "unit_price": "43.13",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "474.43"
+    },
+    {
+      "line_id": "7",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "LTR",
+      "unit_price": "0.97",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "8.73"
+    },
+    {
+      "line_id": "8",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "41.00",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "164.00"
+    },
+    {
+      "line_id": "9",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "17.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "142.96"
+    },
+    {
+      "line_id": "10",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "58",
+      "unit_code": "C62",
+      "unit_price": "1.14",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "66.12"
+    },
+    {
+      "line_id": "11",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "20.56",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "328.96"
+    },
+    {
+      "line_id": "12",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "26.66",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "79.98"
+    }
+  ],
+  "iban": "DE61312885315695613386",
+  "bic": "UABGDENS",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2484.21",
+    "tax_total": "317.36",
+    "gross_total": "2801.57",
+    "due_amount": "2801.57",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1288.70",
+        "tax": "90.21"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1195.51",
+        "tax": "227.15"
+      }
+    ]
+  }
+}

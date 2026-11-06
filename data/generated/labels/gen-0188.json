@@ -1,0 +1,156 @@
+{
+  "number": "R26-09736",
+  "issue_date": "2026-04-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-03",
+  "delivery_date": "2026-03-20",
+  "buyer_reference": "4587686673",
+  "seller": {
+    "name": "Girschner & Schinke KG",
+    "address": {
+      "street": "Cathleen-Fiebig-Weg 4/9",
+      "postcode": "23016",
+      "city": "Darmstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE666931642",
+    "electronic_address": "rechnung@girschner.example",
+    "contact": {
+      "name": "Olaf Krause-Kruschwitz",
+      "phone": "05898 36933",
+      "email": "sigfried@girschner.example"
+    }
+  },
+  "buyer": {
+    "name": "Bolander Handel OHG",
+    "address": {
+      "street": "Hillerweg 7407",
+      "postcode": "19103",
+      "city": "Tübingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE979821304",
+    "electronic_address": "buchhaltung@bolander.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-593122",
+      "quantity": "121",
+      "unit_code": "MTK",
+      "unit_price": "2.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "358.16"
+    },
+    {
+      "line_id": "2",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A986659",
+      "quantity": "5",
+      "unit_code": "SET",
+      "unit_price": "74.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "370.75"
+    },
+    {
+      "line_id": "3",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "285190",
+      "quantity": "82",
+      "unit_code": "C62",
+      "unit_price": "7.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "624.84"
+    },
+    {
+      "line_id": "4",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "45621",
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "19.04",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "304.64"
+    },
+    {
+      "line_id": "5",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A929148",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "40.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "774.06"
+    },
+    {
+      "line_id": "6",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "ART36213",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "187.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "375.04"
+    },
+    {
+      "line_id": "7",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "365844",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "9.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "84.51"
+    },
+    {
+      "line_id": "8",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "85852",
+      "quantity": "28",
+      "unit_code": "C62",
+      "unit_price": "5.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "157.92"
+    },
+    {
+      "line_id": "9",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "A17112",
+      "quantity": "4",
+      "unit_code": "MTR",
+      "unit_price": "1.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4.56"
+    }
+  ],
+  "iban": "DE32888823911897330921",
+  "bic": "YTQGDEZ3",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3054.48",
+    "tax_total": "580.35",
+    "gross_total": "3634.83",
+    "due_amount": "3634.83",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3054.48",
+        "tax": "580.35"
+      }
+    ]
+  }
+}

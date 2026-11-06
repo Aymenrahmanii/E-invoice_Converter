@@ -1,0 +1,18 @@
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+body { font-family: "DejaVu Serif", Georgia, serif; font-size: 10.5pt; line-height: 1.5; }
+.from { margin-bottom: 14mm; }
+.to { margin-bottom: 14mm; }
+</style></head><body>
+<div class="from"><b>{{ inv.seller.contact.name }}</b> — {{ inv.seller.name }}<br>{{ inv.seller.address.street }}, {{ inv.seller.address.postcode }} {{ inv.seller.address.city }}<br>{{ inv.seller.contact.email }} · {{ inv.seller.contact.phone }}</div>
+<div class="to">{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}</div>
+<p class="r">{{ inv.seller.address.city }}, {{ fmt.date(inv.issue_date) }}</p>
+<p><b>Rechnung {{ inv.number }}</b>{% if leitweg %} · Leitweg-ID {{ inv.buyer_reference }}{% else %} · zu Ihrer Bestellung {{ inv.buyer_reference }}{% endif %}</p>
+{% set l = inv.lines[0] %}
+<p>Für {{ l.description }}{% if inv.delivery_date %} (erbracht am {{ fmt.date(inv.delivery_date) }}){% endif %} berechne ich Ihnen
+{{ fmt.number(l.quantity) }} {{ fmt.unit(l.unit_code) }} à {{ fmt.money(l.unit_price) }} = <b>{{ fmt.money(l.net_amount) }}</b> netto.</p>
+<p>Zuzüglich {{ fmt.number(vat[0].rate) }} % Umsatzsteuer ({{ fmt.money(vat[0].tax) }}) ergibt sich ein Rechnungsbetrag von <b>{{ fmt.money(inv.gross_total) }}</b>.</p>
+<p>{{ inv.payment_terms }}{% if inv.due_date %} Bitte bis spätestens {{ fmt.date(inv.due_date) }}.{% endif %}<br>
+Bankverbindung: IBAN {{ inv.iban }}{% if inv.bic %}, BIC {{ inv.bic }}{% endif %}</p>
+<p>USt-IdNr.: {{ inv.seller.vat_id }}{% if inv.buyer.vat_id %} · Ihre USt-IdNr.: {{ inv.buyer.vat_id }}{% endif %}</p>
+<p>Vielen Dank für die gute Zusammenarbeit!</p>
+</body></html>

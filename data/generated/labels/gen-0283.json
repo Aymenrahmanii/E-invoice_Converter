@@ -1,0 +1,68 @@
+{
+  "number": "211309",
+  "issue_date": "2026-10-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-30",
+  "delivery_date": "2026-10-12",
+  "buyer_reference": "4552973417",
+  "seller": {
+    "name": "Rudolph Digital KG",
+    "address": {
+      "street": "Raisa-Siering-Ring 13/80",
+      "postcode": "30198",
+      "city": "Lemgo",
+      "country_code": "DE"
+    },
+    "vat_id": "DE783404802",
+    "electronic_address": "invoice@rudolph.example",
+    "contact": {
+      "name": "Susann Pohl",
+      "phone": "+49(0)4033 264861",
+      "email": "janos@rudolph.example"
+    }
+  },
+  "buyer": {
+    "name": "Metz Bau GmbH",
+    "address": {
+      "street": "Casparallee 96-52",
+      "postcode": "25889",
+      "city": "Wanzleben",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@metz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1351.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1351.46"
+    }
+  ],
+  "iban": "DE43144147490899927333",
+  "bic": "NJQYDEMGXXX",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1351.46",
+    "tax_total": "256.78",
+    "gross_total": "1608.24",
+    "due_amount": "1608.24",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1351.46",
+        "tax": "256.78"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "number": "INV-61571",
+  "issue_date": "2026-09-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-25",
+  "delivery_date": "2026-09-01",
+  "buyer_reference": "4568085224",
+  "seller": {
+    "name": "Paffrath AG",
+    "address": {
+      "street": "Wagenknechtstraße 4",
+      "postcode": "29620",
+      "city": "Stadtroda",
+      "country_code": "DE"
+    },
+    "vat_id": "DE227882081",
+    "electronic_address": "invoice@paffrath.example",
+    "contact": {
+      "name": "Silja Biggen",
+      "phone": "0966162367",
+      "email": "traute@paffrath.example"
+    }
+  },
+  "buyer": {
+    "name": "Löwer Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Marvin-Dehmel-Allee 6/6",
+      "postcode": "44465",
+      "city": "Main-Höchst",
+      "country_code": "DE"
+    },
+    "vat_id": "DE601177314",
+    "electronic_address": "info@lower.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "870.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "870.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "162.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1784.64"
+    },
+    {
+      "line_id": "3",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "59",
+      "unit_code": "HUR",
+      "unit_price": "128.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7559.08"
+    },
+    {
+      "line_id": "4",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "MON",
+      "unit_price": "159.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1114.40"
+    },
+    {
+      "line_id": "5",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "12.5",
+      "unit_code": "HUR",
+      "unit_price": "79.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "992.13"
+    }
+  ],
+  "iban": "DE17469027105397855125",
+  "bic": "LSNNDEHD",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "12321.05",
+    "tax_total": "2341.00",
+    "gross_total": "14662.05",
+    "due_amount": "14662.05",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "12321.05",
+        "tax": "2341.00"
+      }
+    ]
+  }
+}

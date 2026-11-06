@@ -1,0 +1,68 @@
+{
+  "number": "R26-09870",
+  "issue_date": "2026-08-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-16",
+  "delivery_date": "2026-08-08",
+  "buyer_reference": "4569061677",
+  "seller": {
+    "name": "Matthäi & Sager GmbH",
+    "address": {
+      "street": "Alwina-Schomber-Gasse 6160",
+      "postcode": "95452",
+      "city": "Rochlitz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE144616619",
+    "electronic_address": "rechnung@matthai.example",
+    "contact": {
+      "name": "Herr Alf Wähner",
+      "phone": "(01766) 68014",
+      "email": "reinhilde@matthai.example"
+    }
+  },
+  "buyer": {
+    "name": "Steinberg Digital e.K.",
+    "address": {
+      "street": "Burkhardt-Käster-Gasse 499",
+      "postcode": "86556",
+      "city": "Tübingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE674659134",
+    "electronic_address": "rechnung@steinberg.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "103.5",
+      "unit_code": "HUR",
+      "unit_price": "77.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "8038.85"
+    }
+  ],
+  "iban": "DE93189108337185290559",
+  "bic": "BKCSDEFPXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "8038.85",
+    "tax_total": "1527.38",
+    "gross_total": "9566.23",
+    "due_amount": "9566.23",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "8038.85",
+        "tax": "1527.38"
+      }
+    ]
+  }
+}

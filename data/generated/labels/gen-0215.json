@@ -1,0 +1,118 @@
+{
+  "number": "R26-03603",
+  "issue_date": "2026-01-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-01-06",
+  "buyer_reference": "4568393954",
+  "seller": {
+    "name": "Aumann Bau GmbH & Co. KG",
+    "address": {
+      "street": "Manuel-Junitz-Straße 40",
+      "postcode": "20242",
+      "city": "Wismar",
+      "country_code": "DE"
+    },
+    "vat_id": "DE822819483",
+    "electronic_address": "info@aumann.example",
+    "contact": {
+      "name": "Ernst-August Schäfer-Bachmann",
+      "phone": "+49(0) 765662031",
+      "email": "walfried@aumann.example"
+    }
+  },
+  "buyer": {
+    "name": "Jähn Digital AG",
+    "address": {
+      "street": "Astrid-Loos-Allee 77/13",
+      "postcode": "40642",
+      "city": "Geldern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE412964704",
+    "electronic_address": "info@jahn.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "0.74",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "25.16"
+    },
+    {
+      "line_id": "2",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "35.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "35.77"
+    },
+    {
+      "line_id": "3",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "17.74",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "124.18"
+    },
+    {
+      "line_id": "4",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "29.45",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "176.70"
+    },
+    {
+      "line_id": "5",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "56",
+      "unit_code": "C62",
+      "unit_price": "30.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1710.80"
+    }
+  ],
+  "iban": "DE44144723144588121433",
+  "bic": "MIECDEHDXXX",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2072.61",
+    "tax_total": "354.67",
+    "gross_total": "2427.28",
+    "due_amount": "2427.28",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "326.04",
+        "tax": "22.82"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1746.57",
+        "tax": "331.85"
+      }
+    ]
+  }
+}

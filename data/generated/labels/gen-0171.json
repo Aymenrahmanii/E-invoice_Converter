@@ -1,0 +1,90 @@
+{
+  "number": "202603-5257",
+  "issue_date": "2026-03-31",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-07",
+  "delivery_date": "2026-03-26",
+  "buyer_reference": "14424-74044-69",
+  "seller": {
+    "name": "Schmiedt Service GmbH",
+    "address": {
+      "street": "Hölzenbecherring 30/84",
+      "postcode": "66431",
+      "city": "Lüdenscheid",
+      "country_code": "DE"
+    },
+    "vat_id": "DE258732373",
+    "electronic_address": "buchhaltung@schmiedt.example",
+    "contact": {
+      "name": "Ing. Lisbeth Berger B.Sc.",
+      "phone": "(09304) 932508",
+      "email": "anny@schmiedt.example"
+    }
+  },
+  "buyer": {
+    "name": "Heintze Technik AG",
+    "address": {
+      "street": "Binnerallee 7-5",
+      "postcode": "11352",
+      "city": "Ebern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE312418334",
+    "electronic_address": "rechnung@heintze.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "A311156",
+      "quantity": "7",
+      "unit_code": "MON",
+      "unit_price": "120.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "846.30"
+    },
+    {
+      "line_id": "2",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": "633247",
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1488.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1488.55"
+    },
+    {
+      "line_id": "3",
+      "description": "SEO-Analyse",
+      "seller_item_id": "ART10029",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "857.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "857.35"
+    }
+  ],
+  "iban": "DE74199951588510673312",
+  "bic": "BJGVDEET",
+  "payment_terms": "Zahlungsziel: 7 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "3192.20",
+    "tax_total": "606.52",
+    "gross_total": "3798.72",
+    "due_amount": "3798.72",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3192.20",
+        "tax": "606.52"
+      }
+    ]
+  }
+}

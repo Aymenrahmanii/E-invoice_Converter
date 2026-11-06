@@ -1,0 +1,90 @@
+{
+  "number": "2026/7339",
+  "issue_date": "2026-10-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-31",
+  "delivery_date": "2026-10-16",
+  "buyer_reference": "08068-70832-98",
+  "seller": {
+    "name": "Sager Digital AG",
+    "address": {
+      "street": "Monja-Mentzel-Gasse 917",
+      "postcode": "01220",
+      "city": "Hettstedt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE443901722",
+    "electronic_address": "invoice@sager.example",
+    "contact": {
+      "name": "Gert Kaul B.Eng.",
+      "phone": "+49(0) 388090007",
+      "email": "hans-henning@sager.example"
+    }
+  },
+  "buyer": {
+    "name": "Reising Technik e.K.",
+    "address": {
+      "street": "Jopichallee 9315",
+      "postcode": "44730",
+      "city": "Freital",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@reising.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "SKU-337044",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "97.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "390.08"
+    },
+    {
+      "line_id": "2",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": "816866",
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "947.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1894.54"
+    },
+    {
+      "line_id": "3",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "A606692",
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "1072.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1072.30"
+    }
+  ],
+  "iban": "DE64853450790840331585",
+  "bic": "ZFFGDEZ4",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3356.92",
+    "tax_total": "637.81",
+    "gross_total": "3994.73",
+    "due_amount": "3994.73",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3356.92",
+        "tax": "637.81"
+      }
+    ]
+  }
+}

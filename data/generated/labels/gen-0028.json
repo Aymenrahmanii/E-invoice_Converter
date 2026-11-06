@@ -1,0 +1,145 @@
+{
+  "number": "R26-07166",
+  "issue_date": "2026-06-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-10",
+  "delivery_date": "2026-05-22",
+  "buyer_reference": "11723514-39555-98",
+  "seller": {
+    "name": "Jacob Technik OHG",
+    "address": {
+      "street": "Blümelgasse 377",
+      "postcode": "41692",
+      "city": "Freital",
+      "country_code": "DE"
+    },
+    "vat_id": "DE888685074",
+    "electronic_address": "invoice@jacob.example",
+    "contact": {
+      "name": "Frithjof Aumann",
+      "phone": "(08692) 629693",
+      "email": "alfred@jacob.example"
+    }
+  },
+  "buyer": {
+    "name": "Häring Handel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Sinaida-Siering-Platz 63-22",
+      "postcode": "63958",
+      "city": "Tübingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE445065186",
+    "electronic_address": "buchhaltung@haring.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "SKU-186250",
+      "quantity": "77",
+      "unit_code": "C62",
+      "unit_price": "8.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "685.30"
+    },
+    {
+      "line_id": "2",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "SKU-774102",
+      "quantity": "73",
+      "unit_code": "C62",
+      "unit_price": "3.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "236.52"
+    },
+    {
+      "line_id": "3",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "ART533655",
+      "quantity": "18",
+      "unit_code": "C62",
+      "unit_price": "9.82",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "176.76"
+    },
+    {
+      "line_id": "4",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "ART492811",
+      "quantity": "59",
+      "unit_code": "MTR",
+      "unit_price": "5.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "348.10"
+    },
+    {
+      "line_id": "5",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART384907",
+      "quantity": "18",
+      "unit_code": "LTR",
+      "unit_price": "3.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "56.34"
+    },
+    {
+      "line_id": "6",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "ART663562",
+      "quantity": "320",
+      "unit_code": "MTK",
+      "unit_price": "3.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1260.80"
+    },
+    {
+      "line_id": "7",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-858281",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "95.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "573.06"
+    },
+    {
+      "line_id": "8",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "A69118",
+      "quantity": "45",
+      "unit_code": "C62",
+      "unit_price": "4.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "211.05"
+    }
+  ],
+  "iban": "DE02785756537753520562",
+  "bic": null,
+  "payment_terms": "Zahlungsziel: 7 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "3547.93",
+    "tax_total": "674.11",
+    "gross_total": "4222.04",
+    "due_amount": "4222.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3547.93",
+        "tax": "674.11"
+      }
+    ]
+  }
+}

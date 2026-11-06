@@ -1,0 +1,75 @@
+{
+  "number": "47110818",
+  "issue_date": "2018-10-31",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2018-11-30",
+  "delivery_date": null,
+  "buyer_reference": null,
+  "seller": {
+    "name": "Global Supplies Ltd.",
+    "address": {
+      "street": "153 Victoria Street",
+      "postcode": "SW1B 3BN",
+      "city": "London",
+      "country_code": "GB"
+    },
+    "vat_id": "GB999999999",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Metallbau Leipzig GmbH & Co. KG",
+    "address": {
+      "street": "Pappelallee 15",
+      "postcode": "12345",
+      "city": "Leipzig",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": "04 0 11 000 - 12345 12345 - 35",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Windschutzscheibe",
+      "seller_item_id": "CO-123/V2A",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "100",
+      "vat_rate": "0",
+      "vat_category": "K",
+      "net_amount": "1000"
+    },
+    {
+      "line_id": "2",
+      "description": "Stoßfänger",
+      "seller_item_id": "IM-712/A2A",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "100",
+      "vat_rate": "0",
+      "vat_category": "K",
+      "net_amount": "1000"
+    }
+  ],
+  "iban": "DE12 1234 4321 9876 00",
+  "bic": null,
+  "payment_terms": null,
+  "note": "Mitglieder der Geschäftsleitung: Geschäftsführerin: Johanna Musterfrau Prokuristin: Isabell Herrlich HRB Berlin 13086",
+  "totals": {
+    "net_total": "2000.00",
+    "tax_total": "0.00",
+    "gross_total": "2000.00",
+    "due_amount": "2000.00",
+    "vat_breakdown": [
+      {
+        "category": "K",
+        "rate": "0",
+        "basis": "2000",
+        "tax": "0"
+      }
+    ]
+  }
+}

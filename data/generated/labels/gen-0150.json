@@ -1,0 +1,112 @@
+{
+  "number": "RE-2026-2252",
+  "issue_date": "2026-06-08",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-08",
+  "delivery_date": "2026-05-31",
+  "buyer_reference": "09820-65656-38",
+  "seller": {
+    "name": "Jessel Bau KG",
+    "address": {
+      "street": "Heserweg 11",
+      "postcode": "57537",
+      "city": "Freising",
+      "country_code": "DE"
+    },
+    "vat_id": "DE710946813",
+    "electronic_address": "buchhaltung@jessel.example",
+    "contact": {
+      "name": "Hansjörg Baum",
+      "phone": "+49(0)1798917215",
+      "email": "zdenka@jessel.example"
+    }
+  },
+  "buyer": {
+    "name": "Möchlichen Service OHG",
+    "address": {
+      "street": "Katarina-Seip-Ring 2",
+      "postcode": "09227",
+      "city": "Altentreptow",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@mochlichen.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": "SKU-599539",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "7.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "65.61"
+    },
+    {
+      "line_id": "2",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": "A508140",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "28.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "85.74"
+    },
+    {
+      "line_id": "3",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "A338758",
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "6.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "98.88"
+    },
+    {
+      "line_id": "4",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": "ART790159",
+      "quantity": "21.5",
+      "unit_code": "MTR",
+      "unit_price": "9.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "200.60"
+    },
+    {
+      "line_id": "5",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": "ART235284",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "135.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "135.39"
+    }
+  ],
+  "iban": "DE98178406319256043802",
+  "bic": "RKVCDES7",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "586.22",
+    "tax_total": "111.38",
+    "gross_total": "697.60",
+    "due_amount": "697.60",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "586.22",
+        "tax": "111.38"
+      }
+    ]
+  }
+}

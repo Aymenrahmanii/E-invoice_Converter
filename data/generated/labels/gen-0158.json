@@ -1,0 +1,112 @@
+{
+  "number": "R26-02789",
+  "issue_date": "2026-09-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-29",
+  "delivery_date": "2026-09-18",
+  "buyer_reference": "4581503373",
+  "seller": {
+    "name": "Schmidt & Seidel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Vassilios-Köster-Straße 72",
+      "postcode": "78026",
+      "city": "Norden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE692829530",
+    "electronic_address": "invoice@schmidt.example",
+    "contact": {
+      "name": "Ekrem Weller",
+      "phone": "+49 (0) 6660 278899",
+      "email": "eckhard@schmidt.example"
+    }
+  },
+  "buyer": {
+    "name": "Höfig Digital OHG",
+    "address": {
+      "street": "Lambert-Weimer-Straße 20-34",
+      "postcode": "37561",
+      "city": "Schlüchtern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE589010484",
+    "electronic_address": "rechnung@hofig.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-950742",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "107.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "107.66"
+    },
+    {
+      "line_id": "2",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A883044",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "47.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "431.10"
+    },
+    {
+      "line_id": "3",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "A791425",
+      "quantity": "381.5",
+      "unit_code": "MTK",
+      "unit_price": "4.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1674.79"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "779855",
+      "quantity": "63",
+      "unit_code": "PR",
+      "unit_price": "4.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "263.34"
+    },
+    {
+      "line_id": "5",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-790540",
+      "quantity": "8",
+      "unit_code": "LTR",
+      "unit_price": "3.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "30.64"
+    }
+  ],
+  "iban": "DE38421860867785531911",
+  "bic": "USAYDEWA",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2507.53",
+    "tax_total": "476.43",
+    "gross_total": "2983.96",
+    "due_amount": "2983.96",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2507.53",
+        "tax": "476.43"
+      }
+    ]
+  }
+}

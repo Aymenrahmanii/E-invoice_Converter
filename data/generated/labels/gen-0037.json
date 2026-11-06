@@ -1,0 +1,90 @@
+{
+  "number": "INV-87368",
+  "issue_date": "2026-10-01",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-31",
+  "delivery_date": "2026-09-18",
+  "buyer_reference": "12376-12708-31",
+  "seller": {
+    "name": "Weimer & Reinhardt OHG",
+    "address": {
+      "street": "Barkholzstraße 511",
+      "postcode": "55471",
+      "city": "Schwabmünchen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE841221492",
+    "electronic_address": "rechnung@weimer.example",
+    "contact": {
+      "name": "Gönül Roht B.Eng.",
+      "phone": "07626060791",
+      "email": "romy@weimer.example"
+    }
+  },
+  "buyer": {
+    "name": "Meyer Bau GmbH & Co. KG",
+    "address": {
+      "street": "Klemtring 2/4",
+      "postcode": "93730",
+      "city": "Schwarzenberg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@meyer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": "SKU-394720",
+      "quantity": "36",
+      "unit_code": "MTR",
+      "unit_price": "15.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "552.24"
+    },
+    {
+      "line_id": "2",
+      "description": "Verlegung Laminat",
+      "seller_item_id": "669958",
+      "quantity": "58",
+      "unit_code": "MTK",
+      "unit_price": "24.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1415.20"
+    },
+    {
+      "line_id": "3",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "ART458336",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "40.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "40.42"
+    }
+  ],
+  "iban": "DE23162377799734990036",
+  "bic": "VDSYDEQYXXX",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2007.86",
+    "tax_total": "381.49",
+    "gross_total": "2389.35",
+    "due_amount": "2389.35",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2007.86",
+        "tax": "381.49"
+      }
+    ]
+  }
+}

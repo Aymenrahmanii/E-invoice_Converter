@@ -1,0 +1,112 @@
+{
+  "number": "R26-01242",
+  "issue_date": "2026-09-26",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-10",
+  "delivery_date": "2026-09-15",
+  "buyer_reference": "4545269658",
+  "seller": {
+    "name": "Stadelmann & Pruschke OHG",
+    "address": {
+      "street": "Constance-Karz-Gasse 9/7",
+      "postcode": "97320",
+      "city": "Regensburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE424874884",
+    "electronic_address": "rechnung@stadelmann.example",
+    "contact": {
+      "name": "Wolf-Dietrich Müller",
+      "phone": "(01607) 310401",
+      "email": "marijan@stadelmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Anders Handel AG",
+    "address": {
+      "street": "Eberhardtplatz 6/2",
+      "postcode": "42265",
+      "city": "Eutin",
+      "country_code": "DE"
+    },
+    "vat_id": "DE783883021",
+    "electronic_address": "rechnung@anders.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "A502627",
+      "quantity": "10",
+      "unit_code": "MON",
+      "unit_price": "192.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1929.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "SKU-17673",
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "624.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1249.04"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": "A299750",
+      "quantity": "0.5",
+      "unit_code": "DAY",
+      "unit_price": "1506.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "753.37"
+    },
+    {
+      "line_id": "4",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "9308",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "924.66",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "924.66"
+    },
+    {
+      "line_id": "5",
+      "description": "Projektmanagement",
+      "seller_item_id": "SKU-128953",
+      "quantity": "7.5",
+      "unit_code": "HUR",
+      "unit_price": "93.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "703.80"
+    }
+  ],
+  "iban": "DE68342906335789469126",
+  "bic": "RRMTDEJJ",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "5559.87",
+    "tax_total": "1056.38",
+    "gross_total": "6616.25",
+    "due_amount": "6616.25",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5559.87",
+        "tax": "1056.38"
+      }
+    ]
+  }
+}

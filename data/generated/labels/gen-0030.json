@@ -1,0 +1,134 @@
+{
+  "number": "INV-98422",
+  "issue_date": "2026-07-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-07-15",
+  "buyer_reference": "06472-24056-16",
+  "seller": {
+    "name": "Kroker e.K.",
+    "address": {
+      "street": "Laurenz-Schulz-Allee 1-8",
+      "postcode": "52839",
+      "city": "Burgdorf",
+      "country_code": "DE"
+    },
+    "vat_id": "DE608482889",
+    "electronic_address": "invoice@kroker.example",
+    "contact": {
+      "name": "Franjo Reinhardt",
+      "phone": "(08159) 665535",
+      "email": "anka@kroker.example"
+    }
+  },
+  "buyer": {
+    "name": "Grein Groth Digital AG",
+    "address": {
+      "street": "Iwan-Stroh-Allee 2",
+      "postcode": "14160",
+      "city": "Crailsheim",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@grein.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "23.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "119.35"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "HUR",
+      "unit_price": "67.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "744.59"
+    },
+    {
+      "line_id": "3",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "8.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "60.20"
+    },
+    {
+      "line_id": "4",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "29.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "29.10"
+    },
+    {
+      "line_id": "5",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "20.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "209.60"
+    },
+    {
+      "line_id": "6",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "65.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "65.97"
+    },
+    {
+      "line_id": "7",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "15",
+      "unit_code": "MTK",
+      "unit_price": "18.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "275.40"
+    }
+  ],
+  "iban": "DE52839492511096335558",
+  "bic": "MEIEDEGY",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1504.21",
+    "tax_total": "285.80",
+    "gross_total": "1790.01",
+    "due_amount": "1790.01",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1504.21",
+        "tax": "285.80"
+      }
+    ]
+  }
+}

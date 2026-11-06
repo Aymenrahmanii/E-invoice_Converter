@@ -1,0 +1,68 @@
+{
+  "number": "357829",
+  "issue_date": "2026-10-23",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-10-13",
+  "buyer_reference": "4579690718",
+  "seller": {
+    "name": "Rust & Mangold AG",
+    "address": {
+      "street": "Rudolphallee 6028",
+      "postcode": "36493",
+      "city": "Göttingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE475995234",
+    "electronic_address": "buchhaltung@rust.example",
+    "contact": {
+      "name": "Sükrü Hellwig MBA.",
+      "phone": "00510512340",
+      "email": "bernhardine@rust.example"
+    }
+  },
+  "buyer": {
+    "name": "Hertrampf Technik GmbH & Co. KG",
+    "address": {
+      "street": "Emilie-Bähr-Ring 8",
+      "postcode": "85543",
+      "city": "Hettstedt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE182133354",
+    "electronic_address": "invoice@hertrampf.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "24",
+      "unit_code": "HUR",
+      "unit_price": "61.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1482.24"
+    }
+  ],
+  "iban": "DE57191972551366369032",
+  "bic": "HIBRDEIW",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1482.24",
+    "tax_total": "281.63",
+    "gross_total": "1763.87",
+    "due_amount": "1763.87",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1482.24",
+        "tax": "281.63"
+      }
+    ]
+  }
+}

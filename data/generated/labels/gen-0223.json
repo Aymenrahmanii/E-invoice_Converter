@@ -1,0 +1,68 @@
+{
+  "number": "202602-9503",
+  "issue_date": "2026-02-01",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-15",
+  "delivery_date": "2026-01-21",
+  "buyer_reference": "4528014330",
+  "seller": {
+    "name": "Bolander Technik GmbH",
+    "address": {
+      "street": "Meisterweg 66/68",
+      "postcode": "93863",
+      "city": "Freising",
+      "country_code": "DE"
+    },
+    "vat_id": "DE861504432",
+    "electronic_address": "invoice@bolander.example",
+    "contact": {
+      "name": "Karlfried Hornig",
+      "phone": "+49 (0) 0928 872088",
+      "email": "simona@bolander.example"
+    }
+  },
+  "buyer": {
+    "name": "Steuer & Barth GmbH",
+    "address": {
+      "street": "Mälzerstraße 5",
+      "postcode": "09387",
+      "city": "Erding",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@steuer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "32.5",
+      "unit_code": "HUR",
+      "unit_price": "99.07",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3219.78"
+    }
+  ],
+  "iban": "DE36818344830102934971",
+  "bic": "NPAWDELD",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3219.78",
+    "tax_total": "611.76",
+    "gross_total": "3831.54",
+    "due_amount": "3831.54",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3219.78",
+        "tax": "611.76"
+      }
+    ]
+  }
+}

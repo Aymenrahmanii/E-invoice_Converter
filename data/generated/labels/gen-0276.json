@@ -1,0 +1,112 @@
+{
+  "number": "INV-81567",
+  "issue_date": "2026-05-14",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-28",
+  "delivery_date": "2026-05-14",
+  "buyer_reference": "4585423499",
+  "seller": {
+    "name": "Heß Service OHG",
+    "address": {
+      "street": "Strohweg 73",
+      "postcode": "65506",
+      "city": "Cuxhaven",
+      "country_code": "DE"
+    },
+    "vat_id": "DE593363127",
+    "electronic_address": "info@he.example",
+    "contact": {
+      "name": "Arndt Staude",
+      "phone": "+49(0)5323 18281",
+      "email": "ralf-dieter@he.example"
+    }
+  },
+  "buyer": {
+    "name": "Hahn Digital GmbH & Co. KG",
+    "address": {
+      "street": "Baumallee 875",
+      "postcode": "66111",
+      "city": "Stade",
+      "country_code": "DE"
+    },
+    "vat_id": "DE186249606",
+    "electronic_address": "rechnung@hahn.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "66.5",
+      "unit_code": "HUR",
+      "unit_price": "114.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7618.91"
+    },
+    {
+      "line_id": "2",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "851.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "851.41"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2.5",
+      "unit_code": "DAY",
+      "unit_price": "1140.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2851.75"
+    },
+    {
+      "line_id": "4",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "144.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "434.79"
+    },
+    {
+      "line_id": "5",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "521.38",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "521.38"
+    }
+  ],
+  "iban": "DE19261727729530002064",
+  "bic": "ASRBDEIFXXX",
+  "payment_terms": "Please transfer the amount within 14 days of the invoice date.",
+  "note": null,
+  "totals": {
+    "net_total": "12278.24",
+    "tax_total": "2332.87",
+    "gross_total": "14611.11",
+    "due_amount": "14611.11",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "12278.24",
+        "tax": "2332.87"
+      }
+    ]
+  }
+}

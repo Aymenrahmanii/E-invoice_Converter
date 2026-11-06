@@ -1,0 +1,100 @@
+{
+  "number": "FA-2017-0010",
+  "issue_date": "2017-11-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2017-12-13",
+  "delivery_date": "2017-11-13",
+  "buyer_reference": null,
+  "seller": {
+    "name": "Au bon moulin",
+    "address": {
+      "street": "1242 chemin de l'olive",
+      "postcode": "84340",
+      "city": "Malaucène",
+      "country_code": "FR"
+    },
+    "vat_id": "FR11999999998",
+    "electronic_address": null,
+    "contact": {
+      "name": "Tony Dubois",
+      "phone": "+33 4 72 07 08 56",
+      "email": "tony.dubois@aubonmoulin.fr"
+    }
+  },
+  "buyer": {
+    "name": "Ma jolie boutique",
+    "address": {
+      "street": "35 rue de la République",
+      "postcode": "69001",
+      "city": "Lyon",
+      "country_code": "FR"
+    },
+    "vat_id": "FR19787878784",
+    "electronic_address": null,
+    "contact": {
+      "name": "Alexandre Payet",
+      "phone": "+33 4 72 07 08 67",
+      "email": "alexandre.payet@majolieboutique.net"
+    }
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Nougat de l'Abbaye 250g",
+      "seller_item_id": "NOUG250",
+      "quantity": "20.000",
+      "unit_code": "C62",
+      "unit_price": "4.10",
+      "vat_rate": "20.00",
+      "vat_category": "S",
+      "net_amount": "81.90"
+    },
+    {
+      "line_id": "2",
+      "description": "Biscuits aux raisins 300g",
+      "seller_item_id": "BRAIS300",
+      "quantity": "15.000",
+      "unit_code": "C62",
+      "unit_price": "3.20",
+      "vat_rate": "5.50",
+      "vat_category": "S",
+      "net_amount": "48.00"
+    },
+    {
+      "line_id": "3",
+      "description": "Huile d'olive à l'ancienne",
+      "seller_item_id": "HOLANCL",
+      "quantity": "25.000",
+      "unit_code": "LTR",
+      "unit_price": "19.80",
+      "vat_rate": "5.50",
+      "vat_category": "S",
+      "net_amount": "495.00"
+    }
+  ],
+  "iban": "FR2012421242124212421242124",
+  "bic": "FIDCFR21XXX",
+  "payment_terms": "30% d'acompte, solde à 30 j",
+  "note": "Franco de port (commande > 300 € HT)",
+  "totals": {
+    "net_total": "624.90",
+    "tax_total": "46.25",
+    "gross_total": "671.15",
+    "due_amount": "470.15",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "20.00",
+        "basis": "81.90",
+        "tax": "16.38"
+      },
+      {
+        "category": "S",
+        "rate": "5.50",
+        "basis": "543.00",
+        "tax": "29.87"
+      }
+    ]
+  }
+}

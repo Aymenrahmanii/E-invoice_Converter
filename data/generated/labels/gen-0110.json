@@ -1,0 +1,112 @@
+{
+  "number": "368262",
+  "issue_date": "2026-07-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-09",
+  "delivery_date": "2026-06-23",
+  "buyer_reference": "4548791045",
+  "seller": {
+    "name": "Klemm OHG",
+    "address": {
+      "street": "Peukertstr. 48/22",
+      "postcode": "18403",
+      "city": "Starnberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE666219567",
+    "electronic_address": "buchhaltung@klemm.example",
+    "contact": {
+      "name": "Dipl.-Ing. Käthe Fischer",
+      "phone": "05418 093476",
+      "email": "hanne-lore@klemm.example"
+    }
+  },
+  "buyer": {
+    "name": "Fiebig Bau GmbH & Co. KG",
+    "address": {
+      "street": "Cichoriusallee 9-4",
+      "postcode": "32516",
+      "city": "Niesky",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@fiebig.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "31.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "310.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "DAY",
+      "unit_price": "106.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "746.27"
+    },
+    {
+      "line_id": "3",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "36.5",
+      "unit_code": "MTR",
+      "unit_price": "15.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "582.91"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "14.5",
+      "unit_code": "HUR",
+      "unit_price": "67.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "975.42"
+    },
+    {
+      "line_id": "5",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "4.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "21.60"
+    }
+  ],
+  "iban": "DE85519570304631434087",
+  "bic": "DVPVDEWE",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2637.00",
+    "tax_total": "501.03",
+    "gross_total": "3138.03",
+    "due_amount": "3138.03",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2637.00",
+        "tax": "501.03"
+      }
+    ]
+  }
+}

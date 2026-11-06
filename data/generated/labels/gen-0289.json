@@ -1,0 +1,68 @@
+{
+  "number": "INV-40669",
+  "issue_date": "2026-05-23",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-06",
+  "delivery_date": "2026-05-18",
+  "buyer_reference": "4533853398",
+  "seller": {
+    "name": "Holsten & Heydrich GmbH",
+    "address": {
+      "street": "Bährstraße 13-15",
+      "postcode": "98053",
+      "city": "Oberviechtach",
+      "country_code": "DE"
+    },
+    "vat_id": "DE626669835",
+    "electronic_address": "info@holsten.example",
+    "contact": {
+      "name": "Klaus-Ulrich Koch",
+      "phone": "09431662361",
+      "email": "riza@holsten.example"
+    }
+  },
+  "buyer": {
+    "name": "Gröttner Digital GmbH & Co. KG",
+    "address": {
+      "street": "Kranzgasse 412",
+      "postcode": "65739",
+      "city": "Kehl",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@grottner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "369.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "369.94"
+    }
+  ],
+  "iban": "DE49622069894668399947",
+  "bic": "AVIMDECK",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "369.94",
+    "tax_total": "70.29",
+    "gross_total": "440.23",
+    "due_amount": "440.23",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "369.94",
+        "tax": "70.29"
+      }
+    ]
+  }
+}

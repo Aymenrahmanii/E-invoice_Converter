@@ -1,0 +1,112 @@
+{
+  "number": "R26-06993",
+  "issue_date": "2026-05-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-05-20",
+  "buyer_reference": "4523881385",
+  "seller": {
+    "name": "Hornich Digital KG",
+    "address": {
+      "street": "Gnatzstraße 39-88",
+      "postcode": "40676",
+      "city": "Pasewalk",
+      "country_code": "DE"
+    },
+    "vat_id": "DE612950588",
+    "electronic_address": "buchhaltung@hornich.example",
+    "contact": {
+      "name": "Vassilios Loos-Höfig",
+      "phone": "+49 (0) 4392 269379",
+      "email": "abraham@hornich.example"
+    }
+  },
+  "buyer": {
+    "name": "Mans Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Oliver-Jacobi Jäckel-Ring 97",
+      "postcode": "36932",
+      "city": "Kyritz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE224763338",
+    "electronic_address": "info@mans.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1272.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1272.22"
+    },
+    {
+      "line_id": "2",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "47",
+      "unit_code": "HUR",
+      "unit_price": "102.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4818.44"
+    },
+    {
+      "line_id": "3",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "HUR",
+      "unit_price": "134.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1609.08"
+    },
+    {
+      "line_id": "4",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "1545.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7728.75"
+    },
+    {
+      "line_id": "5",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "8701",
+      "unit_code": "C62",
+      "unit_price": "0.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1566.18"
+    }
+  ],
+  "iban": "DE17791358985029645118",
+  "bic": "CVYODEZ9XXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "16994.67",
+    "tax_total": "3228.99",
+    "gross_total": "20223.66",
+    "due_amount": "20223.66",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "16994.67",
+        "tax": "3228.99"
+      }
+    ]
+  }
+}

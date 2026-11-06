@@ -1,0 +1,79 @@
+{
+  "number": "202608-1096",
+  "issue_date": "2026-08-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-23",
+  "delivery_date": "2026-08-01",
+  "buyer_reference": "10749243-65044-04",
+  "seller": {
+    "name": "Scholl Digital AG",
+    "address": {
+      "street": "Danielle-Förster-Gasse 592",
+      "postcode": "82167",
+      "city": "Bad Brückenau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE745565254",
+    "electronic_address": "info@scholl.example",
+    "contact": {
+      "name": "Abdullah Stey",
+      "phone": "+49 (0) 7682 886244",
+      "email": "nuran@scholl.example"
+    }
+  },
+  "buyer": {
+    "name": "Fischer OHG",
+    "address": {
+      "street": "Uschi-Weller-Gasse 9/8",
+      "postcode": "76019",
+      "city": "Helmstedt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE889921998",
+    "electronic_address": "info@fischer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "ART494411",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "5.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "80.64"
+    },
+    {
+      "line_id": "2",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": "SKU-869991",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "8.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "25.86"
+    }
+  ],
+  "iban": "DE57519671590623202947",
+  "bic": "SRRIDEDYXXX",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "106.50",
+    "tax_total": "20.24",
+    "gross_total": "126.74",
+    "due_amount": "126.74",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "106.50",
+        "tax": "20.24"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "number": "RE-2026-0074",
+  "issue_date": "2026-09-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-29",
+  "delivery_date": null,
+  "buyer_reference": "4554273575",
+  "seller": {
+    "name": "Plath KG",
+    "address": {
+      "street": "Tassilo-Mende-Straße 47",
+      "postcode": "43268",
+      "city": "Zschopau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE656309765",
+    "electronic_address": "info@plath.example",
+    "contact": {
+      "name": "Irmengard Faust-Segebahn",
+      "phone": "+49 (0) 5879 773907",
+      "email": "janett@plath.example"
+    }
+  },
+  "buyer": {
+    "name": "Speer Handel e.K.",
+    "address": {
+      "street": "Adolphweg 3",
+      "postcode": "86167",
+      "city": "Melsungen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@speer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": "ART755875",
+      "quantity": "22.5",
+      "unit_code": "HUR",
+      "unit_price": "55.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1256.40"
+    },
+    {
+      "line_id": "2",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "SKU-514259",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "6.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "42.70"
+    },
+    {
+      "line_id": "3",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": "SKU-766505",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "31.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "188.58"
+    }
+  ],
+  "iban": "DE86369892045645468746",
+  "bic": "PVJCDECS",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1487.68",
+    "tax_total": "282.66",
+    "gross_total": "1770.34",
+    "due_amount": "1770.34",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1487.68",
+        "tax": "282.66"
+      }
+    ]
+  }
+}

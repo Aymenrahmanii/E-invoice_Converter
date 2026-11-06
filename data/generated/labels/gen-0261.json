@@ -1,0 +1,68 @@
+{
+  "number": "INV-32989",
+  "issue_date": "2026-10-12",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-11",
+  "delivery_date": null,
+  "buyer_reference": "4590943591",
+  "seller": {
+    "name": "Röhricht KG",
+    "address": {
+      "street": "Josip-Metz-Weg 992",
+      "postcode": "40466",
+      "city": "Schleiz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE718600793",
+    "electronic_address": "buchhaltung@rohricht.example",
+    "contact": {
+      "name": "Hans-Rainer Gertz",
+      "phone": "0807936899",
+      "email": "silva@rohricht.example"
+    }
+  },
+  "buyer": {
+    "name": "Bohlander Digital e.K.",
+    "address": {
+      "street": "Reimer-Kraus-Weg 296",
+      "postcode": "69207",
+      "city": "Lippstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE856747709",
+    "electronic_address": "rechnung@bohlander.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "692.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1384.12"
+    }
+  ],
+  "iban": "DE92233030011646613174",
+  "bic": "TVFTDEME",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1384.12",
+    "tax_total": "262.98",
+    "gross_total": "1647.10",
+    "due_amount": "1647.10",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1384.12",
+        "tax": "262.98"
+      }
+    ]
+  }
+}

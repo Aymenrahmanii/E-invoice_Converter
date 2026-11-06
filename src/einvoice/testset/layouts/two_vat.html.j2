@@ -1,0 +1,23 @@
+{% from "_macros.j2" import ref_label %}
+<html lang="de"><head><meta charset="utf-8"><style>{{ css | safe }}
+.top { text-align: center; margin-bottom: 6mm; }
+.top h1 { margin: 0; font-size: 18pt; color: #b5541b; font-family: "DejaVu Serif", serif; }
+.meta td { padding: 1pt 4pt; }
+.items th { border-top: 1pt solid #b5541b; border-bottom: 1pt solid #b5541b; text-align: left; }
+.items td { border-bottom: 0.3pt dotted #aaa; }
+.vat { width: 70%; margin-left: auto; margin-top: 5mm; font-size: 8.5pt; }
+.vat th, .vat td { border: 0.5pt solid #aaa; }
+</style></head><body>
+<div class="top"><h1>{{ inv.seller.name }}</h1>{{ inv.seller.address.street }} · {{ inv.seller.address.postcode }} {{ inv.seller.address.city }} · {{ inv.seller.contact.phone }}</div>
+<table class="meta"><tr><td style="width:55%">{{ inv.buyer.name }}<br>{{ inv.buyer.address.street }}<br>{{ inv.buyer.address.postcode }} {{ inv.buyer.address.city }}</td>
+<td><table><tr><td>Rechnung</td><td>{{ inv.number }}</td></tr><tr><td>vom</td><td>{{ fmt.date(inv.issue_date) }}</td></tr>{% if inv.delivery_date %}<tr><td>Lieferung am</td><td>{{ fmt.date(inv.delivery_date) }}</td></tr>{% endif %}
+<tr><td>{{ ref_label(leitweg) }}</td><td>{{ inv.buyer_reference }}</td></tr></table></td></tr></table>
+<table class="items" style="margin-top:6mm"><thead><tr><th>Pos</th><th>Artikel</th><th class="r">Anzahl</th><th class="r">Preis</th><th class="c">MwSt</th><th class="r">Summe</th></tr></thead><tbody>
+{% for l in inv.lines %}<tr><td>{{ l.line_id }}</td><td>{{ l.description }}</td><td class="r nowrap">{{ fmt.number(l.quantity) }} {{ fmt.unit(l.unit_code) }}</td><td class="r nowrap">{{ fmt.money(l.unit_price) }}</td><td class="c">{{ "A" if l.vat_rate == 19 else "B" }}</td><td class="r nowrap">{{ fmt.money(l.net_amount) }}</td></tr>
+{% endfor %}</tbody></table>
+<table class="vat"><thead><tr><th>MwSt-Satz</th><th class="r">Netto</th><th class="r">MwSt</th><th class="r">Brutto</th></tr></thead><tbody>
+{% for v in vat %}<tr><td>{{ "A" if v.rate == 19 else "B" }} = {{ fmt.number(v.rate) }} %</td><td class="r">{{ fmt.money(v.basis) }}</td><td class="r">{{ fmt.money(v.tax) }}</td><td class="r">{{ fmt.money(v.basis + v.tax) }}</td></tr>{% endfor %}
+<tr><td><b>Summe</b></td><td class="r">{{ fmt.money(inv.net_total) }}</td><td class="r">{{ fmt.money(inv.tax_total) }}</td><td class="r"><b>{{ fmt.money(inv.gross_total) }}</b></td></tr></tbody></table>
+<p>{{ inv.payment_terms }}{% if inv.due_date %} Zahlbar bis {{ fmt.date(inv.due_date) }}.{% endif %}</p>
+<p class="small">IBAN {{ inv.iban }}{% if inv.bic %} · BIC {{ inv.bic }}{% endif %} · USt-IdNr.: {{ inv.seller.vat_id }}{% if inv.buyer.vat_id %} · Kunden-USt-ID: {{ inv.buyer.vat_id }}{% endif %} · {{ inv.seller.contact.email }}</p>
+</body></html>

@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-2280",
+  "issue_date": "2026-07-01",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-15",
+  "delivery_date": null,
+  "buyer_reference": "03953938-46985-06",
+  "seller": {
+    "name": "Klapp KG",
+    "address": {
+      "street": "Kuhlplatz 886",
+      "postcode": "22504",
+      "city": "Haldensleben",
+      "country_code": "DE"
+    },
+    "vat_id": "DE407752367",
+    "electronic_address": "rechnung@klapp.example",
+    "contact": {
+      "name": "Uli Tlustek",
+      "phone": "01381598205",
+      "email": "susan@klapp.example"
+    }
+  },
+  "buyer": {
+    "name": "Holsten Handel OHG",
+    "address": {
+      "street": "Rognergasse 95-25",
+      "postcode": "92476",
+      "city": "Rosenheim",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@holsten.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "4.5",
+      "unit_code": "DAY",
+      "unit_price": "1293.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5820.98"
+    }
+  ],
+  "iban": "DE68101190907420355257",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "5820.98",
+    "tax_total": "1105.99",
+    "gross_total": "6926.97",
+    "due_amount": "6926.97",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5820.98",
+        "tax": "1105.99"
+      }
+    ]
+  }
+}

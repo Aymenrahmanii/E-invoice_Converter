@@ -1,0 +1,68 @@
+{
+  "number": "2026/7939",
+  "issue_date": "2026-07-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-07-13",
+  "buyer_reference": "10424-61761-60",
+  "seller": {
+    "name": "Krause Technik OHG",
+    "address": {
+      "street": "Beerallee 8/8",
+      "postcode": "46763",
+      "city": "Dachau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE888747375",
+    "electronic_address": "invoice@krause.example",
+    "contact": {
+      "name": "Fanny Gertz",
+      "phone": "+49(0)6479 53289",
+      "email": "friedrich-wilhelm@krause.example"
+    }
+  },
+  "buyer": {
+    "name": "Benthin & Kuhl GmbH & Co. KG",
+    "address": {
+      "street": "Tschentscherring 3605",
+      "postcode": "90279",
+      "city": "Waren",
+      "country_code": "DE"
+    },
+    "vat_id": "DE294241477",
+    "electronic_address": "rechnung@benthin.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1129.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1694.42"
+    }
+  ],
+  "iban": "DE28635520998339586140",
+  "bic": "LXKTDEG0",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1694.42",
+    "tax_total": "321.94",
+    "gross_total": "2016.36",
+    "due_amount": "2016.36",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1694.42",
+        "tax": "321.94"
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "number": "INV-72001",
+  "issue_date": "2026-03-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-06",
+  "delivery_date": "2026-03-05",
+  "buyer_reference": "4514612605",
+  "seller": {
+    "name": "Eckbauer Technik GmbH & Co. KG",
+    "address": {
+      "street": "Salih-Schmiedecke-Allee 364",
+      "postcode": "95220",
+      "city": "Großenhain",
+      "country_code": "DE"
+    },
+    "vat_id": "DE140189796",
+    "electronic_address": "rechnung@eckbauer.example",
+    "contact": {
+      "name": "Stefania Biggen",
+      "phone": "01792 728617",
+      "email": "juergen@eckbauer.example"
+    }
+  },
+  "buyer": {
+    "name": "Ritter Digital KG",
+    "address": {
+      "street": "Sorgatzgasse 67-36",
+      "postcode": "13098",
+      "city": "Weißwasser",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@ritter.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "44.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "44.10"
+    },
+    {
+      "line_id": "2",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "29",
+      "unit_code": "C62",
+      "unit_price": "13.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "395.85"
+    },
+    {
+      "line_id": "3",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "4.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "38.48"
+    },
+    {
+      "line_id": "4",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "36",
+      "unit_code": "MTR",
+      "unit_price": "11.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "419.04"
+    },
+    {
+      "line_id": "5",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "8.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "68.88"
+    },
+    {
+      "line_id": "6",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": null,
+      "quantity": "28",
+      "unit_code": "HUR",
+      "unit_price": "48.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1362.20"
+    },
+    {
+      "line_id": "7",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "54.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "654.00"
+    },
+    {
+      "line_id": "8",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "28.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "171.78"
+    }
+  ],
+  "iban": "DE26638503471693210452",
+  "bic": "RWIQDEZTXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3154.33",
+    "tax_total": "599.32",
+    "gross_total": "3753.65",
+    "due_amount": "3753.65",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3154.33",
+        "tax": "599.32"
+      }
+    ]
+  }
+}

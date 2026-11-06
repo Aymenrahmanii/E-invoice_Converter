@@ -9,3 +9,10 @@ tools/
 .env
 # real invoices never go in the repo
 data/private/
+.venv-linux/
+# generated test set: PDFs/XML are rebuilt from the committed labels' seeds
+data/generated/pdf/
+data/generated/xml/
+data/generated/html/
+data/generated/reports/
+data/real/pdf/

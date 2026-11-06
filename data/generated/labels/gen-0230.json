@@ -1,0 +1,79 @@
+{
+  "number": "202606-5114",
+  "issue_date": "2026-06-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-11",
+  "delivery_date": "2026-05-26",
+  "buyer_reference": "15665-90233-67",
+  "seller": {
+    "name": "Jacobi Jäckel Service AG",
+    "address": {
+      "street": "Dörrgasse 5",
+      "postcode": "03805",
+      "city": "Gunzenhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE380045863",
+    "electronic_address": "rechnung@jacobi.example",
+    "contact": {
+      "name": "Wolf-Dieter Baum",
+      "phone": "08002 05442",
+      "email": "ayten@jacobi.example"
+    }
+  },
+  "buyer": {
+    "name": "Mitschke Handel AG",
+    "address": {
+      "street": "Schulzring 5-4",
+      "postcode": "45960",
+      "city": "Freital",
+      "country_code": "DE"
+    },
+    "vat_id": "DE159165120",
+    "electronic_address": "invoice@mitschke.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": "A724048",
+      "quantity": "18",
+      "unit_code": "HUR",
+      "unit_price": "34.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "624.78"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "A55741",
+      "quantity": "3",
+      "unit_code": "LS",
+      "unit_price": "31.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "94.08"
+    }
+  ],
+  "iban": "DE58381743751526321703",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "718.86",
+    "tax_total": "136.58",
+    "gross_total": "855.44",
+    "due_amount": "855.44",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "718.86",
+        "tax": "136.58"
+      }
+    ]
+  }
+}

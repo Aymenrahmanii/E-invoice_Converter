@@ -1,0 +1,68 @@
+{
+  "number": "INV-67752",
+  "issue_date": "2026-02-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "16163787-48774-10",
+  "seller": {
+    "name": "Döring Technik AG",
+    "address": {
+      "street": "Schenkstraße 9-6",
+      "postcode": "27970",
+      "city": "Hohenmölsen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE601118380",
+    "electronic_address": "invoice@doring.example",
+    "contact": {
+      "name": "Dipl.-Ing. Florentine Liebelt",
+      "phone": "+49 (0) 1107 295455",
+      "email": "darko@doring.example"
+    }
+  },
+  "buyer": {
+    "name": "Schulz KG",
+    "address": {
+      "street": "Thekla-Scholz-Gasse 4/2",
+      "postcode": "08826",
+      "city": "Hagenow",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@schulz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": "SKU-597813",
+      "quantity": "30.5",
+      "unit_code": "HUR",
+      "unit_price": "72.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2214.30"
+    }
+  ],
+  "iban": "DE91290858428731598926",
+  "bic": "SHCVDEBD",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "2214.30",
+    "tax_total": "420.72",
+    "gross_total": "2635.02",
+    "due_amount": "2635.02",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2214.30",
+        "tax": "420.72"
+      }
+    ]
+  }
+}

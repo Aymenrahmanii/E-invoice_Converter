@@ -1,0 +1,178 @@
+{
+  "number": "2026/6824",
+  "issue_date": "2026-01-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-25",
+  "delivery_date": "2026-01-04",
+  "buyer_reference": "4566680661",
+  "seller": {
+    "name": "Bärer Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Ullrichgasse 27",
+      "postcode": "24115",
+      "city": "Kitzingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE393675243",
+    "electronic_address": "buchhaltung@barer.example",
+    "contact": {
+      "name": "Hartwig Matthäi",
+      "phone": "08695 823389",
+      "email": "harri@barer.example"
+    }
+  },
+  "buyer": {
+    "name": "Wähner Bau KG",
+    "address": {
+      "street": "Wieslaw-Girschner-Straße 48/98",
+      "postcode": "50219",
+      "city": "Grimma",
+      "country_code": "DE"
+    },
+    "vat_id": "DE347794696",
+    "electronic_address": "buchhaltung@wahner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "ART213052",
+      "quantity": "26",
+      "unit_code": "PR",
+      "unit_price": "4.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "114.14"
+    },
+    {
+      "line_id": "2",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "ART771059",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "24.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "247.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-678568",
+      "quantity": "168",
+      "unit_code": "KGM",
+      "unit_price": "0.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "45.36"
+    },
+    {
+      "line_id": "4",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "SKU-373936",
+      "quantity": "133",
+      "unit_code": "MTR",
+      "unit_price": "5.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "712.88"
+    },
+    {
+      "line_id": "5",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART886414",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "13.68",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "465.12"
+    },
+    {
+      "line_id": "6",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "695452",
+      "quantity": "13",
+      "unit_code": "LTR",
+      "unit_price": "3.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "51.48"
+    },
+    {
+      "line_id": "7",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A862016",
+      "quantity": "37",
+      "unit_code": "C62",
+      "unit_price": "11.07",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "409.59"
+    },
+    {
+      "line_id": "8",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "ART189421",
+      "quantity": "38",
+      "unit_code": "C62",
+      "unit_price": "0.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "37.24"
+    },
+    {
+      "line_id": "9",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A842045",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "6.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "13.60"
+    },
+    {
+      "line_id": "10",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A569326",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "52.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "264.40"
+    },
+    {
+      "line_id": "11",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "ART470978",
+      "quantity": "51",
+      "unit_code": "C62",
+      "unit_price": "3.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "153.00"
+    }
+  ],
+  "iban": "DE07131779064395393498",
+  "bic": "XYWXDEB2",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2514.31",
+    "tax_total": "477.72",
+    "gross_total": "2992.03",
+    "due_amount": "2992.03",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2514.31",
+        "tax": "477.72"
+      }
+    ]
+  }
+}

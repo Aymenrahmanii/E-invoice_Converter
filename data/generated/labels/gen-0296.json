@@ -1,0 +1,90 @@
+{
+  "number": "RE-2026-4485",
+  "issue_date": "2026-08-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-07-31",
+  "buyer_reference": "4513807920",
+  "seller": {
+    "name": "Schuster AG",
+    "address": {
+      "street": "Kadestr. 2",
+      "postcode": "26296",
+      "city": "Staffelstein",
+      "country_code": "DE"
+    },
+    "vat_id": "DE410186823",
+    "electronic_address": "rechnung@schuster.example",
+    "contact": {
+      "name": "Juan Matthäi-Franke",
+      "phone": "+49(0)4873397607",
+      "email": "mary@schuster.example"
+    }
+  },
+  "buyer": {
+    "name": "Nohlmans GmbH",
+    "address": {
+      "street": "Birnbaumstraße 171",
+      "postcode": "30008",
+      "city": "Borna",
+      "country_code": "DE"
+    },
+    "vat_id": "DE213151793",
+    "electronic_address": "info@nohlmans.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Projektmanagement",
+      "seller_item_id": "ART562920",
+      "quantity": "14.5",
+      "unit_code": "HUR",
+      "unit_price": "80.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1167.69"
+    },
+    {
+      "line_id": "2",
+      "description": "SEO-Analyse",
+      "seller_item_id": "583240",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "582.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "582.16"
+    },
+    {
+      "line_id": "3",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "SKU-436775",
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "122.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "122.62"
+    }
+  ],
+  "iban": "DE35876595892698094492",
+  "bic": null,
+  "payment_terms": "Net 7 days.",
+  "note": null,
+  "totals": {
+    "net_total": "1872.47",
+    "tax_total": "355.77",
+    "gross_total": "2228.24",
+    "due_amount": "2228.24",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1872.47",
+        "tax": "355.77"
+      }
+    ]
+  }
+}

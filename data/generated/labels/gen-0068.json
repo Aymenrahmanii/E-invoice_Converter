@@ -1,0 +1,101 @@
+{
+  "number": "INV-10012",
+  "issue_date": "2026-08-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-07",
+  "delivery_date": "2026-08-20",
+  "buyer_reference": "14150-87584-61",
+  "seller": {
+    "name": "Schönland & Mies e.K.",
+    "address": {
+      "street": "Meinhard-Margraf-Allee 7-2",
+      "postcode": "90371",
+      "city": "Gifhorn",
+      "country_code": "DE"
+    },
+    "vat_id": "DE289392646",
+    "electronic_address": "info@schonland.example",
+    "contact": {
+      "name": "Herr Dino van der Dussen B.A.",
+      "phone": "0290844757",
+      "email": "siegried@schonland.example"
+    }
+  },
+  "buyer": {
+    "name": "Steinberg Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Cilli-Ackermann-Straße 4/7",
+      "postcode": "43728",
+      "city": "Schweinfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE526828133",
+    "electronic_address": "info@steinberg.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "SKU-183257",
+      "quantity": "298",
+      "unit_code": "MTR",
+      "unit_price": "1.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "372.50"
+    },
+    {
+      "line_id": "2",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A562359",
+      "quantity": "36",
+      "unit_code": "PR",
+      "unit_price": "4.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "162.36"
+    },
+    {
+      "line_id": "3",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-665977",
+      "quantity": "160.5",
+      "unit_code": "MTK",
+      "unit_price": "3.51",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "563.36"
+    },
+    {
+      "line_id": "4",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "SKU-824195",
+      "quantity": "41",
+      "unit_code": "C62",
+      "unit_price": "7.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "294.38"
+    }
+  ],
+  "iban": "DE73587523765403229105",
+  "bic": "PJOYDEYE",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1392.60",
+    "tax_total": "264.59",
+    "gross_total": "1657.19",
+    "due_amount": "1657.19",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1392.60",
+        "tax": "264.59"
+      }
+    ]
+  }
+}

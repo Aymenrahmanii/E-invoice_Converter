@@ -1,0 +1,68 @@
+{
+  "number": "INV-36678",
+  "issue_date": "2026-02-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-27",
+  "delivery_date": "2026-02-16",
+  "buyer_reference": "4583066615",
+  "seller": {
+    "name": "Davids Bau GmbH",
+    "address": {
+      "street": "Nina-Beckmann-Straße 7898",
+      "postcode": "63078",
+      "city": "Burg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE100956468",
+    "electronic_address": "invoice@davids.example",
+    "contact": {
+      "name": "Ing. Veronica Schönland",
+      "phone": "(00085) 541685",
+      "email": "georgios@davids.example"
+    }
+  },
+  "buyer": {
+    "name": "Hermann Handel AG",
+    "address": {
+      "street": "Harri-Cichorius-Gasse 9/1",
+      "postcode": "50480",
+      "city": "Wertingen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@hermann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "9145",
+      "unit_code": "C62",
+      "unit_price": "0.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1371.75"
+    }
+  ],
+  "iban": "DE08844904487396877049",
+  "bic": "SWNGDEGF",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1371.75",
+    "tax_total": "260.63",
+    "gross_total": "1632.38",
+    "due_amount": "1632.38",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1371.75",
+        "tax": "260.63"
+      }
+    ]
+  }
+}

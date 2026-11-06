@@ -1,0 +1,90 @@
+{
+  "number": "734267",
+  "issue_date": "2026-10-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-10-07",
+  "buyer_reference": "4537343420",
+  "seller": {
+    "name": "Roskoth Bau GmbH & Co. KG",
+    "address": {
+      "street": "Staudestr. 0",
+      "postcode": "02677",
+      "city": "Senftenberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE765854020",
+    "electronic_address": "buchhaltung@roskoth.example",
+    "contact": {
+      "name": "Fatima Kuhl",
+      "phone": "04874 52685",
+      "email": "edda@roskoth.example"
+    }
+  },
+  "buyer": {
+    "name": "Süßebier Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Säuberlichplatz 73-59",
+      "postcode": "17572",
+      "city": "Rastatt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE998334205",
+    "electronic_address": "rechnung@suebier.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "22.5",
+      "unit_code": "HUR",
+      "unit_price": "33.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "756.68"
+    },
+    {
+      "line_id": "2",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "6.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "57.24"
+    },
+    {
+      "line_id": "3",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "8.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "86.90"
+    }
+  ],
+  "iban": "DE10236187835774068368",
+  "bic": "RJYVDEMS",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "900.82",
+    "tax_total": "171.16",
+    "gross_total": "1071.98",
+    "due_amount": "1071.98",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "900.82",
+        "tax": "171.16"
+      }
+    ]
+  }
+}

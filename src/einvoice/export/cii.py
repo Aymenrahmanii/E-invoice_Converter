@@ -62,6 +62,8 @@ def build_document(invoice: Invoice, profile: Profile = "xrechnung") -> Document
         li = CiiLineItem()
         li.document.line_id = line.line_id
         li.product.name = line.description
+        if line.seller_item_id:
+            li.product.seller_assigned_id = line.seller_item_id
         li.agreement.net.amount = line.unit_price
         li.delivery.billed_quantity = (line.quantity, line.unit_code)
         li.settlement.trade_tax.type_code = "VAT"

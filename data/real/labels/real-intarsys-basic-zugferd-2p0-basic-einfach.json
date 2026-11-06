@@ -1,0 +1,64 @@
+{
+  "number": "471102",
+  "issue_date": "2018-03-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2018-04-04",
+  "delivery_date": "2018-03-05",
+  "buyer_reference": null,
+  "seller": {
+    "name": "Lieferant GmbH",
+    "address": {
+      "street": "Lieferantenstraße 20",
+      "postcode": "80333",
+      "city": "München",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": null
+  },
+  "buyer": {
+    "name": "Kunden AG Mitte",
+    "address": {
+      "street": "Hans Muster",
+      "postcode": "69876",
+      "city": "Frankfurt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "GTIN: 4012345001235 Unsere Art.-Nr.: TB100A4 Trennblätter A4",
+      "seller_item_id": null,
+      "quantity": "20.0000",
+      "unit_code": "C62",
+      "unit_price": "9.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "198.00"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": null,
+  "note": "Rechnung gemäß Bestellung vom 01.03.2018.",
+  "totals": {
+    "net_total": "198.00",
+    "tax_total": "37.62",
+    "gross_total": "235.62",
+    "due_amount": "235.62",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "198.00",
+        "tax": "37.62"
+      }
+    ]
+  }
+}

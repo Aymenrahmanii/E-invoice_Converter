@@ -1,0 +1,112 @@
+{
+  "number": "202606-3183",
+  "issue_date": "2026-06-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-03",
+  "delivery_date": "2026-06-01",
+  "buyer_reference": "4517024973",
+  "seller": {
+    "name": "Jacob OHG",
+    "address": {
+      "street": "Theodora-Jähn-Weg 3867",
+      "postcode": "34255",
+      "city": "Zossen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE595088431",
+    "electronic_address": "invoice@jacob.example",
+    "contact": {
+      "name": "Alice Bähr",
+      "phone": "0632049394",
+      "email": "margret@jacob.example"
+    }
+  },
+  "buyer": {
+    "name": "Mangold Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Hans-Walter-Holt-Gasse 9/3",
+      "postcode": "29133",
+      "city": "Dachau",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@mangold.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": "SKU-432958",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "31.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "63.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Verlegung Laminat",
+      "seller_item_id": "A713264",
+      "quantity": "33",
+      "unit_code": "MTK",
+      "unit_price": "24.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "809.49"
+    },
+    {
+      "line_id": "3",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": "ART605671",
+      "quantity": "9.5",
+      "unit_code": "HUR",
+      "unit_price": "34.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "328.13"
+    },
+    {
+      "line_id": "4",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": "A612864",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "71.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "71.94"
+    },
+    {
+      "line_id": "5",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": "A709175",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "10.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "51.40"
+    }
+  ],
+  "iban": "DE22110328560574127306",
+  "bic": "PUDBDECWXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1323.96",
+    "tax_total": "251.55",
+    "gross_total": "1575.51",
+    "due_amount": "1575.51",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1323.96",
+        "tax": "251.55"
+      }
+    ]
+  }
+}

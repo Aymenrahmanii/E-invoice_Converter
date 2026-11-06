@@ -1,0 +1,134 @@
+{
+  "number": "2026/5340",
+  "issue_date": "2026-03-12",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-19",
+  "delivery_date": "2026-03-09",
+  "buyer_reference": "4525350643",
+  "seller": {
+    "name": "Etzler UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Milica-Matthäi-Gasse 356",
+      "postcode": "77147",
+      "city": "Günzburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE382363573",
+    "electronic_address": "buchhaltung@etzler.example",
+    "contact": {
+      "name": "Traudel Weinhold",
+      "phone": "(00161) 15578",
+      "email": "zoltan@etzler.example"
+    }
+  },
+  "buyer": {
+    "name": "Junken Service GmbH",
+    "address": {
+      "street": "Massimo-Mosemann-Gasse 467",
+      "postcode": "19382",
+      "city": "Coburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE917535288",
+    "electronic_address": "rechnung@junken.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "24",
+      "unit_code": "HUR",
+      "unit_price": "33.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "801.36"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "41.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "41.91"
+    },
+    {
+      "line_id": "3",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "59.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "119.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "HUR",
+      "unit_price": "74.44",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "893.28"
+    },
+    {
+      "line_id": "5",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "33.5",
+      "unit_code": "MTR",
+      "unit_price": "12.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "415.74"
+    },
+    {
+      "line_id": "6",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "42",
+      "unit_code": "MTK",
+      "unit_price": "26.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1131.06"
+    },
+    {
+      "line_id": "7",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "6.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "18.00"
+    }
+  ],
+  "iban": "DE56833743079611650588",
+  "bic": "FGAUDEM5XXX",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3421.15",
+    "tax_total": "650.02",
+    "gross_total": "4071.17",
+    "due_amount": "4071.17",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3421.15",
+        "tax": "650.02"
+      }
+    ]
+  }
+}

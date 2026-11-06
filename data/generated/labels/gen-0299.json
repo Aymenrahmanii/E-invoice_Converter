@@ -1,0 +1,90 @@
+{
+  "number": "INV-42226",
+  "issue_date": "2026-09-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-08-28",
+  "buyer_reference": "11131491-55308-85",
+  "seller": {
+    "name": "Nerger Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Alban-Pruschke-Straße 1",
+      "postcode": "86722",
+      "city": "Stendal",
+      "country_code": "DE"
+    },
+    "vat_id": "DE902225111",
+    "electronic_address": "info@nerger.example",
+    "contact": {
+      "name": "Dr. Dragan Kabus",
+      "phone": "+49(0) 734715267",
+      "email": "ann-kathrin@nerger.example"
+    }
+  },
+  "buyer": {
+    "name": "Scheuermann Digital e.K.",
+    "address": {
+      "street": "Blümelstraße 46-75",
+      "postcode": "03154",
+      "city": "Garmisch-Partenkirchen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@scheuermann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1067.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1600.50"
+    },
+    {
+      "line_id": "2",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "2741",
+      "unit_code": "C62",
+      "unit_price": "0.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "465.97"
+    },
+    {
+      "line_id": "3",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2488.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2488.24"
+    }
+  ],
+  "iban": "DE33174791617747742332",
+  "bic": "XNSZDEFB",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "4554.71",
+    "tax_total": "865.39",
+    "gross_total": "5420.10",
+    "due_amount": "5420.10",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4554.71",
+        "tax": "865.39"
+      }
+    ]
+  }
+}

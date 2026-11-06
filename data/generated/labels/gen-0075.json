@@ -1,0 +1,140 @@
+{
+  "number": "202601-3479",
+  "issue_date": "2026-01-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-03",
+  "delivery_date": "2026-01-16",
+  "buyer_reference": "4515729701",
+  "seller": {
+    "name": "Bender Technik GmbH & Co. KG",
+    "address": {
+      "street": "Warmerring 6-1",
+      "postcode": "60602",
+      "city": "Aachen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE630483654",
+    "electronic_address": "info@bender.example",
+    "contact": {
+      "name": "Marita Neureuther-Börner",
+      "phone": "+49 (0) 0952 732397",
+      "email": "ida@bender.example"
+    }
+  },
+  "buyer": {
+    "name": "Koch Service GmbH & Co. KG",
+    "address": {
+      "street": "Antonios-Riehl-Ring 3",
+      "postcode": "85434",
+      "city": "Cloppenburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@koch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "4.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "23.05"
+    },
+    {
+      "line_id": "2",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "12.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "126.30"
+    },
+    {
+      "line_id": "3",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "57",
+      "unit_code": "C62",
+      "unit_price": "33.23",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1894.11"
+    },
+    {
+      "line_id": "4",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "28.97",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "57.94"
+    },
+    {
+      "line_id": "5",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "MON",
+      "unit_price": "56.14",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "449.12"
+    },
+    {
+      "line_id": "6",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "12.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "37.77"
+    },
+    {
+      "line_id": "7",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "29.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "29.85"
+    }
+  ],
+  "iban": "DE13605580932376320322",
+  "bic": "ZXZJDEY4",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2618.14",
+    "tax_total": "436.60",
+    "gross_total": "3054.74",
+    "due_amount": "3054.74",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "507.06",
+        "tax": "35.49"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2111.08",
+        "tax": "401.11"
+      }
+    ]
+  }
+}

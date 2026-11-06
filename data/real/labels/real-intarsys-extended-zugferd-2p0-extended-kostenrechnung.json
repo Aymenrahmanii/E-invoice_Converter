@@ -1,0 +1,112 @@
+{
+  "number": "KR87654321012",
+  "issue_date": "2018-10-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2018-09-30",
+  "buyer_reference": null,
+  "seller": {
+    "name": "MUSTERLIEFERANT GMBH",
+    "address": {
+      "street": "BAHNHOFSTRASSE 99",
+      "postcode": "99199",
+      "city": "MUSTERHAUSEN",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": {
+      "name": null,
+      "phone": "+49 932 431 500",
+      "email": "max.mustermann@musterlieferant.de"
+    }
+  },
+  "buyer": {
+    "name": "MUSTER-KUNDE GMBH",
+    "address": {
+      "street": "KUNDENWEG 88",
+      "postcode": "40235",
+      "city": "DUESSELDORF",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wirkarbeit HT",
+      "seller_item_id": "WA997",
+      "quantity": "10000.0000",
+      "unit_code": "KWH",
+      "unit_price": "0.0520",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "52.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Ökosteuer Lieferant",
+      "seller_item_id": "ÖST250",
+      "quantity": "10000.0000",
+      "unit_code": "KWH",
+      "unit_price": "0.0205",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "20.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Kommissionierer 1250032 D. Muster",
+      "seller_item_id": null,
+      "quantity": "27.5000",
+      "unit_code": "HUR",
+      "unit_price": "10.5000",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "288.75"
+    },
+    {
+      "line_id": "4",
+      "description": "FALTENBEUTEL 16x6x28 CM",
+      "seller_item_id": "FB05",
+      "quantity": "3500.0000",
+      "unit_code": "C62",
+      "unit_price": "0.0105",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "36.75"
+    },
+    {
+      "line_id": "5",
+      "description": "Kopierpapier A4",
+      "seller_item_id": "KOP05",
+      "quantity": "1210.0000",
+      "unit_code": "C62",
+      "unit_price": "0.0100",
+      "vat_rate": "19.00",
+      "vat_category": "S",
+      "net_amount": "12.10"
+    }
+  ],
+  "iban": null,
+  "bic": null,
+  "payment_terms": "Skontovereinbarung: 2% bei Zahlung innerhalb 10 Tagen nach Rechnungsdatum",
+  "note": "Es bestehen Rabatt- oder Bonusvereinbarungen.",
+  "totals": {
+    "net_total": "410.10",
+    "tax_total": "76.67",
+    "gross_total": "480.22",
+    "due_amount": "480.22",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "403.55",
+        "tax": "76.67"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "number": "351821",
+  "issue_date": "2026-03-23",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-22",
+  "delivery_date": "2026-03-13",
+  "buyer_reference": "07843232-17877-40",
+  "seller": {
+    "name": "Freudenberger Bau KG",
+    "address": {
+      "street": "Jacoballee 2-4",
+      "postcode": "69097",
+      "city": "Vilsbiburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE750581857",
+    "electronic_address": "rechnung@freudenberger.example",
+    "contact": {
+      "name": "Aenne Lindner B.Sc.",
+      "phone": "+49(0)8217 828888",
+      "email": "walburga@freudenberger.example"
+    }
+  },
+  "buyer": {
+    "name": "Rädel & Zobel KG",
+    "address": {
+      "street": "Helfried-Fliegner-Gasse 4/1",
+      "postcode": "08324",
+      "city": "Warendorf",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@radel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": "SKU-974529",
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "128.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1410.86"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "A585346",
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "515.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "515.13"
+    },
+    {
+      "line_id": "3",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": "SKU-575524",
+      "quantity": "23.5",
+      "unit_code": "HUR",
+      "unit_price": "103.96",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2443.06"
+    },
+    {
+      "line_id": "4",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "ART620029",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1255.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1255.35"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": "A838669",
+      "quantity": "43.5",
+      "unit_code": "HUR",
+      "unit_price": "99.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4315.64"
+    },
+    {
+      "line_id": "6",
+      "description": "Hosting und Wartung",
+      "seller_item_id": "A13392",
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "177.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "177.91"
+    }
+  ],
+  "iban": "DE83796799936687668314",
+  "bic": "JRZEDEHV",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "10117.95",
+    "tax_total": "1922.41",
+    "gross_total": "12040.36",
+    "due_amount": "12040.36",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "10117.95",
+        "tax": "1922.41"
+      }
+    ]
+  }
+}

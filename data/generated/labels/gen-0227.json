@@ -1,0 +1,123 @@
+{
+  "number": "INV-54357",
+  "issue_date": "2026-10-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-05",
+  "delivery_date": null,
+  "buyer_reference": "4554109852",
+  "seller": {
+    "name": "Zänker Handel GmbH",
+    "address": {
+      "street": "Rosestraße 9481",
+      "postcode": "41400",
+      "city": "Böblingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE520535006",
+    "electronic_address": "buchhaltung@zanker.example",
+    "contact": {
+      "name": "Edith Girschner",
+      "phone": "(04810) 522672",
+      "email": "annika@zanker.example"
+    }
+  },
+  "buyer": {
+    "name": "Wilms & Kostolzin GmbH",
+    "address": {
+      "street": "Dörrring 7-3",
+      "postcode": "16405",
+      "city": "Demmin",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@wilms.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Geselle",
+      "seller_item_id": null,
+      "quantity": "38",
+      "unit_code": "HUR",
+      "unit_price": "51.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1960.42"
+    },
+    {
+      "line_id": "2",
+      "description": "Malerkrepp 50 mm",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "4.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "8.48"
+    },
+    {
+      "line_id": "3",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "5.5",
+      "unit_code": "HUR",
+      "unit_price": "34.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "187.11"
+    },
+    {
+      "line_id": "4",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "DAY",
+      "unit_price": "83.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "249.78"
+    },
+    {
+      "line_id": "5",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "29.5",
+      "unit_code": "MTR",
+      "unit_price": "10.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "302.08"
+    },
+    {
+      "line_id": "6",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "20.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "81.12"
+    }
+  ],
+  "iban": "DE49689017909903564076",
+  "bic": "XUVODEKKXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2788.99",
+    "tax_total": "529.91",
+    "gross_total": "3318.90",
+    "due_amount": "3318.90",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2788.99",
+        "tax": "529.91"
+      }
+    ]
+  }
+}

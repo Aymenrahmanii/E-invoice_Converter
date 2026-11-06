@@ -1,0 +1,112 @@
+{
+  "number": "2026/6118",
+  "issue_date": "2026-09-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-14",
+  "delivery_date": "2026-08-26",
+  "buyer_reference": "4545335702",
+  "seller": {
+    "name": "Neuschäfer Digital KG",
+    "address": {
+      "street": "Nelli-Bender-Weg 7727",
+      "postcode": "52995",
+      "city": "Warendorf",
+      "country_code": "DE"
+    },
+    "vat_id": "DE232129278",
+    "electronic_address": "buchhaltung@neuschafer.example",
+    "contact": {
+      "name": "Lissy Haering",
+      "phone": "(05539) 329351",
+      "email": "viola@neuschafer.example"
+    }
+  },
+  "buyer": {
+    "name": "Finke Handel AG",
+    "address": {
+      "street": "Adolphstr. 26",
+      "postcode": "58802",
+      "city": "Greifswald",
+      "country_code": "DE"
+    },
+    "vat_id": "DE800173868",
+    "electronic_address": "rechnung@finke.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "96",
+      "unit_code": "HUR",
+      "unit_price": "136.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "13076.16"
+    },
+    {
+      "line_id": "2",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "2506",
+      "unit_code": "C62",
+      "unit_price": "0.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "426.02"
+    },
+    {
+      "line_id": "3",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1865.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1865.98"
+    },
+    {
+      "line_id": "4",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "23",
+      "unit_code": "HUR",
+      "unit_price": "61.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1406.45"
+    },
+    {
+      "line_id": "5",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "1085.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5428.50"
+    }
+  ],
+  "iban": "DE89665707913939889377",
+  "bic": "QRAXDEZLXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "22203.11",
+    "tax_total": "4218.59",
+    "gross_total": "26421.70",
+    "due_amount": "26421.70",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "22203.11",
+        "tax": "4218.59"
+      }
+    ]
+  }
+}

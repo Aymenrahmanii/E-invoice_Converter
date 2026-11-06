@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-6290",
+  "issue_date": "2026-08-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-18",
+  "delivery_date": null,
+  "buyer_reference": "4502593206",
+  "seller": {
+    "name": "Mende & Schwital GmbH",
+    "address": {
+      "street": "Heringring 5391",
+      "postcode": "68915",
+      "city": "Arnstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE561122275",
+    "electronic_address": "info@mende.example",
+    "contact": {
+      "name": "Herr Günther Kostolzin B.Eng.",
+      "phone": "+49(0)6367 947702",
+      "email": "leyla@mende.example"
+    }
+  },
+  "buyer": {
+    "name": "Zahn Bau AG",
+    "address": {
+      "street": "Gerlachallee 64/86",
+      "postcode": "51898",
+      "city": "Hechingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE355852990",
+    "electronic_address": "info@zahn.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "972.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4862.95"
+    }
+  ],
+  "iban": "DE52753469836867221799",
+  "bic": "BFYYDESEXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "4862.95",
+    "tax_total": "923.96",
+    "gross_total": "5786.91",
+    "due_amount": "5786.91",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "4862.95",
+        "tax": "923.96"
+      }
+    ]
+  }
+}

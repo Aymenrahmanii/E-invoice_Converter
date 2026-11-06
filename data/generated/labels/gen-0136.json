@@ -1,0 +1,79 @@
+{
+  "number": "202602-8076",
+  "issue_date": "2026-02-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-06",
+  "delivery_date": "2026-01-24",
+  "buyer_reference": "04439-94627-41",
+  "seller": {
+    "name": "Börner Bau AG",
+    "address": {
+      "street": "August-Scholz-Platz 5-6",
+      "postcode": "99407",
+      "city": "Bad Kissingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE983999363",
+    "electronic_address": "buchhaltung@borner.example",
+    "contact": {
+      "name": "Ismet Thanel",
+      "phone": "00890 491916",
+      "email": "reingard@borner.example"
+    }
+  },
+  "buyer": {
+    "name": "Käster & Trüb OHG",
+    "address": {
+      "street": "Heinz-Zirme-Gasse 10",
+      "postcode": "96287",
+      "city": "Dachau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE160854775",
+    "electronic_address": "rechnung@kaster.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1338.97",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2677.94"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "478.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "478.30"
+    }
+  ],
+  "iban": "DE17589038791756817904",
+  "bic": "ZEELDEMD",
+  "payment_terms": "Payment due within 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "3156.24",
+    "tax_total": "599.69",
+    "gross_total": "3755.93",
+    "due_amount": "3755.93",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3156.24",
+        "tax": "599.69"
+      }
+    ]
+  }
+}

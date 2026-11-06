@@ -1,0 +1,178 @@
+{
+  "number": "2026/4938",
+  "issue_date": "2026-01-22",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-29",
+  "delivery_date": "2026-01-18",
+  "buyer_reference": "03482194-90281-84",
+  "seller": {
+    "name": "Berger Service AG",
+    "address": {
+      "street": "Carstenstr. 5/4",
+      "postcode": "18169",
+      "city": "Görlitz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE134148602",
+    "electronic_address": "rechnung@berger.example",
+    "contact": {
+      "name": "Ing. Lisette Henck",
+      "phone": "+49(0)5143 68674",
+      "email": "dora@berger.example"
+    }
+  },
+  "buyer": {
+    "name": "Tlustek Handel OHG",
+    "address": {
+      "street": "Mülichenplatz 96-43",
+      "postcode": "06694",
+      "city": "Erfurt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@tlustek.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "SKU-517399",
+      "quantity": "48",
+      "unit_code": "C62",
+      "unit_price": "31.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1495.68"
+    },
+    {
+      "line_id": "2",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "ART718197",
+      "quantity": "189",
+      "unit_code": "LTR",
+      "unit_price": "2.84",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "536.76"
+    },
+    {
+      "line_id": "3",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "SKU-217943",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "129.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1038.00"
+    },
+    {
+      "line_id": "4",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "ART397728",
+      "quantity": "1389.5",
+      "unit_code": "KGM",
+      "unit_price": "0.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "222.32"
+    },
+    {
+      "line_id": "5",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-944895",
+      "quantity": "106",
+      "unit_code": "C62",
+      "unit_price": "1.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "183.38"
+    },
+    {
+      "line_id": "6",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "899706",
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "10.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "111.54"
+    },
+    {
+      "line_id": "7",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "SKU-867570",
+      "quantity": "106",
+      "unit_code": "C62",
+      "unit_price": "6.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "739.88"
+    },
+    {
+      "line_id": "8",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-322017",
+      "quantity": "398.5",
+      "unit_code": "MTK",
+      "unit_price": "4.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1777.31"
+    },
+    {
+      "line_id": "9",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "ART809215",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "43.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "861.20"
+    },
+    {
+      "line_id": "10",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "ART448637",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "5.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "10.30"
+    },
+    {
+      "line_id": "11",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART879963",
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "14.89",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "253.13"
+    }
+  ],
+  "iban": "DE81741295194163096462",
+  "bic": null,
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "7229.50",
+    "tax_total": "1373.61",
+    "gross_total": "8603.11",
+    "due_amount": "8603.11",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "7229.50",
+        "tax": "1373.61"
+      }
+    ]
+  }
+}

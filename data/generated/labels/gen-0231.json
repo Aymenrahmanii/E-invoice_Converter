@@ -1,0 +1,112 @@
+{
+  "number": "499540",
+  "issue_date": "2026-10-01",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-31",
+  "delivery_date": "2026-09-26",
+  "buyer_reference": "4594568912",
+  "seller": {
+    "name": "Reinhardt Service GmbH & Co. KG",
+    "address": {
+      "street": "Janette-Röhricht-Straße 7415",
+      "postcode": "06495",
+      "city": "Brilon",
+      "country_code": "DE"
+    },
+    "vat_id": "DE458577620",
+    "electronic_address": "invoice@reinhardt.example",
+    "contact": {
+      "name": "Dipl.-Ing. Rochus Kade",
+      "phone": "09815 36578",
+      "email": "lotte@reinhardt.example"
+    }
+  },
+  "buyer": {
+    "name": "Koch II Bau KG",
+    "address": {
+      "street": "Theodora-Hethur-Ring 3164",
+      "postcode": "60775",
+      "city": "Siegen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@koch.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "3.5",
+      "unit_code": "DAY",
+      "unit_price": "1079.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3779.72"
+    },
+    {
+      "line_id": "2",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "156.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "937.02"
+    },
+    {
+      "line_id": "3",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "18.5",
+      "unit_code": "HUR",
+      "unit_price": "84.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1558.63"
+    },
+    {
+      "line_id": "4",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "766.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "766.20"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "21.5",
+      "unit_code": "HUR",
+      "unit_price": "113.05",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2430.58"
+    }
+  ],
+  "iban": "DE66606621450762986040",
+  "bic": "OPLCDEUG",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "9472.15",
+    "tax_total": "1799.71",
+    "gross_total": "11271.86",
+    "due_amount": "11271.86",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "9472.15",
+        "tax": "1799.71"
+      }
+    ]
+  }
+}

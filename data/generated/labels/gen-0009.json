@@ -1,0 +1,112 @@
+{
+  "number": "INV-69949",
+  "issue_date": "2026-02-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-12",
+  "delivery_date": "2026-01-24",
+  "buyer_reference": "08-48647-19",
+  "seller": {
+    "name": "Bolnbach Bau GmbH & Co. KG",
+    "address": {
+      "street": "Aleksandra-Barth-Straße 7620",
+      "postcode": "64337",
+      "city": "Starnberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE958343234",
+    "electronic_address": "invoice@bolnbach.example",
+    "contact": {
+      "name": "Thorben Koch B.A.",
+      "phone": "0741295276",
+      "email": "evelyn@bolnbach.example"
+    }
+  },
+  "buyer": {
+    "name": "Schuchhardt Digital OHG",
+    "address": {
+      "street": "Hans-Dietrich-Dowerg-Ring 852",
+      "postcode": "22642",
+      "city": "Eisleben",
+      "country_code": "DE"
+    },
+    "vat_id": "DE687509491",
+    "electronic_address": "invoice@schuchhardt.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": "SKU-873933",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1173.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1173.56"
+    },
+    {
+      "line_id": "2",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": "232026",
+      "quantity": "3914",
+      "unit_code": "C62",
+      "unit_price": "0.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "626.24"
+    },
+    {
+      "line_id": "3",
+      "description": "Lektorat",
+      "seller_item_id": "ART928897",
+      "quantity": "12",
+      "unit_code": "HUR",
+      "unit_price": "70.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "844.20"
+    },
+    {
+      "line_id": "4",
+      "description": "Beratungsleistung",
+      "seller_item_id": "ART414825",
+      "quantity": "31",
+      "unit_code": "HUR",
+      "unit_price": "93.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2891.68"
+    },
+    {
+      "line_id": "5",
+      "description": "Softwareentwicklung",
+      "seller_item_id": "A672365",
+      "quantity": "47.5",
+      "unit_code": "HUR",
+      "unit_price": "138.94",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "6599.65"
+    }
+  ],
+  "iban": "DE29336474034935560167",
+  "bic": "EHFBDEE3XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "12135.33",
+    "tax_total": "2305.71",
+    "gross_total": "14441.04",
+    "due_amount": "14441.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "12135.33",
+        "tax": "2305.71"
+      }
+    ]
+  }
+}

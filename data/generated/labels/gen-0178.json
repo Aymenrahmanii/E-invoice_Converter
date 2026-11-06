@@ -1,0 +1,123 @@
+{
+  "number": "INV-51260",
+  "issue_date": "2026-10-08",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-15",
+  "delivery_date": "2026-10-06",
+  "buyer_reference": "4515239596",
+  "seller": {
+    "name": "Rogge Digital GmbH & Co. KG",
+    "address": {
+      "street": "Christiane-Köhler-Weg 22/92",
+      "postcode": "27724",
+      "city": "Bitterfeld",
+      "country_code": "DE"
+    },
+    "vat_id": "DE595461558",
+    "electronic_address": "buchhaltung@rogge.example",
+    "contact": {
+      "name": "Swetlana Jockel",
+      "phone": "+49(0) 574919036",
+      "email": "rebecca@rogge.example"
+    }
+  },
+  "buyer": {
+    "name": "Bonbach Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Aleksandra-Bohnbach-Platz 7607",
+      "postcode": "96675",
+      "city": "Nabburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE902857486",
+    "electronic_address": "rechnung@bonbach.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "SKU-270169",
+      "quantity": "80",
+      "unit_code": "C62",
+      "unit_price": "5.47",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "437.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A210223",
+      "quantity": "25",
+      "unit_code": "C62",
+      "unit_price": "14.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "357.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "A323501",
+      "quantity": "54",
+      "unit_code": "C62",
+      "unit_price": "2.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "145.26"
+    },
+    {
+      "line_id": "4",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "A198448",
+      "quantity": "185",
+      "unit_code": "C62",
+      "unit_price": "1.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "299.70"
+    },
+    {
+      "line_id": "5",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-29051",
+      "quantity": "229",
+      "unit_code": "MTK",
+      "unit_price": "4.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1014.47"
+    },
+    {
+      "line_id": "6",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "SKU-265141",
+      "quantity": "10",
+      "unit_code": "SET",
+      "unit_price": "83.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "836.40"
+    }
+  ],
+  "iban": "DE26592543337944124978",
+  "bic": null,
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3090.93",
+    "tax_total": "587.28",
+    "gross_total": "3678.21",
+    "due_amount": "3678.21",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3090.93",
+        "tax": "587.28"
+      }
+    ]
+  }
+}

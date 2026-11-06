@@ -1,0 +1,68 @@
+{
+  "number": "R26-03112",
+  "issue_date": "2026-08-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-31",
+  "delivery_date": "2026-08-16",
+  "buyer_reference": "14439-81446-03",
+  "seller": {
+    "name": "Mies Handel GmbH & Co. KG",
+    "address": {
+      "street": "Felizitas-Kreusel-Straße 48/60",
+      "postcode": "73745",
+      "city": "Pegnitz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE215906626",
+    "electronic_address": "invoice@mies.example",
+    "contact": {
+      "name": "Enver Sölzer",
+      "phone": "0669521593",
+      "email": "hans-jurgen@mies.example"
+    }
+  },
+  "buyer": {
+    "name": "Löffler Bau GmbH & Co. KG",
+    "address": {
+      "street": "Natali-Kohl-Straße 5/4",
+      "postcode": "88475",
+      "city": "Beilngries",
+      "country_code": "DE"
+    },
+    "vat_id": "DE139744588",
+    "electronic_address": "buchhaltung@loffler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "5877",
+      "unit_code": "C62",
+      "unit_price": "0.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "764.01"
+    }
+  ],
+  "iban": "DE89344490527981767485",
+  "bic": null,
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "764.01",
+    "tax_total": "145.16",
+    "gross_total": "909.17",
+    "due_amount": "909.17",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "764.01",
+        "tax": "145.16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "number": "RE-2026-6295",
+  "issue_date": "2026-03-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-12",
+  "delivery_date": "2026-02-20",
+  "buyer_reference": "4536892159",
+  "seller": {
+    "name": "Trapp Digital OHG",
+    "address": {
+      "street": "Dussen vanallee 2464",
+      "postcode": "46398",
+      "city": "Calw",
+      "country_code": "DE"
+    },
+    "vat_id": "DE432137138",
+    "electronic_address": "rechnung@trapp.example",
+    "contact": {
+      "name": "Mariana Gumprich",
+      "phone": "0577217817",
+      "email": "marianne@trapp.example"
+    }
+  },
+  "buyer": {
+    "name": "Killer Handel AG",
+    "address": {
+      "street": "Nadia-Hiller-Weg 9-3",
+      "postcode": "55389",
+      "city": "Holzminden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE785557242",
+    "electronic_address": "buchhaltung@killer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "586876",
+      "quantity": "27",
+      "unit_code": "C62",
+      "unit_price": "14.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "399.33"
+    },
+    {
+      "line_id": "2",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "ART254597",
+      "quantity": "41",
+      "unit_code": "C62",
+      "unit_price": "3.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "151.29"
+    },
+    {
+      "line_id": "3",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-350653",
+      "quantity": "133",
+      "unit_code": "C62",
+      "unit_price": "1.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "135.66"
+    },
+    {
+      "line_id": "4",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "ART35570",
+      "quantity": "256",
+      "unit_code": "MTR",
+      "unit_price": "1.10",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "281.60"
+    },
+    {
+      "line_id": "5",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "A980697",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "57.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "516.51"
+    },
+    {
+      "line_id": "6",
+      "description": "Dübel Nylon 8 mm, 100 Stk.",
+      "seller_item_id": "420894",
+      "quantity": "25",
+      "unit_code": "C62",
+      "unit_price": "7.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "194.00"
+    },
+    {
+      "line_id": "7",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "487263",
+      "quantity": "68",
+      "unit_code": "MTR",
+      "unit_price": "5.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "391.00"
+    },
+    {
+      "line_id": "8",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "SKU-178170",
+      "quantity": "146.5",
+      "unit_code": "MTK",
+      "unit_price": "3.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "493.71"
+    },
+    {
+      "line_id": "9",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART462011",
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "7.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.04"
+    },
+    {
+      "line_id": "10",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A823629",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "186.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1489.52"
+    },
+    {
+      "line_id": "11",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "A845946",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "13.02",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "130.20"
+    },
+    {
+      "line_id": "12",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "ART407762",
+      "quantity": "1540",
+      "unit_code": "KGM",
+      "unit_price": "0.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "338.80"
+    },
+    {
+      "line_id": "13",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-679299",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "17.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "172.20"
+    },
+    {
+      "line_id": "14",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "ART413681",
+      "quantity": "112",
+      "unit_code": "C62",
+      "unit_price": "6.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "703.36"
+    },
+    {
+      "line_id": "15",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-791451",
+      "quantity": "179",
+      "unit_code": "LTR",
+      "unit_price": "2.44",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "436.76"
+    },
+    {
+      "line_id": "16",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A832896",
+      "quantity": "30",
+      "unit_code": "PR",
+      "unit_price": "4.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "129.00"
+    },
+    {
+      "line_id": "17",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "A465847",
+      "quantity": "3",
+      "unit_code": "SET",
+      "unit_price": "117.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "351.93"
+    }
+  ],
+  "iban": "DE73565858349957856902",
+  "bic": "ADFODEHBXXX",
+  "payment_terms": "Zahlbar innerhalb von 7 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "6417.91",
+    "tax_total": "1219.40",
+    "gross_total": "7637.31",
+    "due_amount": "7637.31",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "6417.91",
+        "tax": "1219.40"
+      }
+    ]
+  }
+}

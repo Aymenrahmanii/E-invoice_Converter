@@ -1,0 +1,129 @@
+{
+  "number": "202610-9390",
+  "issue_date": "2026-10-23",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-30",
+  "delivery_date": "2026-10-10",
+  "buyer_reference": "4590782963",
+  "seller": {
+    "name": "Trubin AG",
+    "address": {
+      "street": "Hans-Willi-Dippel-Platz 52",
+      "postcode": "82717",
+      "city": "Gießen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE362191278",
+    "electronic_address": "buchhaltung@trubin.example",
+    "contact": {
+      "name": "Dipl.-Ing. Mariola Winkler",
+      "phone": "(01795) 419490",
+      "email": "johanna@trubin.example"
+    }
+  },
+  "buyer": {
+    "name": "Reuter KG",
+    "address": {
+      "street": "Marie-Louise-Carsten-Allee 5",
+      "postcode": "31224",
+      "city": "Plauen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE338148941",
+    "electronic_address": "invoice@reuter.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "19.83",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "59.49"
+    },
+    {
+      "line_id": "2",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "11.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "164.64"
+    },
+    {
+      "line_id": "3",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "MON",
+      "unit_price": "58.12",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "639.32"
+    },
+    {
+      "line_id": "4",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "40.92",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "204.60"
+    },
+    {
+      "line_id": "5",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "16",
+      "unit_code": "C62",
+      "unit_price": "18.83",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "301.28"
+    },
+    {
+      "line_id": "6",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "26.25",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "78.75"
+    }
+  ],
+  "iban": "DE86359426086617130048",
+  "bic": "YHMUDEELXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 7 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1448.08",
+    "tax_total": "121.12",
+    "gross_total": "1569.20",
+    "due_amount": "1569.20",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1283.44",
+        "tax": "89.84"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "164.64",
+        "tax": "31.28"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "202603-5903",
+  "issue_date": "2026-03-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-31",
+  "delivery_date": "2026-03-19",
+  "buyer_reference": "4552162621",
+  "seller": {
+    "name": "Förster & Heintze KG",
+    "address": {
+      "street": "Eduard-Stiebitz-Ring 30/68",
+      "postcode": "72862",
+      "city": "Neu-Ulm",
+      "country_code": "DE"
+    },
+    "vat_id": "DE774277610",
+    "electronic_address": "rechnung@forster.example",
+    "contact": {
+      "name": "Dipl.-Ing. Giovanni Kraushaar",
+      "phone": "+49 (0) 8891 301153",
+      "email": "rochus@forster.example"
+    }
+  },
+  "buyer": {
+    "name": "Trommler Digital GmbH & Co. KG",
+    "address": {
+      "street": "Andersweg 6183",
+      "postcode": "76568",
+      "city": "Gotha",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@trommler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "HUR",
+      "unit_price": "64.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1101.26"
+    }
+  ],
+  "iban": "DE36254235344746994037",
+  "bic": "WRSIDEXY",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1101.26",
+    "tax_total": "209.24",
+    "gross_total": "1310.50",
+    "due_amount": "1310.50",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1101.26",
+        "tax": "209.24"
+      }
+    ]
+  }
+}

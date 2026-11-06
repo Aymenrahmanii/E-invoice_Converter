@@ -1,0 +1,189 @@
+{
+  "number": "202609-6321",
+  "issue_date": "2026-09-26",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-10",
+  "delivery_date": "2026-09-17",
+  "buyer_reference": "09758-57470-14",
+  "seller": {
+    "name": "Pruschke & Killer AG",
+    "address": {
+      "street": "Junckengasse 2-1",
+      "postcode": "94425",
+      "city": "Hamburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE156797897",
+    "electronic_address": "info@pruschke.example",
+    "contact": {
+      "name": "Ekaterina Krebs",
+      "phone": "(05387) 186986",
+      "email": "dorina@pruschke.example"
+    }
+  },
+  "buyer": {
+    "name": "Hartung Technik KG",
+    "address": {
+      "street": "Trubstraße 9-1",
+      "postcode": "01201",
+      "city": "Moers",
+      "country_code": "DE"
+    },
+    "vat_id": "DE213950936",
+    "electronic_address": "info@hartung.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Silikonspray 400 ml",
+      "seller_item_id": "ART380179",
+      "quantity": "46",
+      "unit_code": "C62",
+      "unit_price": "5.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "271.86"
+    },
+    {
+      "line_id": "2",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-762655",
+      "quantity": "1110.5",
+      "unit_code": "KGM",
+      "unit_price": "0.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "177.68"
+    },
+    {
+      "line_id": "3",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "A883167",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "10.22",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "51.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "A819298",
+      "quantity": "128",
+      "unit_code": "MTR",
+      "unit_price": "5.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "655.36"
+    },
+    {
+      "line_id": "5",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "637984",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "167.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "836.25"
+    },
+    {
+      "line_id": "6",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-328637",
+      "quantity": "28",
+      "unit_code": "C62",
+      "unit_price": "46.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1302.84"
+    },
+    {
+      "line_id": "7",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "ART806694",
+      "quantity": "85",
+      "unit_code": "C62",
+      "unit_price": "4.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "382.50"
+    },
+    {
+      "line_id": "8",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "ART531196",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "38.79",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "155.16"
+    },
+    {
+      "line_id": "9",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "A381480",
+      "quantity": "193",
+      "unit_code": "MTK",
+      "unit_price": "4.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "799.02"
+    },
+    {
+      "line_id": "10",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "387535",
+      "quantity": "157",
+      "unit_code": "LTR",
+      "unit_price": "2.31",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "362.67"
+    },
+    {
+      "line_id": "11",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "SKU-783432",
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "23.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "280.92"
+    },
+    {
+      "line_id": "12",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A506298",
+      "quantity": "24",
+      "unit_code": "PR",
+      "unit_price": "2.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "55.20"
+    }
+  ],
+  "iban": "DE84531981475159350202",
+  "bic": "WVIXDEVU",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "5330.56",
+    "tax_total": "1012.81",
+    "gross_total": "6343.37",
+    "due_amount": "6343.37",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5330.56",
+        "tax": "1012.81"
+      }
+    ]
+  }
+}

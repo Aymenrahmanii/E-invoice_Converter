@@ -1,0 +1,123 @@
+{
+  "number": "INV-37924",
+  "issue_date": "2026-04-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-28",
+  "delivery_date": "2026-04-16",
+  "buyer_reference": "08811-16100-59",
+  "seller": {
+    "name": "Häring & Hamann UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Pärtzeltweg 99/40",
+      "postcode": "88958",
+      "city": "Regensburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE208917865",
+    "electronic_address": "buchhaltung@haring.example",
+    "contact": {
+      "name": "Prof. Gitte Roht",
+      "phone": "+49(0)0396 67173",
+      "email": "hans-eberhard@haring.example"
+    }
+  },
+  "buyer": {
+    "name": "Heidrich Service GmbH & Co. KG",
+    "address": {
+      "street": "Teresa-Hamann-Straße 32-43",
+      "postcode": "61291",
+      "city": "Meppen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE104530446",
+    "electronic_address": "info@heidrich.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "MON",
+      "unit_price": "133.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "932.40"
+    },
+    {
+      "line_id": "2",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "36",
+      "unit_code": "HUR",
+      "unit_price": "97.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3523.32"
+    },
+    {
+      "line_id": "3",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "2.5",
+      "unit_code": "HUR",
+      "unit_price": "95.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "237.73"
+    },
+    {
+      "line_id": "4",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "56",
+      "unit_code": "HUR",
+      "unit_price": "98.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5495.84"
+    },
+    {
+      "line_id": "5",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "1446.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1446.99"
+    },
+    {
+      "line_id": "6",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1194.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1194.36"
+    }
+  ],
+  "iban": "DE46260600933946742040",
+  "bic": "KJUNDEH0XXX",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "12830.64",
+    "tax_total": "2437.82",
+    "gross_total": "15268.46",
+    "due_amount": "15268.46",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "12830.64",
+        "tax": "2437.82"
+      }
+    ]
+  }
+}

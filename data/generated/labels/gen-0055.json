@@ -1,0 +1,129 @@
+{
+  "number": "573251",
+  "issue_date": "2026-06-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-19",
+  "delivery_date": "2026-05-24",
+  "buyer_reference": "4500622696",
+  "seller": {
+    "name": "Jähn Handel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Oscar-Schwital-Gasse 68-51",
+      "postcode": "14630",
+      "city": "Euskirchen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE297545701",
+    "electronic_address": "buchhaltung@jahn.example",
+    "contact": {
+      "name": "Juliane Zirme",
+      "phone": "0067171777",
+      "email": "sedat@jahn.example"
+    }
+  },
+  "buyer": {
+    "name": "Rogge Digital OHG",
+    "address": {
+      "street": "Jiri-Kambs-Gasse 3783",
+      "postcode": "02930",
+      "city": "Wetzlar",
+      "country_code": "DE"
+    },
+    "vat_id": "DE164941468",
+    "electronic_address": "buchhaltung@rogge.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": "539968",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "9.05",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "63.35"
+    },
+    {
+      "line_id": "2",
+      "description": "Kuchenplatte",
+      "seller_item_id": "SKU-86149",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "26.41",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "105.64"
+    },
+    {
+      "line_id": "3",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": "SKU-460838",
+      "quantity": "7",
+      "unit_code": "MON",
+      "unit_price": "51.43",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "360.01"
+    },
+    {
+      "line_id": "4",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "ART888495",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "5.03",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "25.15"
+    },
+    {
+      "line_id": "5",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": "68179",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "24.12",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "96.48"
+    },
+    {
+      "line_id": "6",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "ART143003",
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "7.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "140.60"
+    }
+  ],
+  "iban": "DE64237519321478682663",
+  "bic": "HUKADEKXXXX",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "791.23",
+    "tax_total": "82.88",
+    "gross_total": "874.11",
+    "due_amount": "874.11",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "562.13",
+        "tax": "39.35"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "229.10",
+        "tax": "43.53"
+      }
+    ]
+  }
+}

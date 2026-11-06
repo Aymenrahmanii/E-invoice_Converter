@@ -1,0 +1,79 @@
+{
+  "number": "RE-2026-1866",
+  "issue_date": "2026-10-01",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-31",
+  "delivery_date": "2026-09-24",
+  "buyer_reference": "09649-87687-97",
+  "seller": {
+    "name": "Reinhardt e.K.",
+    "address": {
+      "street": "Andrei-Wernecke-Ring 80",
+      "postcode": "71595",
+      "city": "Hildburghausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE258134165",
+    "electronic_address": "invoice@reinhardt.example",
+    "contact": {
+      "name": "Vladimir Geisel-Davids",
+      "phone": "01571 705737",
+      "email": "bertold@reinhardt.example"
+    }
+  },
+  "buyer": {
+    "name": "Mangold Technik GmbH & Co. KG",
+    "address": {
+      "street": "Thomas-Tschentscher-Gasse 92/91",
+      "postcode": "54905",
+      "city": "Havelberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE776121423",
+    "electronic_address": "buchhaltung@mangold.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "9.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "29.22"
+    },
+    {
+      "line_id": "2",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "6.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "73.81"
+    }
+  ],
+  "iban": "DE09584721469689529645",
+  "bic": "IJYBDED4XXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "103.03",
+    "tax_total": "19.58",
+    "gross_total": "122.61",
+    "due_amount": "122.61",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "103.03",
+        "tax": "19.58"
+      }
+    ]
+  }
+}

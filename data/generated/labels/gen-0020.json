@@ -1,0 +1,112 @@
+{
+  "number": "R26-09688",
+  "issue_date": "2026-01-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-01-19",
+  "delivery_date": "2025-12-30",
+  "buyer_reference": "4594559944",
+  "seller": {
+    "name": "Anders Service GmbH & Co. KG",
+    "address": {
+      "street": "Theodora-Beier-Weg 3-8",
+      "postcode": "49709",
+      "city": "Soltau",
+      "country_code": "DE"
+    },
+    "vat_id": "DE404942549",
+    "electronic_address": "info@anders.example",
+    "contact": {
+      "name": "Aleksandr Schönland",
+      "phone": "+49(0)9291 34653",
+      "email": "pawel@anders.example"
+    }
+  },
+  "buyer": {
+    "name": "Köhler Service GmbH & Co. KG",
+    "address": {
+      "street": "Bährallee 79/87",
+      "postcode": "72367",
+      "city": "Sangerhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE166429287",
+    "electronic_address": "buchhaltung@kohler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "72.5",
+      "unit_code": "MTK",
+      "unit_price": "16.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1194.80"
+    },
+    {
+      "line_id": "2",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "5.5",
+      "unit_code": "MTR",
+      "unit_price": "10.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "58.80"
+    },
+    {
+      "line_id": "3",
+      "description": "Silikon sanitär, transparent",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "11.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "77.00"
+    },
+    {
+      "line_id": "4",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "LS",
+      "unit_price": "150.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "300.42"
+    },
+    {
+      "line_id": "5",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "23.20",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "69.60"
+    }
+  ],
+  "iban": "DE64507374732099373807",
+  "bic": "RVMWDERMXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1700.62",
+    "tax_total": "323.12",
+    "gross_total": "2023.74",
+    "due_amount": "2023.74",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1700.62",
+        "tax": "323.12"
+      }
+    ]
+  }
+}

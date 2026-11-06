@@ -1,0 +1,68 @@
+{
+  "number": "INV-32734",
+  "issue_date": "2026-10-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-09-24",
+  "buyer_reference": "4573753099",
+  "seller": {
+    "name": "Ring Service KG",
+    "address": {
+      "street": "Finkering 52-31",
+      "postcode": "78638",
+      "city": "Weißwasser",
+      "country_code": "DE"
+    },
+    "vat_id": "DE522816966",
+    "electronic_address": "buchhaltung@ring.example",
+    "contact": {
+      "name": "Jutta Stadelmann",
+      "phone": "+49(0) 521922120",
+      "email": "uschi@ring.example"
+    }
+  },
+  "buyer": {
+    "name": "Ortmann Technik AG",
+    "address": {
+      "street": "Schusterplatz 975",
+      "postcode": "01252",
+      "city": "Calau",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@ortmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "7269",
+      "unit_code": "C62",
+      "unit_price": "0.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "944.97"
+    }
+  ],
+  "iban": "DE72857318869254438006",
+  "bic": "DFAPDEBJXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "944.97",
+    "tax_total": "179.54",
+    "gross_total": "1124.51",
+    "due_amount": "1124.51",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "944.97",
+        "tax": "179.54"
+      }
+    ]
+  }
+}

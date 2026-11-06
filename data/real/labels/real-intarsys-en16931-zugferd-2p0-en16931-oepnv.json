@@ -1,0 +1,68 @@
+{
+  "number": "E2018092011804",
+  "issue_date": "2018-09-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2018-10-03",
+  "delivery_date": "2018-09-20",
+  "buyer_reference": "05 158 004 - 11023 - 45",
+  "seller": {
+    "name": "Verkehrsbetriebe GmbH",
+    "address": {
+      "street": "Musterstraße 3",
+      "postcode": "12345",
+      "city": "Berlin",
+      "country_code": "DE"
+    },
+    "vat_id": "DE123456789",
+    "electronic_address": null,
+    "contact": {
+      "name": "Torti Mayer",
+      "phone": "+493012345678",
+      "email": "tm@verkehrsbetriebe.de"
+    }
+  },
+  "buyer": {
+    "name": "Liselotte Müllermann",
+    "address": {
+      "street": "Beispielstraße 24",
+      "postcode": "12345",
+      "city": "Berlin",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "0",
+      "description": "4-Fahrten-Karte Berlin AB",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "8.41",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "8.41"
+    }
+  ],
+  "iban": "DE12 1234 5678 9012 3456 78",
+  "bic": null,
+  "payment_terms": "Zahlungsbedingungen: Der Rechnungsbetrag wurde bereits beglichen.",
+  "note": "Bei Schriftwechsel bitte Ihre Kundennummer 35040727 und Belegnummer 2018092011804 angeben",
+  "totals": {
+    "net_total": "8.41",
+    "tax_total": "0.59",
+    "gross_total": "9.00",
+    "due_amount": "9.00",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "8.41",
+        "tax": "0.59"
+      }
+    ]
+  }
+}

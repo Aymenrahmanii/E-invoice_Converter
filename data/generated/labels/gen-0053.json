@@ -1,0 +1,68 @@
+{
+  "number": "R26-06188",
+  "issue_date": "2026-01-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-13",
+  "delivery_date": null,
+  "buyer_reference": "4588978493",
+  "seller": {
+    "name": "Tlustek e.K.",
+    "address": {
+      "street": "Süßebierstr. 1/6",
+      "postcode": "74376",
+      "city": "Helmstedt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE156150780",
+    "electronic_address": "buchhaltung@tlustek.example",
+    "contact": {
+      "name": "Betina Hübel",
+      "phone": "0540602900",
+      "email": "klaus-jurgen@tlustek.example"
+    }
+  },
+  "buyer": {
+    "name": "Niemeier Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Hamannstraße 25-61",
+      "postcode": "13270",
+      "city": "Gransee",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@niemeier.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1482.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2964.72"
+    }
+  ],
+  "iban": "DE30492784011233670079",
+  "bic": "UZTODELF",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2964.72",
+    "tax_total": "563.30",
+    "gross_total": "3528.02",
+    "due_amount": "3528.02",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2964.72",
+        "tax": "563.30"
+      }
+    ]
+  }
+}

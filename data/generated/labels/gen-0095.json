@@ -1,0 +1,140 @@
+{
+  "number": "202604-3609",
+  "issue_date": "2026-04-10",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-10",
+  "delivery_date": "2026-03-31",
+  "buyer_reference": "02-78765-40",
+  "seller": {
+    "name": "Gude & Seidel GmbH",
+    "address": {
+      "street": "Johannes-Wesack-Platz 50",
+      "postcode": "92298",
+      "city": "Calw",
+      "country_code": "DE"
+    },
+    "vat_id": "DE255309869",
+    "electronic_address": "rechnung@gude.example",
+    "contact": {
+      "name": "Herlinde Scholz-Jopich",
+      "phone": "(04196) 17958",
+      "email": "ernest@gude.example"
+    }
+  },
+  "buyer": {
+    "name": "Schüler Handel OHG",
+    "address": {
+      "street": "Romana-Gertz-Allee 436",
+      "postcode": "92581",
+      "city": "Füssen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE197240063",
+    "electronic_address": "info@schuler.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "32.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "418.08"
+    },
+    {
+      "line_id": "2",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "26",
+      "unit_code": "C62",
+      "unit_price": "6.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "174.20"
+    },
+    {
+      "line_id": "3",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "14.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "117.12"
+    },
+    {
+      "line_id": "4",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "43.03",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "129.09"
+    },
+    {
+      "line_id": "5",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "17.03",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "136.24"
+    },
+    {
+      "line_id": "6",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "57",
+      "unit_code": "LTR",
+      "unit_price": "1.02",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "58.14"
+    },
+    {
+      "line_id": "7",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "23.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "70.11"
+    }
+  ],
+  "iban": "DE97614605122598115989",
+  "bic": "KUWPDEB2",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1102.98",
+    "tax_total": "170.75",
+    "gross_total": "1273.73",
+    "due_amount": "1273.73",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "323.47",
+        "tax": "22.64"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "779.51",
+        "tax": "148.11"
+      }
+    ]
+  }
+}

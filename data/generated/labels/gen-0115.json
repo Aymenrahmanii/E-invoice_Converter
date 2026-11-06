@@ -1,0 +1,162 @@
+{
+  "number": "2026/0534",
+  "issue_date": "2026-02-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-17",
+  "delivery_date": "2026-02-15",
+  "buyer_reference": "4559969734",
+  "seller": {
+    "name": "Schlosser Digital GmbH & Co. KG",
+    "address": {
+      "street": "Kraushaarstr. 4/6",
+      "postcode": "92804",
+      "city": "Eisenhüttenstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE698418154",
+    "electronic_address": "rechnung@schlosser.example",
+    "contact": {
+      "name": "Prof. Reingard Hermighausen B.A.",
+      "phone": "+49 (0) 7131 833200",
+      "email": "janko@schlosser.example"
+    }
+  },
+  "buyer": {
+    "name": "Ortmann AG",
+    "address": {
+      "street": "Geza-Süßebier-Platz 1/6",
+      "postcode": "35270",
+      "city": "Wertingen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@ortmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "66",
+      "unit_code": "C62",
+      "unit_price": "0.74",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "48.84"
+    },
+    {
+      "line_id": "2",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "20.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "163.68"
+    },
+    {
+      "line_id": "3",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "56.70",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "113.40"
+    },
+    {
+      "line_id": "4",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "55.24",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "276.20"
+    },
+    {
+      "line_id": "5",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "18.28",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "73.12"
+    },
+    {
+      "line_id": "6",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "7.16",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "35.80"
+    },
+    {
+      "line_id": "7",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "5.99",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "101.83"
+    },
+    {
+      "line_id": "8",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "12.65",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "88.55"
+    },
+    {
+      "line_id": "9",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "27.71",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "166.26"
+    }
+  ],
+  "iban": "DE04728527045483787673",
+  "bic": "HNEQDEL1",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1067.68",
+    "tax_total": "119.67",
+    "gross_total": "1187.35",
+    "due_amount": "1187.35",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "693.25",
+        "tax": "48.53"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "374.43",
+        "tax": "71.14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "554426",
+  "issue_date": "2026-09-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-27",
+  "delivery_date": "2026-09-01",
+  "buyer_reference": "4560209307",
+  "seller": {
+    "name": "Ortmann Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Uli-Geisler-Allee 938",
+      "postcode": "63571",
+      "city": "Wolfratshausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE173313084",
+    "electronic_address": "info@ortmann.example",
+    "contact": {
+      "name": "Univ.Prof. Imke Schlosser",
+      "phone": "02927 907599",
+      "email": "arzu@ortmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Hesse Technik AG",
+    "address": {
+      "street": "Utz-Fechner-Straße 10-70",
+      "postcode": "19758",
+      "city": "Sangerhausen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@hesse.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "659.67",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "659.67"
+    }
+  ],
+  "iban": "DE93804432604342206789",
+  "bic": "MXOBDEBAXXX",
+  "payment_terms": "Payment due within 14 days.",
+  "note": null,
+  "totals": {
+    "net_total": "659.67",
+    "tax_total": "125.34",
+    "gross_total": "785.01",
+    "due_amount": "785.01",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "659.67",
+        "tax": "125.34"
+      }
+    ]
+  }
+}

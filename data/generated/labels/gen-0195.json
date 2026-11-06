@@ -1,0 +1,118 @@
+{
+  "number": "697983",
+  "issue_date": "2026-02-13",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-20",
+  "delivery_date": "2026-02-07",
+  "buyer_reference": "4599121115",
+  "seller": {
+    "name": "Caspar KG",
+    "address": {
+      "street": "Gießgasse 8/4",
+      "postcode": "39076",
+      "city": "Germersheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE925650842",
+    "electronic_address": "rechnung@caspar.example",
+    "contact": {
+      "name": "Elif Austermühle",
+      "phone": "0292928512",
+      "email": "grete@caspar.example"
+    }
+  },
+  "buyer": {
+    "name": "Rogge AG",
+    "address": {
+      "street": "Scholzweg 12-92",
+      "postcode": "61298",
+      "city": "Pinneberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE484729851",
+    "electronic_address": "rechnung@rogge.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": "SKU-141782",
+      "quantity": "40",
+      "unit_code": "LTR",
+      "unit_price": "1.36",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "54.40"
+    },
+    {
+      "line_id": "2",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": "ART554058",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "27.41",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "82.23"
+    },
+    {
+      "line_id": "3",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "210163",
+      "quantity": "15",
+      "unit_code": "C62",
+      "unit_price": "10.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "161.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": "SKU-150069",
+      "quantity": "21",
+      "unit_code": "C62",
+      "unit_price": "32.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "691.32"
+    },
+    {
+      "line_id": "5",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": "A694794",
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "32.35",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "291.15"
+    }
+  ],
+  "iban": "DE47137729727535710417",
+  "bic": null,
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1280.20",
+    "tax_total": "226.84",
+    "gross_total": "1507.04",
+    "due_amount": "1507.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "136.63",
+        "tax": "9.56"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1143.57",
+        "tax": "217.28"
+      }
+    ]
+  }
+}

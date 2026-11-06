@@ -1,0 +1,90 @@
+{
+  "number": "2026/0964",
+  "issue_date": "2026-04-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-19",
+  "delivery_date": "2026-03-23",
+  "buyer_reference": "09-6511-13",
+  "seller": {
+    "name": "Gorlitz GmbH",
+    "address": {
+      "street": "Scholzgasse 48/34",
+      "postcode": "49532",
+      "city": "Finsterwalde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE311430791",
+    "electronic_address": "invoice@gorlitz.example",
+    "contact": {
+      "name": "Mechthild Hölzenbecher",
+      "phone": "00997 331488",
+      "email": "susana@gorlitz.example"
+    }
+  },
+  "buyer": {
+    "name": "Krebs & Roht AG",
+    "address": {
+      "street": "Eva-Harloff-Platz 4/4",
+      "postcode": "23000",
+      "city": "Hainichen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@krebs.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kanthölzer KVH 60 x 80 mm",
+      "seller_item_id": "SKU-21831",
+      "quantity": "155",
+      "unit_code": "MTR",
+      "unit_price": "5.55",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "860.25"
+    },
+    {
+      "line_id": "2",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "ART213492",
+      "quantity": "50",
+      "unit_code": "C62",
+      "unit_price": "25.71",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1285.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "559584",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "14.56",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "495.04"
+    }
+  ],
+  "iban": "DE02423571881070775074",
+  "bic": "QCXTDEZ4",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2640.79",
+    "tax_total": "501.75",
+    "gross_total": "3142.54",
+    "due_amount": "3142.54",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2640.79",
+        "tax": "501.75"
+      }
+    ]
+  }
+}

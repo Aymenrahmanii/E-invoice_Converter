@@ -1,0 +1,184 @@
+{
+  "number": "INV-71441",
+  "issue_date": "2026-10-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-14",
+  "delivery_date": "2026-10-06",
+  "buyer_reference": "4599650291",
+  "seller": {
+    "name": "Ritter & Ackermann GmbH & Co. KG",
+    "address": {
+      "street": "Huhnring 6/1",
+      "postcode": "56182",
+      "city": "Vechta",
+      "country_code": "DE"
+    },
+    "vat_id": "DE771154135",
+    "electronic_address": "rechnung@ritter.example",
+    "contact": {
+      "name": "Ralf-Dieter Wähner B.Sc.",
+      "phone": "(05671) 17191",
+      "email": "hildegard@ritter.example"
+    }
+  },
+  "buyer": {
+    "name": "Heydrich Digital GmbH",
+    "address": {
+      "street": "Jopichweg 0",
+      "postcode": "95166",
+      "city": "Scheinfeld",
+      "country_code": "DE"
+    },
+    "vat_id": "DE576626079",
+    "electronic_address": "info@heydrich.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "24.06",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "168.42"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "14",
+      "unit_code": "C62",
+      "unit_price": "19.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "267.12"
+    },
+    {
+      "line_id": "3",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "43.91",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "43.91"
+    },
+    {
+      "line_id": "4",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "30.47",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "182.82"
+    },
+    {
+      "line_id": "5",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "59",
+      "unit_code": "LTR",
+      "unit_price": "1.15",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "67.85"
+    },
+    {
+      "line_id": "6",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "19.86",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "218.46"
+    },
+    {
+      "line_id": "7",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "18.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "18.81"
+    },
+    {
+      "line_id": "8",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "10.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "217.40"
+    },
+    {
+      "line_id": "9",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "20.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "124.44"
+    },
+    {
+      "line_id": "10",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "109",
+      "unit_code": "C62",
+      "unit_price": "1.15",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "125.35"
+    },
+    {
+      "line_id": "11",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "39",
+      "unit_code": "C62",
+      "unit_price": "4.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "178.23"
+    }
+  ],
+  "iban": "DE52600074742126969746",
+  "bic": "LHQUDENQXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1612.81",
+    "tax_total": "209.62",
+    "gross_total": "1822.43",
+    "due_amount": "1822.43",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "806.81",
+        "tax": "56.48"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "806.00",
+        "tax": "153.14"
+      }
+    ]
+  }
+}

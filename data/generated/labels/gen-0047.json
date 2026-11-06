@@ -1,0 +1,90 @@
+{
+  "number": "232633",
+  "issue_date": "2026-05-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-28",
+  "delivery_date": "2026-05-16",
+  "buyer_reference": "4505132306",
+  "seller": {
+    "name": "Heuser & Freudenberger UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Wigbert-Birnbaum-Gasse 2-1",
+      "postcode": "85324",
+      "city": "Rastatt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE933145105",
+    "electronic_address": "rechnung@heuser.example",
+    "contact": {
+      "name": "Karlheinz Heydrich",
+      "phone": "(09347) 02722",
+      "email": "roderich@heuser.example"
+    }
+  },
+  "buyer": {
+    "name": "Hendriks & Plath OHG",
+    "address": {
+      "street": "Sara-Gierschner-Weg 92",
+      "postcode": "03443",
+      "city": "Anklam",
+      "country_code": "DE"
+    },
+    "vat_id": "DE112894382",
+    "electronic_address": "buchhaltung@hendriks.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "18",
+      "unit_code": "C62",
+      "unit_price": "6.24",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "112.32"
+    },
+    {
+      "line_id": "2",
+      "description": "Kupferrohr 15 mm",
+      "seller_item_id": null,
+      "quantity": "17.5",
+      "unit_code": "MTR",
+      "unit_price": "13.43",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "235.03"
+    },
+    {
+      "line_id": "3",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "22.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "44.34"
+    }
+  ],
+  "iban": "DE11464026321207605168",
+  "bic": "ZNAUDEIY",
+  "payment_terms": "Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "391.69",
+    "tax_total": "74.42",
+    "gross_total": "466.11",
+    "due_amount": "466.11",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "391.69",
+        "tax": "74.42"
+      }
+    ]
+  }
+}

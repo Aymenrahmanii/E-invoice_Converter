@@ -1,0 +1,101 @@
+{
+  "number": "494548",
+  "issue_date": "2026-05-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4579009081",
+  "seller": {
+    "name": "Hiller & Jähn GmbH",
+    "address": {
+      "street": "Rotraud-Franke-Allee 18-29",
+      "postcode": "57376",
+      "city": "Roth",
+      "country_code": "DE"
+    },
+    "vat_id": "DE238004356",
+    "electronic_address": "rechnung@hiller.example",
+    "contact": {
+      "name": "Jaroslaw Löwer",
+      "phone": "07645 49118",
+      "email": "kristina@hiller.example"
+    }
+  },
+  "buyer": {
+    "name": "Tschentscher AG",
+    "address": {
+      "street": "Mohamed-Kohl-Allee 429",
+      "postcode": "10141",
+      "city": "Ludwigsburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE645964830",
+    "electronic_address": "info@tschentscher.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "28.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "144.55"
+    },
+    {
+      "line_id": "2",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "28.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "202.30"
+    },
+    {
+      "line_id": "3",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "48.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "289.98"
+    },
+    {
+      "line_id": "4",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "3.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "13.80"
+    }
+  ],
+  "iban": "DE12449851642298264181",
+  "bic": "LHIWDEN1XXX",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "650.63",
+    "tax_total": "123.62",
+    "gross_total": "774.25",
+    "due_amount": "774.25",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "650.63",
+        "tax": "123.62"
+      }
+    ]
+  }
+}

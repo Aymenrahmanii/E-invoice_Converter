@@ -1,0 +1,96 @@
+{
+  "number": "202610-8678",
+  "issue_date": "2026-10-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-19",
+  "delivery_date": "2026-09-24",
+  "buyer_reference": "4557544492",
+  "seller": {
+    "name": "Riehl Digital GmbH",
+    "address": {
+      "street": "Sabina-Adler-Straße 5818",
+      "postcode": "36910",
+      "city": "Lüneburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE257935736",
+    "electronic_address": "invoice@riehl.example",
+    "contact": {
+      "name": "Univ.Prof. Philip Weinhold B.Eng.",
+      "phone": "+49(0) 546833870",
+      "email": "walli@riehl.example"
+    }
+  },
+  "buyer": {
+    "name": "Wagner KG",
+    "address": {
+      "street": "Staudegasse 15",
+      "postcode": "18856",
+      "city": "Artern",
+      "country_code": "DE"
+    },
+    "vat_id": "DE389768393",
+    "electronic_address": "rechnung@wagner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "17.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "178.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "8.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "89.54"
+    },
+    {
+      "line_id": "3",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "23",
+      "unit_code": "LTR",
+      "unit_price": "1.43",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "32.89"
+    }
+  ],
+  "iban": "DE11776266366568956918",
+  "bic": null,
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "300.43",
+    "tax_total": "53.13",
+    "gross_total": "353.56",
+    "due_amount": "353.56",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "32.89",
+        "tax": "2.30"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "267.54",
+        "tax": "50.83"
+      }
+    ]
+  }
+}

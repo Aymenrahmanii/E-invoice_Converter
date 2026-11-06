@@ -1,0 +1,101 @@
+{
+  "number": "RE-2026-2598",
+  "issue_date": "2026-07-02",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-12",
+  "delivery_date": "2026-06-18",
+  "buyer_reference": "4581834430",
+  "seller": {
+    "name": "Schottin OHG",
+    "address": {
+      "street": "Karl-Georg-Pärtzelt-Weg 930",
+      "postcode": "16165",
+      "city": "Hamburg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE687168809",
+    "electronic_address": "invoice@schottin.example",
+    "contact": {
+      "name": "Nevenka Vogt",
+      "phone": "+49(0)9210 11215",
+      "email": "alfons@schottin.example"
+    }
+  },
+  "buyer": {
+    "name": "Flantz Technik GmbH",
+    "address": {
+      "street": "Freudenbergergasse 67",
+      "postcode": "65136",
+      "city": "Quedlinburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@flantz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "MTK",
+      "unit_price": "14.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "156.75"
+    },
+    {
+      "line_id": "2",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "20.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "20.17"
+    },
+    {
+      "line_id": "3",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "39.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "237.12"
+    },
+    {
+      "line_id": "4",
+      "description": "Arbeitszeit Meister",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "HUR",
+      "unit_price": "67.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "406.80"
+    }
+  ],
+  "iban": "DE39652193198047805585",
+  "bic": "LJQXDEQ0XXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "820.84",
+    "tax_total": "155.96",
+    "gross_total": "976.80",
+    "due_amount": "976.80",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "820.84",
+        "tax": "155.96"
+      }
+    ]
+  }
+}

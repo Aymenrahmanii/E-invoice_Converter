@@ -1,0 +1,112 @@
+{
+  "number": "INV-40233",
+  "issue_date": "2026-06-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-06-17",
+  "delivery_date": "2026-05-21",
+  "buyer_reference": "4560149273",
+  "seller": {
+    "name": "Wende Technik e.K.",
+    "address": {
+      "street": "Marcel-Seidel-Allee 36/93",
+      "postcode": "54082",
+      "city": "Kitzingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE220718252",
+    "electronic_address": "rechnung@wende.example",
+    "contact": {
+      "name": "Michail Bolzmann",
+      "phone": "03097 018124",
+      "email": "irene@wende.example"
+    }
+  },
+  "buyer": {
+    "name": "Barth Digital AG",
+    "address": {
+      "street": "Annegrete-Roht-Gasse 5949",
+      "postcode": "30794",
+      "city": "Königs Wusterhausen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@barth.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "LED-Panel 62 x 62 cm",
+      "seller_item_id": "ART40338",
+      "quantity": "42",
+      "unit_code": "C62",
+      "unit_price": "38.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1621.62"
+    },
+    {
+      "line_id": "2",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "A83745",
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "26.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "446.25"
+    },
+    {
+      "line_id": "3",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A677038",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "119.63",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "358.89"
+    },
+    {
+      "line_id": "4",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A475972",
+      "quantity": "1252.5",
+      "unit_code": "KGM",
+      "unit_price": "0.21",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "263.03"
+    },
+    {
+      "line_id": "5",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A233177",
+      "quantity": "93",
+      "unit_code": "C62",
+      "unit_price": "7.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "690.06"
+    }
+  ],
+  "iban": "DE57758713006012952781",
+  "bic": "IIHDDEFQXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "3379.85",
+    "tax_total": "642.17",
+    "gross_total": "4022.02",
+    "due_amount": "4022.02",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3379.85",
+        "tax": "642.17"
+      }
+    ]
+  }
+}

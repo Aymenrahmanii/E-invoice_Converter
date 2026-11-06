@@ -1,0 +1,145 @@
+{
+  "number": "R26-01457",
+  "issue_date": "2026-02-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-06",
+  "delivery_date": "2026-01-23",
+  "buyer_reference": "05983086-86188-66",
+  "seller": {
+    "name": "Wagenknecht Service AG",
+    "address": {
+      "street": "Orhan-Pergande-Weg 4-2",
+      "postcode": "81424",
+      "city": "Uffenheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE507479508",
+    "electronic_address": "info@wagenknecht.example",
+    "contact": {
+      "name": "Ercan Harloff",
+      "phone": "08063 85805",
+      "email": "marieluise@wagenknecht.example"
+    }
+  },
+  "buyer": {
+    "name": "Ruppert Technik KG",
+    "address": {
+      "street": "Zeynep-Hermann-Gasse 4/9",
+      "postcode": "69465",
+      "city": "Hannoversch Münden",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@ruppert.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "702004",
+      "quantity": "9",
+      "unit_code": "SET",
+      "unit_price": "50.68",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "456.12"
+    },
+    {
+      "line_id": "2",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-231884",
+      "quantity": "65",
+      "unit_code": "C62",
+      "unit_price": "1.01",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "65.65"
+    },
+    {
+      "line_id": "3",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "230354",
+      "quantity": "40",
+      "unit_code": "C62",
+      "unit_price": "12.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "519.20"
+    },
+    {
+      "line_id": "4",
+      "description": "Fugenspachtel 5 kg",
+      "seller_item_id": "ART438919",
+      "quantity": "39",
+      "unit_code": "C62",
+      "unit_price": "10.85",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "423.15"
+    },
+    {
+      "line_id": "5",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "17476",
+      "quantity": "403",
+      "unit_code": "MTR",
+      "unit_price": "1.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "540.02"
+    },
+    {
+      "line_id": "6",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "528664",
+      "quantity": "40",
+      "unit_code": "PR",
+      "unit_price": "4.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "196.40"
+    },
+    {
+      "line_id": "7",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "ART855581",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "167.49",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "669.96"
+    },
+    {
+      "line_id": "8",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A323681",
+      "quantity": "58.5",
+      "unit_code": "KGM",
+      "unit_price": "0.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "17.55"
+    }
+  ],
+  "iban": "DE49259993040682145570",
+  "bic": "QIOPDEQQ",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2888.05",
+    "tax_total": "548.73",
+    "gross_total": "3436.78",
+    "due_amount": "3436.78",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2888.05",
+        "tax": "548.73"
+      }
+    ]
+  }
+}

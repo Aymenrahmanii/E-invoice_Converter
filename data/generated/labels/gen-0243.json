@@ -1,0 +1,68 @@
+{
+  "number": "2026/5035",
+  "issue_date": "2026-03-10",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-09",
+  "delivery_date": "2026-03-01",
+  "buyer_reference": "04-22103-27",
+  "seller": {
+    "name": "Stadelmann Technik UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Irmengard-Bruder-Straße 1",
+      "postcode": "04399",
+      "city": "Hechingen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE393727160",
+    "electronic_address": "buchhaltung@stadelmann.example",
+    "contact": {
+      "name": "Anton Kaul-Beer",
+      "phone": "(09451) 52293",
+      "email": "hanni@stadelmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Schleich Bau GmbH & Co. KG",
+    "address": {
+      "street": "Rosemarie-Reising-Weg 8-5",
+      "postcode": "95827",
+      "city": "Neuss",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@schleich.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Softwareentwicklung",
+      "seller_item_id": "ART847163",
+      "quantity": "13",
+      "unit_code": "HUR",
+      "unit_price": "94.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1227.46"
+    }
+  ],
+  "iban": "DE66820151186633833307",
+  "bic": "DSKRDEYKXXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 30 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1227.46",
+    "tax_total": "233.22",
+    "gross_total": "1460.68",
+    "due_amount": "1460.68",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1227.46",
+        "tax": "233.22"
+      }
+    ]
+  }
+}

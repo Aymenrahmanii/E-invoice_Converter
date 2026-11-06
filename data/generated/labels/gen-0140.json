@@ -1,0 +1,112 @@
+{
+  "number": "R26-04764",
+  "issue_date": "2026-08-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-20",
+  "delivery_date": "2026-08-05",
+  "buyer_reference": "4517321417",
+  "seller": {
+    "name": "Löffler Digital AG",
+    "address": {
+      "street": "Säuberlichallee 409",
+      "postcode": "52793",
+      "city": "Beeskow",
+      "country_code": "DE"
+    },
+    "vat_id": "DE429476671",
+    "electronic_address": "info@loffler.example",
+    "contact": {
+      "name": "Giuseppe Eberhardt",
+      "phone": "+49(0)0984 327907",
+      "email": "vitus@loffler.example"
+    }
+  },
+  "buyer": {
+    "name": "Fröhlich Handel e.K.",
+    "address": {
+      "street": "Radmila-Naser-Allee 7-4",
+      "postcode": "32417",
+      "city": "Burgdorf",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@frohlich.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Verlegung Laminat",
+      "seller_item_id": "824704",
+      "quantity": "25",
+      "unit_code": "MTK",
+      "unit_price": "23.95",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "598.75"
+    },
+    {
+      "line_id": "2",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": "SKU-650463",
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "86.32",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "86.32"
+    },
+    {
+      "line_id": "3",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": "ART555382",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "12.86",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "77.16"
+    },
+    {
+      "line_id": "4",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": "A923417",
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "61.26",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "490.08"
+    },
+    {
+      "line_id": "5",
+      "description": "Abdeckfolie 4 x 5 m",
+      "seller_item_id": "SKU-409159",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "5.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "37.94"
+    }
+  ],
+  "iban": "DE90642745148331454553",
+  "bic": "UGHODEM1",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1290.25",
+    "tax_total": "245.15",
+    "gross_total": "1535.40",
+    "due_amount": "1535.40",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1290.25",
+        "tax": "245.15"
+      }
+    ]
+  }
+}

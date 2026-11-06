@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-0057",
+  "issue_date": "2026-04-15",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-29",
+  "delivery_date": "2026-04-10",
+  "buyer_reference": "4576506795",
+  "seller": {
+    "name": "Sölzer Bau GmbH & Co. KG",
+    "address": {
+      "street": "Bartholomäus-Weller-Gasse 7657",
+      "postcode": "30380",
+      "city": "Altötting",
+      "country_code": "DE"
+    },
+    "vat_id": "DE623783270",
+    "electronic_address": "buchhaltung@solzer.example",
+    "contact": {
+      "name": "Frederic Klemm B.Sc.",
+      "phone": "(08362) 393176",
+      "email": "heinz-gerd@solzer.example"
+    }
+  },
+  "buyer": {
+    "name": "Birnbaum & Mohaupt UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Scholtzplatz 7-6",
+      "postcode": "14599",
+      "city": "Sonneberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE763201836",
+    "electronic_address": "info@birnbaum.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "3.5",
+      "unit_code": "DAY",
+      "unit_price": "1531.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5360.32"
+    }
+  ],
+  "iban": "DE89390128828156285142",
+  "bic": "RITEDEM0XXX",
+  "payment_terms": "Zahlungsziel: 14 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "5360.32",
+    "tax_total": "1018.46",
+    "gross_total": "6378.78",
+    "due_amount": "6378.78",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "5360.32",
+        "tax": "1018.46"
+      }
+    ]
+  }
+}

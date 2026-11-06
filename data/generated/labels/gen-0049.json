@@ -1,0 +1,68 @@
+{
+  "number": "RE-2026-9636",
+  "issue_date": "2026-02-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-07",
+  "delivery_date": "2026-02-07",
+  "buyer_reference": "4552285386",
+  "seller": {
+    "name": "auch Schlauchin OHG",
+    "address": {
+      "street": "Heinz-Josef-Weitzel-Platz 63-70",
+      "postcode": "20984",
+      "city": "Erfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE884289545",
+    "electronic_address": "buchhaltung@auch.example",
+    "contact": {
+      "name": "Dipl.-Ing. Hendrik Mielcarek",
+      "phone": "+49 (0) 6192 348940",
+      "email": "veronique@auch.example"
+    }
+  },
+  "buyer": {
+    "name": "Bauer Digital GmbH & Co. KG",
+    "address": {
+      "street": "Kordula-Schuchhardt-Allee 9/1",
+      "postcode": "15998",
+      "city": "Königs Wusterhausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE877998651",
+    "electronic_address": "invoice@bauer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": "SKU-713622",
+      "quantity": "2.5",
+      "unit_code": "DAY",
+      "unit_price": "1067.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2668.48"
+    }
+  ],
+  "iban": "DE56165496993523195400",
+  "bic": "BYUXDEJD",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2668.48",
+    "tax_total": "507.01",
+    "gross_total": "3175.49",
+    "due_amount": "3175.49",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2668.48",
+        "tax": "507.01"
+      }
+    ]
+  }
+}

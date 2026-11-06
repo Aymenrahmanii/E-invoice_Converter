@@ -1,0 +1,123 @@
+{
+  "number": "R26-03469",
+  "issue_date": "2026-05-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-05-14",
+  "buyer_reference": "02063090-48977-59",
+  "seller": {
+    "name": "Heuser Handel AG",
+    "address": {
+      "street": "Heßweg 9",
+      "postcode": "32104",
+      "city": "Paderborn",
+      "country_code": "DE"
+    },
+    "vat_id": "DE356388403",
+    "electronic_address": "rechnung@heuser.example",
+    "contact": {
+      "name": "Ing. Johannes Dussen van B.A.",
+      "phone": "+49(0)7228062355",
+      "email": "magnus@heuser.example"
+    }
+  },
+  "buyer": {
+    "name": "Bärer Handel e.K.",
+    "address": {
+      "street": "Hans-Peter-Binner-Gasse 44/14",
+      "postcode": "70182",
+      "city": "Miesbach",
+      "country_code": "DE"
+    },
+    "vat_id": "DE807799868",
+    "electronic_address": "buchhaltung@barer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "41",
+      "unit_code": "HUR",
+      "unit_price": "103.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4243.50"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "MON",
+      "unit_price": "557.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1673.10"
+    },
+    {
+      "line_id": "3",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "53",
+      "unit_code": "HUR",
+      "unit_price": "87.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "4657.64"
+    },
+    {
+      "line_id": "4",
+      "description": "Fotoshooting inkl. Bildbearbeitung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1417.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2835.56"
+    },
+    {
+      "line_id": "5",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "1070.86",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1070.86"
+    },
+    {
+      "line_id": "6",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "HUR",
+      "unit_price": "103.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "103.60"
+    }
+  ],
+  "iban": "DE70399459181960851498",
+  "bic": "ODVQDEYKXXX",
+  "payment_terms": "Payment due within 14 days.",
+  "note": null,
+  "totals": {
+    "net_total": "14584.26",
+    "tax_total": "2771.01",
+    "gross_total": "17355.27",
+    "due_amount": "17355.27",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "14584.26",
+        "tax": "2771.01"
+      }
+    ]
+  }
+}

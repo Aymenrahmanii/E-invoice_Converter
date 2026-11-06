@@ -1,0 +1,112 @@
+{
+  "number": "INV-48211",
+  "issue_date": "2026-01-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4521850200",
+  "seller": {
+    "name": "Stiebitz Digital KG",
+    "address": {
+      "street": "Wirthstr. 27",
+      "postcode": "71115",
+      "city": "Schmölln",
+      "country_code": "DE"
+    },
+    "vat_id": "DE281054119",
+    "electronic_address": "info@stiebitz.example",
+    "contact": {
+      "name": "Marleen Vogt",
+      "phone": "+49(0)8257840244",
+      "email": "dorit@stiebitz.example"
+    }
+  },
+  "buyer": {
+    "name": "Höfig Digital GmbH & Co. KG",
+    "address": {
+      "street": "Beerweg 426",
+      "postcode": "91478",
+      "city": "Deggendorf",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@hofig.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Arbeitszeit Auszubildender",
+      "seller_item_id": null,
+      "quantity": "16.5",
+      "unit_code": "HUR",
+      "unit_price": "34.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "567.44"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "64.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "64.54"
+    },
+    {
+      "line_id": "3",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "68.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "412.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Fliesenkleber flexibel, 25 kg",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "23.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "210.60"
+    },
+    {
+      "line_id": "5",
+      "description": "Entsorgung Bauschutt",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "87.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "87.13"
+    }
+  ],
+  "iban": "DE98491048608242674198",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1342.51",
+    "tax_total": "255.08",
+    "gross_total": "1597.59",
+    "due_amount": "1597.59",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1342.51",
+        "tax": "255.08"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "249895",
+  "issue_date": "2026-09-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-15",
+  "delivery_date": "2026-09-01",
+  "buyer_reference": "12848-7213-66",
+  "seller": {
+    "name": "Nette Handel AG",
+    "address": {
+      "street": "Hornichweg 7-3",
+      "postcode": "69373",
+      "city": "Wiedenbrück",
+      "country_code": "DE"
+    },
+    "vat_id": "DE492210872",
+    "electronic_address": "buchhaltung@nette.example",
+    "contact": {
+      "name": "Ivan Klemm-Fechner",
+      "phone": "(01445) 40544",
+      "email": "jana@nette.example"
+    }
+  },
+  "buyer": {
+    "name": "Gertz Digital GmbH & Co. KG",
+    "address": {
+      "street": "Felicia-Schmiedt-Platz 8/8",
+      "postcode": "66736",
+      "city": "Senftenberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE926364733",
+    "electronic_address": "buchhaltung@gertz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "SEO-Analyse",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "985.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "985.90"
+    }
+  ],
+  "iban": "DE95495498957488030209",
+  "bic": "PGMKDEUEXXX",
+  "payment_terms": "Payment due within 10 days.",
+  "note": null,
+  "totals": {
+    "net_total": "985.90",
+    "tax_total": "187.32",
+    "gross_total": "1173.22",
+    "due_amount": "1173.22",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "985.90",
+        "tax": "187.32"
+      }
+    ]
+  }
+}

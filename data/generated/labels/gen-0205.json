@@ -1,0 +1,151 @@
+{
+  "number": "INV-36244",
+  "issue_date": "2026-01-18",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-17",
+  "delivery_date": "2026-01-13",
+  "buyer_reference": "13500552-73512-35",
+  "seller": {
+    "name": "Beer & Thies OHG",
+    "address": {
+      "street": "Striebitzring 8018",
+      "postcode": "90054",
+      "city": "Stendal",
+      "country_code": "DE"
+    },
+    "vat_id": "DE766023136",
+    "electronic_address": "invoice@beer.example",
+    "contact": {
+      "name": "Mesut Wulf-Mentzel",
+      "phone": "+49(0)9682870926",
+      "email": "stefan@beer.example"
+    }
+  },
+  "buyer": {
+    "name": "Wagenknecht Bau AG",
+    "address": {
+      "street": "Istvan-Ehlert-Ring 6271",
+      "postcode": "48678",
+      "city": "Nordhausen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@wagenknecht.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "58",
+      "unit_code": "C62",
+      "unit_price": "31.76",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1842.08"
+    },
+    {
+      "line_id": "2",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "27.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "272.90"
+    },
+    {
+      "line_id": "3",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "C62",
+      "unit_price": "8.06",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "137.02"
+    },
+    {
+      "line_id": "4",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "25.93",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "103.72"
+    },
+    {
+      "line_id": "5",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "10.69",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "106.90"
+    },
+    {
+      "line_id": "6",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "28",
+      "unit_code": "C62",
+      "unit_price": "6.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "194.04"
+    },
+    {
+      "line_id": "7",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "53",
+      "unit_code": "LTR",
+      "unit_price": "1.59",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "84.27"
+    },
+    {
+      "line_id": "8",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "26.96",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "107.84"
+    }
+  ],
+  "iban": "DE42277568423113269260",
+  "bic": "CGMADEWSXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "2848.77",
+    "tax_total": "505.77",
+    "gross_total": "3354.54",
+    "due_amount": "3354.54",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "295.83",
+        "tax": "20.71"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2552.94",
+        "tax": "485.06"
+      }
+    ]
+  }
+}

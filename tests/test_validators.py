@@ -48,3 +48,17 @@ def test_zugferd_passes_mustang(tmp_path: Path) -> None:
     f.write_bytes(to_zugferd_pdf(craftsman_invoice()))
     result = validate_zugferd(f, tmp_path / "reports")
     assert result.accepted, result.summary()
+
+
+def test_generated_invoices_pass_kosit(tmp_path: Path) -> None:
+    """One invoice per layout through KoSIT in a single batch (all 300: `einvoice testset validate`)."""
+    from einvoice.testset.build import invoice_for
+    from einvoice.validation import validate_xrechnung_many
+
+    files = []
+    for i in range(10):
+        f = tmp_path / f"gen-{i:04d}.xml"
+        f.write_bytes(to_cii_xml(invoice_for(i), profile="xrechnung"))
+        files.append(f)
+    results = validate_xrechnung_many(files, tmp_path / "reports", html=False)
+    assert [r.file.name for r in results if not r.accepted] == [], "\n".join(r.summary() for r in results)

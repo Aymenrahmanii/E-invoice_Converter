@@ -1,0 +1,151 @@
+{
+  "number": "INV-84964",
+  "issue_date": "2026-10-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-09-30",
+  "buyer_reference": "4516927008",
+  "seller": {
+    "name": "Röhrdanz & Huhn GmbH & Co. KG",
+    "address": {
+      "street": "Mohamed-Nette-Allee 335",
+      "postcode": "02289",
+      "city": "Lüdinghausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE394787241",
+    "electronic_address": "info@rohrdanz.example",
+    "contact": {
+      "name": "Prof. Christos Faust",
+      "phone": "(01137) 57586",
+      "email": "iris@rohrdanz.example"
+    }
+  },
+  "buyer": {
+    "name": "Austermühle & Krein GmbH",
+    "address": {
+      "street": "Haaseweg 55",
+      "postcode": "14407",
+      "city": "Uffenheim",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@austermuhle.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kuchenplatte",
+      "seller_item_id": "SKU-340502",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "34.46",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "206.76"
+    },
+    {
+      "line_id": "2",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": "702922",
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "54.88",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "493.92"
+    },
+    {
+      "line_id": "3",
+      "description": "Butterbrezeln",
+      "seller_item_id": "A412559",
+      "quantity": "173",
+      "unit_code": "C62",
+      "unit_price": "1.03",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "178.19"
+    },
+    {
+      "line_id": "4",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": "ART468559",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "20.26",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "141.82"
+    },
+    {
+      "line_id": "5",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": "664276",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "40.90",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "122.70"
+    },
+    {
+      "line_id": "6",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "A818407",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "8.65",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "86.50"
+    },
+    {
+      "line_id": "7",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": "SKU-324126",
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "16.00",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "192.00"
+    },
+    {
+      "line_id": "8",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "SKU-290625",
+      "quantity": "33",
+      "unit_code": "C62",
+      "unit_price": "5.74",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "189.42"
+    }
+  ],
+  "iban": "DE16511078656738680948",
+  "bic": "XHXFDEI2XXX",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1611.31",
+    "tax_total": "168.94",
+    "gross_total": "1780.25",
+    "due_amount": "1780.25",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1143.39",
+        "tax": "80.04"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "467.92",
+        "tax": "88.90"
+      }
+    ]
+  }
+}

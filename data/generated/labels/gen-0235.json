@@ -1,0 +1,118 @@
+{
+  "number": "700637",
+  "issue_date": "2026-08-24",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-03",
+  "delivery_date": "2026-08-14",
+  "buyer_reference": "4512492941",
+  "seller": {
+    "name": "Weinhage Bau AG",
+    "address": {
+      "street": "Edeltraud-Schleich-Platz 1-8",
+      "postcode": "74019",
+      "city": "Pirmasens",
+      "country_code": "DE"
+    },
+    "vat_id": "DE754035451",
+    "electronic_address": "buchhaltung@weinhage.example",
+    "contact": {
+      "name": "Drago Krein",
+      "phone": "+49(0)3465 394099",
+      "email": "zita@weinhage.example"
+    }
+  },
+  "buyer": {
+    "name": "Stey Digital e.K.",
+    "address": {
+      "street": "Wirthstr. 60",
+      "postcode": "16950",
+      "city": "Hammelburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@stey.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": "A201699",
+      "quantity": "34",
+      "unit_code": "C62",
+      "unit_price": "24.39",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "829.26"
+    },
+    {
+      "line_id": "2",
+      "description": "Kuchenplatte",
+      "seller_item_id": "ART950677",
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "44.25",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "221.25"
+    },
+    {
+      "line_id": "3",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "894868",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "7.41",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7.41"
+    },
+    {
+      "line_id": "4",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": "SKU-813744",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "51.05",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "204.20"
+    },
+    {
+      "line_id": "5",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": "A1970",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "31.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.98"
+    }
+  ],
+  "iban": "DE53657778465286040393",
+  "bic": "WBVMDEBK",
+  "payment_terms": "Zahlungsziel: 10 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1453.10",
+    "tax_total": "225.03",
+    "gross_total": "1678.13",
+    "due_amount": "1678.13",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "425.45",
+        "tax": "29.78"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1027.65",
+        "tax": "195.25"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "number": "RE-2026-2389",
+  "issue_date": "2026-05-23",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-30",
+  "delivery_date": "2026-05-14",
+  "buyer_reference": "4563032732",
+  "seller": {
+    "name": "Holsten & Buchholz AG",
+    "address": {
+      "street": "Meyerweg 8764",
+      "postcode": "76560",
+      "city": "Vechta",
+      "country_code": "DE"
+    },
+    "vat_id": "DE196698379",
+    "electronic_address": "invoice@holsten.example",
+    "contact": {
+      "name": "Svetlana Werner",
+      "phone": "+49 (0) 9700 614082",
+      "email": "ortwin@holsten.example"
+    }
+  },
+  "buyer": {
+    "name": "Krause GmbH",
+    "address": {
+      "street": "Elvira-Lindau-Ring 5/5",
+      "postcode": "78288",
+      "city": "Freital",
+      "country_code": "DE"
+    },
+    "vat_id": "DE455978990",
+    "electronic_address": "info@krause.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": "A437975",
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "23.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "300.56"
+    },
+    {
+      "line_id": "2",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": "ART377015",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "25.06",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "100.24"
+    },
+    {
+      "line_id": "3",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "15509",
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "9.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "190.00"
+    },
+    {
+      "line_id": "4",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": "286961",
+      "quantity": "11",
+      "unit_code": "C62",
+      "unit_price": "11.72",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "128.92"
+    },
+    {
+      "line_id": "5",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "214374",
+      "quantity": "31",
+      "unit_code": "C62",
+      "unit_price": "6.01",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "186.31"
+    },
+    {
+      "line_id": "6",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": "ART534969",
+      "quantity": "9",
+      "unit_code": "MON",
+      "unit_price": "50.03",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "450.27"
+    },
+    {
+      "line_id": "7",
+      "description": "Butterbrezeln",
+      "seller_item_id": "ART306310",
+      "quantity": "137",
+      "unit_code": "C62",
+      "unit_price": "0.78",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "106.86"
+    },
+    {
+      "line_id": "8",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": "446775",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "23.84",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "95.36"
+    },
+    {
+      "line_id": "9",
+      "description": "Kuchenplatte",
+      "seller_item_id": "SKU-85953",
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "41.50",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "124.50"
+    },
+    {
+      "line_id": "10",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": "131319",
+      "quantity": "36",
+      "unit_code": "LTR",
+      "unit_price": "1.04",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "37.44"
+    }
+  ],
+  "iban": "DE74623221897569739937",
+  "bic": "LLNUDEYWXXX",
+  "payment_terms": "Zahlungsziel: 7 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1720.46",
+    "tax_total": "217.13",
+    "gross_total": "1937.59",
+    "due_amount": "1937.59",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "914.67",
+        "tax": "64.03"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "805.79",
+        "tax": "153.10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "number": "RE-2026-1495",
+  "issue_date": "2026-01-08",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-07",
+  "delivery_date": "2025-12-28",
+  "buyer_reference": "4590574795",
+  "seller": {
+    "name": "Austermühle Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Alfredo-Schuster-Straße 29-92",
+      "postcode": "42806",
+      "city": "Kötzting",
+      "country_code": "DE"
+    },
+    "vat_id": "DE922407853",
+    "electronic_address": "info@austermuhle.example",
+    "contact": {
+      "name": "Ing. Rebekka Hein",
+      "phone": "01034589386",
+      "email": "virginia@austermuhle.example"
+    }
+  },
+  "buyer": {
+    "name": "Conradi & Nerger GmbH",
+    "address": {
+      "street": "Doris-Rosemann-Gasse 99/88",
+      "postcode": "10576",
+      "city": "Fallingbostel",
+      "country_code": "DE"
+    },
+    "vat_id": "DE756092947",
+    "electronic_address": "info@conradi.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Gerüststellung pro Tag",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "DAY",
+      "unit_price": "77.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "308.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Tiefengrund LF, 5 l",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "31.73",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "31.73"
+    },
+    {
+      "line_id": "3",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "LS",
+      "unit_price": "54.57",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "109.14"
+    },
+    {
+      "line_id": "4",
+      "description": "Verlegung Laminat",
+      "seller_item_id": null,
+      "quantity": "67.5",
+      "unit_code": "MTK",
+      "unit_price": "25.89",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1747.58"
+    },
+    {
+      "line_id": "5",
+      "description": "Raufaser Tapete Körnung mittel",
+      "seller_item_id": null,
+      "quantity": "19",
+      "unit_code": "C62",
+      "unit_price": "7.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "143.07"
+    }
+  ],
+  "iban": "DE63177556280847025450",
+  "bic": "YZDWDESZ",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2340.12",
+    "tax_total": "444.62",
+    "gross_total": "2784.74",
+    "due_amount": "2784.74",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2340.12",
+        "tax": "444.62"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "number": "240493",
+  "issue_date": "2026-08-26",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-05",
+  "delivery_date": "2026-08-26",
+  "buyer_reference": "04950-45625-56",
+  "seller": {
+    "name": "Wieloch Handel KG",
+    "address": {
+      "street": "Harald-Wilms-Gasse 293",
+      "postcode": "49692",
+      "city": "Malchin",
+      "country_code": "DE"
+    },
+    "vat_id": "DE420254711",
+    "electronic_address": "info@wieloch.example",
+    "contact": {
+      "name": "Slavica Walter",
+      "phone": "05394 282493",
+      "email": "horst@wieloch.example"
+    }
+  },
+  "buyer": {
+    "name": "Binner Digital OHG",
+    "address": {
+      "street": "Senta-Hesse-Ring 4/8",
+      "postcode": "83763",
+      "city": "Einbeck",
+      "country_code": "DE"
+    },
+    "vat_id": "DE841312148",
+    "electronic_address": "buchhaltung@binner.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Beratungsleistung",
+      "seller_item_id": null,
+      "quantity": "27.5",
+      "unit_code": "HUR",
+      "unit_price": "117.98",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3244.45"
+    },
+    {
+      "line_id": "2",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1373.59",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2060.39"
+    },
+    {
+      "line_id": "3",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "7.5",
+      "unit_code": "HUR",
+      "unit_price": "57.91",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "434.33"
+    },
+    {
+      "line_id": "4",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "8174",
+      "unit_code": "C62",
+      "unit_price": "0.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1471.32"
+    },
+    {
+      "line_id": "5",
+      "description": "Softwareentwicklung",
+      "seller_item_id": null,
+      "quantity": "50",
+      "unit_code": "HUR",
+      "unit_price": "112.60",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "5630.00"
+    }
+  ],
+  "iban": "DE29708909941737773023",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "12840.49",
+    "tax_total": "2439.69",
+    "gross_total": "15280.18",
+    "due_amount": "15280.18",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "12840.49",
+        "tax": "2439.69"
+      }
+    ]
+  }
+}

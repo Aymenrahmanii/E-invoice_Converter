@@ -1,0 +1,79 @@
+{
+  "number": "R26-00636",
+  "issue_date": "2026-04-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-18",
+  "delivery_date": null,
+  "buyer_reference": "4596438096",
+  "seller": {
+    "name": "Gunpf KG",
+    "address": {
+      "street": "Jane-Eberth-Gasse 678",
+      "postcode": "14547",
+      "city": "Ebermannstadt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE894735254",
+    "electronic_address": "rechnung@gunpf.example",
+    "contact": {
+      "name": "Dipl.-Ing. Steve Hendriks B.A.",
+      "phone": "01067046477",
+      "email": "lili@gunpf.example"
+    }
+  },
+  "buyer": {
+    "name": "Trupp UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Sibel-Peukert-Allee 96",
+      "postcode": "20997",
+      "city": "Magdeburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@trupp.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wandfarbe weiß, 10 l Eimer",
+      "seller_item_id": "ART524703",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "63.88",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "255.52"
+    },
+    {
+      "line_id": "2",
+      "description": "Anfahrtspauschale",
+      "seller_item_id": "ART390825",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "27.34",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "27.34"
+    }
+  ],
+  "iban": "DE71613665322965019290",
+  "bic": "BVTTDEOBXXX",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "282.86",
+    "tax_total": "53.74",
+    "gross_total": "336.60",
+    "due_amount": "336.60",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "282.86",
+        "tax": "53.74"
+      }
+    ]
+  }
+}

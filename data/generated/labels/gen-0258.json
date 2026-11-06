@@ -1,0 +1,123 @@
+{
+  "number": "495302",
+  "issue_date": "2026-08-07",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-06",
+  "delivery_date": null,
+  "buyer_reference": "12803561-73560-89",
+  "seller": {
+    "name": "Loos Technik GmbH & Co. KG",
+    "address": {
+      "street": "Hans-Hermann-Stey-Ring 31/21",
+      "postcode": "13334",
+      "city": "Crailsheim",
+      "country_code": "DE"
+    },
+    "vat_id": "DE445471607",
+    "electronic_address": "info@loos.example",
+    "contact": {
+      "name": "Jolanthe Huhn",
+      "phone": "+49(0)9069 934341",
+      "email": "albrecht@loos.example"
+    }
+  },
+  "buyer": {
+    "name": "Täsche Bau e.K.",
+    "address": {
+      "street": "Hendriksweg 38",
+      "postcode": "86261",
+      "city": "Tirschenreuth",
+      "country_code": "DE"
+    },
+    "vat_id": "DE278835427",
+    "electronic_address": "invoice@tasche.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Gipskartonplatte 12,5 mm",
+      "seller_item_id": "814171",
+      "quantity": "362.5",
+      "unit_code": "MTK",
+      "unit_price": "2.77",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1004.13"
+    },
+    {
+      "line_id": "2",
+      "description": "Akku-Bohrschrauber 18 V",
+      "seller_item_id": "A426814",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "161.15",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "644.60"
+    },
+    {
+      "line_id": "3",
+      "description": "Steckdose Unterputz weiß",
+      "seller_item_id": "237985",
+      "quantity": "37",
+      "unit_code": "C62",
+      "unit_price": "2.89",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "106.93"
+    },
+    {
+      "line_id": "4",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "482928",
+      "quantity": "30",
+      "unit_code": "C62",
+      "unit_price": "10.45",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "313.50"
+    },
+    {
+      "line_id": "5",
+      "description": "Arbeitshandschuhe Gr. 10",
+      "seller_item_id": "A573728",
+      "quantity": "22",
+      "unit_code": "PR",
+      "unit_price": "3.49",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "76.78"
+    },
+    {
+      "line_id": "6",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "SKU-974991",
+      "quantity": "1431",
+      "unit_code": "KGM",
+      "unit_price": "0.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "257.58"
+    }
+  ],
+  "iban": "DE98555702540522105690",
+  "bic": "BUGODEWE",
+  "payment_terms": "Zahlbar bis zum Fälligkeitsdatum ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2403.52",
+    "tax_total": "456.67",
+    "gross_total": "2860.19",
+    "due_amount": "2860.19",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "2403.52",
+        "tax": "456.67"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "number": "202603-1242",
+  "issue_date": "2026-03-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": null,
+  "buyer_reference": "4539123275",
+  "seller": {
+    "name": "Gerlach OHG",
+    "address": {
+      "street": "Gudrun-Süßebier-Platz 87-72",
+      "postcode": "10980",
+      "city": "Soest",
+      "country_code": "DE"
+    },
+    "vat_id": "DE828722169",
+    "electronic_address": "invoice@gerlach.example",
+    "contact": {
+      "name": "Eveline Bauer B.Eng.",
+      "phone": "(04118) 427853",
+      "email": "lissi@gerlach.example"
+    }
+  },
+  "buyer": {
+    "name": "Heser Bau AG",
+    "address": {
+      "street": "Knappeallee 185",
+      "postcode": "02048",
+      "city": "Lobenstein",
+      "country_code": "DE"
+    },
+    "vat_id": "DE809653375",
+    "electronic_address": "invoice@heser.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "6956",
+      "unit_code": "C62",
+      "unit_price": "0.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1252.08"
+    }
+  ],
+  "iban": "DE48319755077482306370",
+  "bic": "ISVIDEIZ",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1252.08",
+    "tax_total": "237.90",
+    "gross_total": "1489.98",
+    "due_amount": "1489.98",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1252.08",
+        "tax": "237.90"
+      }
+    ]
+  }
+}

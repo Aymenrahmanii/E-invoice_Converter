@@ -1,0 +1,68 @@
+{
+  "number": "R26-06613",
+  "issue_date": "2026-06-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-01",
+  "delivery_date": "2026-06-11",
+  "buyer_reference": "4557075379",
+  "seller": {
+    "name": "Junken Bau AG",
+    "address": {
+      "street": "Krausestr. 8",
+      "postcode": "16105",
+      "city": "Strausberg",
+      "country_code": "DE"
+    },
+    "vat_id": "DE371180468",
+    "electronic_address": "info@junken.example",
+    "contact": {
+      "name": "Rebecca Mosemann-Carsten",
+      "phone": "+49(0)5606 95366",
+      "email": "adelgunde@junken.example"
+    }
+  },
+  "buyer": {
+    "name": "Söding Service e.K.",
+    "address": {
+      "street": "Strohallee 81-87",
+      "postcode": "86811",
+      "city": "Badoberan",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@soding.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": "SKU-734752",
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "900.53",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "900.53"
+    }
+  ],
+  "iban": "DE55117515232950189342",
+  "bic": "OWPCDEZ0",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "900.53",
+    "tax_total": "171.10",
+    "gross_total": "1071.63",
+    "due_amount": "1071.63",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "900.53",
+        "tax": "171.10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,572 @@
+{
+ "corpus": "ZUGFeRD/corpus",
+ "license": "Apache-2.0",
+ "documents": [
+  {
+   "id": "real-mustangproject-mustanggnuaccountingbeispielre-20190610-507",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/Mustangproject/MustangGnuaccountingBeispielRE-20190610_507.pdf",
+   "group": "MustangGnuaccountingBeispielRE-20190610_507",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-mustangproject-mustanggnuaccountingbeispielre-20190610-507.pdf",
+   "label": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20190610-507.json",
+   "label_xml": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20190610-507.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-mustangproject-mustanggnuaccountingbeispielre-20201121-508",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/Mustangproject/MustangGnuaccountingBeispielRE-20201121_508.pdf",
+   "group": "MustangGnuaccountingBeispielRE-20201121_508",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508.pdf",
+   "label": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508.json",
+   "label_xml": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-mustangproject-mustanggnuaccountingbeispielre-20201121-508-withbom",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/Mustangproject/MustangGnuaccountingBeispielRE-20201121_508_withBOM.pdf",
+   "group": "MustangGnuaccountingBeispielRE-20201121_508_withBOM",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508-withbom.pdf",
+   "label": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508-withbom.json",
+   "label_xml": "labels/real-mustangproject-mustanggnuaccountingbeispielre-20201121-508-withbom.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-php-gpfacturx-sample-inofficial-20190125-atgp-factur-x-v-1-0",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/PHP_%40gpFacturX/sample_inofficial_20190125_atgp_factur-x_v_1_0.pdf",
+   "group": "sample_inofficial_20190125_atgp_factur-x_v_1_0",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-php-gpfacturx-sample-inofficial-20190125-atgp-factur-x-v-1-0.pdf",
+   "label": "labels/real-php-gpfacturx-sample-inofficial-20190125-atgp-factur-x-v-1-0.json",
+   "label_xml": "labels/real-php-gpfacturx-sample-inofficial-20190125-atgp-factur-x-v-1-0.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-basic-zugferd-2p0-basic-einfach",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/BASIC/zugferd_2p0_BASIC_Einfach.pdf",
+   "group": "BASIC_Einfach",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:zugferd.de:2p0:basic",
+   "pdf": "pdf/real-intarsys-basic-zugferd-2p0-basic-einfach.pdf",
+   "label": "labels/real-intarsys-basic-zugferd-2p0-basic-einfach.json",
+   "label_xml": "labels/real-intarsys-basic-zugferd-2p0-basic-einfach.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-basic-zugferd-2p0-basic-taxifahrt",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/BASIC/zugferd_2p0_BASIC_Taxifahrt.pdf",
+   "group": "BASIC_Taxifahrt",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:zugferd.de:2p0:basic",
+   "pdf": "pdf/real-intarsys-basic-zugferd-2p0-basic-taxifahrt.pdf",
+   "label": "labels/real-intarsys-basic-zugferd-2p0-basic-taxifahrt.json",
+   "label_xml": "labels/real-intarsys-basic-zugferd-2p0-basic-taxifahrt.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-1-teilrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_1_Teilrechnung.pdf",
+   "group": "EN16931_1_Teilrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-1-teilrechnung.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-1-teilrechnung.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-1-teilrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-2-teilrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_2_Teilrechnung.pdf",
+   "group": "EN16931_2_Teilrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-2-teilrechnung.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-2-teilrechnung.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-2-teilrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-abweichenderzahlungsempf",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_AbweichenderZahlungsempf.pdf",
+   "group": "EN16931_AbweichenderZahlungsempf",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-abweichenderzahlungsempf.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-abweichenderzahlungsempf.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-abweichenderzahlungsempf.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-betriebskostenabrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Betriebskostenabrechnung.pdf",
+   "group": "EN16931_Betriebskostenabrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-betriebskostenabrechnung.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-betriebskostenabrechnung.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-betriebskostenabrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-einfach",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Einfach.pdf",
+   "group": "EN16931_Einfach",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-einfach.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-einfach.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-einfach.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-oepnv",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_OEPNV.pdf",
+   "group": "EN16931_OEPNV",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-oepnv.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-oepnv.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-oepnv.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-physiotherapeut",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Physiotherapeut.pdf",
+   "group": "EN16931_Physiotherapeut",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-physiotherapeut.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-physiotherapeut.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-physiotherapeut.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-rabatte",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Rabatte.pdf",
+   "group": "EN16931_Rabatte",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-rabatte.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-rabatte.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-rabatte.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-rechnungsuebertragung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_RechnungsUebertragung.pdf",
+   "group": "EN16931_RechnungsUebertragung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-rechnungsuebertragung.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-rechnungsuebertragung.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-rechnungsuebertragung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-reisekostenabrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Reisekostenabrechnung.pdf",
+   "group": "EN16931_Reisekostenabrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-reisekostenabrechnung.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-reisekostenabrechnung.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-reisekostenabrechnung.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-intarsys-en16931-zugferd-2p0-en16931-sepa-prenotification",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_SEPA_Prenotification.pdf",
+   "group": "EN16931_SEPA_Prenotification",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-intarsys-en16931-zugferd-2p0-en16931-sepa-prenotification.pdf",
+   "label": "labels/real-intarsys-en16931-zugferd-2p0-en16931-sepa-prenotification.json",
+   "label_xml": "labels/real-intarsys-en16931-zugferd-2p0-en16931-sepa-prenotification.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-extended-zugferd-2p0-extended-fremdwaehrung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EXTENDED/zugferd_2p0_EXTENDED_Fremdwaehrung.pdf",
+   "group": "EXTENDED_Fremdwaehrung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:zugferd.de:2p0:extended",
+   "pdf": "pdf/real-intarsys-extended-zugferd-2p0-extended-fremdwaehrung.pdf",
+   "label": "labels/real-intarsys-extended-zugferd-2p0-extended-fremdwaehrung.json",
+   "label_xml": "labels/real-intarsys-extended-zugferd-2p0-extended-fremdwaehrung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-extended-zugferd-2p0-extended-innergemeinschlieferungmehrerebestellungen",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EXTENDED/zugferd_2p0_EXTENDED_InnergemeinschLieferungMehrereBestellungen.pdf",
+   "group": "EXTENDED_InnergemeinschLieferungMehrereBestellungen",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:zugferd.de:2p0:extended",
+   "pdf": "pdf/real-intarsys-extended-zugferd-2p0-extended-innergemeinschlieferungmehrerebestellungen.pdf",
+   "label": "labels/real-intarsys-extended-zugferd-2p0-extended-innergemeinschlieferungmehrerebestellungen.json",
+   "label_xml": "labels/real-intarsys-extended-zugferd-2p0-extended-innergemeinschlieferungmehrerebestellungen.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-extended-zugferd-2p0-extended-kostenrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EXTENDED/zugferd_2p0_EXTENDED_Kostenrechnung.pdf",
+   "group": "EXTENDED_Kostenrechnung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:zugferd.de:2p0:extended",
+   "pdf": "pdf/real-intarsys-extended-zugferd-2p0-extended-kostenrechnung.pdf",
+   "label": "labels/real-intarsys-extended-zugferd-2p0-extended-kostenrechnung.json",
+   "label_xml": "labels/real-intarsys-extended-zugferd-2p0-extended-kostenrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-intarsys-extended-zugferd-2p0-extended-warenrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/intarsys/EXTENDED/zugferd_2p0_EXTENDED_Warenrechnung.pdf",
+   "group": "EXTENDED_Warenrechnung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:zugferd.de:2p0:extended",
+   "pdf": "pdf/real-intarsys-extended-zugferd-2p0-extended-warenrechnung.pdf",
+   "label": "labels/real-intarsys-extended-zugferd-2p0-extended-warenrechnung.json",
+   "label_xml": "labels/real-intarsys-extended-zugferd-2p0-extended-warenrechnung.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-symtrax-beispiele-basic-zugferd-2p1-basic-einfach",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/BASIC/zugferd_2p1_BASIC_Einfach.pdf",
+   "group": "BASIC_Einfach",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:factur-x.eu:1p0:basic",
+   "pdf": "pdf/real-symtrax-beispiele-basic-zugferd-2p1-basic-einfach.pdf",
+   "label": "labels/real-symtrax-beispiele-basic-zugferd-2p1-basic-einfach.json",
+   "label_xml": "labels/real-symtrax-beispiele-basic-zugferd-2p1-basic-einfach.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-basic-zugferd-2p1-basic-taxifahrt",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/BASIC/zugferd_2p1_BASIC_Taxifahrt.pdf",
+   "group": "BASIC_Taxifahrt",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:factur-x.eu:1p0:basic",
+   "pdf": "pdf/real-symtrax-beispiele-basic-zugferd-2p1-basic-taxifahrt.pdf",
+   "label": "labels/real-symtrax-beispiele-basic-zugferd-2p1-basic-taxifahrt.json",
+   "label_xml": "labels/real-symtrax-beispiele-basic-zugferd-2p1-basic-taxifahrt.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-1-teilrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_1_Teilrechnung.pdf",
+   "group": "EN16931_1_Teilrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-1-teilrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-1-teilrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-1-teilrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-2-teilrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_2_Teilrechnung.pdf",
+   "group": "EN16931_2_Teilrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-2-teilrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-2-teilrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-2-teilrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-abweichenderzahlungsempf",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_AbweichenderZahlungsempf.pdf",
+   "group": "EN16931_AbweichenderZahlungsempf",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-abweichenderzahlungsempf.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-abweichenderzahlungsempf.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-abweichenderzahlungsempf.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Betriebskostenabrechnung.pdf",
+   "group": "EN16931_Betriebskostenabrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung-xrechnung-embedded",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Betriebskostenabrechnung_XRechnung_embedded.pdf",
+   "group": "EN16931_Betriebskostenabrechnung_XRechnung_embedded",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung-xrechnung-embedded.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung-xrechnung-embedded.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-betriebskostenabrechnung-xrechnung-embedded.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Einfach.pdf",
+   "group": "EN16931_Einfach",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-duedate",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Einfach_DueDate.pdf",
+   "group": "EN16931_Einfach_DueDate",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-duedate.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-duedate.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-duedate.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-negativepaymentdue",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Einfach_negativePaymentDue.pdf",
+   "group": "EN16931_Einfach_negativePaymentDue",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-negativepaymentdue.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-negativepaymentdue.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-einfach-negativepaymentdue.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-oepnv",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_OEPNV.pdf",
+   "group": "EN16931_OEPNV",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-oepnv.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-oepnv.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-oepnv.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-physiotherapeut",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Physiotherapeut.pdf",
+   "group": "EN16931_Physiotherapeut",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-physiotherapeut.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-physiotherapeut.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-physiotherapeut.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rabatte",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Rabatte.pdf",
+   "group": "EN16931_Rabatte",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rabatte.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rabatte.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rabatte.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rechnungsuebertragung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_RechnungsUebertragung.pdf",
+   "group": "EN16931_RechnungsUebertragung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rechnungsuebertragung.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rechnungsuebertragung.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-rechnungsuebertragung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Reisekostenabrechnung.pdf",
+   "group": "EN16931_Reisekostenabrechnung",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung.xml",
+   "split": "dev"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung-xrechnung-embedded",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Reisekostenabrechnung_XRechnung_embedded.pdf",
+   "group": "EN16931_Reisekostenabrechnung_XRechnung_embedded",
+   "profile": "urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung-xrechnung-embedded.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung-xrechnung-embedded.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-reisekostenabrechnung-xrechnung-embedded.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-en16931-zugferd-2p1-en16931-sepa-prenotification",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_SEPA_Prenotification.pdf",
+   "group": "EN16931_SEPA_Prenotification",
+   "profile": "urn:cen.eu:en16931:2017",
+   "pdf": "pdf/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-sepa-prenotification.pdf",
+   "label": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-sepa-prenotification.json",
+   "label_xml": "labels/real-symtrax-beispiele-en16931-zugferd-2p1-en16931-sepa-prenotification.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-extended-zugferd-2p1-extended-fremdwaehrung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EXTENDED/zugferd_2p1_EXTENDED_Fremdwaehrung.pdf",
+   "group": "EXTENDED_Fremdwaehrung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended",
+   "pdf": "pdf/real-symtrax-beispiele-extended-zugferd-2p1-extended-fremdwaehrung.pdf",
+   "label": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-fremdwaehrung.json",
+   "label_xml": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-fremdwaehrung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-extended-zugferd-2p1-extended-innergemeinschlieferungmehrerebestellungen",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EXTENDED/zugferd_2p1_EXTENDED_InnergemeinschLieferungMehrereBestellungen.pdf",
+   "group": "EXTENDED_InnergemeinschLieferungMehrereBestellungen",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended",
+   "pdf": "pdf/real-symtrax-beispiele-extended-zugferd-2p1-extended-innergemeinschlieferungmehrerebestellungen.pdf",
+   "label": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-innergemeinschlieferungmehrerebestellungen.json",
+   "label_xml": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-innergemeinschlieferungmehrerebestellungen.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-extended-zugferd-2p1-extended-kostenrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EXTENDED/zugferd_2p1_EXTENDED_Kostenrechnung.pdf",
+   "group": "EXTENDED_Kostenrechnung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended",
+   "pdf": "pdf/real-symtrax-beispiele-extended-zugferd-2p1-extended-kostenrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-kostenrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-kostenrechnung.xml",
+   "split": "test"
+  },
+  {
+   "id": "real-symtrax-beispiele-extended-zugferd-2p1-extended-warenrechnung",
+   "source": "https://github.com/ZUGFeRD/corpus/blob/master/ZUGFeRDv2/correct/symtrax/Beispiele/EXTENDED/zugferd_2p1_EXTENDED_Warenrechnung.pdf",
+   "group": "EXTENDED_Warenrechnung",
+   "profile": "urn:cen.eu:en16931:2017#conformant#urn:factur-x.eu:1p0:extended",
+   "pdf": "pdf/real-symtrax-beispiele-extended-zugferd-2p1-extended-warenrechnung.pdf",
+   "label": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-warenrechnung.json",
+   "label_xml": "labels/real-symtrax-beispiele-extended-zugferd-2p1-extended-warenrechnung.xml",
+   "split": "dev"
+  }
+ ],
+ "skipped": [
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Avoir_FR_type381_BASIC.pdf",
+   "reason": "type code 381"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_DOM_BASICWL.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:basicwl"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_DOM_MINIMUM.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:minimum"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_FR_BASICWL.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:basicwl"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_FR_MINIMUM.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:minimum"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_UE_BASICWL.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:basicwl"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/FNFE-factur-x-examples/Facture_UE_MINIMUM.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:minimum"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/BASIC/zugferd_2p0_BASIC_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Elektron.pdf",
+   "reason": "type code 204"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_ElektronischeAdresse.pdf",
+   "reason": "type code 387"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Gutschrift.pdf",
+   "reason": "type code 389"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Haftpflichtversicherung_Versicherungssteuer.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Innergemeinschaftliche_Lieferungen.pdf",
+   "reason": "type code 389"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Kraftfahrversicherung_Bruttopreise.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Miete.pdf",
+   "reason": "type code 387"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EN16931/zugferd_2p0_EN16931_Sachversicherung_berechneter_Steuersatz.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/EXTENDED/zugferd_2p0_EXTENDED_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/intarsys/MINIMUM/zugferd_2p0_MINIMUM.pdf",
+   "reason": "profile urn:zugferd.de:2p0:minimum"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/BASIC WL/zugferd_2p1_BASIC-WL_Buchungshilfe.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:basicwl"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/BASIC WL/zugferd_2p1_BASIC-WL_Einfach.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:basicwl"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/BASIC/zugferd_2p1_BASIC_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Elektron.pdf",
+   "reason": "type code 204"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Elektron_XRechnung.pdf",
+   "reason": "type code 204"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Elektron_embedded.pdf",
+   "reason": "type code 204"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_ElektronischeAdresse.pdf",
+   "reason": "type code 387"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Gutschrift.pdf",
+   "reason": "type code 389"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Haftpflichtversicherung_Versicherungssteuer.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Innergemeinschaftliche_Lieferungen.pdf",
+   "reason": "type code 389"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Kraftfahrversicherung_Bruttopreise.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Miete.pdf",
+   "reason": "type code 387"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EN16931/zugferd_2p1_EN16931_Sachversicherung_berechneter_Steuersatz.pdf",
+   "reason": "type code 575"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/EXTENDED/zugferd_2p1_EXTENDED_Rechnungskorrektur.pdf",
+   "reason": "type code 384"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/MINIMUM/zugferd_2p1_MINIMUM_Buchungshilfe.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:minimum"
+  },
+  {
+   "path": "ZUGFeRDv2/correct/symtrax/Beispiele/MINIMUM/zugferd_2p1_MINIMUM_Rechnung.pdf",
+   "reason": "profile urn:factur-x.eu:1p0:minimum"
+  }
+ ]
+}

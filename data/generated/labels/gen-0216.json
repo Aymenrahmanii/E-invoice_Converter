@@ -1,0 +1,123 @@
+{
+  "number": "204180",
+  "issue_date": "2026-08-04",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-08-11",
+  "delivery_date": null,
+  "buyer_reference": "4538227479",
+  "seller": {
+    "name": "Linke & Cichorius KG",
+    "address": {
+      "street": "Aumannallee 6-5",
+      "postcode": "70348",
+      "city": "Erding",
+      "country_code": "DE"
+    },
+    "vat_id": "DE301618163",
+    "electronic_address": "buchhaltung@linke.example",
+    "contact": {
+      "name": "Dr. Anastasios Dehmel",
+      "phone": "0200288653",
+      "email": "kirsten@linke.example"
+    }
+  },
+  "buyer": {
+    "name": "Steckel Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Röhrdanzgasse 4/3",
+      "postcode": "98509",
+      "city": "Erbisdorf",
+      "country_code": "DE"
+    },
+    "vat_id": "DE917185848",
+    "electronic_address": "invoice@steckel.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "1.5",
+      "unit_code": "HUR",
+      "unit_price": "78.29",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "117.44"
+    },
+    {
+      "line_id": "2",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "MON",
+      "unit_price": "190.48",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "571.44"
+    },
+    {
+      "line_id": "3",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "58.5",
+      "unit_code": "HUR",
+      "unit_price": "132.25",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "7736.63"
+    },
+    {
+      "line_id": "4",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2303.14",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2303.14"
+    },
+    {
+      "line_id": "5",
+      "description": "Texterstellung Produktseiten",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "163.30",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1469.70"
+    },
+    {
+      "line_id": "6",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "MON",
+      "unit_price": "1038.09",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2076.18"
+    }
+  ],
+  "iban": "DE38347040761559996839",
+  "bic": "JYYQDELD",
+  "payment_terms": "Net 7 days.",
+  "note": null,
+  "totals": {
+    "net_total": "14274.53",
+    "tax_total": "2712.16",
+    "gross_total": "16986.69",
+    "due_amount": "16986.69",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "14274.53",
+        "tax": "2712.16"
+      }
+    ]
+  }
+}

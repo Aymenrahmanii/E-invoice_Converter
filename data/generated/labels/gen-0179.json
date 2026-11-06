@@ -1,0 +1,90 @@
+{
+  "number": "2026/1069",
+  "issue_date": "2026-09-20",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-10-20",
+  "delivery_date": "2026-09-12",
+  "buyer_reference": "4598927004",
+  "seller": {
+    "name": "Scholz Handel KG",
+    "address": {
+      "street": "Lissy-Flantz-Straße 2",
+      "postcode": "01170",
+      "city": "Berchtesgaden",
+      "country_code": "DE"
+    },
+    "vat_id": "DE284249926",
+    "electronic_address": "info@scholz.example",
+    "contact": {
+      "name": "Ottfried Ernst B.Sc.",
+      "phone": "05427 33847",
+      "email": "gertrude@scholz.example"
+    }
+  },
+  "buyer": {
+    "name": "Bachmann & Radisch KG",
+    "address": {
+      "street": "Sükrü-Siering-Allee 51",
+      "postcode": "28739",
+      "city": "Malchin",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@bachmann.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "11758",
+      "unit_code": "C62",
+      "unit_price": "0.17",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1998.86"
+    },
+    {
+      "line_id": "2",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "DAY",
+      "unit_price": "979.40",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "979.40"
+    },
+    {
+      "line_id": "3",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "372.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "372.90"
+    }
+  ],
+  "iban": "DE57696175422835424343",
+  "bic": "NANUDEVF",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "3351.16",
+    "tax_total": "636.72",
+    "gross_total": "3987.88",
+    "due_amount": "3987.88",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3351.16",
+        "tax": "636.72"
+      }
+    ]
+  }
+}

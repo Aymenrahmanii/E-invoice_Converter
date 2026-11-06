@@ -1,0 +1,8 @@
+{% macro ref_label(leitweg, lang="de") -%}
+{% if lang == "en" %}{{ "Buyer reference" if leitweg else "Your PO number" }}{% else %}{{ "Leitweg-ID" if leitweg else "Ihre Bestellnummer" }}{% endif %}
+{%- endmacro %}
+{% macro vat_lines(vat, fmt, lang="de") -%}
+{% for v in vat %}
+<tr><td>{% if lang == "en" %}VAT {{ fmt.number(v.rate) }}% on {{ fmt.money(v.basis) }}{% else %}zzgl. {{ fmt.number(v.rate) }} % USt. auf {{ fmt.money(v.basis) }}{% endif %}</td><td class="r">{{ fmt.money(v.tax) }}</td></tr>
+{% endfor %}
+{%- endmacro %}

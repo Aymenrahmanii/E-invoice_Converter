@@ -1,0 +1,112 @@
+{
+  "number": "119677",
+  "issue_date": "2026-06-25",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-25",
+  "delivery_date": "2026-06-15",
+  "buyer_reference": "09326-80580-85",
+  "seller": {
+    "name": "Karz Digital KG",
+    "address": {
+      "street": "Fabian-Hamann-Straße 46",
+      "postcode": "90302",
+      "city": "Schwandorf",
+      "country_code": "DE"
+    },
+    "vat_id": "DE147060829",
+    "electronic_address": "buchhaltung@karz.example",
+    "contact": {
+      "name": "Dr. Mike Beer B.A.",
+      "phone": "0347809043",
+      "email": "jorgen@karz.example"
+    }
+  },
+  "buyer": {
+    "name": "Weimer & Drubin UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Höfiggasse 93-54",
+      "postcode": "59023",
+      "city": "Grafenau",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@weimer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Projektmanagement",
+      "seller_item_id": "A887331",
+      "quantity": "20",
+      "unit_code": "HUR",
+      "unit_price": "83.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1663.60"
+    },
+    {
+      "line_id": "2",
+      "description": "Social-Media-Betreuung",
+      "seller_item_id": "ART710905",
+      "quantity": "1",
+      "unit_code": "MON",
+      "unit_price": "939.13",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "939.13"
+    },
+    {
+      "line_id": "3",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": "SKU-208364",
+      "quantity": "2.5",
+      "unit_code": "DAY",
+      "unit_price": "1207.52",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3018.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": "A942430",
+      "quantity": "73.5",
+      "unit_code": "HUR",
+      "unit_price": "118.27",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "8692.85"
+    },
+    {
+      "line_id": "5",
+      "description": "Logo-Entwicklung inkl. 3 Entwürfe",
+      "seller_item_id": "262403",
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2090.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2090.33"
+    }
+  ],
+  "iban": "DE05434359337689745586",
+  "bic": "SHRGDEJF",
+  "payment_terms": "Payment due within 30 days.",
+  "note": null,
+  "totals": {
+    "net_total": "16404.71",
+    "tax_total": "3116.89",
+    "gross_total": "19521.60",
+    "due_amount": "19521.60",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "16404.71",
+        "tax": "3116.89"
+      }
+    ]
+  }
+}

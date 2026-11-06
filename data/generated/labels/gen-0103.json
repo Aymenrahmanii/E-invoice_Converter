@@ -1,0 +1,68 @@
+{
+  "number": "722445",
+  "issue_date": "2026-09-19",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-09-29",
+  "delivery_date": "2026-09-11",
+  "buyer_reference": "05750-13028-90",
+  "seller": {
+    "name": "Pergande Technik KG",
+    "address": {
+      "street": "Junckgasse 93-99",
+      "postcode": "97965",
+      "city": "Bayreuth",
+      "country_code": "DE"
+    },
+    "vat_id": "DE194250194",
+    "electronic_address": "info@pergande.example",
+    "contact": {
+      "name": "Ignaz Eckbauer B.Eng.",
+      "phone": "+49(0)1759 202025",
+      "email": "heinz-gunter@pergande.example"
+    }
+  },
+  "buyer": {
+    "name": "Wagenknecht Technik AG",
+    "address": {
+      "street": "Monika-Geißler-Gasse 5-4",
+      "postcode": "45654",
+      "city": "Dinslaken",
+      "country_code": "DE"
+    },
+    "vat_id": "DE982725638",
+    "electronic_address": "buchhaltung@wagenknecht.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "17",
+      "unit_code": "HUR",
+      "unit_price": "60.83",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1034.11"
+    }
+  ],
+  "iban": "DE79175016720748018431",
+  "bic": "GXEGDECL",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "1034.11",
+    "tax_total": "196.48",
+    "gross_total": "1230.59",
+    "due_amount": "1230.59",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1034.11",
+        "tax": "196.48"
+      }
+    ]
+  }
+}

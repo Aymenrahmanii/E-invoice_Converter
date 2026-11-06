@@ -1,0 +1,123 @@
+{
+  "number": "RE-2026-8610",
+  "issue_date": "2026-02-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-02-19",
+  "delivery_date": "2026-02-03",
+  "buyer_reference": "4579078224",
+  "seller": {
+    "name": "Scheibe Handel UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Ringallee 16/83",
+      "postcode": "07752",
+      "city": "Weißenfels",
+      "country_code": "DE"
+    },
+    "vat_id": "DE789700986",
+    "electronic_address": "buchhaltung@scheibe.example",
+    "contact": {
+      "name": "Heidemarie Haase",
+      "phone": "+49(0) 214265807",
+      "email": "anatolij@scheibe.example"
+    }
+  },
+  "buyer": {
+    "name": "Wagenknecht Technik AG",
+    "address": {
+      "street": "Damaris-Hethur-Weg 4481",
+      "postcode": "18116",
+      "city": "Hammelburg",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "rechnung@wagenknecht.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "UX-Design Startseite",
+      "seller_item_id": null,
+      "quantity": "10",
+      "unit_code": "HUR",
+      "unit_price": "117.70",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1177.00"
+    },
+    {
+      "line_id": "2",
+      "description": "Hosting und Wartung",
+      "seller_item_id": null,
+      "quantity": "12",
+      "unit_code": "MON",
+      "unit_price": "167.05",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2004.60"
+    },
+    {
+      "line_id": "3",
+      "description": "Frontend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "40",
+      "unit_code": "HUR",
+      "unit_price": "97.92",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3916.80"
+    },
+    {
+      "line_id": "4",
+      "description": "Konzeption und Strategie-Workshop",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "DAY",
+      "unit_price": "1584.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "3169.28"
+    },
+    {
+      "line_id": "5",
+      "description": "Backend-Entwicklung",
+      "seller_item_id": null,
+      "quantity": "11",
+      "unit_code": "HUR",
+      "unit_price": "88.80",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "976.80"
+    },
+    {
+      "line_id": "6",
+      "description": "Projektmanagement",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "HUR",
+      "unit_price": "79.75",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "717.75"
+    }
+  ],
+  "iban": "DE12363581392047714413",
+  "bic": "YCXWDED3",
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 14 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "11962.23",
+    "tax_total": "2272.82",
+    "gross_total": "14235.05",
+    "due_amount": "14235.05",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "11962.23",
+        "tax": "2272.82"
+      }
+    ]
+  }
+}

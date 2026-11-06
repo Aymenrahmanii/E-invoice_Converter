@@ -1,0 +1,129 @@
+{
+  "number": "800640",
+  "issue_date": "2026-10-11",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-11-10",
+  "delivery_date": "2026-10-02",
+  "buyer_reference": "4538042879",
+  "seller": {
+    "name": "Röhrdanz Service KG",
+    "address": {
+      "street": "Grein Grothstraße 1-8",
+      "postcode": "19590",
+      "city": "Mühldorf am Inn",
+      "country_code": "DE"
+    },
+    "vat_id": "DE589255515",
+    "electronic_address": "info@rohrdanz.example",
+    "contact": {
+      "name": "Margaretha Müller MBA.",
+      "phone": "0273712235",
+      "email": "thaddaus@rohrdanz.example"
+    }
+  },
+  "buyer": {
+    "name": "Zahn & Müller e.K.",
+    "address": {
+      "street": "René-Ritter-Allee 5/6",
+      "postcode": "46573",
+      "city": "Kitzingen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "invoice@zahn.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "20",
+      "unit_code": "C62",
+      "unit_price": "9.46",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "189.20"
+    },
+    {
+      "line_id": "2",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "50",
+      "unit_code": "LTR",
+      "unit_price": "1.53",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "76.50"
+    },
+    {
+      "line_id": "3",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "23.37",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "186.96"
+    },
+    {
+      "line_id": "4",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "27.89",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "27.89"
+    },
+    {
+      "line_id": "5",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "16.36",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "114.52"
+    },
+    {
+      "line_id": "6",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "200",
+      "unit_code": "C62",
+      "unit_price": "0.89",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "178.00"
+    }
+  ],
+  "iban": "DE66107925580150844185",
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "773.07",
+    "tax_total": "99.25",
+    "gross_total": "872.32",
+    "due_amount": "872.32",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "396.91",
+        "tax": "27.78"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "376.16",
+        "tax": "71.47"
+      }
+    ]
+  }
+}

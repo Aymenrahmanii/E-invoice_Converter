@@ -1,0 +1,90 @@
+{
+  "number": "RE-2026-8480",
+  "issue_date": "2026-02-17",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-03",
+  "delivery_date": "2026-02-07",
+  "buyer_reference": "4570126596",
+  "seller": {
+    "name": "Davids Technik KG",
+    "address": {
+      "street": "Ramona-Bender-Platz 914",
+      "postcode": "80119",
+      "city": "Osterode am Harz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE182915378",
+    "electronic_address": "buchhaltung@davids.example",
+    "contact": {
+      "name": "Dr. Pia Bolzmann",
+      "phone": "+49 (0) 1208 033915",
+      "email": "torsten@davids.example"
+    }
+  },
+  "buyer": {
+    "name": "Süßebier Digital GmbH & Co. KG",
+    "address": {
+      "street": "Mechtild-Seifert-Ring 4",
+      "postcode": "39592",
+      "city": "Finsterwalde",
+      "country_code": "DE"
+    },
+    "vat_id": "DE248111064",
+    "electronic_address": "invoice@suebier.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "0.5",
+      "unit_code": "DAY",
+      "unit_price": "1726.12",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "863.06"
+    },
+    {
+      "line_id": "2",
+      "description": "Lektorat",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "HUR",
+      "unit_price": "63.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "253.68"
+    },
+    {
+      "line_id": "3",
+      "description": "Übersetzung Deutsch-Englisch",
+      "seller_item_id": null,
+      "quantity": "11852",
+      "unit_code": "C62",
+      "unit_price": "0.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2251.88"
+    }
+  ],
+  "iban": "DE49708058967076024748",
+  "bic": "JMGVDEWX",
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "3368.62",
+    "tax_total": "640.04",
+    "gross_total": "4008.66",
+    "due_amount": "4008.66",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3368.62",
+        "tax": "640.04"
+      }
+    ]
+  }
+}

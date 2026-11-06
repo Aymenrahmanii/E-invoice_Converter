@@ -1,0 +1,79 @@
+{
+  "number": "RE-2026-6688",
+  "issue_date": "2026-03-21",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-04-20",
+  "delivery_date": "2026-03-16",
+  "buyer_reference": "02261-78687-86",
+  "seller": {
+    "name": "Förster Bau AG",
+    "address": {
+      "street": "Tintzmanngasse 5843",
+      "postcode": "51902",
+      "city": "Wolfratshausen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE762969160",
+    "electronic_address": "invoice@forster.example",
+    "contact": {
+      "name": "Frau Aline Jüttner",
+      "phone": "0554090349",
+      "email": "andrea@forster.example"
+    }
+  },
+  "buyer": {
+    "name": "Jacobi Jäckel Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Reichmannring 1/4",
+      "postcode": "56959",
+      "city": "Potsdam",
+      "country_code": "DE"
+    },
+    "vat_id": "DE135846960",
+    "electronic_address": "buchhaltung@jacobi.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Pauschale Projektabschluss",
+      "seller_item_id": null,
+      "quantity": "1",
+      "unit_code": "LS",
+      "unit_price": "2492.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "2492.42"
+    },
+    {
+      "line_id": "2",
+      "description": "Schulung vor Ort",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "DAY",
+      "unit_price": "1657.87",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "8289.35"
+    }
+  ],
+  "iban": "DE43206536065696067156",
+  "bic": "LSFRDEU1",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "10781.77",
+    "tax_total": "2048.54",
+    "gross_total": "12830.31",
+    "due_amount": "12830.31",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "10781.77",
+        "tax": "2048.54"
+      }
+    ]
+  }
+}

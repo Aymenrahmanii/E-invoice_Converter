@@ -1,0 +1,173 @@
+{
+  "number": "RE-2026-9611",
+  "issue_date": "2026-06-03",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-05-20",
+  "buyer_reference": "4533416557",
+  "seller": {
+    "name": "Jacob Technik KG",
+    "address": {
+      "street": "Vogtweg 95/62",
+      "postcode": "58868",
+      "city": "Jessen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE718888297",
+    "electronic_address": "info@jacob.example",
+    "contact": {
+      "name": "Monique Kühnert B.A.",
+      "phone": "+49 (0) 9783 223411",
+      "email": "leonardo@jacob.example"
+    }
+  },
+  "buyer": {
+    "name": "Nerger Technik GmbH & Co. KG",
+    "address": {
+      "street": "Ira-Weller-Straße 4721",
+      "postcode": "61920",
+      "city": "Guben",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "info@nerger.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": "SKU-568860",
+      "quantity": "27",
+      "unit_code": "C62",
+      "unit_price": "20.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "556.47"
+    },
+    {
+      "line_id": "2",
+      "description": "Butterbrezeln",
+      "seller_item_id": "ART217359",
+      "quantity": "68",
+      "unit_code": "C62",
+      "unit_price": "1.04",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "70.72"
+    },
+    {
+      "line_id": "3",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": "A76788",
+      "quantity": "10",
+      "unit_code": "C62",
+      "unit_price": "12.61",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "126.10"
+    },
+    {
+      "line_id": "4",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": "A86757",
+      "quantity": "12",
+      "unit_code": "C62",
+      "unit_price": "6.86",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "82.32"
+    },
+    {
+      "line_id": "5",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": "SKU-685263",
+      "quantity": "4",
+      "unit_code": "MON",
+      "unit_price": "49.29",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "197.16"
+    },
+    {
+      "line_id": "6",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": "ART93735",
+      "quantity": "4",
+      "unit_code": "C62",
+      "unit_price": "25.92",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "103.68"
+    },
+    {
+      "line_id": "7",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": "SKU-456096",
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "15.18",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "30.36"
+    },
+    {
+      "line_id": "8",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": "ART842663",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "20.64",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "20.64"
+    },
+    {
+      "line_id": "9",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": "153562",
+      "quantity": "7",
+      "unit_code": "C62",
+      "unit_price": "20.88",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "146.16"
+    },
+    {
+      "line_id": "10",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": "SKU-319613",
+      "quantity": "9",
+      "unit_code": "LTR",
+      "unit_price": "0.95",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "8.55"
+    }
+  ],
+  "iban": "DE78357838351892519465",
+  "bic": "AZJKDENMXXX",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1342.16",
+    "tax_total": "191.86",
+    "gross_total": "1534.02",
+    "due_amount": "1534.02",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "526.27",
+        "tax": "36.84"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "815.89",
+        "tax": "155.02"
+      }
+    ]
+  }
+}

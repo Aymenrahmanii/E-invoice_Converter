@@ -1,0 +1,68 @@
+{
+  "number": "R26-06581",
+  "issue_date": "2026-06-30",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-07-30",
+  "delivery_date": "2026-06-29",
+  "buyer_reference": "4517875265",
+  "seller": {
+    "name": "Kitzmann Service e.K.",
+    "address": {
+      "street": "Lübsplatz 40",
+      "postcode": "92274",
+      "city": "Lobenstein",
+      "country_code": "DE"
+    },
+    "vat_id": "DE293829531",
+    "electronic_address": "info@kitzmann.example",
+    "contact": {
+      "name": "Cornelia Hölzenbecher MBA.",
+      "phone": "+49(0)6327 627977",
+      "email": "rabea@kitzmann.example"
+    }
+  },
+  "buyer": {
+    "name": "Faust Bau e.K.",
+    "address": {
+      "street": "Ayse-Gertz-Gasse 3114",
+      "postcode": "47580",
+      "city": "Sankt Goarshausen",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": "buchhaltung@faust.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Schulung vor Ort",
+      "seller_item_id": "ART998914",
+      "quantity": "1.5",
+      "unit_code": "DAY",
+      "unit_price": "1297.50",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1946.25"
+    }
+  ],
+  "iban": "DE85382733469159935585",
+  "bic": "HDDIDEFZXXX",
+  "payment_terms": "Zahlungsziel: 30 Tage netto.",
+  "note": null,
+  "totals": {
+    "net_total": "1946.25",
+    "tax_total": "369.79",
+    "gross_total": "2316.04",
+    "due_amount": "2316.04",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1946.25",
+        "tax": "369.79"
+      }
+    ]
+  }
+}

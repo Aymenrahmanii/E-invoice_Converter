@@ -1,0 +1,68 @@
+{
+  "number": "471102",
+  "issue_date": "2018-03-05",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2018-04-04",
+  "delivery_date": null,
+  "buyer_reference": "04011000-12345-34",
+  "seller": {
+    "name": "Grundbesitz GmbH & Co.",
+    "address": {
+      "street": "Musterstraße 42",
+      "postcode": "75645",
+      "city": "Frankfurt",
+      "country_code": "DE"
+    },
+    "vat_id": "DE136695976",
+    "electronic_address": null,
+    "contact": {
+      "name": "Max Mustermann",
+      "phone": "+49891234567",
+      "email": "Max@Mustermann.de"
+    }
+  },
+  "buyer": {
+    "name": "Beispielmieter GmbH",
+    "address": {
+      "street": "Verwaltung Straße 40",
+      "postcode": "12345",
+      "city": "Musterstadt",
+      "country_code": "DE"
+    },
+    "vat_id": null,
+    "electronic_address": null,
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Abrechnungskreis 1",
+      "seller_item_id": null,
+      "quantity": "1.0000",
+      "unit_code": "C62",
+      "unit_price": "15387.08",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "15387.08"
+    }
+  ],
+  "iban": "DE02120300000000202051",
+  "bic": "BYLADEM1001",
+  "payment_terms": null,
+  "note": "Rechnung gemäß Betriebskostenrechnung vom 21.11.2011.",
+  "totals": {
+    "net_total": "15387.08",
+    "tax_total": "2923.55",
+    "gross_total": "18310.63",
+    "due_amount": "502.63",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19.00",
+        "basis": "15387.08",
+        "tax": "2923.55"
+      }
+    ]
+  }
+}

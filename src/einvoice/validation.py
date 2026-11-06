@@ -59,28 +59,37 @@ class ValidationResult:
 
 def validate_xrechnung(xml_file: Path, report_dir: Path | None = None) -> ValidationResult:
     """KoSIT validator with the XRechnung configuration; error = any failed assert of level error/fatal."""
-    xml_file = xml_file.resolve()
+    return validate_xrechnung_many([xml_file], report_dir)[0]
+
+
+def validate_xrechnung_many(
+    xml_files: list[Path], report_dir: Path | None = None, html: bool = True, chunk: int = 50
+) -> list[ValidationResult]:
+    """One JVM per chunk of files: starting KoSIT costs seconds, checking a file milliseconds."""
     config = tools_dir() / "xrechnung-config"
     out = Path(report_dir or tempfile.mkdtemp(prefix="kosit-")).resolve()
     out.mkdir(parents=True, exist_ok=True)
-    cmd = [
-        java(),
-        "-jar",
-        str(tools_dir() / "validator.jar"),
-        "-s",
-        str(config / "scenarios.xml"),
-        "-r",
-        str(config),
-        "-o",
-        str(out),
-        "-h",  # also write an HTML report next to the XML report
-        str(xml_file),
-    ]
-    proc = subprocess.run(cmd, capture_output=True, text=True, check=False)
-    report = out / f"{xml_file.stem}-report.xml"
-    if not report.exists():
-        return ValidationResult("KoSIT", xml_file, False, [proc.stdout + proc.stderr])
+    files = [f.resolve() for f in xml_files]
+    results: list[ValidationResult] = []
+    for start in range(0, len(files), chunk):
+        batch = files[start : start + chunk]
+        for f in batch:  # never read a stale report from an earlier run
+            (out / f"{f.stem}-report.xml").unlink(missing_ok=True)
+        cmd = [java(), "-jar", str(tools_dir() / "validator.jar")]
+        cmd += ["-s", str(config / "scenarios.xml"), "-r", str(config), "-o", str(out)]
+        if html:
+            cmd.append("-h")  # also write an HTML report next to the XML report
+        proc = subprocess.run(cmd + [str(f) for f in batch], capture_output=True, text=True, check=False)
+        for f in batch:
+            report = out / f"{f.stem}-report.xml"
+            if report.exists():
+                results.append(_parse_kosit_report(f, report))
+            else:
+                results.append(ValidationResult("KoSIT", f, False, [(proc.stdout + proc.stderr)[-2000:]]))
+    return results
 
+
+def _parse_kosit_report(xml_file: Path, report: Path) -> ValidationResult:
     tree = etree.parse(str(report))
     ns = {
         "rep": "http://www.xoev.de/de/validator/varl/1",

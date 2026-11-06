@@ -1,0 +1,156 @@
+{
+  "number": "2026/2039",
+  "issue_date": "2026-03-14",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-03-24",
+  "delivery_date": "2026-03-07",
+  "buyer_reference": "4503670350",
+  "seller": {
+    "name": "Faust Bau OHG",
+    "address": {
+      "street": "Mühlering 1419",
+      "postcode": "82403",
+      "city": "Lörrach",
+      "country_code": "DE"
+    },
+    "vat_id": "DE714453629",
+    "electronic_address": "invoice@faust.example",
+    "contact": {
+      "name": "Max Sauer",
+      "phone": "0991402868",
+      "email": "ingrid@faust.example"
+    }
+  },
+  "buyer": {
+    "name": "Kruschwitz Service GmbH",
+    "address": {
+      "street": "Geiselstraße 9/1",
+      "postcode": "39819",
+      "city": "Leipziger Land",
+      "country_code": "DE"
+    },
+    "vat_id": "DE713885504",
+    "electronic_address": "info@kruschwitz.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Wasserwaage Alu 80 cm",
+      "seller_item_id": "10789",
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "20.93",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "125.58"
+    },
+    {
+      "line_id": "2",
+      "description": "Isolierband schwarz 19 mm",
+      "seller_item_id": "SKU-532342",
+      "quantity": "183",
+      "unit_code": "C62",
+      "unit_price": "1.42",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "259.86"
+    },
+    {
+      "line_id": "3",
+      "description": "Hydrauliköl HLP 46",
+      "seller_item_id": "SKU-415532",
+      "quantity": "43",
+      "unit_code": "LTR",
+      "unit_price": "3.33",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "143.19"
+    },
+    {
+      "line_id": "4",
+      "description": "Kabel NYM-J 3x1,5 mm²",
+      "seller_item_id": "570380",
+      "quantity": "415",
+      "unit_code": "MTR",
+      "unit_price": "0.62",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "257.30"
+    },
+    {
+      "line_id": "5",
+      "description": "Werkzeugkoffer Set 108-tlg.",
+      "seller_item_id": "ART612957",
+      "quantity": "9",
+      "unit_code": "SET",
+      "unit_price": "124.19",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1117.71"
+    },
+    {
+      "line_id": "6",
+      "description": "Schraube Senkkopf 4 x 40 mm, 500 Stk.",
+      "seller_item_id": "ART414590",
+      "quantity": "33",
+      "unit_code": "C62",
+      "unit_price": "14.81",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "488.73"
+    },
+    {
+      "line_id": "7",
+      "description": "Baustahlmatte Q188",
+      "seller_item_id": "SKU-182393",
+      "quantity": "1",
+      "unit_code": "C62",
+      "unit_price": "57.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "57.90"
+    },
+    {
+      "line_id": "8",
+      "description": "Zement CEM II 25 kg",
+      "seller_item_id": "A428978",
+      "quantity": "117",
+      "unit_code": "C62",
+      "unit_price": "6.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "744.12"
+    },
+    {
+      "line_id": "9",
+      "description": "Quarzsand gewaschen",
+      "seller_item_id": "A551283",
+      "quantity": "94.5",
+      "unit_code": "KGM",
+      "unit_price": "0.36",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "34.02"
+    }
+  ],
+  "iban": "DE29838990134192306405",
+  "bic": null,
+  "payment_terms": "Bitte überweisen Sie den Betrag innerhalb von 10 Tagen.",
+  "note": null,
+  "totals": {
+    "net_total": "3228.41",
+    "tax_total": "613.40",
+    "gross_total": "3841.81",
+    "due_amount": "3841.81",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "3228.41",
+        "tax": "613.40"
+      }
+    ]
+  }
+}

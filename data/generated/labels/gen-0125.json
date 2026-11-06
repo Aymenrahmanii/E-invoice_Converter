@@ -1,0 +1,129 @@
+{
+  "number": "202604-5872",
+  "issue_date": "2026-04-09",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": null,
+  "delivery_date": "2026-04-06",
+  "buyer_reference": "4528997416",
+  "seller": {
+    "name": "Wagner Service UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Reingard-Wulff-Allee 98-23",
+      "postcode": "58975",
+      "city": "Hohenmölsen",
+      "country_code": "DE"
+    },
+    "vat_id": "DE440313169",
+    "electronic_address": "rechnung@wagner.example",
+    "contact": {
+      "name": "Univ.Prof. Eva-Maria Steckel",
+      "phone": "06553 001564",
+      "email": "susana@wagner.example"
+    }
+  },
+  "buyer": {
+    "name": "Krause & Döhn GmbH & Co. KG",
+    "address": {
+      "street": "Orhan-Scheibe-Gasse 8013",
+      "postcode": "78402",
+      "city": "Kötzting",
+      "country_code": "DE"
+    },
+    "vat_id": "DE334764969",
+    "electronic_address": "info@krause.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "34.36",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "206.16"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "55",
+      "unit_code": "C62",
+      "unit_price": "23.89",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "1313.95"
+    },
+    {
+      "line_id": "3",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "24.96",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "49.92"
+    },
+    {
+      "line_id": "4",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "2",
+      "unit_code": "C62",
+      "unit_price": "12.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "25.16"
+    },
+    {
+      "line_id": "5",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "37.54",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "187.70"
+    },
+    {
+      "line_id": "6",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "LTR",
+      "unit_price": "1.26",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "8.82"
+    }
+  ],
+  "iban": "DE80495431702965279686",
+  "bic": "FCNADEVV",
+  "payment_terms": "Zahlbar innerhalb von 30 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "1791.71",
+    "tax_total": "308.63",
+    "gross_total": "2100.34",
+    "due_amount": "2100.34",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "264.90",
+        "tax": "18.54"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1526.81",
+        "tax": "290.09"
+      }
+    ]
+  }
+}

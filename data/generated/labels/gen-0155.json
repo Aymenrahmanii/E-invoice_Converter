@@ -1,0 +1,195 @@
+{
+  "number": "2026/6758",
+  "issue_date": "2026-05-06",
+  "type_code": "380",
+  "currency": "EUR",
+  "due_date": "2026-05-20",
+  "delivery_date": "2026-05-06",
+  "buyer_reference": "4582150626",
+  "seller": {
+    "name": "Henschel Handel OHG",
+    "address": {
+      "street": "Käthi-Rosenow-Weg 8",
+      "postcode": "07082",
+      "city": "Schwäbisch Hall",
+      "country_code": "DE"
+    },
+    "vat_id": "DE505046880",
+    "electronic_address": "info@henschel.example",
+    "contact": {
+      "name": "Viviane Hande",
+      "phone": "+49 (0) 4620 403869",
+      "email": "valentin@henschel.example"
+    }
+  },
+  "buyer": {
+    "name": "Eckbauer Bau UG (haftungsbeschränkt)",
+    "address": {
+      "street": "Alfred-Trub-Allee 7/5",
+      "postcode": "77450",
+      "city": "Konstanz",
+      "country_code": "DE"
+    },
+    "vat_id": "DE225256529",
+    "electronic_address": "info@eckbauer.example",
+    "contact": null
+  },
+  "lines": [
+    {
+      "line_id": "1",
+      "description": "Butterbrezeln",
+      "seller_item_id": null,
+      "quantity": "118",
+      "unit_code": "C62",
+      "unit_price": "0.68",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "80.24"
+    },
+    {
+      "line_id": "2",
+      "description": "Catering Buffet pro Person",
+      "seller_item_id": null,
+      "quantity": "29",
+      "unit_code": "C62",
+      "unit_price": "20.58",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "596.82"
+    },
+    {
+      "line_id": "3",
+      "description": "Apfelsaft naturtrüb 6 x 1 l",
+      "seller_item_id": null,
+      "quantity": "9",
+      "unit_code": "C62",
+      "unit_price": "10.68",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "96.12"
+    },
+    {
+      "line_id": "4",
+      "description": "Mineralwasser 12 x 1 l",
+      "seller_item_id": null,
+      "quantity": "18",
+      "unit_code": "C62",
+      "unit_price": "7.95",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "143.10"
+    },
+    {
+      "line_id": "5",
+      "description": "Kuchenplatte",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "28.69",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "172.14"
+    },
+    {
+      "line_id": "6",
+      "description": "Obstkorb gemischt",
+      "seller_item_id": null,
+      "quantity": "8",
+      "unit_code": "C62",
+      "unit_price": "20.80",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "166.40"
+    },
+    {
+      "line_id": "7",
+      "description": "Milch 3,5 % 1 l",
+      "seller_item_id": null,
+      "quantity": "4",
+      "unit_code": "LTR",
+      "unit_price": "1.31",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "5.24"
+    },
+    {
+      "line_id": "8",
+      "description": "Kaffee Bohnen 1 kg",
+      "seller_item_id": null,
+      "quantity": "13",
+      "unit_code": "C62",
+      "unit_price": "21.57",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "280.41"
+    },
+    {
+      "line_id": "9",
+      "description": "Reinigungsmittel 5 l",
+      "seller_item_id": null,
+      "quantity": "6",
+      "unit_code": "C62",
+      "unit_price": "10.90",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "65.40"
+    },
+    {
+      "line_id": "10",
+      "description": "Fachbuch Buchhaltung",
+      "seller_item_id": null,
+      "quantity": "3",
+      "unit_code": "C62",
+      "unit_price": "42.09",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "126.27"
+    },
+    {
+      "line_id": "11",
+      "description": "Papierhandtücher Karton",
+      "seller_item_id": null,
+      "quantity": "5",
+      "unit_code": "C62",
+      "unit_price": "23.78",
+      "vat_rate": "19",
+      "vat_category": "S",
+      "net_amount": "118.90"
+    },
+    {
+      "line_id": "12",
+      "description": "Tageszeitung Abo",
+      "seller_item_id": null,
+      "quantity": "7",
+      "unit_code": "MON",
+      "unit_price": "38.43",
+      "vat_rate": "7",
+      "vat_category": "S",
+      "net_amount": "269.01"
+    }
+  ],
+  "iban": "DE79779702700211898771",
+  "bic": null,
+  "payment_terms": "Zahlbar innerhalb von 14 Tagen ohne Abzug.",
+  "note": null,
+  "totals": {
+    "net_total": "2120.05",
+    "tax_total": "270.84",
+    "gross_total": "2390.89",
+    "due_amount": "2390.89",
+    "vat_breakdown": [
+      {
+        "category": "S",
+        "rate": "7",
+        "basis": "1099.71",
+        "tax": "76.98"
+      },
+      {
+        "category": "S",
+        "rate": "19",
+        "basis": "1020.34",
+        "tax": "193.86"
+      }
+    ]
+  }
+}

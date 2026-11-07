@@ -1,0 +1,91 @@
+Week 3, prompt v2: dev split, digital PDFs (50 documents)
+model: groq/openai/gpt-oss-120b   prompt: v2   date: 2026-11-07
+command: uv run einvoice evaluate --split dev --show 50
+
+Full run (includes 6 documents with no extraction: 3 invalid JSON from Groq, 3 rate-limit exhaustion)
+documents: 50
+field accuracy (exact after normalising):
+  number               41 of 50     82.0 %
+  issue_date           42 of 50     84.0 %
+  due_date             42 of 50     84.0 %
+  delivery_date        42 of 50     84.0 %
+  buyer_reference      42 of 50     84.0 %
+  seller.name          36 of 50     72.0 %
+  seller.vat_id        38 of 50     76.0 %
+  buyer.name           40 of 50     80.0 %
+  buyer.vat_id         41 of 50     82.0 %
+  iban                 42 of 50     84.0 %
+  bic                  42 of 50     84.0 %
+  net_total            40 of 50     80.0 %
+  tax_total            40 of 50     80.0 %
+  gross_total          40 of 50     80.0 %
+line items fully correct: 161 of 467 (34.5 %)
+31 documents with problems:
+  gen-0013: ["line 1 'Schulung vor Ort' not found"]
+  gen-0024: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0024: no extraction
+  gen-0028: ["seller.name: label='Jacob Technik OHG' got='JACOB TECHNIK OHG'", "line 1 'Zement CEM II 25 kg' not found", "line 2 'Steckdose Unterputz weiß' not found", "line 3 'Schraube Senkkopf 4 x 40 mm, 500 Stk.' not found", "line 4 'Kanthölzer KVH 60 x 80 mm' not found", "line 5 'Hydrauliköl HLP 46' not found", "line 6 'Gipskartonplatte 12,5 mm' not found", "line 7 'Akku-Bohrschrauber 18 V'
+  gen-0034: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0034: no extraction
+  gen-0077: ["line 1 'Arbeitszeit Auszubildender' not found"]
+  gen-0083: ["seller.vat_id: label='DE293829531' got=None"]
+  gen-0087: ["line 1 'Wandfarbe weiß, 10 l Eimer' not found"]
+  gen-0094: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0094: no extraction
+  gen-0103: ["seller.name: label='Pergande Technik KG' got='Ignaz Eckbauer B.Eng. — Pergande Technik KG'"]
+  gen-0117: ["seller.name: label='Nohlmans Technik OHG' got='Nohlmans Technik OHG Atzler KG'", "buyer.name: label='Atzler KG' got=None", "line 1 'Wandfarbe weiß, 10 l Eimer' not found"]
+  gen-0137: ["seller.name: label='Söding & Drub GmbH & Co. KG' got='Söding & Drub GmbH & Vollbrecht Digital KG Co. KG'", "buyer.name: label='Vollbrecht Digital KG' got=None"]
+  gen-0157: ["line 1 'Arbeitszeit Auszubildender' not found", "line 3 'Wandfarbe weiß, 10 l Eimer' not found", "line 4 'Fliesenkleber flexibel, 25 kg' not found"]
+  gen-0201: ["number: label='697266' got=None", "seller.vat_id: label='DE738297473' got='DE448375479'", "buyer.vat_id: label='DE448375479' got='DE738297473'"]
+  gen-0223: ["seller.vat_id: label='DE861504432' got=None"]
+  gen-0242: ["net_total: label=Decimal('5108.93') got=Decimal('4323.93')", "tax_total: label=Decimal('970.70') got=Decimal('821.55')", "gross_total: label=Decimal('6079.63') got=Decimal('5145.48')", "line 11 'Zement CEM II 25 kg' not found"]
+  gen-0244: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0244: no extraction
+  gen-0248: ["seller.name: label='Löffler & Gotthard AG' got='LÖFFLER & GOTTHARD AG'", "line 1 'Arbeitshandschuhe Gr. 10' not found", "line 2 'Akku-Bohrschrauber 18 V' not found", "line 3 'Isolierband schwarz 19 mm' not found", "line 4 'Fugenspachtel 5 kg' not found"]
+  gen-0254: error: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json
+  gen-0254: no extraction
+  gen-0257: ["seller.vat_id: label='DE921382344' got=None", "net_total: label=Decimal('593.60') got=Decimal('493.12')", "tax_total: label=Decimal('112.78') got=Decimal('93.69')", "gross_total: label=Decimal('706.38') got=Decimal('586.81')", "line 1 'Fliesenkleber flexibel, 25 kg' not found", "line 2 'Raufaser Tapete Körnung mittel' not found"]
+  gen-0264: error: rate limited by groq/openai/gpt-oss-120b after 12 attempts
+  gen-0264: no extraction
+  gen-0286: error: rate limited by groq/openai/gpt-oss-120b after 12 attempts
+  gen-0286: no extraction
+  gen-0288: ["seller.name: label='Bärer Technik AG' got='BÄRER TECHNIK AG'", "line 1 'Baustahlmatte Q188' not found", "line 2 'Hydrauliköl HLP 46' not found", "line 3 'Kabel NYM-J 3x1,5 mm²' not found", "line 4 'Wasserwaage Alu 80 cm' not found", "line 5 'Quarzsand gewaschen' not found", "line 6 'Fugenspachtel 5 kg' not found", "line 7 'Schraube Senkkopf 4 x 40 mm, 500 Stk.' not found", "line 
+  gen-0291: error: rate limited by groq/openai/gpt-oss-120b after 12 attempts
+  gen-0291: no extraction
+
+Same 42 documents extracted by both v1 and v2 (command: uv run python scripts/compare_prompts.py v1 v2)
+documents extracted by both v1 and v2: 42
+
+== v1
+  number               41 of 42     97.6 %
+  issue_date           42 of 42    100.0 %
+  due_date             41 of 42     97.6 %
+  delivery_date        23 of 42     54.8 %
+  buyer_reference      35 of 42     83.3 %
+  seller.name          26 of 42     61.9 %
+  seller.vat_id        33 of 42     78.6 %
+  buyer.name           39 of 42     92.9 %
+  buyer.vat_id         39 of 42     92.9 %
+  iban                 42 of 42    100.0 %
+  bic                  42 of 42    100.0 %
+  net_total            42 of 42    100.0 %
+  tax_total            42 of 42    100.0 %
+  gross_total          42 of 42    100.0 %
+line items fully correct: 158 of 194 (81.4 %)
+
+== v2
+  number               41 of 42     97.6 %
+  issue_date           42 of 42    100.0 %
+  due_date             42 of 42    100.0 %
+  delivery_date        42 of 42    100.0 %
+  buyer_reference      42 of 42    100.0 %
+  seller.name          36 of 42     85.7 %
+  seller.vat_id        38 of 42     90.5 %
+  buyer.name           40 of 42     95.2 %
+  buyer.vat_id         41 of 42     97.6 %
+  iban                 42 of 42    100.0 %
+  bic                  42 of 42    100.0 %
+  net_total            40 of 42     95.2 %
+  tax_total            40 of 42     95.2 %
+  gross_total          40 of 42     95.2 %
+line items fully correct: 161 of 194 (83.0 %)

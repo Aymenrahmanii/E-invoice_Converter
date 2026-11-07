@@ -24,19 +24,42 @@ from pydantic import ValidationError
 from einvoice.extract.text import DocumentText
 from einvoice.model import Invoice
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"
 DEFAULT_MODEL = "groq/openai/gpt-oss-120b"
 CACHE_DIR = Path(".cache/extract")
 
-SYSTEM = """Du extrahierst Daten aus deutschen (oder englischen) Rechnungen.
-Antworte ausschließlich mit einem JSON-Objekt, das dem Schema entspricht.
-Regeln:
-- Beträge und Mengen als Zahlen mit Punkt als Dezimaltrenner (z. B. 1234.56), ohne Währungszeichen.
-- Datumsangaben als ISO-Datum JJJJ-MM-TT.
-- VAT-Sätze als Zahl (19, 7, 0). Kategorie "S" bei Regelsatz, "Z" bei 0 %, "E" bei steuerfrei.
-- Felder, die im Dokument nicht vorkommen, auf null setzen. Nichts erfinden.
-- Zeilen so übernehmen, wie sie auf der Rechnung stehen; keine Summen selbst berechnen.
-- unit_code: UN/ECE-Code (C62 für Stück, HUR für Stunden, LS für Pauschale, DAY für Tage, KGM, LTR, MTR, MON).
+SYSTEM = """Du extrahierst Daten aus deutschen (oder englischen) Rechnungen in das vorgegebene JSON-Schema.
+Antworte ausschließlich mit einem JSON-Objekt. Verwende genau die Feldnamen des Schemas.
+
+Parteien
+- seller.name und buyer.name: nur der Firmenname mit Rechtsform (z. B. "Sölzer Bau GmbH & Co. KG"). Keine Namen von Personen, keine Adresszeilen, keine Großschreibung ändern.
+- Eine Ansprechperson (Frau/Herr, Kontakt, Ansprechpartner, Sachbearbeiter) gehört nach seller.contact.name, nie in seller.name.
+- seller.vat_id und buyer.vat_id: nur die Nummer, z. B. "DE123456789". Stehen meist bei "USt-IdNr.", "USt-ID", "Steuer-ID" oder "VAT ID", oft in der Fußzeile. Ohne die Bezeichnung.
+
+Nummern und Referenzen (nur der Wert, ohne Bezeichnung)
+- number: Rechnungsnummer, z. B. bei "Rechnungsnummer", "Rechnungs-Nr.", "Rechnung Nr.", "Beleg-Nr.", "RECHNUNGS-NR.".
+- buyer_reference: Bei "Leitweg-ID" nur die Kennung (z. B. "04011000-12345-34"). Bei "Ihre Bestellnummer", "Bestell-Nr.", "Ihre Referenz" nur die Nummer.
+
+Datumsangaben
+- Alle Daten als ISO-Datum JJJJ-MM-TT. Deutsche Formate wie 10.04.2026 umwandeln.
+- issue_date: Rechnungsdatum, Datum, vom.
+- delivery_date: Leistungsdatum, Lieferdatum, "Leistung erbracht am", "Lieferung am", "Ausführung", "Leistungszeitraum", "Service date". Wenn es nur einen Zeitraum gibt, das Enddatum nehmen. Null, wenn es fehlt.
+- due_date: Fälligkeitsdatum, "Fällig am", "Zahlbar bis", "Fällig zum".
+
+Positionen (lines)
+- description: nur die Leistungsbezeichnung wie auf der Rechnung. Datumsangaben wie "(erbracht am 10.04.2026)" und Artikelnummern gehören NICHT in die Beschreibung.
+- quantity, unit_price, net_amount: Zahlen, Punkt als Dezimaltrenner, ohne Währungszeichen. unit_price ist der Einzelpreis.
+- seller_item_id: Artikelnummer / Art.-Nr. / SKU, sonst null.
+- vat_rate: Zahl (19, 7, 0). vat_category: "S" bei Regelsatz, "Z" bei 0 %, "E" bei steuerfrei.
+- unit_code: UN/ECE-Code: C62 Stück, HUR Stunden, DAY Tage, LS Pauschale, KGM kg, LTR Liter, MTR Meter, MTK Quadratmeter, MON Monat, SET Set, PR Paar.
+- Jede Zeile der Rechnung ist eine Position, in Reihenfolge übernommen. Keine Summen oder Zwischensummen als Position.
+
+Beträge
+- Nettosummen und Steuerbeträge so übernehmen, wie sie auf der Rechnung stehen. Nichts selbst berechnen.
+- iban und bic ohne Leerzeichen.
+
+Allgemein
+- Felder, die im Dokument nicht vorkommen, auf null setzen (bei Listen: []). Nichts erfinden.
 - Rechnungstyp 380 für Handelsrechnungen.
 """
 
@@ -56,6 +79,7 @@ def _litellm_completer(model: str, messages: list[dict[str, str]]) -> str:
     import litellm  # imported lazily: slow to load and not needed for the cache or the scorer
 
     # Free tiers rate-limit hard (Groq: tokens per minute). Wait and retry instead of failing.
+    bad_json = 0
     for attempt in range(12):
         try:
             resp = litellm.completion(
@@ -68,6 +92,12 @@ def _litellm_completer(model: str, messages: list[dict[str, str]]) -> str:
             return str(resp.choices[0].message.content)
         except litellm.exceptions.RateLimitError:
             time.sleep(min(90, 15 * (attempt + 1)))
+        except litellm.exceptions.BadRequestError as exc:
+            # Groq rejects output that is not valid JSON; sampling again usually works.
+            bad_json += 1
+            if bad_json > 2 or "json" not in str(exc).lower():
+                raise
+            time.sleep(2)
     raise ExtractionError(f"rate limited by {model} after 12 attempts")
 
 

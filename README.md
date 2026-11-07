@@ -4,7 +4,7 @@ Turns a German PDF invoice into a valid **XRechnung 3.0 (CII XML)** or **ZUGFeRD
 
 From 2027 German companies above €800,000 turnover must issue EN 16931 e-invoices, and from 2028 every business must. A PDF sent by email no longer counts.
 
-> **Status: week 3 of 6.** Extraction runs end to end, and the first baseline is measured on the dev split. Accuracy is still well below target; see [Week 3 baseline](#week-3-baseline). OCR for scans is not built yet.
+> **Status: week 3 of 6.** Extraction runs end to end, and the first baseline is measured on the dev split. Accuracy is improving but still below target; see [Week 3 baseline](#week-3-baseline). OCR for scans is not built yet.
 
 ## Week 1 result
 
@@ -59,28 +59,33 @@ wsl -- bash -lc 'cd "/mnt/c/path/to/E-Invoice Converter" && UV_PROJECT_ENVIRONME
 
 ## Week 3 baseline
 
-Digital PDFs, development split (50 documents), model `groq/openai/gpt-oss-120b`, prompt v1. The full output is in [results/week3-baseline-dev.txt](results/week3-baseline-dev.txt).
+Digital PDFs, development split (50 documents), model `groq/openai/gpt-oss-120b`. Full outputs: [v1](results/week3-baseline-dev.txt), [v2](results/week3-v2-dev.txt).
 
-| Field | Correct |
-|---|---|
-| number | 43 of 50 (86 %) |
-| issue_date | 44 of 50 (88 %) |
-| delivery_date | 24 of 50 (48 %) |
-| seller.name | 28 of 50 (56 %) |
-| seller.vat_id | 34 of 50 (68 %) |
-| iban | 44 of 50 (88 %) |
-| gross_total | 44 of 50 (88 %) |
-| line items fully correct | 167 of 467 (36 %) |
+Comparing the two prompts on the 42 documents both extracted (the full runs also include Groq failures, see below):
 
-Target: 97 % for totals, VAT, IBAN and number. Not met yet.
+| Field | v1 | v2 |
+|---|---|---|
+| number | 97.6 % | 97.6 % |
+| issue_date | 100 % | 100 % |
+| delivery_date | 54.8 % | **100 %** |
+| buyer_reference | 83.3 % | **100 %** |
+| seller.name | 61.9 % | **85.7 %** |
+| seller.vat_id | 78.6 % | **90.5 %** |
+| buyer.name | 92.9 % | **95.2 %** |
+| iban | 100 % | 100 % |
+| net / tax / gross total | 100 % | 95.2 % |
+| line items fully correct | 81.4 % | **83.0 %** |
 
-Main causes, from reading the failures:
-- **Service date copied into the item text:** `Für Schulung vor Ort (erbracht am 10.04.2026)` instead of `Schulung vor Ort`, which fails the line match.
-- **Contact person in the seller name:** `Frederic Klemm B.Sc. — Sölzer Bau GmbH` instead of the company name.
-- **Missed fields:** the prompt doesn't say that `Leistungsdatum` is the delivery date, or where the VAT ID sits (often the footer).
-- **Invalid JSON from the model:** 3 documents failed twice (`BadRequestError`).
+v2 is the default. The totals drop on two documents where the model dropped a line item, so that's the next thing to fix. Targets are 97 % for totals, VAT, IBAN and number, and 90 % for line items. Not met yet.
 
-One run takes about 20 minutes on the free tier because of the rate limit. The next step is to change the prompt against these failures, using the dev split only, and keep the held-out split untouched.
+**Failures outside the prompt:** on the full v2 run, 6 of 50 documents had no extraction at all. Three were invalid JSON from Groq, and three ran out of retries on the rate limit. Those count as wrong in the full-run numbers, which is why they look lower than the common-document comparison.
+
+**Still open:**
+- Dropped line items (on two documents), which also drop the totals.
+- Seller names in capitals or with a person's name still mismatched (about 14 %).
+- Rate-limit and JSON failures on Groq's free tier.
+
+One run takes about 20 minutes. The held-out split is untouched.
 
 ## Quick start
 
